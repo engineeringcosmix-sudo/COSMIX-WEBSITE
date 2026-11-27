@@ -134,6 +134,19 @@ export function productPath(product: Product): string {
   return `/brands/${product.brand}/${product.slug}`;
 }
 
+/** AUX ARV-H outdoor VRF only. Indoor VRF, ARV-C, and every other range are excluded. */
+export function showsEuroventBadge(product: Product): boolean {
+  return product.brand === "aux" && product.categoryId === "vrf-outdoor" && /ARV-H/i.test(product.model);
+}
+
+export const euroventCertificate = {
+  href: "https://www.eurovent-certification.com/en/advancedsearch/result?program=VRF&product_type=VRF%2FA%2FR&current_range=AUX%7CARV-H-%2FNR1A",
+  label: "Eurovent Certified Performance – Certificate N° 19.11.005",
+  image: "/images/certification/eurovent-ecp.png",
+  width: 1618,
+  height: 559,
+};
+
 export function searchText(product: Product): string {
   return [product.name, product.subtitle, product.model, product.categoryName, product.capacity.text]
     .join(" ")

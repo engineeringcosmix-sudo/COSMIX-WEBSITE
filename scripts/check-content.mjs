@@ -50,6 +50,17 @@ for (const product of [...aux, ...clivet, ...dehu]) {
 const heroSafe = events.filter((event) => event.featured && event.heroSafe === false);
 if (heroSafe.length) fail("A non-hero-safe photo is marked featured");
 
+const euroventSlugs = aux
+  .filter((item) => item.categoryId === "vrf-outdoor" && /ARV-H/i.test(item.model))
+  .map((item) => item.slug);
+const expectedEurovent = ["arv-9-series", "arv-7-series", "arv-9-free-series", "arv-mini-series", "modular-arv-mini"];
+if (euroventSlugs.join(",") !== expectedEurovent.join(",")) {
+  fail(`Eurovent ARV-H set changed: ${euroventSlugs.join(", ")}`);
+}
+if (aux.some((item) => item.slug === "arv-7c-series" && /ARV-H/i.test(item.model))) {
+  fail("ARV 7C must stay outside the ARV-H Eurovent set");
+}
+
 if (process.exitCode) {
   console.error("Content check failed");
 } else {
