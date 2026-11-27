@@ -10,7 +10,7 @@ const clivetImage = productsFor("clivet")[0].gallery[0];
 const portalImages = {
   aux: auxImage,
   clivet: clivetImage,
-  dehumidifiers: productsFor("dehumidifiers")[0].gallery[0],
+  dehumidifiers: (productsFor("dehumidifiers").find((item) => item.slug === "luko-desiccant-fd-d820k-d1550k") ?? productsFor("dehumidifiers")[0]).gallery[0],
 };
 ---
 

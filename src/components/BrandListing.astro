@@ -13,6 +13,12 @@ const categories = categoriesFor(brand.id);
 <div data-brand={brand.id}>
   <PageHero eyebrow="Product range" title={brand.name} lede={brand.summary}>
     <p class="mt-4 text-sm text-white/70">{brand.note} {products.length} series.</p>
+    {brand.id === "dehumidifiers" && (
+      <p class="mt-6 flex items-center gap-3 text-sm text-white/70">
+        <span class="sr-only">Brand:</span>
+        <img src="/images/dehumidifiers/luko-logo-white.webp" width="614" height="127" alt="LUKO" class="h-9 w-auto" loading="eager" decoding="async" />
+      </p>
+    )}
   </PageHero>
   <div class="wrap py-8" data-listing>
     <div class="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
@@ -67,6 +73,16 @@ const categories = categoriesFor(brand.id);
       ["Up to 24 kBtu/h", 0, 24],
       ["24–60 kBtu/h", 24, 60],
       ["60 kBtu/h and above", 60, 1000],
+    ],
+    "kg/h": [
+      ["Up to 5 kg/h", 0, 5],
+      ["5–20 kg/h", 5, 20],
+      ["20 kg/h and above", 20, 1000],
+    ],
+    "L/day": [
+      ["Up to 60 L/day", 0, 60],
+      ["60–100 L/day", 60, 100],
+      ["100 L/day and above", 100, 10000],
     ],
     "m³/h": [
       ["Up to 5,000 m³/h", 0, 5000],

@@ -84,8 +84,8 @@ export const brands: BrandInfo[] = [
     name: "Industrial Dehumidifiers",
     href: "/brands/dehumidifiers",
     possessive: "dehumidifier",
-    summary: "Desiccant and inverter dehumidifiers for storage, process rooms and other spaces that need controlled humidity.",
-    note: "Humidity control for commercial and industrial rooms.",
+    summary: "LUKO desiccant rotor dehumidifiers and whole-house inverter dehumidifiers, supplied, installed and supported in Pakistan by Cosmix Engineering.",
+    note: "Brand: LUKO. Humidity control from homes to industrial process rooms.",
   },
 ];
 

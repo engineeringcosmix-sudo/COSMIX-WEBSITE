@@ -13,7 +13,7 @@ function fail(message) {
 
 if (aux.length !== 44) fail(`Expected 44 AUX products, found ${aux.length}`);
 if (clivet.length !== 20) fail(`Expected 20 CLIVET products, found ${clivet.length}`);
-if (dehu.length !== 2) fail(`Expected 2 dehumidifier products, found ${dehu.length}`);
+if (dehu.length !== 7) fail(`Expected 7 LUKO dehumidifier products, found ${dehu.length}`);
 if (events.length < 19) fail(`Expected at least 19 event photos, found ${events.length}`);
 if (todos.confirmed !== false) fail("Owner stats must stay unpublished until confirmed.");
 
