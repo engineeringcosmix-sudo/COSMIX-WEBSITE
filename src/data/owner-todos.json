@@ -40,5 +40,6 @@
   "thirdTestimonial": "TODO: confirm that the sentence beginning “I really liked their services” belongs to Engineer Khalid Asghar of NUTECH. On the old page that sentence appeared before his name.",
   "duplicateEventPhoto": "event_17.jpg is byte-identical to event_04.jpg. The gallery shows that photograph once.",
   "affiliationPermission": "TODO: confirm Cosmix may keep displaying the ASHRAE, CEO Club Pakistan, TextileAsia, AUX, CLIVET, HOLTOP and RC Group marks.",
-  "inquiryEndpoint": "TODO: set site.inquiry.endpoint or PUBLIC_INQUIRY_ENDPOINT to the form backend."
+  "inquiryEndpoint": "TODO: set site.inquiry.endpoint or PUBLIC_INQUIRY_ENDPOINT to the form backend.",
+  "complaintEmail": "TODO: create a Web3Forms access key for info@cosmixengineering.com at https://web3forms.com and set PUBLIC_WEB3FORMS_ACCESS_KEY. Until then /complaint still issues a reference and opens WhatsApp to After-Sales +92 343 8248687."
 }

@@ -49,7 +49,11 @@ The canonical URL is set to `https://cosmixengineering.com` in `astro.config.mjs
 
 `src/data/site.json` has `inquiry.endpoint`. Leave it empty and the quote form opens an email to sales@cosmixengineering.com. Set that field, or set `PUBLIC_INQUIRY_ENDPOINT` at build time, to an HTTPS URL that accepts `POST` with `Content-Type: application/json`.
 
-WhatsApp click-to-chat uses +92 333 3152331 on every page.
+Sales calls and the site-wide WhatsApp button use +92 333 3152331. After-sales calls and complaint WhatsApp use +92 343 8248687.
+
+## Complaints
+
+`/complaint` gives the customer a reference such as `CX-20261127-AB12`. If `PUBLIC_WEB3FORMS_ACCESS_KEY` is set at build time, the form also emails info@cosmixengineering.com through [Web3Forms](https://web3forms.com). Create a free key there for that inbox and put it in the environment variable. Until the key exists, the page still issues the reference and offers a WhatsApp message to After-Sales. The placeholder lives in `src/data/site.json` under `complaint.accessKey`.
 
 ## Adding a product
 

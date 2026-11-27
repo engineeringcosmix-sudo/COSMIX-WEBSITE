@@ -1,0 +1,178 @@
+---
+import Base from "../layouts/Base.astro";
+import PageHero from "../components/PageHero.astro";
+import { site } from "../lib/catalog";
+
+const accessKey = import.meta.env.PUBLIC_WEB3FORMS_ACCESS_KEY || site.complaint.accessKey;
+const brands = ["AUX", "CLIVET", "LUKO dehumidifier", "Other"];
+---
+
+<Base
+  title="Register a complaint"
+  description="Register an after-sales complaint with Cosmix Engineering. You receive a reference and can also send it on WhatsApp."
+  path="/complaint"
+>
+  <PageHero
+    eyebrow="After-sales"
+    title="Register a complaint."
+    lede="Tell us what needs attention. You will get a reference number, and a copy can go to our service desk."
+  />
+  <section class="wrap max-w-3xl py-12">
+    <form class="grid gap-4" data-complaint novalidate>
+      <p class="hidden rounded-xl bg-paper px-4 py-3 text-sm" data-status role="status"></p>
+      <div class="grid gap-4 sm:grid-cols-2">
+        <label class="grid gap-1 text-sm font-semibold">Name
+          <input required name="name" autocomplete="name" class="field" />
+        </label>
+        <label class="grid gap-1 text-sm font-semibold">Phone
+          <input required name="phone" autocomplete="tel" class="field" />
+        </label>
+        <label class="grid gap-1 text-sm font-semibold">Email <span class="font-normal text-muted">(optional)</span>
+          <input type="email" name="email" autocomplete="email" class="field" />
+        </label>
+        <label class="grid gap-1 text-sm font-semibold">City
+          <input name="city" autocomplete="address-level2" class="field" />
+        </label>
+      </div>
+      <label class="grid gap-1 text-sm font-semibold">Address
+        <input name="address" autocomplete="street-address" class="field" />
+      </label>
+      <div class="grid gap-4 sm:grid-cols-2">
+        <label class="grid gap-1 text-sm font-semibold">Brand
+          <select name="brand" class="field">
+            <option value="">Select</option>
+            {brands.map((brand) => <option value={brand}>{brand}</option>)}
+          </select>
+        </label>
+        <label class="grid gap-1 text-sm font-semibold">Unit type
+          <input name="unitType" class="field" placeholder="For example cassette, chiller, dehumidifier" />
+        </label>
+        <label class="grid gap-1 text-sm font-semibold">Model or serial number <span class="font-normal text-muted">(optional)</span>
+          <input name="model" class="field" />
+        </label>
+        <label class="grid gap-1 text-sm font-semibold">Purchase or installation date <span class="font-normal text-muted">(optional)</span>
+          <input type="date" name="installed" class="field" />
+        </label>
+      </div>
+      <label class="grid gap-1 text-sm font-semibold">Problem
+        <textarea required name="problem" rows="5" class="field"></textarea>
+      </label>
+      <label class="grid gap-1 text-sm font-semibold">Photos <span class="font-normal text-muted">(optional, up to 3)</span>
+        <input name="photos" type="file" accept="image/*" multiple class="field" />
+      </label>
+      <label class="grid gap-1 text-sm font-semibold">Preferred visit time
+        <input name="visit" class="field" placeholder="For example weekday morning" />
+      </label>
+      <label class="absolute -left-[9999px]" aria-hidden="true">Company website
+        <input name="company_website" tabindex="-1" autocomplete="off" />
+      </label>
+      <button class="btn w-fit" type="submit">Submit complaint</button>
+      <p class="text-sm text-muted">After-Sales can also be reached on {site.phones.find((phone) => phone.label === "After-Sales")?.display}.</p>
+    </form>
+  </section>
+</Base>
+
+<style>
+  .field {
+    min-height: 2.75rem;
+    width: 100%;
+    border-radius: 0.8rem;
+    border: 1px solid var(--color-line);
+    background: white;
+    padding: 0.55rem 0.8rem;
+    font-weight: 400;
+  }
+  textarea.field {
+    min-height: 8rem;
+  }
+</style>
+
+<script define:vars={{ accessKey, endpoint: site.complaint.endpoint, notifyEmail: site.complaint.notifyEmail }}>
+  const form = document.querySelector("[data-complaint]");
+  if (form instanceof HTMLFormElement) {
+    const status = form.querySelector("[data-status]");
+    const photos = form.querySelector('input[name="photos"]');
+    photos?.addEventListener("change", () => {
+      if (!(photos instanceof HTMLInputElement) || !photos.files || photos.files.length <= 3) return;
+      if (status) {
+        status.classList.remove("hidden");
+        status.textContent = "Please choose no more than 3 photos.";
+      }
+      photos.value = "";
+    });
+
+    const reference = () => {
+      const now = new Date();
+      const day = `${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, "0")}${String(now.getDate()).padStart(2, "0")}`;
+      const alphabet = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+      let code = "";
+      for (let i = 0; i < 4; i += 1) code += alphabet[Math.floor(Math.random() * alphabet.length)];
+      return `CX-${day}-${code}`;
+    };
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      if (!form.reportValidity()) return;
+      const data = new FormData(form);
+      if (String(data.get("company_website") || "").trim()) return;
+      const files = photos instanceof HTMLInputElement && photos.files ? [...photos.files].slice(0, 3) : [];
+      if (files.some((file) => file.size > 5 * 1024 * 1024)) {
+        if (status) {
+          status.classList.remove("hidden");
+          status.textContent = "Each photo must be 5 MB or smaller.";
+        }
+        return;
+      }
+      const ref = reference();
+      const details = {
+        ref,
+        name: String(data.get("name") || ""),
+        phone: String(data.get("phone") || ""),
+        email: String(data.get("email") || ""),
+        city: String(data.get("city") || ""),
+        address: String(data.get("address") || ""),
+        brand: String(data.get("brand") || ""),
+        unitType: String(data.get("unitType") || ""),
+        model: String(data.get("model") || ""),
+        installed: String(data.get("installed") || ""),
+        problem: String(data.get("problem") || ""),
+        visit: String(data.get("visit") || ""),
+        photoCount: files.length,
+      };
+      const lines = [
+        `Complaint ${ref}`,
+        `Name: ${details.name}`,
+        `Phone: ${details.phone}`,
+        `Email: ${details.email || "—"}`,
+        `City: ${details.city || "—"}`,
+        `Address: ${details.address || "—"}`,
+        `Brand: ${details.brand || "—"}`,
+        `Unit type: ${details.unitType || "—"}`,
+        `Model or serial: ${details.model || "—"}`,
+        `Purchase or installation date: ${details.installed || "—"}`,
+        `Preferred visit: ${details.visit || "—"}`,
+        `Photos: ${details.photoCount}`,
+        "",
+        details.problem,
+      ];
+      let emailStatus = "skipped";
+      if (accessKey) {
+        const body = new FormData();
+        body.append("access_key", accessKey);
+        body.append("subject", `After-sales complaint ${ref}`);
+        body.append("from_name", details.name);
+        body.append("email", details.email || notifyEmail);
+        body.append("message", lines.join("\n"));
+        files.forEach((file) => body.append("attachment", file, file.name));
+        try {
+          const response = await fetch(endpoint, { method: "POST", body });
+          emailStatus = response.ok ? "sent" : "failed";
+        } catch {
+          emailStatus = "failed";
+        }
+      }
+      sessionStorage.setItem("cosmix-complaint", JSON.stringify({ ...details, emailStatus, text: lines.join("\n") }));
+      location.href = `/complaint/received?ref=${encodeURIComponent(ref)}`;
+    });
+  }
+</script>

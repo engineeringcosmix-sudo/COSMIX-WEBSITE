@@ -44,6 +44,7 @@ const year = new Date().getFullYear();
           <li><a href="/contact">Contact</a></li>
           <li><a href="/search">Search products</a></li>
           <li><a href="/quote">Request a quote</a></li>
+          <li><a href="/complaint">Register a Complaint</a></li>
           <li><a href="/faq">FAQ</a></li>
           <li><a href="/privacy">Privacy</a></li>
           <li><a href="/terms">Terms</a></li>
@@ -54,8 +55,9 @@ const year = new Date().getFullYear();
         <ul class="mt-3 grid gap-2 text-sm">
           <li><a href="mailto:info@cosmixengineering.com">info@cosmixengineering.com</a></li>
           <li><a href="mailto:sales@cosmixengineering.com">sales@cosmixengineering.com</a></li>
-          <li><a href="tel:+923333152331">+92 333 3152331</a></li>
-          <li><a href="tel:+923008248687">Head office +92 300 8248687</a></li>
+          {site.phones.map((phone) => (
+            <li><a href={`tel:${phone.tel}`}>{phone.label}: {phone.display}</a></li>
+          ))}
           {site.socials.map((social) => (
             <li><a href={social.href} target="_blank" rel="noopener noreferrer">{social.name}</a></li>
           ))}

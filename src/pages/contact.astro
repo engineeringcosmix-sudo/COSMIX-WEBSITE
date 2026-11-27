@@ -37,6 +37,7 @@ import { site } from "../lib/catalog";
           ))}
         </ul>
         <p class="mt-3 text-sm text-muted">{site.hours}</p>
+        <p class="mt-4"><a class="font-semibold underline-offset-2 hover:underline" href="/complaint">Register a Complaint</a></p>
         <ul class="mt-4 flex flex-wrap gap-3 text-sm font-semibold">
           {site.socials.map((social) => (
             <li><a href={social.href} target="_blank" rel="noopener noreferrer">{social.name}</a></li>

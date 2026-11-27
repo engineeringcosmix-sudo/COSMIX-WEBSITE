@@ -1,0 +1,53 @@
+---
+import Base from "../../layouts/Base.astro";
+import PageHero from "../../components/PageHero.astro";
+import { site } from "../../lib/catalog";
+---
+
+<Base
+  title="Complaint received"
+  description="Your Cosmix Engineering complaint reference."
+  path="/complaint/received"
+>
+  <PageHero
+    eyebrow="After-sales"
+    title="Thank you. Your complaint is registered."
+    lede="Keep the reference below. Our service desk uses it to find your visit."
+  />
+  <section class="wrap max-w-3xl py-12">
+    <p class="text-sm font-semibold uppercase tracking-wide text-muted">Reference</p>
+    <p class="mt-2 font-serif text-4xl" data-ref>CX-——</p>
+    <p class="mt-4 text-muted" data-email></p>
+    <div class="mt-8 flex flex-wrap gap-3">
+      <a class="btn" data-wa href={`https://wa.me/${site.complaint.whatsapp}`} target="_blank" rel="noopener noreferrer">Send on WhatsApp</a>
+      <a class="btn-ghost" href="/">Back to home</a>
+    </div>
+  </section>
+</Base>
+
+<script define:vars={{ whatsapp: site.complaint.whatsapp }}>
+  const params = new URLSearchParams(location.search);
+  const refNode = document.querySelector("[data-ref]");
+  const emailNode = document.querySelector("[data-email]");
+  const wa = document.querySelector("[data-wa]");
+  let stored = null;
+  try {
+    stored = JSON.parse(sessionStorage.getItem("cosmix-complaint") || "null");
+  } catch {
+    stored = null;
+  }
+  const ref = params.get("ref") || stored?.ref || "";
+  if (refNode && ref) refNode.textContent = ref;
+  const text = stored?.text || `Complaint ${ref}`;
+  if (wa instanceof HTMLAnchorElement) {
+    wa.href = `https://wa.me/${whatsapp}?text=${encodeURIComponent(text)}`;
+  }
+  if (emailNode) {
+    const state = stored?.emailStatus;
+    emailNode.textContent = state === "sent"
+      ? "A copy was sent to info@cosmixengineering.com."
+      : state === "failed"
+        ? "The email could not be sent. Please send this complaint on WhatsApp."
+        : "Please also send this complaint on WhatsApp so the service desk has it straight away.";
+  }
+</script>
