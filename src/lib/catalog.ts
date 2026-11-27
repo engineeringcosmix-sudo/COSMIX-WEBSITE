@@ -68,7 +68,7 @@ export const brands: BrandInfo[] = [
     possessive: "AUX",
     summary:
       "VRF outdoor and indoor units, ventilation kits, chillers, fan coil units, light commercial splits, Free Match multi-split, residential wall-mounted units, heat pumps and controls.",
-    note: "VRF is listed only in this catalogue.",
+    note: "From compact rooms to large modular systems.",
   },
   {
     id: "clivet",
@@ -77,16 +77,15 @@ export const brands: BrandInfo[] = [
     possessive: "CLIVET",
     summary:
       "Air-cooled and water-cooled chillers, heat pumps, rooftop packages, and air handling and fresh-air units.",
-    note: "CLIVET VRF is not offered.",
+    note: "Plant for offices, hotels, hospitals and industry.",
   },
   {
     id: "dehumidifiers",
-    name: "Dehumidifiers",
+    name: "Industrial Dehumidifiers",
     href: "/brands/dehumidifiers",
     possessive: "dehumidifier",
-    summary:
-      "A desiccant adsorption unit and an inverter dehumidifier. They are not AUX products and they are not CLIVET products. The manufacturer is still to be confirmed.",
-    note: "Two products, quoted on their own.",
+    summary: "Desiccant and inverter dehumidifiers for storage, process rooms and other spaces that need controlled humidity.",
+    note: "Humidity control for commercial and industrial rooms.",
   },
 ];
 

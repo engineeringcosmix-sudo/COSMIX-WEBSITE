@@ -27,9 +27,9 @@ const index = brands.flatMap((brand) =>
     <label class="grid gap-1 text-sm font-semibold">City
       <input name="city" autocomplete="address-level2" class="field" />
     </label>
-    <label class="grid gap-1 text-sm font-semibold">Catalogue
+    <label class="grid gap-1 text-sm font-semibold">Range
       <select name="brand" class="field" data-brand>
-        <option value="">Choose a catalogue</option>
+        <option value="">Select a range</option>
         {brands.map((brand) => <option value={brand.id}>{brand.name}</option>)}
       </select>
     </label>

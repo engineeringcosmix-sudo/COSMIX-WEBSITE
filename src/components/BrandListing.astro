@@ -11,13 +11,13 @@ const categories = categoriesFor(brand.id);
 ---
 
 <div data-brand={brand.id}>
-  <PageHero eyebrow={`${brand.name} catalogue`} title={brand.name} lede={brand.summary}>
-    <p class="mt-4 text-sm text-white/70">{brand.note} {products.length} series in this catalogue.</p>
+  <PageHero eyebrow="Product range" title={brand.name} lede={brand.summary}>
+    <p class="mt-4 text-sm text-white/70">{brand.note} {products.length} series.</p>
   </PageHero>
   <div class="wrap py-8" data-listing>
     <div class="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
       <div>
-        <h2 class="font-serif text-3xl">Filter this catalogue</h2>
+        <h2 class="font-serif text-3xl">Find a product</h2>
         <p class="mt-1 text-sm text-muted" data-count>{products.length} products</p>
       </div>
       <label class="grid gap-1 text-sm font-semibold">
@@ -37,7 +37,7 @@ const categories = categoriesFor(brand.id);
         <option value="">Any capacity</option>
       </select>
     </label>
-    <p class="mt-3 text-sm text-muted">Models with capacity on request stay in the list until a capacity band is chosen.</p>
+    <p class="mt-3 text-sm text-muted">Leave capacity on Any to include series that are sized for the project.</p>
     <p class="mt-6 hidden rounded-2xl border border-dashed border-line p-6 text-center" data-empty>No {brand.name} products match those filters.</p>
     <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {products.map((product) => <ProductCard product={product} />)}

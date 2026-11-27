@@ -23,7 +23,7 @@ const { service } = Astro.props;
     </div>
     <aside class="h-fit rounded-3xl bg-navy p-6 text-white">
       <h2 class="font-serif text-2xl">Ask for this service</h2>
-      <p class="mt-2 text-sm text-white/75">Name the building, the city and whether the equipment is AUX, CLIVET or a dehumidifier.</p>
+      <p class="mt-2 text-sm text-white/75">Tell us the building, the city and what you need done.</p>
       <a class="btn mt-5" href={`/quote?productName=${encodeURIComponent(service.name)}`}>Request a quote</a>
     </aside>
   </article>

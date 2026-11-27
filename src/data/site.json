@@ -2,19 +2,19 @@
   "name": "Cosmix Engineering (Pvt.) Ltd.",
   "shortName": "Cosmix Engineering",
   "url": "https://cosmixengineering.com",
-  "description": "Cosmix Engineering is a Karachi HVACR company. AUX, CLIVET and dehumidifiers are separate catalogues: equipment supply, installation and after-sales support.",
+  "description": "Cosmix Engineering is a Karachi HVACR company supplying, installing and supporting air conditioning, ventilation and humidity control.",
   "emails": ["info@cosmixengineering.com", "sales@cosmixengineering.com"],
   "phones": [
+    {
+      "label": "Phone",
+      "display": "+92 333 3152331",
+      "tel": "+923333152331",
+      "whatsapp": true
+    },
     {
       "label": "Head office",
       "display": "+92 300 8248687",
       "tel": "+923008248687"
-    },
-    {
-      "label": "WhatsApp",
-      "display": "+92 333 3152331",
-      "tel": "+923333152331",
-      "whatsapp": true
     }
   ],
   "whatsapp": "923333152331",

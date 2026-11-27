@@ -7,13 +7,13 @@ import { brands, productsFor } from "../lib/catalog";
 
 <Base
   title="Search products"
-  description="Search Cosmix Engineering product catalogues. AUX, CLIVET and dehumidifier results stay in separate groups."
+  description="Search AUX, CLIVET and industrial dehumidifier series supplied by Cosmix Engineering."
   path="/search"
 >
   <PageHero
     eyebrow="Search"
-    title="Search across the catalogues."
-    lede="Results stay in three groups. An AUX unit never appears in the CLIVET group, and a dehumidifier never appears with either."
+    title="Search our product ranges."
+    lede="Look up a series by name, model or capacity."
   />
   <section class="wrap py-10" data-search>
     <label class="grid gap-2 text-sm font-semibold">
@@ -58,7 +58,7 @@ import { brands, productsFor } from "../lib/catalog";
       });
       group.querySelector("[data-none]")?.classList.toggle("hidden", groupVisible !== 0);
     });
-    if (count) count.textContent = query ? `${visible} of ${total} products` : `${total} products, grouped by catalogue`;
+    if (count) count.textContent = query ? `${visible} of ${total} products` : `${total} products`;
   };
   if (input instanceof HTMLInputElement) {
     const params = new URLSearchParams(location.search);

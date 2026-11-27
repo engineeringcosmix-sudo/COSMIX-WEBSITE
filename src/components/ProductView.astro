@@ -137,7 +137,7 @@ const quoteHref = `/quote?brand=${product.brand}&product=${product.slug}`;
     related.length > 0 && (
       <section class="wrap py-12">
         <h2 class="font-serif text-3xl">Related {brand.name} products</h2>
-        <p class="mt-2 text-muted">Other equipment in the {brand.name} catalogue only.</p>
+        <p class="mt-2 text-muted">More from {brand.name}.</p>
         <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {related.map((item) => <ProductCard product={item} />)}
         </div>

@@ -2,10 +2,10 @@
   {
     "slug": "supply-installation",
     "name": "Supply & installation",
-    "summary": "Equipment selection, delivery and installation for AUX, CLIVET or dehumidifier projects, each quoted on its own.",
-    "intro": "Cosmix Engineering supplies and installs HVACR equipment for commercial, institutional and industrial buildings. The brand on the project stays the brand in the quotation: an AUX system, a CLIVET system, or a dehumidifier is not bundled into one mixed schedule.",
+    "summary": "Equipment selection, delivery and installation for commercial and industrial buildings.",
+    "intro": "Cosmix Engineering supplies and installs HVACR equipment for commercial, institutional and industrial buildings. We match the series to the building, deliver it, and install it around the ceiling, plant room and power supply.",
     "points": [
-      "Help matching a building to a series in the relevant catalogue",
+      "Help matching a building to the right series",
       "Delivery coordination to the Karachi or Lahore office, or to site",
       "Installation planned around the building’s ceiling, plant room and power supply",
       "Handover with the operating settings agreed for that project"
@@ -23,7 +23,7 @@
       "Attention to filters, drains, controls and the outdoor or plant-room units",
       "A record of what was found, so the next visit starts from a known condition"
     ],
-    "applies": "Maintenance is quoted for the equipment already on site. AUX, CLIVET and dehumidifier plant are discussed separately."
+    "applies": "Maintenance is arranged for the equipment already installed on site."
   },
   {
     "slug": "general-electro-mechanical",
@@ -36,7 +36,7 @@
       "Coordination with the building’s electrical supply and the equipment’s requirements",
       "Site work from the Karachi head office and the Lahore office"
     ],
-    "applies": "Scope is agreed per building. This page is not a product catalogue."
+    "applies": "Scope is agreed for each building."
   },
   {
     "slug": "testing-balancing-adjustment",
@@ -62,7 +62,7 @@
       "Recommendations ranked by what they change on this building",
       "A written summary the facilities team can act on"
     ],
-    "applies": "Audits are scoped to the plant on site. The company does not publish a named certification for this service."
+    "applies": "Each audit is written for the plant on that site."
   },
   {
     "slug": "ducting",
@@ -73,7 +73,7 @@
       "Duct routes planned around the ceiling void and the equipment’s static pressure",
       "Installation coordinated with the indoor units, air handlers or rooftop packages",
       "Grilles and access arranged so the system can be balanced and cleaned",
-      "Work quoted with the equipment brand it serves, not as a mixed package"
+      "Installation quoted together with the air-conditioning system it serves"
     ],
     "applies": "Typical places are offices, shops, hotels and any building using ducted indoor units or a central air handler."
   }
