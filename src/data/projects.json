@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "nust-university",
+    "name": "NUST University",
+    "city": "Islamabad",
+    "kind": "Campus",
+    "summary": "A university campus named in the Cosmix Engineering project portfolio."
+  },
+  {
+    "slug": "dynasty-tower",
+    "name": "Dynasty Tower, Clifton",
+    "city": "Karachi",
+    "kind": "High-rise",
+    "summary": "A Clifton high-rise named in the Cosmix Engineering project portfolio."
+  },
+  {
+    "slug": "world-expo-pavilion",
+    "name": "World Expo Pavilion",
+    "city": "Shanghai",
+    "kind": "Exhibition",
+    "summary": "An expo pavilion in Shanghai named in the Cosmix Engineering project portfolio."
+  },
+  {
+    "slug": "ibex",
+    "name": "IBEX",
+    "city": "Karachi and Lahore",
+    "kind": "Workplace",
+    "summary": "IBEX workplaces in Karachi and Lahore, named in the Cosmix Engineering project portfolio."
+  },
+  {
+    "slug": "ramada-hotel",
+    "name": "Ramada Hotel",
+    "city": "Multan",
+    "kind": "Hospitality",
+    "summary": "A Multan hotel named in the Cosmix Engineering project portfolio."
+  },
+  {
+    "slug": "millennium-mall",
+    "name": "Millennium Mall",
+    "city": "Quetta",
+    "kind": "Retail",
+    "summary": "A Quetta mall named in the Cosmix Engineering project portfolio."
+  }
+]

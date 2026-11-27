@@ -1,0 +1,20 @@
+{
+  "logo": {
+    "src": "/images/brand/cosmix-logo.webp",
+    "width": 468,
+    "height": 179,
+    "alt": "Cosmix Engineering logo"
+  },
+  "hero": {
+    "src": "/images/company/team-gathering.webp",
+    "width": 1536,
+    "height": 827,
+    "alt": "The Cosmix Engineering team at an industry gathering. The backdrop carries the Cosmix, AUX and CLIVET names."
+  },
+  "og": {
+    "src": "/images/company/og.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Cosmix Engineering team at an industry gathering"
+  }
+}

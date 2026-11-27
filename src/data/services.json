@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "supply-installation",
+    "name": "Supply & installation",
+    "summary": "Equipment selection, delivery and installation for AUX, CLIVET or dehumidifier projects, each quoted on its own.",
+    "intro": "Cosmix Engineering supplies and installs HVACR equipment for commercial, institutional and industrial buildings. The brand on the project stays the brand in the quotation: an AUX system, a CLIVET system, or a dehumidifier is not bundled into one mixed schedule.",
+    "points": [
+      "Help matching a building to a series in the relevant catalogue",
+      "Delivery coordination to the Karachi or Lahore office, or to site",
+      "Installation planned around the building’s ceiling, plant room and power supply",
+      "Handover with the operating settings agreed for that project"
+    ],
+    "applies": "Offices, hotels, hospitals, malls, campuses and industrial buildings are the kinds of projects named in the company’s own material."
+  },
+  {
+    "slug": "operation-maintenance",
+    "name": "Operation & maintenance",
+    "summary": "Inspections and repairs that keep an installed system in service and limit unplanned stoppages.",
+    "intro": "Once a system is running, Cosmix offers operation and maintenance: regular inspections, preventive care and repairs. The aim is straightforward — fewer breakdowns, and equipment that keeps the conditions it was installed for.",
+    "points": [
+      "Scheduled inspection of the installed plant",
+      "Repairs arranged through the same team that knows the project",
+      "Attention to filters, drains, controls and the outdoor or plant-room units",
+      "A record of what was found, so the next visit starts from a known condition"
+    ],
+    "applies": "Maintenance is quoted for the equipment already on site. AUX, CLIVET and dehumidifier plant are discussed separately."
+  },
+  {
+    "slug": "general-electro-mechanical",
+    "name": "General electro-mechanical",
+    "summary": "Electro-mechanical work that sits beside the air-conditioning plant: power, installation and upgrades.",
+    "intro": "The company describes a broader electro-mechanical service around the HVACR work: installations and upgrades that support the plant, with an emphasis on safety and on keeping the building’s systems reliable.",
+    "points": [
+      "Installation work associated with HVACR equipment",
+      "Upgrades where an existing system has to be changed rather than replaced in full",
+      "Coordination with the building’s electrical supply and the equipment’s requirements",
+      "Site work from the Karachi head office and the Lahore office"
+    ],
+    "applies": "Scope is agreed per building. This page is not a product catalogue."
+  },
+  {
+    "slug": "testing-balancing-adjustment",
+    "name": "Testing, balancing & adjustment",
+    "summary": "Measuring and adjusting air and water systems so they deliver what the design asked for.",
+    "intro": "Testing, balancing and adjustment (TBA) is the work of measuring a finished system and tuning it. Cosmix offers TBA so airflow, water flow and controls are brought into line with the way the building is meant to run.",
+    "points": [
+      "Airside measurements on ducted and packaged systems",
+      "Waterside checks where the project uses chillers and fan coils or air handlers",
+      "Adjustment of terminals, dampers and controls after installation",
+      "A clear note of the readings taken on that visit"
+    ],
+    "applies": "TBA is most useful just after installation and again when a building’s use changes."
+  },
+  {
+    "slug": "energy-audit",
+    "name": "Energy audit",
+    "summary": "A look at how the HVACR plant uses energy, and which changes are worth making.",
+    "intro": "An energy audit from Cosmix looks at the installed heating, cooling and ventilation plant and points out where energy is being wasted. The result is a set of practical recommendations, not a generic certificate.",
+    "points": [
+      "Review of operating hours, set-points and the equipment actually installed",
+      "Notes on maintenance issues that are also wasting energy",
+      "Recommendations ranked by what they change on this building",
+      "A written summary the facilities team can act on"
+    ],
+    "applies": "Audits are scoped to the plant on site. The company does not publish a named certification for this service."
+  },
+  {
+    "slug": "ducting",
+    "name": "Ducting",
+    "summary": "Duct design and installation so air from the indoor unit or air handler reaches the rooms.",
+    "intro": "Ducting is part of how a concealed or packaged system serves a building. Cosmix designs and installs ductwork to suit the equipment and the rooms, so air arrives where it is needed and the unit is not fighting the duct run.",
+    "points": [
+      "Duct routes planned around the ceiling void and the equipment’s static pressure",
+      "Installation coordinated with the indoor units, air handlers or rooftop packages",
+      "Grilles and access arranged so the system can be balanced and cleaned",
+      "Work quoted with the equipment brand it serves, not as a mixed package"
+    ],
+    "applies": "Typical places are offices, shops, hotels and any building using ducted indoor units or a central air handler."
+  }
+]

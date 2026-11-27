@@ -1,0 +1,38 @@
+---
+import Base from "../../../layouts/Base.astro";
+import ProductView from "../../../components/ProductView.astro";
+import { allProducts, productPath } from "../../../lib/catalog";
+import { breadcrumbLd, productLd } from "../../../lib/seo";
+import { brandInfo } from "../../../lib/catalog";
+
+export function getStaticPaths() {
+  return allProducts().map((product) => ({
+    params: { brand: product.brand, slug: product.slug },
+    props: { product },
+  }));
+}
+
+const { product } = Astro.props;
+const brand = brandInfo(product.brand);
+const path = productPath(product);
+const description = product.overview.slice(0, 170);
+---
+
+<Base
+  title={product.name}
+  description={description}
+  path={path}
+  image={product.gallery[0].src}
+  imageAlt={product.gallery[0].alt}
+  extraLd={[
+    productLd(product),
+    breadcrumbLd([
+      { name: "Home", path: "/" },
+      { name: brand.name, path: brand.href },
+      { name: product.categoryName, path: `${brand.href}?category=${product.categoryId}` },
+      { name: product.name, path },
+    ]),
+  ]}
+>
+  <ProductView product={product} />
+</Base>

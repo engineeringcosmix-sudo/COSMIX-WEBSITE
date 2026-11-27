@@ -1,0 +1,44 @@
+{
+  "note": "TODO for the owner. The public site does not display these figures. The previous website contradicted itself. Set confirmed to true and chosen to the value that should be published. Do not leave two competing numbers on the site.",
+  "confirmed": false,
+  "yearsInBusiness": {
+    "options": [
+      "15+ years in business (previous homepage counter)",
+      "Formerly Gafoor Engineering Services, since 1968 (previous about text)"
+    ],
+    "chosen": null
+  },
+  "projects": {
+    "options": [
+      "more than 200 projects (previous about text)",
+      "2.5k projects completed (previous homepage counter)"
+    ],
+    "chosen": null
+  },
+  "people": {
+    "options": [
+      "31 HVAC / electro-mechanical engineers (previous about text)",
+      "150+ trained staff (previous homepage counter)",
+      "1.5k happy clients (previous homepage counter, no second source)"
+    ],
+    "chosen": null
+  },
+  "warranty": {
+    "claim": "The previous homepage offered a 1-year warranty on services. Confirm the wording before it is published.",
+    "confirmed": false
+  },
+  "certification": {
+    "claim": "The previous homepage said Certified Company and did not name a certificate. Confirm any certification before it is claimed.",
+    "confirmed": false
+  },
+  "karachiAddress": {
+    "published": "C-25, Block 4, Gulshan-e-Iqbal, Karachi",
+    "notPublished": "The old contact page also listed Shahrah-e-Faisal, Karachi, without a street number. Confirm whether that is a second office before adding it.",
+    "confirmed": false
+  },
+  "dehumidifierBrand": "TODO: name the manufacturer of the desiccant adsorption dehumidifier and the inverter dehumidifier, then replace the diagrams with product photographs and a real capacity line-up.",
+  "thirdTestimonial": "TODO: confirm that the sentence beginning “I really liked their services” belongs to Engineer Khalid Asghar of NUTECH. On the old page that sentence appeared before his name.",
+  "duplicateEventPhoto": "event_17.jpg is byte-identical to event_04.jpg. The gallery shows that photograph once.",
+  "affiliationPermission": "TODO: confirm Cosmix may keep displaying the ASHRAE, CEO Club Pakistan, TextileAsia, AUX, CLIVET, HOLTOP and RC Group marks.",
+  "inquiryEndpoint": "TODO: set site.inquiry.endpoint or PUBLIC_INQUIRY_ENDPOINT to the form backend."
+}

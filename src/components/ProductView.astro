@@ -1,0 +1,208 @@
+---
+import Breadcrumbs from "./Breadcrumbs.astro";
+import ProductCard from "./ProductCard.astro";
+import { brandInfo, productPath, relatedProducts, type Product } from "../lib/catalog";
+interface Props {
+  product: Product;
+}
+const { product } = Astro.props;
+const brand = brandInfo(product.brand);
+const related = relatedProducts(product);
+const main = product.gallery[0];
+const quoteHref = `/quote?brand=${product.brand}&product=${product.slug}`;
+---
+
+<article data-brand={product.brand}>
+  <div class="wrap py-6">
+    <Breadcrumbs
+      items={[
+        { href: "/", label: "Home" },
+        { href: brand.href, label: brand.name },
+        { href: `${brand.href}?category=${product.categoryId}`, label: product.categoryName },
+        { label: product.name },
+      ]}
+    />
+  </div>
+  <div class="wrap grid items-start gap-10 pb-8 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)]">
+    <div data-gallery>
+      <div class="grid aspect-[4/3] place-items-center rounded-2xl border border-line bg-white p-4">
+        <img
+          data-main
+          src={main.src}
+          width={main.width}
+          height={main.height}
+          alt={main.alt}
+          fetchpriority="high"
+          decoding="async"
+          class="max-h-full max-w-full object-contain"
+        />
+      </div>
+      {
+        product.gallery.length > 1 && (
+          <div class="mt-3 flex gap-2 overflow-x-auto">
+            {product.gallery.map((image, index) => (
+              <button
+                type="button"
+                class:list={["thumb", index === 0 && "is-on"]}
+                data-thumb
+                data-src={image.src}
+                data-alt={image.alt}
+                aria-label={`Show image ${index + 1} of ${product.name}`}
+              >
+                <img src={image.src} width={image.width} height={image.height} alt={image.alt} loading="lazy" decoding="async" />
+              </button>
+            ))}
+          </div>
+        )
+      }
+    </div>
+    <div>
+      <p class="eyebrow text-[var(--brand)]">{brand.name} · {product.categoryName}</p>
+      <h1 class="mt-2 font-serif text-4xl leading-tight md:text-5xl">{product.name}</h1>
+      <p class="mt-2 text-lg text-muted">{product.subtitle}</p>
+      <ul class="mt-6 grid gap-2">
+        {product.bullets.map((bullet) => <li class="bullet">{bullet}</li>)}
+      </ul>
+      <div class="mt-6 grid gap-3 sm:grid-cols-3">
+        {
+          product.capacityBoxes.map((box) => (
+            <div class="rounded-xl bg-paper px-3 py-3">
+              <p class="text-xs font-semibold uppercase tracking-wide text-muted">{box.label}</p>
+              <p class="mt-1 font-semibold">{box.value}</p>
+            </div>
+          ))
+        }
+      </div>
+      <p class="mt-4 text-sm text-muted">Model series: {product.model}</p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a class="btn" href={quoteHref}>Request a quote</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="border-y border-line bg-paper">
+    <div class="wrap flex gap-6 py-3 text-sm font-semibold">
+      <a href="#overview">Overview</a>
+      <a href="#features">Features</a>
+      <a href="#lineup">Capacity line-up</a>
+    </div>
+  </div>
+
+  <section id="overview" class="wrap py-12">
+    <h2 class="font-serif text-3xl">Overview</h2>
+    <p class="mt-4 max-w-3xl text-lg leading-relaxed text-muted">{product.overview}</p>
+  </section>
+
+  <section id="features" class="wrap pb-12">
+    <h2 class="font-serif text-3xl">Key features</h2>
+    <div class="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+      {
+        product.features.map((feature) => (
+          <div class="overflow-hidden rounded-2xl border border-line bg-white">
+            {feature.image && feature.image.kind !== "icon" && (
+              <img src={feature.image.src} width={feature.image.width} height={feature.image.height} alt={feature.image.alt} loading="lazy" decoding="async" class="h-44 w-full object-cover" />
+            )}
+            <div class="p-5">
+              {feature.image?.kind === "icon" && (
+                <img src={feature.image.src} width={feature.image.width} height={feature.image.height} alt="" loading="lazy" decoding="async" class="mb-3 h-12 w-12 object-contain" />
+              )}
+              <h3 class="text-lg font-semibold">{feature.title}</h3>
+              <p class="mt-2 text-sm leading-relaxed text-muted">{feature.text}</p>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section id="lineup" class="bg-paper">
+    <div class="wrap py-12">
+      <h2 class="font-serif text-3xl">Capacity line-up</h2>
+      <p class="mt-2 text-muted">{product.lineupLabel}</p>
+      {
+        product.lineup.length > 0 ? (
+          <ul class="mt-5 flex flex-wrap gap-2">
+            {product.lineup.map((item) => (
+              <li class="rounded-full border border-[#cfe0ee] bg-white px-4 py-2 font-semibold">{item}</li>
+            ))}
+          </ul>
+        ) : (
+          <p class="mt-4 max-w-2xl">{product.lineupNote || product.capacity.text}</p>
+        )
+      }
+    </div>
+  </section>
+
+  {
+    related.length > 0 && (
+      <section class="wrap py-12">
+        <h2 class="font-serif text-3xl">Related {brand.name} products</h2>
+        <p class="mt-2 text-muted">Other equipment in the {brand.name} catalogue only.</p>
+        <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {related.map((item) => <ProductCard product={item} />)}
+        </div>
+      </section>
+    )
+  }
+
+  <section class="wrap pb-4">
+    <div class="flex flex-wrap items-center justify-between gap-4 rounded-3xl bg-navy px-6 py-8 text-white md:px-10">
+      <div>
+        <h2 class="font-serif text-3xl">{product.ctaTitle}</h2>
+        <p class="mt-2 max-w-xl text-white/75">{product.ctaText}</p>
+      </div>
+      <a class="btn" href={quoteHref}>Request a quote</a>
+    </div>
+  </section>
+</article>
+
+<style>
+  .bullet {
+    position: relative;
+    padding-left: 1.2rem;
+  }
+  .bullet::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.45rem;
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 999px;
+    background: var(--brand);
+  }
+  .thumb {
+    width: 5.5rem;
+    height: 4rem;
+    flex: none;
+    overflow: hidden;
+    border-radius: 0.7rem;
+    border: 1px solid var(--color-line);
+    background: white;
+    padding: 0.2rem;
+  }
+  .thumb.is-on {
+    border: 2px solid var(--brand);
+  }
+  .thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+</style>
+
+<script>
+  document.querySelectorAll("[data-gallery]").forEach((root) => {
+    const main = root.querySelector("[data-main]");
+    if (!(main instanceof HTMLImageElement)) return;
+    root.querySelectorAll("[data-thumb]").forEach((thumb) => {
+      thumb.addEventListener("click", () => {
+        if (!(thumb instanceof HTMLButtonElement)) return;
+        main.src = thumb.dataset.src || main.src;
+        main.alt = thumb.dataset.alt || main.alt;
+        root.querySelectorAll("[data-thumb]").forEach((item) => item.classList.remove("is-on"));
+        thumb.classList.add("is-on");
+      });
+    });
+  });
+</script>

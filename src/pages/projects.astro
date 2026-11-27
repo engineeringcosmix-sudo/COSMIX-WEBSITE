@@ -1,0 +1,31 @@
+---
+import Base from "../layouts/Base.astro";
+import PageHero from "../components/PageHero.astro";
+import { projects } from "../lib/catalog";
+---
+
+<Base
+  title="Projects"
+  description="Projects named by Cosmix Engineering: NUST University, Dynasty Tower Clifton, a World Expo pavilion in Shanghai, IBEX, Ramada Hotel Multan and Millennium Mall Quetta."
+  path="/projects"
+>
+  <PageHero
+    eyebrow="Projects"
+    title="Buildings named in the Cosmix portfolio."
+    lede="The previous website published these six projects and no further scope. Tonnes, floor area and the year of each job are confirmed with the project team rather than guessed here."
+  />
+  <section class="wrap py-14">
+    <ul class="grid gap-4 md:grid-cols-2">
+      {
+        projects.map((project) => (
+          <li class="rounded-3xl border border-line bg-white p-6">
+            <p class="eyebrow text-copper">{project.kind}</p>
+            <h2 class="mt-2 font-serif text-3xl">{project.name}</h2>
+            <p class="mt-1 text-muted">{project.city}</p>
+            <p class="mt-4 leading-relaxed">{project.summary}</p>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</Base>

@@ -1,0 +1,20 @@
+---
+import Base from "../layouts/Base.astro";
+import PageHero from "../components/PageHero.astro";
+import QuoteForm from "../components/QuoteForm.astro";
+---
+
+<Base
+  title="Request a quote"
+  description="Ask Cosmix Engineering for a quotation. Choose the AUX, CLIVET or dehumidifier catalogue so the enquiry stays with the right range."
+  path="/quote"
+>
+  <PageHero
+    eyebrow="Quotation"
+    title="Request a quote."
+    lede="Tell us which catalogue the product belongs to. AUX, CLIVET and dehumidifiers are priced separately."
+  />
+  <section class="wrap max-w-3xl py-12">
+    <QuoteForm />
+  </section>
+</Base>

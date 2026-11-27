@@ -1,0 +1,18 @@
+---
+import Base from "../layouts/Base.astro";
+import PageHero from "../components/PageHero.astro";
+import { site } from "../lib/catalog";
+---
+
+<Base
+  title="Privacy"
+  description="How Cosmix Engineering handles the name, email, phone and project details you send with a quotation request."
+  path="/privacy"
+>
+  <PageHero eyebrow="Privacy" title="What happens to an enquiry." lede="This is a plain-language notice for the new site. It should be reviewed by the company’s adviser before it is treated as a legal policy." />
+  <article class="wrap prose-page py-12">
+    <p>The quotation and contact forms ask for your name, company, email, phone, city and the equipment you want. That information is used to reply to the enquiry.</p>
+    <p>If an enquiry service has been connected, the form sends those details to that service. Until then, the form opens an email to {site.emails[1]} on your own device. WhatsApp messages go to +92 333 3152331 through WhatsApp.</p>
+    <p>Cosmix Engineering does not sell enquiry details. To ask for a copy of what you sent, or to correct it, write to {site.emails[0]}.</p>
+  </article>
+</Base>

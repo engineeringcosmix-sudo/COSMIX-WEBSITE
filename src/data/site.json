@@ -1,0 +1,59 @@
+{
+  "name": "Cosmix Engineering (Pvt.) Ltd.",
+  "shortName": "Cosmix Engineering",
+  "url": "https://cosmixengineering.com",
+  "description": "Cosmix Engineering is a Karachi HVACR company. AUX, CLIVET and dehumidifiers are separate catalogues: equipment supply, installation and after-sales support.",
+  "emails": ["info@cosmixengineering.com", "sales@cosmixengineering.com"],
+  "phones": [
+    {
+      "label": "Head office",
+      "display": "+92 300 8248687",
+      "tel": "+923008248687"
+    },
+    {
+      "label": "WhatsApp",
+      "display": "+92 333 3152331",
+      "tel": "+923333152331",
+      "whatsapp": true
+    }
+  ],
+  "whatsapp": "923333152331",
+  "hours": "Monday to Saturday, 9:00am – 8:00pm",
+  "offices": [
+    {
+      "name": "Head office",
+      "city": "Karachi",
+      "lines": ["C-25, Block 4", "Gulshan-e-Iqbal", "Karachi, Pakistan"],
+      "maps": "https://www.google.com/maps/search/?api=1&query=C-25+Block+4+Gulshan-e-Iqbal+Karachi"
+    },
+    {
+      "name": "Lahore office",
+      "city": "Lahore",
+      "lines": ["516-E, Tajpura Scheme", "Ghaziabad", "Lahore, Pakistan"],
+      "maps": "https://www.google.com/maps/search/?api=1&query=516-E+Tajpura+Scheme+Ghaziabad+Lahore"
+    }
+  ],
+  "socials": [
+    { "name": "Facebook", "href": "https://www.facebook.com/engineeringcosmix" },
+    { "name": "Instagram", "href": "https://www.instagram.com/engineeringcosmix" },
+    { "name": "LinkedIn", "href": "https://www.linkedin.com/company/cosmix-engineering/" }
+  ],
+  "people": [
+    {
+      "name": "Zeeshan Ashraf",
+      "role": "Chief Executive Officer",
+      "quote": "At Cosmix Engineering, we believe in the power of collaboration and dedication. Our team’s expertise and unwavering commitment to excellence have propelled us to new heights. We strive to not only meet but exceed our clients' expectations with superior HVACR solutions. Thank you for being a part of our journey."
+    },
+    {
+      "name": "Irtaza Sarwar",
+      "role": "Director Marketing & Sales",
+      "phone": "+92 333 3152331",
+      "tel": "+923333152331",
+      "email": "info@cosmixengineering.com"
+    }
+  ],
+  "inquiry": {
+    "endpoint": "",
+    "todo": "Set inquiry.endpoint in this file, or the PUBLIC_INQUIRY_ENDPOINT environment variable, to an HTTPS URL that accepts a JSON POST. Until one is set, the quote form opens an email to sales@cosmixengineering.com."
+  }
+}

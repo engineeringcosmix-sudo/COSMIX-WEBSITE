@@ -1,0 +1,75 @@
+---
+import Base from "../layouts/Base.astro";
+import PageHero from "../components/PageHero.astro";
+import ProductCard from "../components/ProductCard.astro";
+import { brands, productsFor } from "../lib/catalog";
+---
+
+<Base
+  title="Search products"
+  description="Search Cosmix Engineering product catalogues. AUX, CLIVET and dehumidifier results stay in separate groups."
+  path="/search"
+>
+  <PageHero
+    eyebrow="Search"
+    title="Search across the catalogues."
+    lede="Results stay in three groups. An AUX unit never appears in the CLIVET group, and a dehumidifier never appears with either."
+  />
+  <section class="wrap py-10" data-search>
+    <label class="grid gap-2 text-sm font-semibold">
+      Search
+      <input data-input class="min-h-12 rounded-full border border-line px-4 font-normal" type="search" placeholder="Try VRF, chiller, cassette, rooftop, dehumidifier" />
+    </label>
+    <p class="mt-3 text-sm text-muted" data-count></p>
+    <div class="mt-8 grid gap-12">
+      {
+        brands.map((brand) => (
+          <section data-group={brand.id} data-brand={brand.id}>
+            <h2 class="font-serif text-3xl">{brand.name}</h2>
+            <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {productsFor(brand.id).map((product) => <ProductCard product={product} />)}
+            </div>
+            <p class="mt-4 hidden text-sm text-muted" data-none>No matches in {brand.name}.</p>
+          </section>
+        ))
+      }
+    </div>
+  </section>
+</Base>
+
+<script>
+  const root = document.querySelector("[data-search]");
+  const input = root?.querySelector("[data-input]");
+  const count = root?.querySelector("[data-count]");
+  const apply = () => {
+    const query = input instanceof HTMLInputElement ? input.value.trim().toLowerCase() : "";
+    let visible = 0;
+    let total = 0;
+    root?.querySelectorAll("[data-group]").forEach((group) => {
+      let groupVisible = 0;
+      group.querySelectorAll("article").forEach((card) => {
+        total += 1;
+        const show = !query || (card.dataset.q || "").includes(query);
+        card.classList.toggle("hidden", !show);
+        if (show) {
+          visible += 1;
+          groupVisible += 1;
+        }
+      });
+      group.querySelector("[data-none]")?.classList.toggle("hidden", groupVisible !== 0);
+    });
+    if (count) count.textContent = query ? `${visible} of ${total} products` : `${total} products, grouped by catalogue`;
+  };
+  if (input instanceof HTMLInputElement) {
+    const params = new URLSearchParams(location.search);
+    input.value = params.get("q") || "";
+    input.addEventListener("input", () => {
+      const url = new URL(location.href);
+      if (input.value) url.searchParams.set("q", input.value);
+      else url.searchParams.delete("q");
+      history.replaceState(null, "", url);
+      apply();
+    });
+  }
+  apply();
+</script>

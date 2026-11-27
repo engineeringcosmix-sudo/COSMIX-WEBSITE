@@ -1,0 +1,142 @@
+[
+  {
+    "brand": "dehumidifiers",
+    "slug": "desiccant-adsorption",
+    "name": "Desiccant Adsorption Dehumidifier",
+    "subtitle": "Drying-rotor dehumidifier, quoted per project",
+    "categoryId": "desiccant",
+    "categoryName": "Desiccant",
+    "group": "Dehumidifiers",
+    "model": "Manufacturer and series to be confirmed",
+    "bullets": [
+      "Moisture is removed with a desiccant rotor",
+      "For rooms that need a low humidity",
+      "Kept separate from the AUX and CLIVET catalogues",
+      "Capacity is quoted for the project"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Type",
+        "value": "Desiccant adsorption"
+      },
+      {
+        "label": "Brand",
+        "value": "To be confirmed"
+      },
+      {
+        "label": "Capacity",
+        "value": "On request"
+      }
+    ],
+    "capacity": {
+      "text": "On request",
+      "min": null,
+      "max": null,
+      "unit": null
+    },
+    "overview": "Cosmix Engineering lists a desiccant adsorption dehumidifier as its own range, separate from AUX and from CLIVET. This type of unit is used where a room has to be kept drier than a cooling coil alone would manage, including storage and process rooms. The previous website described this item with cassette wording, which was not about a dehumidifier, so that wording is not used here. The manufacturer is not confirmed on this page. Ask Cosmix for the series it can supply and for a quotation.",
+    "features": [
+      {
+        "title": "Its own catalogue",
+        "text": "Dehumidifiers are not shown with AUX products or with CLIVET products. A quotation for this range is prepared on its own.",
+        "image": null
+      },
+      {
+        "title": "Adsorption drying",
+        "text": "Air passes over a drying material. The unit is considered when the room needs a low humidity, including when cooling is not the main requirement.",
+        "image": null
+      },
+      {
+        "title": "Quoted per project",
+        "text": "Air volume and the humidity to be held are confirmed before a model is offered. No size table is published until the series is confirmed.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models",
+    "lineup": [],
+    "lineupNote": "A model line-up will be added when the manufacturer and series are confirmed.",
+    "gallery": [
+      {
+        "src": "/images/dehumidifiers/desiccant.svg",
+        "width": 800,
+        "height": 560,
+        "alt": "Diagram of a desiccant rotor dehumidifier. This is not a photograph of the unit."
+      }
+    ],
+    "related": [
+      "inverter-dehumidifier"
+    ],
+    "ctaTitle": "Ask for the dehumidifier series",
+    "ctaText": "Share the room, the humidity you need to hold, and the city. Cosmix will reply with the series it can supply."
+  },
+  {
+    "brand": "dehumidifiers",
+    "slug": "inverter-dehumidifier",
+    "name": "Inverter Dehumidifier",
+    "subtitle": "Refrigerant dehumidifier with inverter control",
+    "categoryId": "inverter",
+    "categoryName": "Inverter",
+    "group": "Dehumidifiers",
+    "model": "Manufacturer and series to be confirmed",
+    "bullets": [
+      "Refrigerant dehumidification with inverter control",
+      "For rooms and smaller commercial spaces",
+      "Kept separate from the AUX and CLIVET catalogues",
+      "Capacity is quoted for the project"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Type",
+        "value": "Inverter refrigerant"
+      },
+      {
+        "label": "Brand",
+        "value": "To be confirmed"
+      },
+      {
+        "label": "Capacity",
+        "value": "On request"
+      }
+    ],
+    "capacity": {
+      "text": "On request",
+      "min": null,
+      "max": null,
+      "unit": null
+    },
+    "overview": "Cosmix Engineering lists an inverter dehumidifier as a second, separate range. An inverter model uses a refrigerant circuit and a variable-speed compressor to remove moisture in rooms and smaller commercial spaces. The previous website used slim-duct wording for this item. That description was not about a dehumidifier and is not repeated here. The manufacturer and the capacities are confirmed when you ask for a quotation.",
+    "features": [
+      {
+        "title": "Its own catalogue",
+        "text": "This page does not borrow AUX or CLIVET products. Related equipment stays inside the dehumidifier range.",
+        "image": null
+      },
+      {
+        "title": "Inverter operation",
+        "text": "Variable-speed compressor control is the reason this model is listed apart from the desiccant unit. Running figures are not published until the series is confirmed.",
+        "image": null
+      },
+      {
+        "title": "Quoted per project",
+        "text": "Room size and the moisture load decide the model. Cosmix confirms the manufacturer before offering a price.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models",
+    "lineup": [],
+    "lineupNote": "A model line-up will be added when the manufacturer and series are confirmed.",
+    "gallery": [
+      {
+        "src": "/images/dehumidifiers/inverter.svg",
+        "width": 800,
+        "height": 560,
+        "alt": "Diagram of an inverter dehumidifier. This is not a photograph of the unit."
+      }
+    ],
+    "related": [
+      "desiccant-adsorption"
+    ],
+    "ctaTitle": "Ask for the dehumidifier series",
+    "ctaText": "Share the space and how dry it needs to be. Cosmix will reply with the inverter series it can supply."
+  }
+]

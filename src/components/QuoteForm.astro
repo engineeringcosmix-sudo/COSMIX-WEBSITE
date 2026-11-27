@@ -1,0 +1,149 @@
+---
+import { brands, inquiryEndpoint, productsFor, site, whatsappLink } from "../lib/catalog";
+const index = brands.flatMap((brand) =>
+  productsFor(brand.id).map((product) => ({
+    brand: brand.id,
+    slug: product.slug,
+    name: product.name,
+  })),
+);
+---
+
+<form class="grid gap-4" data-quote-form data-endpoint={inquiryEndpoint} novalidate>
+  <p class="hidden" data-status role="status"></p>
+  <div class="grid gap-4 sm:grid-cols-2">
+    <label class="grid gap-1 text-sm font-semibold">Name
+      <input required name="name" autocomplete="name" class="field" />
+    </label>
+    <label class="grid gap-1 text-sm font-semibold">Company
+      <input name="company" autocomplete="organization" class="field" />
+    </label>
+    <label class="grid gap-1 text-sm font-semibold">Email
+      <input required type="email" name="email" autocomplete="email" class="field" />
+    </label>
+    <label class="grid gap-1 text-sm font-semibold">Phone
+      <input required name="phone" autocomplete="tel" class="field" />
+    </label>
+    <label class="grid gap-1 text-sm font-semibold">City
+      <input name="city" autocomplete="address-level2" class="field" />
+    </label>
+    <label class="grid gap-1 text-sm font-semibold">Catalogue
+      <select name="brand" class="field" data-brand>
+        <option value="">Choose a catalogue</option>
+        {brands.map((brand) => <option value={brand.id}>{brand.name}</option>)}
+      </select>
+    </label>
+  </div>
+  <label class="grid gap-1 text-sm font-semibold">Product
+    <input name="product" data-product class="field" placeholder="Series name" />
+  </label>
+  <label class="grid gap-1 text-sm font-semibold">Estimated capacity
+    <input name="capacity" class="field" placeholder="For example 40 HP, 200 kW, or on request" />
+  </label>
+  <label class="grid gap-1 text-sm font-semibold">Message
+    <textarea required name="message" rows="5" class="field"></textarea>
+  </label>
+  <label class="absolute -left-[9999px]" aria-hidden="true">Website
+    <input name="website" tabindex="-1" autocomplete="off" />
+  </label>
+  <div class="flex flex-wrap gap-3">
+    <button class="btn" type="submit">Send enquiry</button>
+    <a class="btn-ghost" data-wa href={whatsappLink("Hello Cosmix Engineering, I would like to request a quote.")}>Continue on WhatsApp</a>
+  </div>
+  <p class="text-sm text-muted">
+    {inquiryEndpoint
+      ? "The form is sent to the enquiry address configured for this site."
+      : `Until an enquiry service is connected, this opens an email to ${site.emails[1]}.`}
+  </p>
+</form>
+
+<style>
+  .field {
+    min-height: 2.75rem;
+    width: 100%;
+    border-radius: 0.8rem;
+    border: 1px solid var(--color-line);
+    background: white;
+    padding: 0.55rem 0.8rem;
+    font-weight: 400;
+  }
+  textarea.field {
+    min-height: 8rem;
+  }
+</style>
+
+<script define:vars={{ index, sales: site.emails[1], whatsapp: site.whatsapp }}>
+  const form = document.querySelector("[data-quote-form]");
+  if (form instanceof HTMLFormElement) {
+    const params = new URLSearchParams(location.search);
+    const brandField = form.querySelector("[data-brand]");
+    const productField = form.querySelector("[data-product]");
+    const brand = params.get("brand") || "";
+    const slug = params.get("product") || "";
+    const match = index.find((item) => item.brand === brand && item.slug === slug);
+    if (brandField instanceof HTMLSelectElement && brand) brandField.value = brand;
+    if (productField instanceof HTMLInputElement) {
+      productField.value = match ? match.name : params.get("productName") || "";
+    }
+
+    const messageText = () => {
+      const data = new FormData(form);
+      const lines = [
+        `Name: ${data.get("name") || ""}`,
+        `Company: ${data.get("company") || ""}`,
+        `Email: ${data.get("email") || ""}`,
+        `Phone: ${data.get("phone") || ""}`,
+        `City: ${data.get("city") || ""}`,
+        `Catalogue: ${data.get("brand") || ""}`,
+        `Product: ${data.get("product") || ""}`,
+        `Capacity: ${data.get("capacity") || ""}`,
+        "",
+        String(data.get("message") || ""),
+      ];
+      return lines.join("\n");
+    };
+
+    const wa = form.querySelector("[data-wa]");
+    const refreshWa = () => {
+      if (wa instanceof HTMLAnchorElement) {
+        wa.href = `https://wa.me/${whatsapp}?text=${encodeURIComponent(`Hello Cosmix Engineering,\n\n${messageText()}`)}`;
+      }
+    };
+    form.addEventListener("input", refreshWa);
+    refreshWa();
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      if (!form.reportValidity()) return;
+      const data = Object.fromEntries(new FormData(form).entries());
+      if (data.website) return;
+      const status = form.querySelector("[data-status]");
+      const endpoint = form.dataset.endpoint || "";
+      if (endpoint) {
+        if (status) {
+          status.classList.remove("hidden");
+          status.textContent = "Sending…";
+        }
+        try {
+          const response = await fetch(endpoint, {
+            method: "POST",
+            headers: { "Content-Type": "application/json", Accept: "application/json" },
+            body: JSON.stringify(data),
+          });
+          if (!response.ok) throw new Error(String(response.status));
+          if (status) status.textContent = "Enquiry sent. The Cosmix team will reply.";
+          form.reset();
+        } catch {
+          if (status) status.textContent = `The enquiry service did not accept the message. Please email ${sales}.`;
+        }
+        return;
+      }
+      const subject = encodeURIComponent(`Quote enquiry: ${data.product || data.brand || "HVACR"}`);
+      location.href = `mailto:${sales}?subject=${subject}&body=${encodeURIComponent(messageText())}`;
+      if (status) {
+        status.classList.remove("hidden");
+        status.textContent = `Your email app should open a message to ${sales}. If it does not, send the same details there directly.`;
+      }
+    });
+  }
+</script>

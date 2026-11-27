@@ -1,0 +1,50 @@
+---
+import Base from "../layouts/Base.astro";
+import PageHero from "../components/PageHero.astro";
+import { site } from "../lib/catalog";
+
+const faqs = [
+  {
+    q: "Which brands does Cosmix supply?",
+    a: "AUX and CLIVET are the two equipment brands in the catalogues. Dehumidifiers are a third, separate range. The manufacturer of the dehumidifiers is not confirmed on this site yet.",
+  },
+  {
+    q: "Is there a CLIVET VRF system?",
+    a: "No. VRF outdoor units, VRF indoor units and VRF ventilation are listed only under AUX.",
+  },
+  {
+    q: "How do I ask for a price?",
+    a: "Use Request a quote on the product page, or the contact form. The product name is filled in when you start from a product. You can also WhatsApp +92 333 3152331.",
+  },
+  {
+    q: "Where are the offices?",
+    a: `Head office: ${site.offices[0].lines.join(", ")}. Lahore: ${site.offices[1].lines.join(", ")}. ${site.hours}.`,
+  },
+  {
+    q: "Do product pages include a catalogue download?",
+    a: "No. Each product page has an overview, features and the capacity line-up, and a single Request a quote button.",
+  },
+  {
+    q: "Which cities does the company work in?",
+    a: "The company describes project work across the major cities of Pakistan, and the published portfolio includes Islamabad, Karachi, Lahore, Multan, Quetta and a pavilion in Shanghai.",
+  },
+];
+---
+
+<Base
+  title="FAQ"
+  description="Answers about Cosmix Engineering catalogues, quotations, offices and how AUX, CLIVET and dehumidifiers are kept separate."
+  path="/faq"
+>
+  <PageHero eyebrow="FAQ" title="Questions we can answer from the published record." lede="Anything about a price, a capacity or a site visit still needs a conversation with the team." />
+  <section class="wrap grid gap-4 py-12">
+    {
+      faqs.map((item) => (
+        <article class="rounded-2xl border border-line bg-white p-5">
+          <h2 class="text-xl font-semibold">{item.q}</h2>
+          <p class="mt-2 leading-relaxed text-muted">{item.a}</p>
+        </article>
+      ))
+    }
+  </section>
+</Base>
