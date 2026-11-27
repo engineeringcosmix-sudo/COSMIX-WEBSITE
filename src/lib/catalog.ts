@@ -134,9 +134,13 @@ export function productPath(product: Product): string {
   return `/brands/${product.brand}/${product.slug}`;
 }
 
-/** AUX ARV-H outdoor VRF only. Indoor VRF, ARV-C, and every other range are excluded. */
+/** Ranges named on Eurovent certificate 19.11.005. SR1MV, SR1MVA and SR1MV9 are not included. */
+const EUROVENT_RANGES = ["NR1A", "NR1B", "SR1DCMA", "SR1DCS1A", "SR1DCS7A", "SR1MVB", "SR3DCSA"];
+
 export function showsEuroventBadge(product: Product): boolean {
-  return product.brand === "aux" && product.categoryId === "vrf-outdoor" && /ARV-H/i.test(product.model);
+  if (product.brand !== "aux" || product.categoryId !== "vrf-outdoor") return false;
+  const model = product.model.toUpperCase();
+  return EUROVENT_RANGES.some((code) => new RegExp(`(?:^|[^A-Z0-9])${code}(?![A-Z0-9])`).test(model));
 }
 
 export const euroventCertificate = {

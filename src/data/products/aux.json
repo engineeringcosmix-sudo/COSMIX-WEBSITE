@@ -156,7 +156,7 @@
     "categoryId": "vrf-outdoor",
     "categoryName": "VRF Outdoor",
     "group": "VRF",
-    "model": "ARV-H□/SR1MV (Hitachi compressor) · ARV-H□/SR1MVA (GMCC compressor)",
+    "model": "ARV-H-/SR1MVB",
     "bullets": [
       "EVI DC inverter compressor",
       "Operation from -30 °C to 55 °C",
@@ -173,8 +173,8 @@
         "value": "8 – 144 HP"
       },
       {
-        "label": "Compressor options",
-        "value": "Hitachi / GMCC"
+        "label": "Model series",
+        "value": "ARV-H-/SR1MVB"
       }
     ],
     "capacity": {
@@ -183,7 +183,7 @@
       "max": 36,
       "unit": "HP"
     },
-    "overview": "The AUX ARV 7 Series is a proven modular VRF platform for offices, malls, hotels and institutional buildings. Single modules from 8 to 36 HP combine freely into systems of up to 144 HP, with a choice of Hitachi or GMCC compressor models. EVI DC inverter compressors, two-stage sub-cooling and smart backup functions give efficient, comfortable and reliable operation all year round.",
+    "overview": "The AUX ARV 7 Series is a proven modular VRF platform for offices, malls, hotels and institutional buildings. Single modules from 8 to 36 HP combine freely into systems of up to 144 HP. EVI DC inverter compressors, two-stage sub-cooling and smart backup functions give efficient, comfortable and reliable operation all year round.",
     "features": [
       {
         "title": "EVI DC Inverter Compressor",

@@ -50,15 +50,20 @@ for (const product of [...aux, ...clivet, ...dehu]) {
 const heroSafe = events.filter((event) => event.featured && event.heroSafe === false);
 if (heroSafe.length) fail("A non-hero-safe photo is marked featured");
 
+const euroventRanges = ["NR1A", "NR1B", "SR1DCMA", "SR1DCS1A", "SR1DCS7A", "SR1MVB", "SR3DCSA"];
 const euroventSlugs = aux
-  .filter((item) => item.categoryId === "vrf-outdoor" && /ARV-H/i.test(item.model))
+  .filter((item) => {
+    if (item.brand !== "aux" || item.categoryId !== "vrf-outdoor") return false;
+    const model = item.model.toUpperCase();
+    return euroventRanges.some((code) => new RegExp(`(?:^|[^A-Z0-9])${code}(?![A-Z0-9])`).test(model));
+  })
   .map((item) => item.slug);
-const expectedEurovent = ["arv-9-series", "arv-7-series", "arv-9-free-series", "arv-mini-series", "modular-arv-mini"];
+const expectedEurovent = ["arv-7-series", "arv-9-free-series", "arv-mini-series", "modular-arv-mini"];
 if (euroventSlugs.join(",") !== expectedEurovent.join(",")) {
-  fail(`Eurovent ARV-H set changed: ${euroventSlugs.join(", ")}`);
+  fail(`Eurovent certificate set changed: ${euroventSlugs.join(", ")}`);
 }
-if (aux.some((item) => item.slug === "arv-7c-series" && /ARV-H/i.test(item.model))) {
-  fail("ARV 7C must stay outside the ARV-H Eurovent set");
+for (const excluded of ["arv-9-series", "arv-7c-series"]) {
+  if (euroventSlugs.includes(excluded)) fail(`${excluded} must not carry the Eurovent badge`);
 }
 
 if (process.exitCode) {
