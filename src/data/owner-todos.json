@@ -36,10 +36,10 @@
     "notPublished": "The old contact page also listed Shahrah-e-Faisal, Karachi, without a street number. Confirm whether that is a second office before adding it.",
     "confirmed": false
   },
-  "dehumidifierBrand": "Done: the Industrial Dehumidifiers section now lists the LUKO range (Fedywos Electrical Appliance Co Ltd) from the two LUKO catalogues: five desiccant rotor ranges and two whole-house inverter series.",
+  "dehumidifierBrand": "Done: the Industrial Dehumidifiers section lists the LUKO range (Fedywos Electrical Appliance Co Ltd): five desiccant rotor ranges and two whole-house inverter series.",
   "thirdTestimonial": "TODO: confirm that the sentence beginning “I really liked their services” belongs to Engineer Khalid Asghar of NUTECH. On the old page that sentence appeared before his name.",
   "duplicateEventPhoto": "event_17.jpg is byte-identical to event_04.jpg. The gallery shows that photograph once.",
   "affiliationPermission": "TODO: confirm Cosmix may keep displaying the ASHRAE, CEO Club Pakistan, TextileAsia, AUX, CLIVET, HOLTOP and RC Group marks.",
-  "inquiryEndpoint": "TODO: set site.inquiry.endpoint or PUBLIC_INQUIRY_ENDPOINT to the form backend.",
-  "complaintEmail": "TODO: create a Web3Forms access key for info@cosmixengineering.com at https://web3forms.com and set PUBLIC_WEB3FORMS_ACCESS_KEY. Until then /complaint still issues a reference and opens WhatsApp to After-Sales +92 343 8248687."
+  "hubIntake": "TODO: on the website host set HUB_BASE_URL, HUB_API_KEY and HUB_HMAC_SECRET. These are server-only. Do not prefix them with PUBLIC_. Contact posts to /api/lead, quotes to /api/quote, complaints to /api/complaint, and WhatsApp clicks to /api/wa-click. Until the three values are set, the forms ask the visitor to continue on WhatsApp.",
+  "turnstile": "TODO: create a Cloudflare Turnstile widget for cosmixengineering.com. Set PUBLIC_TURNSTILE_SITE_KEY on the website host. Set the Turnstile secret on the Hub host, not in this repository."
 }

@@ -1,7 +1,7 @@
 ---
 import Breadcrumbs from "./Breadcrumbs.astro";
 import ProductCard from "./ProductCard.astro";
-import { brandInfo, euroventCertificate, productPath, relatedProducts, showsEuroventBadge, type Product } from "../lib/catalog";
+import { brandInfo, euroventCertificate, productPath, quoteInterest, relatedProducts, showsEuroventBadge, type Product } from "../lib/catalog";
 interface Props {
   product: Product;
 }
@@ -9,7 +9,7 @@ const { product } = Astro.props;
 const brand = brandInfo(product.brand);
 const related = relatedProducts(product);
 const main = product.gallery[0];
-const quoteHref = `/quote?brand=${product.brand}&product=${product.slug}`;
+const quoteHref = `/quote?interest=${quoteInterest(product)}&product=${encodeURIComponent(product.name)}`;
 const eurovent = showsEuroventBadge(product);
 ---
 

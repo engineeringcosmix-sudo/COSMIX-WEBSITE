@@ -12,48 +12,50 @@ npm run dev
 Open the URL Astro prints (usually http://localhost:4321).
 
 ```bash
-npm run check   # brand separation, product counts, banned phrases
-npm run build   # writes the static site to dist/
-npm run preview # serve dist/ locally
+npm run check   # catalogues, brand separation, and Hub request signing
+npm run build   # static pages in dist/, form routes as a Netlify function
+node scripts/check-client-bundle.mjs  # fails if Hub secrets are in the browser assets
 ```
 
 Node.js 22 is the version this project was built with.
 
 ## Deploy
 
-The site is a static export. `npm run build` produces `dist/`. Upload or host that folder. No Node server is required in production.
-
-### Vercel
-
-1. Import the repository.
-2. Framework preset: Astro.
-3. Build command: `npm run build`.
-4. Output directory: `dist`.
-5. Optional environment variable: `PUBLIC_INQUIRY_ENDPOINT` (see below).
+Pages are prerendered. The contact, quote, complaint and WhatsApp-click routes run as server functions through the Netlify adapter. A host that only serves files will still show the pages; the forms then ask the visitor to continue on WhatsApp.
 
 ### Netlify
 
-1. Build command: `npm run build`.
-2. Publish directory: `dist`.
-3. Optional environment variable: `PUBLIC_INQUIRY_ENDPOINT`.
+1. Import the repository. Netlify should detect Astro.
+2. Build command: `npm run build`.
+3. Publish directory: `dist`. The adapter writes the form function beside it, and Netlify publishes both.
+4. Set these environment variables on the site. Do not prefix the Hub values with `PUBLIC_`.
 
-### cPanel or any static host
+| Variable | Where it is used |
+| --- | --- |
+| `HUB_BASE_URL` | Hub origin, for example `https://hub.example.com`. Server only. |
+| `HUB_API_KEY` | Sent as `X-Cosmix-Key`. Server only. |
+| `HUB_HMAC_SECRET` | HMAC secret for `X-Cosmix-Signature`. Server only. |
+| `PUBLIC_TURNSTILE_SITE_KEY` | Cloudflare Turnstile site key. This one is visible in the browser. |
 
-1. Run `npm run build` on your computer or in CI.
-2. Upload the **contents** of `dist/` into `public_html` (or the subdomain folder). Include the `images` folder, `sitemap-index.xml` and `robots.txt`.
-3. The host must serve `index.html` for directory URLs such as `/brands/aux/`.
+The Turnstile secret stays on the Hub host. Leave the Hub values empty until the owner has them. The forms still open and, until Hub is configured, ask the visitor to continue on WhatsApp.
+
+### Static hosting
+
+Uploading `dist/` to cPanel serves the pages. `/api/lead`, `/api/quote`, `/api/complaint` and `/api/wa-click` need the Netlify functions (or another host that runs this Astro adapter). Without them, submitting a form shows the WhatsApp message.
 
 The canonical URL is set to `https://cosmixengineering.com` in `astro.config.mjs`. Change `site` there, and the sitemap line in `public/robots.txt`, if the domain differs.
 
-## Enquiry form
+## Enquiry and quote forms
 
-`src/data/site.json` has `inquiry.endpoint`. Leave it empty and the quote form opens an email to sales@cosmixengineering.com. Set that field, or set `PUBLIC_INQUIRY_ENDPOINT` at build time, to an HTTPS URL that accepts `POST` with `Content-Type: application/json`.
+`/contact` posts JSON to `/api/lead`. `/quote` posts multipart form data to `/api/quote`, including an optional Excel or PDF bill of quantities up to 15 MB. The website server signs the raw body and calls Hub at `/api/v1/public/leads` or `/api/v1/public/quote-requests`. The browser never sees the API key or the HMAC secret.
 
-Sales calls and the site-wide WhatsApp button use +92 333 3152331. After-sales calls and complaint WhatsApp use +92 343 8248687.
+The range menu keeps AUX, CLIVET, LUKO, HOLTOP and Services in separate groups. A honeypot field and, when `PUBLIC_TURNSTILE_SITE_KEY` is set, a Turnstile widget are included. UTM parameters from the landing visit are stored for the session and sent with the form.
+
+Sales calls and the site-wide WhatsApp button use +92 333 3152331. After-sales calls and complaint WhatsApp use +92 343 8248687. Clicks on `wa.me` links are posted to `/api/wa-click`.
 
 ## Complaints
 
-`/complaint` gives the customer a reference such as `CX-20261127-AB12`. If `PUBLIC_WEB3FORMS_ACCESS_KEY` is set at build time, the form also emails info@cosmixengineering.com through [Web3Forms](https://web3forms.com). Create a free key there for that inbox and put it in the environment variable. Until the key exists, the page still issues the reference and offers a WhatsApp message to After-Sales. The placeholder lives in `src/data/site.json` under `complaint.accessKey`.
+`/complaint` posts to `/api/complaint`. Hub returns a reference such as `CMP-20261127-001`. The received page shows that number and can open WhatsApp to After-Sales on +92 343 8248687. Photos are JPEG, PNG or WEBP, up to three files of 8 MB. An MP4 up to 50 MB can be attached. Until Hub is configured, the form does not invent a reference; it asks the visitor to continue on WhatsApp.
 
 ## Adding a product
 
@@ -77,10 +79,10 @@ These live in `src/data/owner-todos.json`. The public site does not print them.
 4. **Warranty.** The old homepage offered a 1-year warranty on services. Confirm the wording before publishing it.
 5. **Certification.** The old homepage said “Certified Company” and did not name a certificate.
 6. **Shahrah-e-Faisal.** The old contact page listed “Shahrah-e-Faisal, Karachi” with no street number. The new site uses the head office the owner confirmed: C-25, Block 4, Gulshan-e-Iqbal, Karachi, plus Lahore at 516-E, Tajpura Scheme, Ghaziabad.
-7. **Dehumidifier manufacturer.** Two products are listed (desiccant adsorption, inverter) with honest copy and diagrams. The old descriptions were copied from cassette and duct units and have been removed. Name the brand, then replace the diagrams and add a real capacity line-up.
+7. **Dehumidifier manufacturer.** Done. The Industrial Dehumidifiers section lists seven LUKO series.
 8. **Third testimonial.** The sentence beginning “I really liked their services” sat ahead of the name Engineer Khalid Asghar, NUTECH, on the old page. Confirm that it is his.
 9. **Logo permissions.** Confirm Cosmix may keep showing the ASHRAE, CEO Club Pakistan, TextileAsia, AUX, CLIVET, HOLTOP and RC Group marks.
-10. **Enquiry endpoint.** Connect `inquiry.endpoint` or `PUBLIC_INQUIRY_ENDPOINT`.
+10. **Hub intake.** Set `HUB_BASE_URL`, `HUB_API_KEY` and `HUB_HMAC_SECRET` on the website host, and create the Turnstile widget (`PUBLIC_TURNSTILE_SITE_KEY` here, secret on Hub).
 11. **Duplicate photo.** `event_17.jpg` was identical to `event_04.jpg`. The gallery shows that photograph once (19 of the 20 files).
 
 ## Catalogues
@@ -89,6 +91,6 @@ These live in `src/data/owner-todos.json`. The public site does not print them.
 | --- | --- | --- |
 | AUX | 44, including VRF | `/brands/aux` |
 | CLIVET | 20, no VRF | `/brands/clivet` |
-| Dehumidifiers | 2 | `/brands/dehumidifiers` |
+| LUKO dehumidifiers | 7 | `/brands/dehumidifiers` |
 
 Product pages follow the approved layout: breadcrumb, gallery, title and short points, capacity boxes, one Request a quote button, overview, feature cards, capacity line-up, same-brand related products, and an enquiry strip. There is no downloads tab, no catalogue button, and no EER/COP/SEER table.

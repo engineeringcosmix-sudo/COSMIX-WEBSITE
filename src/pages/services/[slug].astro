@@ -30,7 +30,7 @@ const afterSales = site.phones.find((phone) => phone.label === "After-Sales");
           After-Sales: <a class="font-semibold" href={`tel:${afterSales.tel}`}>{afterSales.display}</a>
         </p>
       )}
-      <a class="btn mt-5" href={`/quote?productName=${encodeURIComponent(service.name)}`}>Request a quote</a>
+      <a class="btn mt-5" href={`/quote?interest=SERVICES&product=${encodeURIComponent(service.name)}`}>Request a quote</a>
       {service.slug === "operation-maintenance" && (
         <a class="mt-3 block text-sm font-semibold underline-offset-2 hover:underline" href="/complaint">Register a Complaint</a>
       )}

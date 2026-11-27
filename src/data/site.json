@@ -52,16 +52,7 @@
       "email": "info@cosmixengineering.com"
     }
   ],
-  "inquiry": {
-    "endpoint": "",
-    "todo": "Set inquiry.endpoint in this file, or the PUBLIC_INQUIRY_ENDPOINT environment variable, to an HTTPS URL that accepts a JSON POST. Until one is set, the quote form opens an email to sales@cosmixengineering.com."
-  },
   "complaint": {
-    "provider": "web3forms",
-    "endpoint": "https://api.web3forms.com/submit",
-    "accessKey": "",
-    "notifyEmail": "info@cosmixengineering.com",
-    "whatsapp": "923438248687",
-    "todo": "Create a free Web3Forms access key for info@cosmixengineering.com at https://web3forms.com and set PUBLIC_WEB3FORMS_ACCESS_KEY at build time. Until then a complaint still receives a reference and can be sent on WhatsApp to After-Sales."
+    "whatsapp": "923438248687"
   }
 }

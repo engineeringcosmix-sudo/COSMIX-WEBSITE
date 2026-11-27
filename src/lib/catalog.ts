@@ -130,6 +130,18 @@ export function relatedProducts(product: Product): Product[] {
     .filter((item): item is Product => Boolean(item));
 }
 
+export function quoteInterest(product: Product): string {
+  if (product.brand === "dehumidifiers") return "LUKO_DEHUMIDIFIER";
+  if (product.brand === "clivet") {
+    if (product.categoryId.includes("heat")) return "CLIVET_HEATPUMP";
+    if (product.categoryId === "rooftop") return "CLIVET_ROOFTOP";
+    if (product.categoryId === "ahu-fresh-air") return "CLIVET_AHU";
+    return "CLIVET_CHILLER";
+  }
+  if (product.categoryId.startsWith("vrf")) return "AUX_VRF";
+  return "AUX_OTHER";
+}
+
 export function productPath(product: Product): string {
   return `/brands/${product.brand}/${product.slug}`;
 }
@@ -156,8 +168,6 @@ export function searchText(product: Product): string {
     .join(" ")
     .toLowerCase();
 }
-
-export const inquiryEndpoint = import.meta.env.PUBLIC_INQUIRY_ENDPOINT || site.inquiry.endpoint;
 
 export function whatsappLink(text: string): string {
   return `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(text)}`;

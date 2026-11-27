@@ -16,8 +16,8 @@ import { site } from "../../lib/catalog";
   />
   <section class="wrap max-w-3xl py-12">
     <p class="text-sm font-semibold uppercase tracking-wide text-muted">Reference</p>
-    <p class="mt-2 font-serif text-4xl" data-ref>CX-——</p>
-    <p class="mt-4 text-muted" data-email></p>
+    <p class="mt-2 font-serif text-4xl" data-ref>—</p>
+    <p class="mt-4 text-muted" data-note>You can also send this complaint on WhatsApp so the service desk has it straight away.</p>
     <div class="mt-8 flex flex-wrap gap-3">
       <a class="btn" data-wa href={`https://wa.me/${site.complaint.whatsapp}`} target="_blank" rel="noopener noreferrer">Send on WhatsApp</a>
       <a class="btn-ghost" href="/">Back to home</a>
@@ -28,7 +28,7 @@ import { site } from "../../lib/catalog";
 <script define:vars={{ whatsapp: site.complaint.whatsapp }}>
   const params = new URLSearchParams(location.search);
   const refNode = document.querySelector("[data-ref]");
-  const emailNode = document.querySelector("[data-email]");
+  const noteNode = document.querySelector("[data-note]");
   const wa = document.querySelector("[data-wa]");
   let stored = null;
   try {
@@ -38,16 +38,11 @@ import { site } from "../../lib/catalog";
   }
   const ref = params.get("ref") || stored?.ref || "";
   if (refNode && ref) refNode.textContent = ref;
-  const text = stored?.text || `Complaint ${ref}`;
+  const text = stored?.text || (ref ? `Complaint ${ref}` : "Complaint");
   if (wa instanceof HTMLAnchorElement) {
     wa.href = `https://wa.me/${whatsapp}?text=${encodeURIComponent(text)}`;
   }
-  if (emailNode) {
-    const state = stored?.emailStatus;
-    emailNode.textContent = state === "sent"
-      ? "A copy was sent to info@cosmixengineering.com."
-      : state === "failed"
-        ? "The email could not be sent. Please send this complaint on WhatsApp."
-        : "Please also send this complaint on WhatsApp so the service desk has it straight away.";
+  if (noteNode && ref.startsWith("CMP-")) {
+    noteNode.textContent = "After-Sales has this complaint. You can also send the same details on WhatsApp.";
   }
 </script>
