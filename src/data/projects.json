@@ -1,44 +1,30 @@
 [
-  {
-    "slug": "nust-university",
-    "name": "NUST University",
-    "city": "Islamabad",
-    "kind": "Campus",
-    "summary": "A university campus named in the Cosmix Engineering project portfolio."
-  },
-  {
-    "slug": "dynasty-tower",
-    "name": "Dynasty Tower, Clifton",
-    "city": "Karachi",
-    "kind": "High-rise",
-    "summary": "A Clifton high-rise named in the Cosmix Engineering project portfolio."
-  },
-  {
-    "slug": "world-expo-pavilion",
-    "name": "World Expo Pavilion",
-    "city": "Shanghai",
-    "kind": "Exhibition",
-    "summary": "An expo pavilion in Shanghai named in the Cosmix Engineering project portfolio."
-  },
-  {
-    "slug": "ibex",
-    "name": "IBEX",
-    "city": "Karachi and Lahore",
-    "kind": "Workplace",
-    "summary": "IBEX workplaces in Karachi and Lahore, named in the Cosmix Engineering project portfolio."
-  },
-  {
-    "slug": "ramada-hotel",
-    "name": "Ramada Hotel",
-    "city": "Multan",
-    "kind": "Hospitality",
-    "summary": "A Multan hotel named in the Cosmix Engineering project portfolio."
-  },
-  {
-    "slug": "millennium-mall",
-    "name": "Millennium Mall",
-    "city": "Quetta",
-    "kind": "Retail",
-    "summary": "A Quetta mall named in the Cosmix Engineering project portfolio."
-  }
+  { "name": "Samaa TV Guest Houses", "city": "Karachi", "detail": "25 RT, DX" },
+  { "name": "Faysal Bank Data Centre, Honda Building", "city": "Karachi", "detail": "60 RT, DX" },
+  { "name": "Hamsons Industries Cogeneration Plant", "city": "Karachi", "detail": "1.5 MW chilled water" },
+  { "name": "USPCAS-W", "city": "Jamshoro", "detail": "U.S.-Pakistan Center for Advanced Studies in Water" },
+  { "name": "Raazik International Building", "city": "Lahore", "detail": "1500 RT chilled water" },
+  { "name": "Oncology, Military Hospital", "city": "Rawalpindi", "detail": "240 RT" },
+  { "name": "CMH Kharian", "city": "Kharian", "detail": "180 RT, DX" },
+  { "name": "CMH Blocks 1, 2 and 3", "city": "Lahore", "detail": "549 RT chilled water" },
+  { "name": "Karachi University, HEJ", "city": "Karachi", "detail": "80 RT chilled water" },
+  { "name": "IBA Hostel Ventilation", "city": "Karachi", "detail": "Institute of Business Administration" },
+  { "name": "NUTECH", "city": "Islamabad", "detail": "300 RT" },
+  { "name": "Chashma-02 Power", "city": "Kundian", "detail": "Air-cooled water chiller supply, 3000 RT" },
+  { "name": "Atlas Industries", "city": "Faisalabad", "detail": "600 RT chilled water" },
+  { "name": "Dadex Eternit", "city": "Karachi", "detail": "80 RT chilled water" },
+  { "name": "TRG Office", "city": "Karachi", "detail": "380 RT VRF" },
+  { "name": "TRG Office", "city": "Lahore", "detail": "120 RT VRF" },
+  { "name": "Command and Staff College", "city": "Quetta", "detail": "240 RT" },
+  { "name": "Dynasty Shopping Mall", "city": "Karachi", "detail": "350 RT VRF" },
+  { "name": "Ibex Tower, DHA Phase 6", "city": "Karachi", "detail": "166 RT VRF" },
+  { "name": "Millennium Mall", "city": "Quetta", "detail": "400 RT VRF" },
+  { "name": "National Bank", "city": "Quetta", "detail": "22 RT, DX" },
+  { "name": "Reko Diq", "city": "Reko Diq", "detail": "32 RT, DX" },
+  { "name": "Al-Fateh Departmental Stores", "city": "Lahore", "detail": "128 RT, DX" },
+  { "name": "UBL DHA", "city": "Karachi", "detail": "190 RT, DX" },
+  { "name": "World Expo Pakistan Pavilion", "city": "Shanghai", "detail": "AUX light commercial 4-way cassette" },
+  { "name": "Snake Venom Laboratory", "city": "Sindh", "detail": "250 RT chilled water" },
+  { "name": "Rajwani Denim Cogeneration Plant", "city": "Karachi", "detail": "2 MW chilled water" },
+  { "name": "Mall of Samundri", "city": "Faisalabad", "detail": "450 RT VRF" }
 ]

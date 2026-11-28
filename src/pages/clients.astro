@@ -1,0 +1,41 @@
+---
+import Base from "../layouts/Base.astro";
+import PageHero from "../components/PageHero.astro";
+const named = [
+  ["01", "Hasham Towel"],
+  ["02", "Samaa"],
+  ["05", "Al Farooq Steel Industries"],
+  ["09", "USAID"],
+  ["11", "Amson"],
+  ["15", "QEL"],
+  ["16", "Hassan Group"],
+  ["17", "Alkaram"],
+  ["19", "Silver Textile Factory"],
+  ["22", "HBL"],
+  ["23", "Novatex"],
+];
+---
+
+<Base
+  title="Clients"
+  description="Clientele of Cosmix Engineering, including Samaa, HBL, Alkaram, Novatex, Hassan Group and USAID."
+  path="/clients"
+>
+  <PageHero
+    eyebrow="Clients"
+    title="Clientele"
+    lede="National companies, multinationals and public programmes. The marks below are taken from the company profile."
+  />
+  <section class="section wrap" data-reveal>
+    <ul class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+      {
+        named.map(([file, name]) => (
+          <li class="logo-card w-auto">
+            <img src={`/images/clients/logo-${file}.png`} alt={name} />
+          </li>
+        ))
+      }
+    </ul>
+    <p class="mt-8 text-muted">Also on the profile sheet: further textile, industrial and trading marks shown beside these names.</p>
+  </section>
+</Base>

@@ -2,35 +2,41 @@
   "name": "Cosmix Engineering (Pvt.) Ltd.",
   "shortName": "Cosmix Engineering",
   "url": "https://cosmixengineering.com",
-  "description": "Cosmix Engineering is a Karachi HVACR company supplying, installing and supporting air conditioning, ventilation and humidity control.",
+  "description": "Cosmix Engineering, formerly Gafoor Engineering Services since 1968, supplies, installs and supports HVACR and MEP systems from Peshawar to Karachi.",
   "emails": ["info@cosmixengineering.com", "sales@cosmixengineering.com"],
   "phones": [
     {
       "label": "Sales",
-      "display": "+92 333 3152331",
+      "display": "0333 3152331",
       "tel": "+923333152331",
       "whatsapp": true
     },
     {
       "label": "After-Sales",
-      "display": "+92 343 8248687",
+      "display": "0343 8248687",
       "tel": "+923438248687"
     }
   ],
   "whatsapp": "923333152331",
-  "hours": "Monday to Saturday, 9:00am – 8:00pm",
+  "hours": "Mon – Sat, 9:00 AM – 8:00 PM",
   "offices": [
     {
       "name": "Head office",
       "city": "Karachi",
-      "lines": ["C-25, Block 4", "Gulshan-e-Iqbal", "Karachi, Pakistan"],
-      "maps": "https://www.google.com/maps/search/?api=1&query=C-25+Block+4+Gulshan-e-Iqbal+Karachi"
+      "lines": ["Suite 1008, 10th Floor Cavish Crown", "D.A.C.H.S, Main Shahrah-e-Faisal", "Karachi, Pakistan"],
+      "maps": "https://www.google.com/maps/search/?api=1&query=Cavish+Crown+Shahrah-e-Faisal+Karachi"
     },
     {
-      "name": "Lahore office",
+      "name": "Lahore",
       "city": "Lahore",
-      "lines": ["516-E, Tajpura Scheme", "Ghaziabad", "Lahore, Pakistan"],
-      "maps": "https://www.google.com/maps/search/?api=1&query=516-E+Tajpura+Scheme+Ghaziabad+Lahore"
+      "lines": ["Branch office", "Lahore, Pakistan"],
+      "maps": "https://www.google.com/maps/search/?api=1&query=Lahore+Pakistan"
+    },
+    {
+      "name": "Islamabad",
+      "city": "Islamabad",
+      "lines": ["Branch office", "Islamabad, Pakistan"],
+      "maps": "https://www.google.com/maps/search/?api=1&query=Islamabad+Pakistan"
     }
   ],
   "socials": [

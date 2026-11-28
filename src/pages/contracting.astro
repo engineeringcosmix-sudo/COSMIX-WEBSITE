@@ -1,0 +1,39 @@
+---
+import Base from "../layouts/Base.astro";
+import PageHero from "../components/PageHero.astro";
+const steps = [
+  "We outline deliverables and milestones.",
+  "We collaborate with consultants for verification.",
+  "We plan the budget and the risks.",
+  "We refine the plan in discussion.",
+  "A seasoned team executes the work.",
+];
+const standards = ["ASHRAE 55", "ASHRAE 62.1", "ASHRAE 90.1", "NFPA", "SMACNA", "Uniform Mechanical Code", "BS plumbing", "ACCA Manual S", "Air Diffusion Council"];
+---
+
+<Base
+  title="Contracting"
+  description="Turn-key HVACR and MEP projects by Cosmix Engineering, installed to ASHRAE, NFPA, SMACNA and the Uniform Mechanical Code."
+  path="/contracting"
+>
+  <PageHero
+    eyebrow="Contracting"
+    title="Turn-Key Projects"
+    lede="The project is outlined, checked with consultants, and carried through installation and commissioning by one team."
+  />
+  <section class="section wrap grid gap-8 lg:grid-cols-2" data-reveal>
+    <div>
+      <h2 class="font-serif text-3xl">How a Turn-Key Job Is Handled</h2>
+      <ol class="mt-5 grid gap-3">
+        {steps.map((step, index) => <li class="panel"><span class="font-semibold text-copper">0{index + 1}</span> {step}</li>)}
+      </ol>
+    </div>
+    <div>
+      <h2 class="font-serif text-3xl">Standards on the Job</h2>
+      <p class="mt-4 leading-relaxed text-muted">Installation and commissioning follow ASHRAE 55, 62.1 and 90.1, with calculation software, BS plumbing practice, ACCA Manual S, NFPA, the Uniform Mechanical Code, the Air Diffusion Council and SMACNA.</p>
+      <ul class="mt-5 flex flex-wrap gap-2">
+        {standards.map((item) => <li class="chip">{item}</li>)}
+      </ul>
+    </div>
+  </section>
+</Base>

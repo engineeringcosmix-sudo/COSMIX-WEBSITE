@@ -30,7 +30,7 @@ export function bindComplaintForm() {
   if (!(form instanceof HTMLFormElement) || form.dataset.bound === "true") return;
   form.dataset.bound = "true";
   const whatsapp = form.dataset.whatsapp || "";
-  const photos = form.querySelector("input[name='photos']");
+  const photos = form.querySelector('input[name="photos[]"]');
   photos?.addEventListener("change", () => {
     if (!(photos instanceof HTMLInputElement) || !photos.files || photos.files.length <= 3) return;
     showStatus(form, "Please choose no more than 3 photos.");

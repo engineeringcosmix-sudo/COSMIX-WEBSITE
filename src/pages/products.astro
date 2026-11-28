@@ -2,27 +2,52 @@
 import Base from "../layouts/Base.astro";
 import PageHero from "../components/PageHero.astro";
 import { brands } from "../lib/catalog";
+
+const categories = [
+  "Air handling units",
+  "Absorption chillers with heat recovery",
+  "Water-cooled screw and centrifugal chillers",
+  "Air-cooled chillers",
+  "Cooling towers",
+  "VRF, under AUX",
+  "Split and package units",
+  "CRAC units",
+  "Energy recovery",
+  "Exhaust fans and purification",
+  "Ducted air conditioners",
+  "Dehumidifiers, under LUKO",
+];
 ---
 
 <Base
-  title="Catalogues"
-  description="AUX air conditioning, CLIVET chillers and heat pumps, and industrial dehumidifiers from Cosmix Engineering."
+  title="Products"
+  description="AUX, CLIVET and LUKO product sections from Cosmix Engineering. VRF is listed with AUX. CLIVET covers chillers, heat pumps, rooftop packages and air handling."
   path="/products"
 >
   <PageHero
-    eyebrow="Our brands"
-    title="Explore our product ranges."
-    lede="AUX air conditioning, CLIVET plant, and industrial dehumidifiers."
+    eyebrow="Products"
+    title="Equipment for the HVACR and MEP Division"
+    lede="Three brand sections. AUX, CLIVET and LUKO each keep their own catalogue."
   />
-  <section class="wrap grid gap-4 py-12 lg:grid-cols-3">
+  <section class="section wrap grid gap-4 lg:grid-cols-3" data-reveal>
     {
       brands.map((brand) => (
-        <article data-brand={brand.id} class="brand-rule rounded-3xl border border-line bg-white p-6">
-          <h2 class="font-serif text-3xl">{brand.name}</h2>
+        <article data-brand={brand.id} class="brand-rule panel">
+          <p class="eyebrow text-[var(--brand)]">{brand.id === "dehumidifiers" ? "LUKO" : brand.name}</p>
+          <h2 class="mt-2 font-serif text-3xl">{brand.id === "dehumidifiers" ? "Dehumidifiers" : brand.name}</h2>
           <p class="mt-3 text-sm leading-relaxed text-muted">{brand.summary}</p>
-          <a class="btn mt-5" href={brand.href}>Open {brand.name}</a>
+          <a class="btn mt-5" href={brand.href}>Open {brand.id === "dehumidifiers" ? "LUKO" : brand.name}</a>
         </article>
       ))
     }
+  </section>
+  <section class="section bg-paper" data-reveal>
+    <div class="wrap">
+      <p class="eyebrow text-copper">Also Supplied</p>
+      <h2 class="mt-2 font-serif text-4xl">Categories in the Division</h2>
+      <ul class="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {categories.map((item) => <li class="panel text-sm font-semibold">{item}</li>)}
+      </ul>
+    </div>
   </section>
 </Base>

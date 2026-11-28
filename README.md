@@ -12,36 +12,36 @@ npm run dev
 Open the URL Astro prints (usually http://localhost:4321).
 
 ```bash
-npm run check   # catalogues, brand separation, and Hub request signing
-npm run build   # static pages in dist/, form routes as a Netlify function
+npm run check   # catalogues, brand separation, and PHP Hub signing
+npm run build   # static pages plus PHP form endpoints in dist/
 node scripts/check-client-bundle.mjs  # fails if Hub secrets are in the browser assets
 ```
 
-Node.js 22 is the version this project was built with.
+Node.js 22 builds the pages. The host only needs Apache and PHP 8.1.
 
-## Deploy
+## Hero videos
 
-Pages are prerendered. The contact, quote, complaint and WhatsApp-click routes run as server functions through the Netlify adapter. A host that only serves files will still show the pages; the forms then ask the visitor to continue on WhatsApp.
+Background clips live in `public/videos/hero/`. Each clip has an `.mp4`, a `.webm`, and a poster at `public/videos/posters/<same-name>.jpg`. The home page lists those names in `src/pages/index.astro`. To use the owner’s footage, replace the three files for a name and keep the file name, or change the `slides` list to the new file name. Keep each file under about 3 MB at 720p. The clips shipping now are Mixkit stock (rooftop plant, site construction, outdoor condensing units), muted, looping, and covered by the Mixkit licence. The Internet Archive did not return the old WordPress video files.
 
-### Netlify
+## Deploy on Hostinger
 
-1. Import the repository. Netlify should detect Astro.
-2. Build command: `npm run build`.
-3. Publish directory: `dist`. The adapter writes the form function beside it, and Netlify publishes both.
-4. Set these environment variables on the site. Do not prefix the Hub values with `PUBLIC_`.
+`npm run build` writes `dist/`. That folder is the contents of `public_html`: HTML, images, `.htaccess`, and `api/*.php`. There is no Node server. `.htaccess` turns on HTTPS, serves directory URLs, sends unknown paths to `404.html`, compresses text, and maps `/api/lead`, `/api/quote`, `/api/complaint` and `/api/wa-click` to the PHP files.
 
-| Variable | Where it is used |
+Hub credentials live in `cosmix-config.php` **next to** `public_html`, not inside it. Copy `config.sample.php` from this repo to that path and fill in:
+
+| Key | What it is |
 | --- | --- |
-| `HUB_BASE_URL` | Hub origin, for example `https://hub.example.com`. Server only. |
-| `HUB_API_KEY` | Sent as `X-Cosmix-Key`. Server only. |
-| `HUB_HMAC_SECRET` | HMAC secret for `X-Cosmix-Signature`. Server only. |
-| `PUBLIC_TURNSTILE_SITE_KEY` | Cloudflare Turnstile site key. This one is visible in the browser. |
+| `HUB_BASE_URL` | Hub origin, for example `https://hub.example.com` |
+| `HUB_API_KEY` | Sent as `X-Cosmix-Key` |
+| `HUB_HMAC_SECRET` | HMAC secret for `X-Cosmix-Signature` |
 
-The Turnstile secret stays on the Hub host. Leave the Hub values empty until the owner has them. The forms still open and, until Hub is configured, ask the visitor to continue on WhatsApp.
+Leave them empty until Hub has issued them. The forms still open and ask the visitor to continue on WhatsApp. `PUBLIC_TURNSTILE_SITE_KEY` is optional and is baked in at build time. The Turnstile secret stays on the Hub host.
 
-### Static hosting
-
-Uploading `dist/` to cPanel serves the pages. `/api/lead`, `/api/quote`, `/api/complaint` and `/api/wa-click` need the Netlify functions (or another host that runs this Astro adapter). Without them, submitting a form shows the WhatsApp message.
+1. In hPanel, turn on the free SSL certificate for cosmixengineering.com before uploading. The site redirects HTTP to HTTPS.
+2. Download a copy of the current `public_html` (the WordPress site) before replacing it.
+3. In File Manager, open the folder that **contains** `public_html`. Upload the filled `cosmix-config.php` there, beside `public_html`.
+4. Open `public_html`, upload `cosmix-hostinger-public_html.zip`, and extract it so `index.html`, `.htaccess` and `api/` sit directly in `public_html`.
+5. Delete the zip from `public_html`. Do not upload `cosmix-config.php` into `public_html`.
 
 The canonical URL is set to `https://cosmixengineering.com` in `astro.config.mjs`. Change `site` there, and the sitemap line in `public/robots.txt`, if the domain differs.
 
@@ -82,7 +82,7 @@ These live in `src/data/owner-todos.json`. The public site does not print them.
 7. **Dehumidifier manufacturer.** Done. The Industrial Dehumidifiers section lists seven LUKO series.
 8. **Third testimonial.** The sentence beginning “I really liked their services” sat ahead of the name Engineer Khalid Asghar, NUTECH, on the old page. Confirm that it is his.
 9. **Logo permissions.** Confirm Cosmix may keep showing the ASHRAE, CEO Club Pakistan, TextileAsia, AUX, CLIVET, HOLTOP and RC Group marks.
-10. **Hub intake.** Set `HUB_BASE_URL`, `HUB_API_KEY` and `HUB_HMAC_SECRET` on the website host, and create the Turnstile widget (`PUBLIC_TURNSTILE_SITE_KEY` here, secret on Hub).
+10. **Hub intake.** Copy `config.sample.php` to `cosmix-config.php` beside `public_html` and fill in the three Hub values. Create the Turnstile widget if you want the captcha (`PUBLIC_TURNSTILE_SITE_KEY` at build time, secret on Hub).
 11. **Duplicate photo.** `event_17.jpg` was identical to `event_04.jpg`. The gallery shows that photograph once (19 of the 20 files).
 
 ## Catalogues
