@@ -1,80 +1,82 @@
 [
   {
     "slug": "supply-installation",
-    "name": "Supply & installation",
-    "summary": "Equipment selection, delivery and installation for commercial and industrial buildings.",
-    "intro": "Cosmix Engineering supplies and installs HVACR equipment for commercial, institutional and industrial buildings. We match the series to the building, deliver it, and install it around the ceiling, plant room and power supply.",
+    "name": "Supply and Installation",
+    "summary": "HVAC, plumbing, fire suppression, refrigeration and indoor environment systems, supplied and installed as one scope.",
+    "intro": "The HVACR and MEP Services Division, established in 2007, supplies, installs and commissions chillers, air handling units, CAC, light commercial equipment and the allied MEP around them.",
     "points": [
-      "Help matching a building to the right series",
-      "Delivery coordination to the Karachi or Lahore office, or to site",
-      "Installation planned around the building’s ceiling, plant room and power supply",
-      "Handover with the operating settings agreed for that project"
+      "HVAC system supply and installation",
+      "Plumbing and fire suppression",
+      "Refrigeration and cold storage",
+      "Indoor environment control",
+      "Power plants and heat recovery"
     ],
-    "applies": "Offices, hotels, hospitals, malls, campuses and industrial buildings are the kinds of projects named in the company’s own material."
+    "applies": "Industrial complexes, high-rise commercial buildings and government facilities."
   },
   {
     "slug": "operation-maintenance",
-    "name": "Operation & maintenance",
-    "summary": "Inspections and repairs that keep an installed system in service and limit unplanned stoppages.",
-    "intro": "Once a system is running, Cosmix offers operation and maintenance: regular inspections, preventive care and repairs. The aim is straightforward — fewer breakdowns, and equipment that keeps the conditions it was installed for.",
+    "name": "Service, Operation and Maintenance",
+    "summary": "Scheduled care and 24-hour cover that keep an installed HVAC system at the performance it was designed for.",
+    "intro": "Operation and maintenance keeps mechanical systems efficient through the life of the building. The after-sales desk is 0343 8248687.",
     "points": [
-      "Scheduled inspection of the installed plant",
-      "Repairs arranged through the same team that knows the project",
-      "Attention to filters, drains, controls and the outdoor or plant-room units",
-      "A record of what was found, so the next visit starts from a known condition"
+      "Daily, monthly, quarterly, semi-annual and annual fixed-rate contracts",
+      "Emergency on-call contracts",
+      "Scheduled maintenance inspection",
+      "Major and minor overhauling",
+      "24-hour operation and maintenance, with or without parts"
     ],
-    "applies": "Maintenance is arranged for the equipment already installed on site."
+    "applies": "Buildings where Cosmix has supplied or installed the plant, and sites that engage the service team directly."
   },
   {
     "slug": "general-electro-mechanical",
-    "name": "General electro-mechanical",
-    "summary": "Electro-mechanical work that sits beside the air-conditioning plant: power, installation and upgrades.",
-    "intro": "The company describes a broader electro-mechanical service around the HVACR work: installations and upgrades that support the plant, with an emphasis on safety and on keeping the building’s systems reliable.",
+    "name": "Allied MEP",
+    "summary": "Plumbing, power plant, mechanical utilities, fire suppression and cold storage beside the air-conditioning scope.",
+    "intro": "The division’s allied work covers water supply and drainage, combined heat and power, steam and compressed air, fire pumps and sprinklers, and refrigeration for cold storage and abattoirs.",
     "points": [
-      "Installation work associated with HVACR equipment",
-      "Upgrades where an existing system has to be changed rather than replaced in full",
-      "Coordination with the building’s electrical supply and the equipment’s requirements",
-      "Site work from the Karachi head office and the Lahore office"
+      "Water supply, drainage, filtration and gas distribution",
+      "Combined heating, cooling and power, pump rooms and chilled-water circuits",
+      "Steam, medical gases and industrial utilities",
+      "Fire pumps, hydrants, sprinklers, foam and gas extinguishment",
+      "Cold storage and abattoir refrigeration"
     ],
-    "applies": "Scope is agreed for each building."
+    "applies": "Agreed per building, from a single utility to a full MEP package."
   },
   {
     "slug": "testing-balancing-adjustment",
-    "name": "Testing, balancing & adjustment",
-    "summary": "Measuring and adjusting air and water systems so they deliver what the design asked for.",
-    "intro": "Testing, balancing and adjustment (TBA) is the work of measuring a finished system and tuning it. Cosmix offers TBA so airflow, water flow and controls are brought into line with the way the building is meant to run.",
+    "name": "Testing and Commissioning",
+    "summary": "Commissioning against the design, with the measuring equipment controlled and the results recorded.",
+    "intro": "Installation is closed out with testing and commissioning. Measuring and monitoring devices are identified, calibrated and traceable, and a nonconforming result is recorded before the system is handed over.",
     "points": [
-      "Airside measurements on ducted and packaged systems",
-      "Waterside checks where the project uses chillers and fan coils or air handlers",
-      "Adjustment of terminals, dampers and controls after installation",
-      "A clear note of the readings taken on that visit"
+      "Inspection and test against the project plan",
+      "Calibrated instruments, with status recorded",
+      "Nonconforming work rejected, repaired or reworked, then verified again",
+      "Final inspection before release"
     ],
-    "applies": "TBA is most useful just after installation and again when a building’s use changes."
+    "applies": "Every commissioned HVACR and MEP installation."
   },
   {
     "slug": "energy-audit",
-    "name": "Energy audit",
-    "summary": "A look at how the HVACR plant uses energy, and which changes are worth making.",
-    "intro": "An energy audit from Cosmix looks at the installed heating, cooling and ventilation plant and points out where energy is being wasted. The result is a set of practical recommendations, not a generic certificate.",
+    "name": "Indoor Environment",
+    "summary": "Ventilation schemes for hospitals, laboratories, kitchens, workshops and worship spaces.",
+    "intro": "Indoor environment work covers demand-controlled ventilation, filtration, radon mitigation, and schemes for hospitals, pharmaceutical rooms, kitchens, paint and welding shops, auditoriums and worship spaces.",
     "points": [
-      "Review of operating hours, set-points and the equipment actually installed",
-      "Notes on maintenance issues that are also wasting energy",
-      "Recommendations ranked by what they change on this building",
-      "A written summary the facilities team can act on"
+      "Demand-controlled ventilation",
+      "Air filtration and pollutant control",
+      "Hospital, laboratory and pharmaceutical ventilation",
+      "Kitchen, workshop and industrial exhaust"
     ],
-    "applies": "Each audit is written for the plant on that site."
+    "applies": "Specialist rooms where the air itself is part of the process."
   },
   {
     "slug": "ducting",
-    "name": "Ducting",
-    "summary": "Duct design and installation so air from the indoor unit or air handler reaches the rooms.",
-    "intro": "Ducting is part of how a concealed or packaged system serves a building. Cosmix designs and installs ductwork to suit the equipment and the rooms, so air arrives where it is needed and the unit is not fighting the duct run.",
+    "name": "Ducting and Air Distribution",
+    "summary": "Air distribution installed to SMACNA and the Air Diffusion Council, as part of the turn-key scope.",
+    "intro": "Ducted systems are installed with the rest of the plant. The project standards include SMACNA and the Air Diffusion Council, alongside ASHRAE 55, 62.1 and 90.1.",
     "points": [
-      "Duct routes planned around the ceiling void and the equipment’s static pressure",
-      "Installation coordinated with the indoor units, air handlers or rooftop packages",
-      "Grilles and access arranged so the system can be balanced and cleaned",
-      "Installation quoted together with the air-conditioning system it serves"
+      "Ducted air distribution for central and unitary systems",
+      "Installation coordinated with the air handler or VRF indoor unit",
+      "Workmanship recorded in the project quality plan"
     ],
-    "applies": "Typical places are offices, shops, hotels and any building using ducted indoor units or a central air handler."
+    "applies": "Central plants, VRF indoor units and fresh-air systems."
   }
 ]

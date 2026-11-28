@@ -1,11 +1,12 @@
 ---
 import "../styles/global.css";
-import "@fontsource/outfit/400.css";
+import "@fontsource/plus-jakarta-sans/400.css";
+import "@fontsource/plus-jakarta-sans/500.css";
+import "@fontsource/plus-jakarta-sans/600.css";
+import "@fontsource/plus-jakarta-sans/700.css";
 import "@fontsource/outfit/500.css";
 import "@fontsource/outfit/600.css";
 import "@fontsource/outfit/700.css";
-import "@fontsource/newsreader/500.css";
-import "@fontsource/newsreader/600.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { absoluteUrl, companyImages, site, whatsappLink } from "../lib/catalog";
@@ -36,7 +37,7 @@ const wa = whatsappLink("Hello Cosmix Engineering, I would like to enquire about
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <meta name="theme-color" content="#102033" />
+    <meta name="theme-color" content="#071422" />
     <link rel="icon" href="/favicon.png" type="image/png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta property="og:type" content="website" />
@@ -66,7 +67,9 @@ const wa = whatsappLink("Hello Cosmix Engineering, I would like to enquire about
     </a>
     <script>
       import { installAttribution } from "../scripts/attribution";
+      import { installMotion } from "../scripts/motion";
       installAttribution();
+      installMotion();
     </script>
   </body>
 </html>

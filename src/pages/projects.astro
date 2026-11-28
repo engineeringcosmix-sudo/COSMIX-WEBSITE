@@ -1,31 +1,37 @@
 ---
 import Base from "../layouts/Base.astro";
 import PageHero from "../components/PageHero.astro";
-import { projects } from "../lib/catalog";
+import projects from "../data/projects.json";
 ---
 
 <Base
   title="Projects"
-  description="Projects named by Cosmix Engineering: NUST University, Dynasty Tower Clifton, a World Expo pavilion in Shanghai, IBEX, Ramada Hotel Multan and Millennium Mall Quetta."
+  description="HVACR and MEP projects by Cosmix Engineering, from Karachi and Lahore to Quetta, Islamabad, Faisalabad and Shanghai."
   path="/projects"
 >
   <PageHero
     eyebrow="Projects"
-    title="Buildings named in the Cosmix portfolio."
-    lede="Campuses, towers, hotels, workplaces and retail from the Cosmix Engineering portfolio."
+    title="Projects From the Company Record"
+    lede="Capacities and cities as stated in the company profile, including chilled water, DX and VRF work."
   />
-  <section class="wrap py-14">
-    <ul class="grid gap-4 md:grid-cols-2">
+  <section class="section wrap" data-slider data-reveal>
+    <div class="slider-head">
+      <h2 class="font-serif text-3xl">Selected Work</h2>
+      <div class="flex gap-2">
+        <button class="icon-btn" type="button" data-prev aria-label="Previous">←</button>
+        <button class="icon-btn" type="button" data-next aria-label="Next">→</button>
+      </div>
+    </div>
+    <div class="slider-track" data-track>
       {
         projects.map((project) => (
-          <li class="rounded-3xl border border-line bg-white p-6">
-            <p class="eyebrow text-copper">{project.kind}</p>
-            <h2 class="mt-2 font-serif text-3xl">{project.name}</h2>
-            <p class="mt-1 text-muted">{project.city}</p>
-            <p class="mt-4 leading-relaxed">{project.summary}</p>
-          </li>
+          <article class="panel">
+            <p class="eyebrow text-copper">{project.city}</p>
+            <h2 class="mt-2 font-serif text-2xl">{project.name}</h2>
+            <p class="mt-3 text-sm text-muted">{project.detail}</p>
+          </article>
         ))
       }
-    </ul>
+    </div>
   </section>
 </Base>

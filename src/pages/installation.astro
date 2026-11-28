@@ -1,0 +1,55 @@
+---
+import Base from "../layouts/Base.astro";
+import PageHero from "../components/PageHero.astro";
+const systems = [
+  "Centralized HVAC systems",
+  "Unitary and decentralised air conditioning",
+  "District heating and cooling",
+  "Clean rooms, operating theatres and data centres",
+  "Industrial ventilation and exhaust",
+  "Ground-source heat pumps",
+  "Building management systems",
+  "Natural ventilation",
+];
+const allied = [
+  ["Plumbing", "Water supply, drainage, filtration, wastewater treatment, RO plants and gas distribution."],
+  ["Power Plant", "Combined heating, cooling and power, chillers and boilers, energy-recovery air handlers, pump rooms and chilled-water circuits."],
+  ["Mechanical", "Instrumentation, compressed air, steam, oil storage, medical gases and industrial utilities."],
+  ["Fire Suppression", "Fire pumps, storage, hydrants, hose reels, sprinklers, deluge, foam, gas extinguishment and fire safety audits."],
+  ["Refrigeration", "Cold storage and abattoirs."],
+  ["Indoor Environment", "Demand-controlled ventilation, filtration, hospitals, laboratories, kitchens, workshops and worship spaces."],
+];
+---
+
+<Base
+  title="Installation"
+  description="HVAC system installation and allied MEP by Cosmix Engineering: plumbing, power, fire suppression, refrigeration and indoor environment."
+  path="/installation"
+>
+  <PageHero
+    eyebrow="Installation"
+    title="HVAC Systems and the MEP Around Them"
+    lede="Central plant, unitary systems, clean rooms and the allied mechanical services that sit beside the air conditioning."
+  />
+  <section class="section wrap" data-reveal>
+    <h2 class="font-serif text-4xl">HVAC Systems</h2>
+    <ul class="mt-6 grid gap-3 sm:grid-cols-2">
+      {systems.map((item) => <li class="panel font-semibold">{item}</li>)}
+    </ul>
+  </section>
+  <section class="section bg-navy text-white" data-reveal>
+    <div class="wrap">
+      <p class="eyebrow text-copper-bright">Allied MEP</p>
+      <div class="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        {
+          allied.map(([title, text]) => (
+            <article class="border border-white/15 p-5">
+              <h3 class="font-serif text-2xl">{title}</h3>
+              <p class="mt-3 text-sm leading-relaxed text-white/75">{text}</p>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>

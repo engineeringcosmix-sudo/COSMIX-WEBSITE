@@ -1,150 +1,69 @@
 ---
-import { brandInfo, brands, categoriesFor, companyImages, services } from "../lib/catalog";
+import { site } from "../lib/catalog";
 const path = Astro.url.pathname;
-const aux = categoriesFor("aux");
-const clivet = categoriesFor("clivet");
+const sales = site.phones.find((phone) => phone.whatsapp);
+const links = [
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/products", label: "Products" },
+  { href: "/contracting", label: "Contracting" },
+  { href: "/installation", label: "Installation" },
+  { href: "/services", label: "Services" },
+  { href: "/projects", label: "Projects" },
+  { href: "/clients", label: "Clients" },
+  { href: "/contact", label: "Contact" },
+];
+const current = (href: string) => (href === "/" ? path === "/" : path === href || path.startsWith(`${href}/`));
 ---
 
-<div class="bg-navy text-white text-sm">
-  <div class="wrap flex flex-wrap items-center justify-between gap-x-4 gap-y-1 py-2">
-    <p>Karachi · Lahore · Mon–Sat 9:00am–8:00pm</p>
+<div class="bg-navy text-white">
+  <div class="wrap flex flex-wrap items-center justify-between gap-x-5 gap-y-1 py-2 text-[0.78rem] font-semibold tracking-wide">
+    <p>Karachi | Lahore | Islamabad</p>
     <p class="flex flex-wrap gap-x-4 gap-y-1">
-      <a href="tel:+923333152331">Sales: +92 333 3152331</a>
-      <a href="/complaint">Register a Complaint</a>
-      <a href="mailto:info@cosmixengineering.com">info@cosmixengineering.com</a>
+      <span>Mon – Sat, 9:00 AM – 8:00 PM</span>
+      <a href={`tel:${sales?.tel}`}>Sales {sales?.display}</a>
+      <a href={`mailto:${site.emails[0]}`}>{site.emails[0]}</a>
     </p>
   </div>
 </div>
-<header class="sticky top-0 z-40 border-b border-line bg-white/95 backdrop-blur">
-  <div class="wrap flex h-16 items-center gap-3">
-    <a href="/" class="mr-auto shrink-0">
-      <img
-        src={companyImages.logo.src}
-        width={companyImages.logo.width}
-        height={companyImages.logo.height}
-        alt={companyImages.logo.alt}
-        class="h-10 w-auto"
-      />
+<header class="sticky top-0 z-40 border-b border-white/10 bg-navy-2 text-white">
+  <div class="wrap flex h-[4.25rem] items-center gap-3">
+    <a href="/" class="mr-auto shrink-0 rounded-md bg-white px-2 py-1">
+      <img src="/images/brand/cosmix-logo.webp" width="468" height="179" alt="Cosmix Engineering" class="h-9 w-auto" />
     </a>
-    <nav class="hidden items-center gap-1 lg:flex" aria-label="Primary">
-      <a class:list={["nav-link", path === "/about" && "is-current"]} href="/about">About</a>
-      <div class="group relative">
-        <a class:list={["nav-link", path.startsWith("/brands/aux") && "is-current"]} href="/brands/aux" aria-haspopup="true">AUX</a>
-        <div class="menu-panel">
-          <p class="eyebrow text-aux">AUX</p>
-          <a href="/brands/aux">All AUX products</a>
-          {aux.map((category) => <a href={`/brands/aux?category=${category.id}`}>{category.name}</a>)}
-        </div>
-      </div>
-      <div class="group relative">
-        <a class:list={["nav-link", path.startsWith("/brands/clivet") && "is-current"]} href="/brands/clivet" aria-haspopup="true">CLIVET</a>
-        <div class="menu-panel">
-          <p class="eyebrow text-clivet">CLIVET</p>
-          <a href="/brands/clivet">All CLIVET products</a>
-          {clivet.map((category) => <a href={`/brands/clivet?category=${category.id}`}>{category.name}</a>)}
-        </div>
-      </div>
-      <a class:list={["nav-link", path.startsWith("/brands/dehumidifiers") && "is-current"]} href="/brands/dehumidifiers">Dehumidifiers</a>
-      <div class="group relative">
-        <a class:list={["nav-link", path.startsWith("/services") && "is-current"]} href="/services" aria-haspopup="true">Services</a>
-        <div class="menu-panel">
-          <a href="/services">All services</a>
-          {services.map((service) => <a href={`/services/${service.slug}`}>{service.name}</a>)}
-        </div>
-      </div>
-      <a class:list={["nav-link", path === "/projects" && "is-current"]} href="/projects">Projects</a>
-      <a class:list={["nav-link", path === "/events" && "is-current"]} href="/events">Events</a>
-      <a class:list={["nav-link", path === "/contact" && "is-current"]} href="/contact">Contact</a>
+    <nav class="hidden items-center gap-0.5 xl:flex" aria-label="Primary">
+      {
+        links.map((link) => (
+          <a class:list={["nav-link", current(link.href) && "is-current"]} href={link.href}>{link.label}</a>
+        ))
+      }
     </nav>
-    <a href="/search" class="grid h-10 w-10 place-items-center rounded-full border border-line" aria-label="Search products">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-        <circle cx="11" cy="11" r="7"></circle>
-        <path d="M20 20l-3.5-3.5"></path>
-      </svg>
-    </a>
-    <a href="/quote" class="btn hidden sm:inline-flex">Request a quote</a>
-    <button type="button" class="grid h-10 w-10 place-items-center rounded-full border border-line lg:hidden" data-menu-button aria-expanded="false" aria-controls="site-menu">
+    <a class="btn hidden sm:inline-flex" href="/quote">Request a Quote</a>
+    <button class="grid h-11 w-11 place-items-center border border-white/20 xl:hidden" type="button" data-menu-button aria-expanded="false" aria-controls="site-menu">
       <span class="sr-only">Open menu</span>
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-        <path d="M4 7h16M4 12h16M4 17h16"></path>
-      </svg>
+      <span aria-hidden="true">☰</span>
     </button>
   </div>
-  <div id="site-menu" class="hidden border-t border-line bg-white lg:hidden" data-menu>
-    <nav class="wrap grid gap-6 py-5" aria-label="Mobile">
-      <a href="/about">About</a>
-      <div>
-        <p class="eyebrow text-aux">{brandInfo("aux").name}</p>
-        <div class="mt-2 grid gap-2">
-          <a href="/brands/aux">All AUX products</a>
-          {aux.map((category) => <a href={`/brands/aux?category=${category.id}`}>{category.name}</a>)}
-        </div>
-      </div>
-      <div>
-        <p class="eyebrow text-clivet">{brandInfo("clivet").name}</p>
-        <div class="mt-2 grid gap-2">
-          <a href="/brands/clivet">All CLIVET products</a>
-          {clivet.map((category) => <a href={`/brands/clivet?category=${category.id}`}>{category.name}</a>)}
-        </div>
-      </div>
-      <div>
-        <p class="eyebrow text-dehu">Industrial Dehumidifiers</p>
-        <a class="mt-2 block" href="/brands/dehumidifiers">View the range</a>
-      </div>
-      <div>
-        <p class="eyebrow">Services</p>
-        <div class="mt-2 grid gap-2">
-          {services.map((service) => <a href={`/services/${service.slug}`}>{service.name}</a>)}
-        </div>
-      </div>
-      <a href="/projects">Projects</a>
-      <a href="/events">Events</a>
-      <a href="/contact">Contact</a>
-      <a href="/complaint">Register a Complaint</a>
-      <a href="/quote" class="btn w-fit">Request a quote</a>
-    </nav>
-  </div>
+  <nav id="site-menu" class="hidden border-t border-white/10 bg-navy px-4 py-4 xl:hidden" data-menu>
+    <div class="grid gap-2">
+      {links.map((link) => <a class="py-1 font-semibold" href={link.href}>{link.label}</a>)}
+      <a class="btn mt-2 w-fit" href="/quote">Request a Quote</a>
+    </div>
+  </nav>
 </header>
 
 <style>
   .nav-link {
-    border-radius: 999px;
-    padding: 0.35rem 0.5rem;
+    border-radius: 0;
+    padding: 0.45rem 0.55rem;
+    font-size: 0.92rem;
     font-weight: 600;
-    color: var(--color-ink);
+    color: white;
     text-decoration: none;
   }
   .nav-link.is-current,
   .nav-link:hover {
-    background: var(--color-paper);
-  }
-  .menu-panel {
-    visibility: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 20;
-    display: grid;
-    min-width: 16rem;
-    gap: 0.35rem;
-    padding: 0.9rem;
-    border: 1px solid var(--color-line);
-    border-radius: 1rem;
-    background: white;
-    box-shadow: 0 16px 40px rgba(16, 32, 51, 0.08);
-  }
-  .group:hover .menu-panel,
-  .group:focus-within .menu-panel {
-    visibility: visible;
-  }
-  .menu-panel a {
-    border-radius: 0.6rem;
-    padding: 0.35rem 0.45rem;
-    text-decoration: none;
-    color: var(--color-ink);
-  }
-  .menu-panel a:hover {
-    background: var(--color-paper);
+    color: var(--color-copper-bright);
   }
   .sr-only {
     position: absolute;

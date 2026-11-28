@@ -1,76 +1,84 @@
 ---
 import Base from "../layouts/Base.astro";
 import PageHero from "../components/PageHero.astro";
-import { affiliations, events, partners, site } from "../lib/catalog";
-const aboutPhotos = events.filter((event) => event.about);
-const ceo = site.people[0];
-const sales = site.people[1];
+
+const leaders = [
+  ["Zeeshan Ashraf", "CEO", "Mechanical engineer with 14 years in the Pakistan HVACR market. He has led industrial and residential work from tendering and design through sales and execution, including the ultra-high filtration snake venom laboratory, tri-generation, and Pakistan’s first inverter VRF system at Soorty."],
+  ["Irtaza Sarwar", "Director Marketing and Sales", "MBA, University of Hawaii, and a degree from Punjab University, with 32 years in marketing and sales for international brands in boilers, generators, automation and HVAC. He has led energy-efficiency work in textiles, food and other industries."],
+  ["Dr. Ahsan Iqbal", "Technical Director", "Ph.D. and mechanical engineer, with more than 9 years in research, consulting and operations, including Nordic Built Total Concept. A member of ASHRAE and ISIAQ, he specialises in HVAC, sustainable buildings, energy retrofitting and computational engineering."],
+  ["Abid Rehmani (R) Col.", "Director Administration", "More than 42 years of experience, including general manager administration in a leading Pakistani organisation."],
+  ["Subohi Arif", "Director, IBMS, Software and Business Division", "Ph.D. in biotechnology and an MBA, with more than 11 years of national and multinational experience."],
+  ["Sumaira Naveed", "Director Finance", "Chartered accountant with more than 19 years of national and multinational experience."],
+  ["Arif Ul Haq", "Director Trade and Planning", "MBA, with more than 17 years of multinational experience in export and import."],
+  ["Sohail Yousuf", "Director Sales and Marketing", "MPhil in business and marketing, with more than 26 years in the corporate world. He works in digital media and marketing research."],
+];
+const values = ["Commitment", "Integrity", "Quality", "Safety", "Teamwork", "Initiative", "Respect for People"];
 ---
 
 <Base
   title="About"
-  description="Cosmix Engineering (Pvt.) Ltd. is a Karachi HVACR company led by CEO Zeeshan Ashraf, with marketing and sales directed by Irtaza Sarwar."
+  description="Cosmix Engineering, formerly Gafoor Engineering Services since 1968. HVACR and MEP supply, installation and after-sales support across Pakistan."
   path="/about"
 >
   <PageHero
-    eyebrow="About the company"
-    title="HVACR engineering from Karachi."
-    lede="Cosmix Engineering, formerly Gafoor Engineering Services, works from Gulshan-e-Iqbal in Karachi and from Lahore. We supply, install and support air conditioning, ventilation and humidity control for commercial and industrial buildings."
+    eyebrow="About"
+    title="A National HVACR Practice Since 1968"
+    lede="Cosmix Engineering, formerly Gafoor Engineering Services, supplies, installs and supports MEP systems for industry, high-rise buildings and government facilities."
   />
-  <section class="wrap grid gap-10 py-14 lg:grid-cols-[1.1fr_0.9fr]">
-    <div>
-      <h2 class="font-serif text-3xl">What the company does</h2>
-      <div class="mt-4 grid gap-4 text-lg leading-relaxed text-muted">
-        <p>The work runs from equipment supply through installation, testing, commissioning and after-sales support. Projects in the portfolio include campuses, high-rises, hotels, workplaces and a mall, in Islamabad, Karachi, Multan, Quetta, Lahore and a pavilion in Shanghai.</p>
-        <p>Engineers and project staff work with clients across the major cities of Pakistan, from the Karachi head office and the Lahore office.</p>
-        <p>Zeeshan Ashraf is Chief Executive Officer. Irtaza Sarwar is Director Marketing & Sales.</p>
-      </div>
+  <section class="section wrap grid gap-10 lg:grid-cols-[1.2fr_0.8fr]" data-reveal>
+    <div class="grid gap-4 text-lg leading-relaxed">
+      <p>The portfolio runs past 200 projects, from industrial complexes to commercial towers and public buildings. The team includes more than 31 HVAC and electro-mechanical engineers and senior officials. The work runs from Peshawar to Karachi.</p>
+      <p>The commitment runs from equipment supply through installation, testing, commissioning and after-sales support. Clients include national and multinational corporations and public-sector organisations.</p>
     </div>
-    <aside class="rounded-3xl border border-line bg-paper p-6">
-      <p class="eyebrow text-copper">Marketing & sales</p>
-      <h2 class="mt-2 font-serif text-3xl">{sales.name}</h2>
-      <p class="text-muted">{sales.role}</p>
-      <p class="mt-4">Need help with a quotation? Contact Irtaza Sarwar.</p>
-      <p class="mt-3 font-semibold"><a href={`tel:${sales.tel}`}>{sales.phone}</a></p>
-      <p class="font-semibold"><a href={`mailto:${sales.email}`}>{sales.email}</a></p>
+    <aside class="panel">
+      <p class="eyebrow text-copper">The Firm</p>
+      <ul class="mt-4 grid gap-2 text-sm">
+        <li>Incorporated 2 July 2007</li>
+        <li>Legal status: Proprietorship</li>
+        <li>PEC registration 390792</li>
+        <li>NTN 2934193-7</li>
+        <li>GST 3277876129210</li>
+        <li>Auditors: Al Salahuddin & Co.</li>
+        <li>Turnover 2017: Rs 2,256 million</li>
+        <li>Turnover 2018: Rs 2,167 million</li>
+        <li>Turnover 2019: Rs 2,704 million</li>
+        <li>Banks: Bank AL Habib, Shahrah-e-Faisal; Standard Chartered; Bank Alfalah</li>
+      </ul>
     </aside>
   </section>
-
-  <section class="bg-paper py-14">
+  <section class="section bg-navy text-white" data-reveal>
+    <div class="wrap grid gap-8 md:grid-cols-3">
+      <article>
+        <p class="eyebrow text-copper-bright">Vision</p>
+        <p class="mt-3 leading-relaxed text-white/80">A self-motivated national leader in engineering, guided by research and by solutions based on engineering principles, current technology and international standards.</p>
+      </article>
+      <article>
+        <p class="eyebrow text-copper-bright">Mission</p>
+        <p class="mt-3 leading-relaxed text-white/80">Lifelong partnerships, with transparent and innovative solutions at an economical cost, and a faster move to sustainable energy.</p>
+      </article>
+      <article>
+        <p class="eyebrow text-copper-bright">Values</p>
+        <ul class="mt-3 grid gap-1 text-white/80">
+          {values.map((value) => <li>{value}</li>)}
+        </ul>
+      </article>
+    </div>
+  </section>
+  <section class="section" data-reveal>
     <div class="wrap">
-      <p class="eyebrow text-copper">Words from our leader</p>
-      <h2 class="mt-2 font-serif text-4xl">{ceo.name}</h2>
-      <p class="text-muted">{ceo.role}</p>
-      <blockquote class="mt-6 max-w-3xl font-serif text-2xl leading-snug md:text-3xl">“{ceo.quote}”</blockquote>
-      <div class="mt-8 grid gap-4 md:grid-cols-3">
+      <p class="eyebrow text-copper">Leadership and Management</p>
+      <h2 class="mt-2 font-serif text-4xl">The People Who Run the Work</h2>
+      <div class="mt-8 grid gap-4 md:grid-cols-2">
         {
-          aboutPhotos.map((photo) => (
-            <figure class="overflow-hidden rounded-2xl border border-line bg-white">
-              <img src={photo.src} width={photo.width} height={photo.height} alt={photo.alt} loading="lazy" decoding="async" class="aspect-[4/3] w-full object-cover" />
-              <figcaption class="p-3 text-sm text-muted">{photo.caption}</figcaption>
-            </figure>
+          leaders.map(([name, role, text]) => (
+            <article class="panel">
+              <h3 class="font-serif text-2xl">{name}</h3>
+              <p class="mt-1 text-sm font-semibold text-copper">{role}</p>
+              <p class="mt-3 text-sm leading-relaxed text-muted">{text}</p>
+            </article>
           ))
         }
       </div>
     </div>
-  </section>
-
-  <section class="wrap py-14">
-    <h2 class="font-serif text-3xl">Partners</h2>
-    <ul class="mt-6 grid grid-cols-2 gap-4 md:grid-cols-4">
-      {partners.map((partner) => (
-        <li class="grid h-28 place-items-center rounded-2xl border border-line bg-white p-4">
-          <img src={partner.src} width={partner.width} height={partner.height} alt={partner.alt} loading="lazy" decoding="async" class="max-h-16 w-auto object-contain" />
-        </li>
-      ))}
-    </ul>
-    <h2 class="mt-10 font-serif text-3xl">Affiliations</h2>
-    <ul class="mt-6 grid gap-4 sm:grid-cols-3">
-      {affiliations.map((item) => (
-        <li class="grid h-28 place-items-center rounded-2xl border border-line bg-white p-4">
-          <img src={item.src} width={item.width} height={item.height} alt={item.alt} loading="lazy" decoding="async" class="max-h-16 w-auto object-contain" />
-        </li>
-      ))}
-    </ul>
   </section>
 </Base>

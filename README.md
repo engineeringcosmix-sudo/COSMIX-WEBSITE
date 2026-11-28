@@ -19,6 +19,10 @@ node scripts/check-client-bundle.mjs  # fails if Hub secrets are in the browser 
 
 Node.js 22 builds the pages. The host only needs Apache and PHP 8.1.
 
+## Hero videos
+
+Background clips live in `public/videos/hero/`. Each clip has an `.mp4`, a `.webm`, and a poster at `public/videos/posters/<same-name>.jpg`. The home page lists those names in `src/pages/index.astro`. To use the owner’s footage, replace the three files for a name and keep the file name, or change the `slides` list to the new file name. Keep each file under about 3 MB at 720p. The clips shipping now are Mixkit stock (rooftop plant, site construction, outdoor condensing units), muted, looping, and covered by the Mixkit licence. The Internet Archive did not return the old WordPress video files.
+
 ## Deploy on Hostinger
 
 `npm run build` writes `dist/`. That folder is the contents of `public_html`: HTML, images, `.htaccess`, and `api/*.php`. There is no Node server. `.htaccess` turns on HTTPS, serves directory URLs, sends unknown paths to `404.html`, compresses text, and maps `/api/lead`, `/api/quote`, `/api/complaint` and `/api/wa-click` to the PHP files.
