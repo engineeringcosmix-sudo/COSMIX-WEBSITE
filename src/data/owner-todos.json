@@ -40,6 +40,6 @@
   "thirdTestimonial": "TODO: confirm that the sentence beginning “I really liked their services” belongs to Engineer Khalid Asghar of NUTECH. On the old page that sentence appeared before his name.",
   "duplicateEventPhoto": "event_17.jpg is byte-identical to event_04.jpg. The gallery shows that photograph once.",
   "affiliationPermission": "TODO: confirm Cosmix may keep displaying the ASHRAE, CEO Club Pakistan, TextileAsia, AUX, CLIVET, HOLTOP and RC Group marks.",
-  "hubIntake": "TODO: on the website host set HUB_BASE_URL, HUB_API_KEY and HUB_HMAC_SECRET. These are server-only. Do not prefix them with PUBLIC_. Contact posts to /api/lead, quotes to /api/quote, complaints to /api/complaint, and WhatsApp clicks to /api/wa-click. Until the three values are set, the forms ask the visitor to continue on WhatsApp.",
+  "hubIntake": "TODO: copy config.sample.php to cosmix-config.php in the directory above public_html and set HUB_BASE_URL, HUB_API_KEY and HUB_HMAC_SECRET there. Do not put that file inside public_html. Until the three values are set, the forms ask the visitor to continue on WhatsApp.",
   "turnstile": "TODO: create a Cloudflare Turnstile widget for cosmixengineering.com. Set PUBLIC_TURNSTILE_SITE_KEY on the website host. Set the Turnstile secret on the Hub host, not in this repository."
 }

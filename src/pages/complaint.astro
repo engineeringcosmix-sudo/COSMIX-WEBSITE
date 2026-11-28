@@ -70,7 +70,7 @@ const brands = [
         <textarea required name="problemDescription" rows="5" class="field"></textarea>
       </label>
       <label class="grid gap-1 text-sm font-semibold">Photos <span class="font-normal text-muted">(optional, up to 3, JPEG, PNG or WEBP)</span>
-        <input name="photos" type="file" accept="image/jpeg,image/png,image/webp" multiple class="field" />
+        <input name="photos[]" type="file" accept="image/jpeg,image/png,image/webp" multiple class="field" />
       </label>
       <label class="grid gap-1 text-sm font-semibold">Video <span class="font-normal text-muted">(optional MP4, up to 50 MB)</span>
         <input name="video" type="file" accept="video/mp4,.mp4" class="field" />
