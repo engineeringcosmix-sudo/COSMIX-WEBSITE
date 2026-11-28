@@ -1,0 +1,115 @@
+---
+import Base from "../layouts/Base.astro";
+import PageHero from "../components/PageHero.astro";
+import { eventCategories, events } from "../lib/catalog";
+---
+
+<Base
+  title="Events & achievements"
+  description="Photographs of Cosmix Engineering at awards, HVACR exhibitions and CEO summits in Karachi and Islamabad, including the CEO Excellence Award and an AUX launch stand."
+  path="/events"
+>
+  <PageHero
+    eyebrow="Events & achievements"
+    title="Awards, exhibition stands and summits."
+    lede="Awards, exhibition stands and summits with Cosmix Engineering in Karachi and Islamabad."
+  />
+  <section class="wrap py-10" data-events>
+    <div class="flex flex-wrap gap-2" role="group" aria-label="Event categories">
+      {
+        eventCategories.map((category) => (
+          <button type="button" class:list={["chip", category.id === "all" && "is-on"]} data-filter={category.id} aria-pressed={category.id === "all" ? "true" : "false"}>
+            {category.name}
+          </button>
+        ))
+      }
+    </div>
+    <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        events.map((event, index) => (
+          <figure class="overflow-hidden rounded-2xl border border-line bg-white" data-event={event.category}>
+            <button type="button" class="block w-full text-left" data-open={index} aria-label={`Open photograph: ${event.title}`}>
+              <img src={event.src} width={event.width} height={event.height} alt={event.alt} loading="lazy" decoding="async" class="aspect-[16/10] w-full object-cover" />
+              <div class="p-4">
+                <p class="eyebrow text-copper">{eventCategories.find((item) => item.id === event.category)?.name}</p>
+                <h2 class="mt-2 text-lg font-semibold">{event.title}</h2>
+                <p class="mt-1 text-sm text-muted">{event.caption}</p>
+              </div>
+            </button>
+          </figure>
+        ))
+      }
+    </div>
+  </section>
+
+  <dialog class="lightbox" data-lightbox>
+    <div class="rounded-2xl bg-white p-3">
+      <div class="flex items-center justify-between gap-3 px-1 pb-2">
+        <p class="font-semibold" data-light-title></p>
+        <button type="button" class="chip" data-close>Close</button>
+      </div>
+      <img data-light-img alt="" class="max-h-[70vh] w-full rounded-xl object-contain bg-paper" />
+      <div class="mt-3 flex items-center justify-between gap-3">
+        <button type="button" class="chip" data-step="-1">Previous</button>
+        <p class="text-sm text-muted" data-light-caption></p>
+        <button type="button" class="chip" data-step="1">Next</button>
+      </div>
+    </div>
+  </dialog>
+</Base>
+
+<script define:vars={{ events }}>
+  const figures = [...document.querySelectorAll("[data-event]")];
+  const buttons = [...document.querySelectorAll("[data-filter]")];
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const filter = button.getAttribute("data-filter");
+      buttons.forEach((item) => {
+        const on = item === button;
+        item.classList.toggle("is-on", on);
+        item.setAttribute("aria-pressed", String(on));
+      });
+      figures.forEach((figure) => {
+        const show = filter === "all" || figure.getAttribute("data-event") === filter;
+        figure.classList.toggle("hidden", !show);
+      });
+    });
+  });
+
+  const dialog = document.querySelector("[data-lightbox]");
+  const img = dialog?.querySelector("[data-light-img]");
+  const title = dialog?.querySelector("[data-light-title]");
+  const caption = dialog?.querySelector("[data-light-caption]");
+  let current = 0;
+  const show = (index) => {
+    const total = events.length;
+    current = (index + total) % total;
+    const event = events[current];
+    if (img instanceof HTMLImageElement) {
+      img.src = event.src;
+      img.alt = event.alt;
+      img.width = event.width;
+      img.height = event.height;
+    }
+    if (title) title.textContent = event.title;
+    if (caption) caption.textContent = event.caption;
+    if (dialog instanceof HTMLDialogElement && !dialog.open) dialog.showModal();
+  };
+  document.querySelectorAll("[data-open]").forEach((button) => {
+    button.addEventListener("click", () => show(Number(button.getAttribute("data-open"))));
+  });
+  dialog?.querySelector("[data-close]")?.addEventListener("click", () => {
+    if (dialog instanceof HTMLDialogElement) dialog.close();
+  });
+  dialog?.querySelectorAll("[data-step]").forEach((button) => {
+    button.addEventListener("click", () => show(current + Number(button.getAttribute("data-step"))));
+  });
+  dialog?.addEventListener("click", (event) => {
+    if (event.target === dialog && dialog instanceof HTMLDialogElement) dialog.close();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (!(dialog instanceof HTMLDialogElement) || !dialog.open) return;
+    if (event.key === "ArrowRight") show(current + 1);
+    if (event.key === "ArrowLeft") show(current - 1);
+  });
+</script>

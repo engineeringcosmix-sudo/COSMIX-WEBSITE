@@ -1,0 +1,138 @@
+---
+import { site, whatsappLink } from "../lib/catalog";
+
+interface Props {
+  mode?: "contact" | "quote";
+}
+
+const { mode = "quote" } = Astro.props;
+const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || "";
+const quote = mode === "quote";
+---
+
+<form
+  class="relative grid gap-4"
+  data-inquiry
+  data-mode={mode}
+  data-whatsapp={site.whatsapp}
+  novalidate
+>
+  <p class="hidden rounded-xl bg-paper px-4 py-3 text-sm" data-status role="status"></p>
+  <div class="grid gap-4 sm:grid-cols-2">
+    <label class="grid gap-1 text-sm font-semibold">Name
+      <input required name="name" autocomplete="name" class="field" />
+    </label>
+    <label class="grid gap-1 text-sm font-semibold">Company
+      <input name="company" autocomplete="organization" class="field" />
+    </label>
+    <label class="grid gap-1 text-sm font-semibold">Designation
+      <input name="designation" autocomplete="organization-title" class="field" />
+    </label>
+    <label class="grid gap-1 text-sm font-semibold">Phone
+      <input required name="mobile" autocomplete="tel" class="field" />
+    </label>
+    <label class="grid gap-1 text-sm font-semibold">WhatsApp <span class="font-normal text-muted">(optional)</span>
+      <input name="whatsapp" autocomplete="tel" class="field" />
+    </label>
+    <label class="grid gap-1 text-sm font-semibold">Email
+      <input type="email" name="email" autocomplete="email" class="field" />
+    </label>
+    <label class="grid gap-1 text-sm font-semibold">City
+      <input name="city" autocomplete="address-level2" class="field" />
+    </label>
+    <label class="grid gap-1 text-sm font-semibold">Province
+      <input name="province" autocomplete="address-level1" class="field" />
+    </label>
+  </div>
+  <label class="grid gap-1 text-sm font-semibold">Range
+    <select name="productInterest" class="field">
+      <option value="">Select a range</option>
+      <optgroup label="AUX">
+        <option value="AUX_VRF">VRF</option>
+        <option value="AUX_OTHER">Other AUX equipment</option>
+      </optgroup>
+      <optgroup label="CLIVET">
+        <option value="CLIVET_CHILLER">Chillers</option>
+        <option value="CLIVET_HEATPUMP">Heat pumps</option>
+        <option value="CLIVET_ROOFTOP">Rooftop packages</option>
+        <option value="CLIVET_AHU">Air handling and fresh air</option>
+      </optgroup>
+      <optgroup label="LUKO">
+        <option value="LUKO_DEHUMIDIFIER">Dehumidifiers</option>
+      </optgroup>
+      <optgroup label="HOLTOP">
+        <option value="HOLTOP_AHU">Air handling units</option>
+      </optgroup>
+      <optgroup label="Services">
+        <option value="SERVICES">Installation, maintenance and projects</option>
+      </optgroup>
+    </select>
+  </label>
+  {
+    quote && (
+      <label class="grid gap-1 text-sm font-semibold">
+        Product
+        <input name="product" class="field" placeholder="Series name" />
+      </label>
+    )
+  }
+  <fieldset class="grid gap-4 sm:grid-cols-2">
+    <legend class="mb-3 font-serif text-2xl">Project</legend>
+    <label class="grid gap-1 text-sm font-semibold">Project type
+      <input name="projectType" class="field" placeholder="Office, hotel, factory, home" />
+    </label>
+    <label class="grid gap-1 text-sm font-semibold">Area (sq ft)
+      <input name="areaSqFt" inputmode="decimal" class="field" />
+    </label>
+    <label class="grid gap-1 text-sm font-semibold">Estimated capacity (TR)
+      <input name="estimatedTR" inputmode="decimal" class="field" />
+    </label>
+    <label class="grid gap-1 text-sm font-semibold">Timeline
+      <input name="timeline" class="field" placeholder="For example this quarter" />
+    </label>
+    <label class="grid gap-1 text-sm font-semibold sm:col-span-2">Budget <span class="font-normal text-muted">(optional)</span>
+      <input name="budget" class="field" />
+    </label>
+  </fieldset>
+  <label class="grid gap-1 text-sm font-semibold">Message
+    <textarea required name="message" rows="5" class="field"></textarea>
+  </label>
+  {
+    quote && (
+      <label class="grid gap-1 text-sm font-semibold">
+        Bill of quantities <span class="font-normal text-muted">(optional, Excel or PDF, up to 15 MB)</span>
+        <input
+          name="boq"
+          type="file"
+          accept=".pdf,.xlsx,.xls,application/pdf,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+          class="field"
+        />
+      </label>
+    )
+  }
+  {
+    turnstileSiteKey && (
+      <div class="cf-turnstile" data-sitekey={turnstileSiteKey} data-theme="light"></div>
+    )
+  }
+  <div class="absolute h-0 w-0 overflow-hidden" aria-hidden="true">
+    <label>Company website
+      <input name="company_website" tabindex="-1" autocomplete="off" />
+    </label>
+  </div>
+  <div class="flex flex-wrap gap-3">
+    <button class="btn" type="submit">{quote ? "Request a quote" : "Send message"}</button>
+    <a class="btn-ghost" data-wa href={whatsappLink("Hello Cosmix Engineering, I would like to enquire.")}>Continue on WhatsApp</a>
+  </div>
+  <p class="text-sm text-muted">Sales WhatsApp {site.phones.find((phone) => phone.whatsapp)?.display}. If the form cannot be delivered, send the same details there.</p>
+</form>
+{
+  turnstileSiteKey && (
+    <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer />
+  )
+}
+
+<script>
+  import { bindInquiryForms } from "../scripts/inquiry-form";
+  bindInquiryForms();
+</script>

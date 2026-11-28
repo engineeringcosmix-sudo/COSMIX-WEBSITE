@@ -1,0 +1,20 @@
+{
+  "name": "cosmix-engineering",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "node scripts/check-content.mjs && node scripts/check-hub.mjs"
+  },
+  "dependencies": {
+    "@astrojs/netlify": "^6.6.5",
+    "@astrojs/sitemap": "^3.6.0",
+    "@fontsource/newsreader": "^5.2.8",
+    "@fontsource/outfit": "^5.2.8",
+    "@tailwindcss/vite": "^4.1.17",
+    "astro": "^5.16.0",
+    "tailwindcss": "^4.1.17"
+  }
+}

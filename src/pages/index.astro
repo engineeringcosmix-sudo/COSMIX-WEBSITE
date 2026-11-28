@@ -1,0 +1,215 @@
+---
+import Base from "../layouts/Base.astro";
+import { brands, companyImages, events, productsFor, projects, services, site, testimonials, affiliations, partners } from "../lib/catalog";
+import { breadcrumbLd } from "../lib/seo";
+
+const description = "Cosmix Engineering (Pvt.) Ltd., Karachi. Air conditioning, ventilation and humidity control for commercial and industrial buildings across Pakistan.";
+const featured = events.filter((event) => event.featured);
+const auxImage = productsFor("aux")[0].gallery[0];
+const clivetImage = productsFor("clivet")[0].gallery[0];
+const portalImages = {
+  aux: auxImage,
+  clivet: clivetImage,
+  dehumidifiers: (productsFor("dehumidifiers").find((item) => item.slug === "luko-desiccant-fd-d820k-d1550k") ?? productsFor("dehumidifiers")[0]).gallery[0],
+};
+---
+
+<Base
+  title="Cosmix Engineering | HVACR in Karachi"
+  description={description}
+  path="/"
+  image={companyImages.og.src}
+  imageAlt={companyImages.og.alt}
+  extraLd={[breadcrumbLd([{ name: "Home", path: "/" }])]}
+>
+  <section class="relative isolate overflow-hidden bg-navy text-white">
+    <img
+      src={companyImages.hero.src}
+      width={companyImages.hero.width}
+      height={companyImages.hero.height}
+      alt={companyImages.hero.alt}
+      fetchpriority="high"
+      decoding="async"
+      class="absolute inset-0 h-full w-full object-cover opacity-45"
+    />
+    <div class="absolute inset-0 bg-gradient-to-r from-navy via-navy/88 to-navy/25"></div>
+    <div class="wrap relative py-20 md:py-28">
+      <p class="eyebrow text-copper-bright">Karachi · HVACR engineering</p>
+      <h1 class="mt-4 max-w-3xl font-serif text-5xl leading-[1.05] md:text-7xl">Climate systems for the buildings Pakistan relies on.</h1>
+      <p class="mt-6 max-w-xl text-lg text-white/80">
+        Cosmix Engineering, formerly Gafoor Engineering Services, supplies, installs and supports HVACR equipment for commercial and industrial buildings from Karachi and Lahore.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a class="btn" href="#brands">Explore our brands</a>
+        <a class="btn-ghost" href="/quote">Request a quote</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="brands" class="wrap py-16">
+    <p class="eyebrow text-copper">Our brands</p>
+    <h2 class="mt-2 max-w-2xl font-serif text-4xl">Explore our product ranges.</h2>
+    <div class="mt-8 grid gap-4 lg:grid-cols-3">
+      {
+        brands.map((brand) => {
+          const image = portalImages[brand.id];
+          return (
+            <article data-brand={brand.id} class="brand-rule flex flex-col overflow-hidden rounded-3xl border border-line bg-white">
+              <div class="grid aspect-[16/10] place-items-center bg-paper p-4">
+                <img src={image.src} width={image.width} height={image.height} alt={image.alt} loading="lazy" decoding="async" class="max-h-full max-w-full object-contain" />
+              </div>
+              <div class="flex flex-1 flex-col p-5">
+                <h3 class="font-serif text-3xl">{brand.name}</h3>
+                <p class="mt-2 text-sm leading-relaxed text-muted">{brand.summary}</p>
+                <p class="mt-3 text-sm font-semibold text-[var(--brand)]">{brand.note}</p>
+                <a class="btn mt-5 w-fit" href={brand.href}>View range</a>
+              </div>
+            </article>
+          );
+        })
+      }
+    </div>
+  </section>
+
+  <section class="bg-paper py-16">
+    <div class="wrap">
+      <div class="flex flex-wrap items-end justify-between gap-4">
+        <div>
+          <p class="eyebrow text-copper">Services</p>
+          <h2 class="mt-2 font-serif text-4xl">From selection to after-sales</h2>
+        </div>
+        <a class="font-semibold underline-offset-2 hover:underline" href="/services">All services</a>
+      </div>
+      <div class="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        {
+          services.map((service, index) => (
+            <a href={`/services/${service.slug}`} class="rounded-2xl border border-line bg-white p-5 no-underline hover:border-copper">
+              <p class="font-serif text-2xl text-copper">{String(index + 1).padStart(2, "0")}</p>
+              <h3 class="mt-3 text-xl font-semibold">{service.name}</h3>
+              <p class="mt-2 text-sm leading-relaxed text-muted">{service.summary}</p>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap py-16" data-carousel>
+    <div class="flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="eyebrow text-copper">Events & achievements</p>
+        <h2 class="mt-2 font-serif text-4xl">Awards, exhibitions and summits</h2>
+      </div>
+      <div class="flex gap-2">
+        <button type="button" class="chip" data-dir="-1" aria-label="Previous events">Previous</button>
+        <button type="button" class="chip" data-dir="1" aria-label="Next events">Next</button>
+      </div>
+    </div>
+    <div class="track mt-6">
+      {
+        featured.map((event) => (
+          <a href="/events" class="overflow-hidden rounded-2xl border border-line bg-white no-underline">
+            <img src={event.src} width={event.width} height={event.height} alt={event.alt} loading="lazy" decoding="async" class="aspect-[16/10] w-full object-cover" />
+            <div class="p-4">
+              <p class="eyebrow text-copper">{event.category}</p>
+              <h3 class="mt-2 font-semibold">{event.title}</h3>
+              <p class="mt-1 text-sm text-muted">{event.caption}</p>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+    <p class="mt-4 text-sm"><a class="font-semibold underline-offset-2 hover:underline" href="/events">Open the full gallery</a></p>
+  </section>
+
+  <section class="bg-navy py-16 text-white">
+    <div class="wrap grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
+      <div>
+        <p class="eyebrow text-copper-bright">Projects</p>
+        <h2 class="mt-2 font-serif text-4xl">Named in the company portfolio</h2>
+        <p class="mt-4 text-white/75">Campuses, towers, hotels, workplaces and retail from the Cosmix Engineering portfolio.</p>
+        <a class="btn mt-6" href="/projects">View projects</a>
+      </div>
+      <ul class="grid gap-3 sm:grid-cols-2">
+        {
+          projects.map((project) => (
+            <li class="rounded-2xl border border-white/15 p-4">
+              <p class="text-sm text-copper-bright">{project.kind}</p>
+              <h3 class="mt-1 text-xl font-semibold">{project.name}</h3>
+              <p class="text-sm text-white/70">{project.city}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="wrap py-16">
+    <h2 class="font-serif text-4xl">Partners and affiliations</h2>
+    <p class="mt-2 max-w-2xl text-muted">Equipment partners and the organisations Cosmix Engineering works with.</p>
+    <h3 class="mt-8 text-sm font-semibold uppercase tracking-wide text-muted">Equipment partners</h3>
+    <ul class="mt-4 grid grid-cols-2 items-center gap-4 md:grid-cols-4">
+      {
+        partners.map((partner) => (
+          <li class="grid h-28 place-items-center rounded-2xl border border-line bg-white p-4">
+            <img src={partner.src} width={partner.width} height={partner.height} alt={partner.alt} loading="lazy" decoding="async" class="max-h-16 w-auto object-contain" />
+          </li>
+        ))
+      }
+    </ul>
+    <h3 class="mt-8 text-sm font-semibold uppercase tracking-wide text-muted">Affiliated with</h3>
+    <ul class="mt-4 grid grid-cols-1 items-center gap-4 sm:grid-cols-3">
+      {
+        affiliations.map((item) => (
+          <li class="grid h-28 place-items-center rounded-2xl border border-line bg-white p-4">
+            <img src={item.src} width={item.width} height={item.height} alt={item.alt} loading="lazy" decoding="async" class="max-h-16 w-auto object-contain" />
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section class="bg-paper py-16">
+    <div class="wrap">
+      <h2 class="font-serif text-4xl">What clients have said</h2>
+      <div class="mt-8 grid gap-4 lg:grid-cols-3">
+        {
+          testimonials.map((item) => (
+            <figure class="rounded-2xl border border-line bg-white p-5">
+              <blockquote class="font-serif text-xl leading-snug">“{item.quote}”</blockquote>
+              <figcaption class="mt-4 text-sm">
+                <span class="font-semibold">{item.name}</span>
+                <span class="block text-muted">{item.role}</span>
+              </figcaption>
+            </figure>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap py-16">
+    <div class="grid gap-6 rounded-3xl bg-navy px-6 py-10 text-white md:grid-cols-[1.4fr_0.8fr] md:px-10">
+      <div>
+        <h2 class="font-serif text-4xl">Talk to the Karachi office</h2>
+        <p class="mt-3 text-white/75">{site.offices[0].lines.join(", ")}. {site.hours}.</p>
+      </div>
+      <div class="flex flex-wrap content-center gap-3">
+        <a class="btn" href="/quote">Request a quote</a>
+        <a class="btn-ghost" href="/contact">Contact</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<script>
+  const root = document.querySelector("[data-carousel]");
+  const track = root?.querySelector(".track");
+  root?.querySelectorAll("[data-dir]").forEach((button) => {
+    button.addEventListener("click", () => {
+      if (!(track instanceof HTMLElement) || !(button instanceof HTMLButtonElement)) return;
+      const amount = track.clientWidth * 0.85 * Number(button.dataset.dir || 1);
+      track.scrollBy({ left: amount, behavior: "smooth" });
+    });
+  });
+</script>

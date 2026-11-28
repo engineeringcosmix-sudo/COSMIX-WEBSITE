@@ -1,0 +1,2506 @@
+[
+  {
+    "brand": "clivet",
+    "slug": "spinchiller4",
+    "name": "SPINchiller4",
+    "subtitle": "Air-cooled scroll liquid chiller, outdoor installation",
+    "categoryId": "air-cooled-chillers",
+    "categoryName": "Air-Cooled Chillers",
+    "group": "Chillers",
+    "model": "WSAT-YSC4 80.3–240.6 / 265.6–350.8",
+    "bullets": [
+      "Scroll compressors, two independent circuits",
+      "Operation up to 50 °C outdoor air",
+      "Excellence and Premium versions",
+      "Up to 8 units in cascade"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "222 – 939 kW"
+      },
+      {
+        "label": "Max. outdoor air",
+        "value": "Up to 50 °C"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R32"
+      }
+    ],
+    "capacity": {
+      "text": "222–675 kW (WSAT-YSC4 80.3–240.6) and 720–939 kW (WSAT-YSC4 265.6–350.8)",
+      "min": 222,
+      "max": 939,
+      "unit": "kW"
+    },
+    "overview": "SPINchiller4 is CLIVET's air-cooled scroll chiller for large commercial and industrial buildings. Two series cover 222 to 939 kW of cooling. Scroll compressors and two independent refrigerant circuits give high reliability, and the unit runs at outdoor air temperatures up to 50 °C, which suits Pakistan's summers. Choose the Excellence version for the highest efficiency or the Premium version for compact dimensions and a lower initial investment. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports SPINchiller4 projects nationwide.",
+    "features": [
+      {
+        "title": "Built for reliability",
+        "text": "Scroll compressors, EC axial fans (microchannel coils on the larger series) and two independent circuits.",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Built for reliability",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Hot-climate operation",
+        "text": "Runs at outdoor air temperatures up to 50 °C, with chilled water down to -12 °C (-8 °C on the larger series).",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Hot-climate operation",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Two versions",
+        "text": "Excellence for high full-load and seasonal efficiency; Premium for compact dimensions and reduced initial investment.",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Two versions",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Low-GWP refrigerant",
+        "text": "Uses R32, with a GWP of 675.",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Low-GWP refrigerant",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Quiet where it matters",
+        "text": "Three acoustic configurations; plate or shell & tube heat exchanger.",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Quiet where it matters",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Ready-to-connect options",
+        "text": "Integrated hydronic assembly, system tank and partial or total heat recovery; up to 8 units in cascade.",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Ready-to-connect options",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "WSAT-YSC4 80.3–240.6 / 265.6–350.8",
+      "Cooling capacity: 222 – 939 kW",
+      "Max. outdoor air: Up to 50 °C"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/spinchiller4/view-1.webp",
+        "width": 900,
+        "height": 606,
+        "alt": "SPINchiller4 by CLIVET"
+      }
+    ],
+    "related": [
+      "large-evo",
+      "elfoenergy-sheen-evo",
+      "elfoenergy-storm-evo",
+      "screwline4-i-r513a"
+    ],
+    "ctaTitle": "Planning a chiller plant?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "large-evo",
+    "name": "LARGE EVO",
+    "subtitle": "Full-inverter air-cooled liquid chiller, outdoor installation",
+    "categoryId": "air-cooled-chillers",
+    "categoryName": "Air-Cooled Chillers",
+    "group": "Chillers",
+    "model": "WiSAT-YEE1 45.4–90.4",
+    "bullets": [
+      "Full inverter compressors and fans",
+      "Designed for harsh, hot climates",
+      "Aluminium microchannel coils",
+      "Up to 8 units in cascade"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "110 – 252 kW"
+      },
+      {
+        "label": "Max. outdoor air",
+        "value": "48 °C"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R32"
+      }
+    ],
+    "capacity": {
+      "text": "110–252 kW",
+      "min": 110,
+      "max": 252,
+      "unit": "kW"
+    },
+    "overview": "LARGE EVO is a full-inverter air-cooled chiller from 110 to 252 kW. Inverter scroll or rotary compressors match output to the building's load, and CLIVET designed it as a high-temperature solution for harsh climates, with operation at 48 °C outdoor air. It suits offices, hotels, hospitals and malls that need a mid-size chiller with low running costs. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports LARGE EVO projects nationwide.",
+    "features": [
+      {
+        "title": "Full inverter technology",
+        "text": "Inverter scroll or rotary compressors modulate capacity to the actual load.",
+        "image": {
+          "src": "/images/products/clivet/large-evo/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Full inverter technology",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Made for hot climates",
+        "text": "Operation at 48 °C outdoor air temperature, chilled water down to -8 °C.",
+        "image": {
+          "src": "/images/products/clivet/large-evo/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Made for hot climates",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Excellence or Premium",
+        "text": "Excellence for greater efficiency, Premium for reduced initial investment.",
+        "image": {
+          "src": "/images/products/clivet/large-evo/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Excellence or Premium",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Microchannel coils",
+        "text": "Aluminium microchannel condensing coils.",
+        "image": {
+          "src": "/images/products/clivet/large-evo/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Microchannel coils",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Three acoustic levels",
+        "text": "Standard, silent and super-silent configurations.",
+        "image": {
+          "src": "/images/products/clivet/large-evo/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Three acoustic levels",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Hydronics on board",
+        "text": "Integrated hydronic assembly, system tank and partial heat recovery; up to 8 units in cascade.",
+        "image": {
+          "src": "/images/products/clivet/large-evo/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Hydronics on board",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "WiSAT-YEE1 45.4–90.4",
+      "Cooling capacity: 110 – 252 kW",
+      "Max. outdoor air: 48 °C"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/large-evo/view-1.webp",
+        "width": 900,
+        "height": 595,
+        "alt": "LARGE EVO by CLIVET"
+      }
+    ],
+    "related": [
+      "spinchiller4",
+      "elfoenergy-sheen-evo",
+      "elfoenergy-storm-evo",
+      "screwline4-i-r513a"
+    ],
+    "ctaTitle": "Planning a chiller plant?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "elfoenergy-sheen-evo",
+    "name": "ELFOEnergy Sheen EVO",
+    "subtitle": "Full-inverter air-cooled liquid chiller, outdoor installation",
+    "categoryId": "air-cooled-chillers",
+    "categoryName": "Air-Cooled Chillers",
+    "group": "Chillers",
+    "model": "WSAT-YSi 16.2–55.2",
+    "bullets": [
+      "Full inverter rotary or scroll compressors",
+      "Ideal for new projects and replacements",
+      "Up to 16 units in parallel",
+      "Three acoustic levels"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "43 – 130 kW"
+      },
+      {
+        "label": "Max. outdoor air",
+        "value": "48 °C"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R32"
+      }
+    ],
+    "capacity": {
+      "text": "43–130 kW",
+      "min": 43,
+      "max": 130,
+      "unit": "kW"
+    },
+    "overview": "ELFOEnergy Sheen EVO is a compact full-inverter air-cooled chiller from 43 to 130 kW. CLIVET positions it for projects driven by first investment and for refurbishment, so it is a strong choice when replacing an older chiller. It works at outdoor temperatures up to 48 °C, and its modular design lets up to 16 units run in parallel as the building grows. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports Sheen EVO projects nationwide.",
+    "features": [
+      {
+        "title": "Full inverter",
+        "text": "Rotary or scroll inverter compressors for high seasonal efficiency.",
+        "image": {
+          "src": "/images/products/clivet/elfoenergy-sheen-evo/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Full inverter",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Smart first investment",
+        "text": "Designed for budget-driven projects and chiller replacement.",
+        "image": {
+          "src": "/images/products/clivet/elfoenergy-sheen-evo/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Smart first investment",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Operating limits",
+        "text": "Operation up to 48 °C outdoor air, chilled water down to -8 °C.",
+        "image": {
+          "src": "/images/products/clivet/elfoenergy-sheen-evo/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Operating limits",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Modular design",
+        "text": "Up to 16 units in parallel, saving installation space.",
+        "image": {
+          "src": "/images/products/clivet/elfoenergy-sheen-evo/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Modular design",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Three acoustic levels",
+        "text": "Standard, silenced and super-silenced.",
+        "image": {
+          "src": "/images/products/clivet/elfoenergy-sheen-evo/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Three acoustic levels",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "R32 refrigerant",
+        "text": "Lower-GWP refrigerant (GWP 675).",
+        "image": {
+          "src": "/images/products/clivet/elfoenergy-sheen-evo/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "R32 refrigerant",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "WSAT-YSi 16.2–55.2",
+      "Cooling capacity: 43 – 130 kW",
+      "Max. outdoor air: 48 °C"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/elfoenergy-sheen-evo/view-1.webp",
+        "width": 900,
+        "height": 855,
+        "alt": "ELFOEnergy Sheen EVO by CLIVET"
+      }
+    ],
+    "related": [
+      "spinchiller4",
+      "large-evo",
+      "elfoenergy-storm-evo",
+      "screwline4-i-r513a"
+    ],
+    "ctaTitle": "Planning a chiller plant?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "elfoenergy-storm-evo",
+    "name": "ELFOEnergy STORM EVO",
+    "subtitle": "Full-inverter air-cooled chiller (heat pump version available)",
+    "categoryId": "air-cooled-chillers",
+    "categoryName": "Air-Cooled Chillers",
+    "group": "Chillers",
+    "model": "WSAT-YES / WSAN-YES 18.2–35.2",
+    "bullets": [
+      "Full inverter, compact footprint",
+      "Cooling-only or reversible heat pump",
+      "Up to 16 units in parallel",
+      "Integrated hydronic kit and tank"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "53 – 85 kW"
+      },
+      {
+        "label": "Max. outdoor air",
+        "value": "48 °C"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R32"
+      }
+    ],
+    "capacity": {
+      "text": "53.1–85.1 kW",
+      "min": 53,
+      "max": 85,
+      "unit": "kW"
+    },
+    "overview": "ELFOEnergy STORM EVO is a compact full-inverter air-cooled unit from 53 to 85 kW, available as a cooling-only chiller (WSAT-YES) or a reversible heat pump (WSAN-YES). It operates up to 48 °C outdoor air, comes with an integrated hydronic assembly and system tank, and can be combined in parallel with up to 16 units, which makes it a flexible choice for small and medium commercial buildings. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports STORM EVO projects nationwide.",
+    "features": [
+      {
+        "title": "Full inverter",
+        "text": "Scroll or rotary inverter compressors.",
+        "image": {
+          "src": "/images/products/clivet/elfoenergy-storm-evo/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Full inverter",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Chiller or heat pump",
+        "text": "Cooling-only WSAT-YES or reversible WSAN-YES.",
+        "image": {
+          "src": "/images/products/clivet/elfoenergy-storm-evo/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Chiller or heat pump",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Operating limits",
+        "text": "Operation up to 48 °C outdoor air; chilled water down to -8 °C; hot water up to 55 °C on the heat pump.",
+        "image": {
+          "src": "/images/products/clivet/elfoenergy-storm-evo/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Operating limits",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Compact and modular",
+        "text": "Up to 16 units in parallel for reduced installation space.",
+        "image": {
+          "src": "/images/products/clivet/elfoenergy-storm-evo/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Compact and modular",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Three acoustic levels",
+        "text": "Standard, silenced and super-silenced.",
+        "image": {
+          "src": "/images/products/clivet/elfoenergy-storm-evo/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Three acoustic levels",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Plug-and-play hydronics",
+        "text": "Integrated hydronic assembly, system tank and 3-way valve (heat pump only).",
+        "image": {
+          "src": "/images/products/clivet/elfoenergy-storm-evo/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Plug-and-play hydronics",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "WSAT-YES / WSAN-YES 18.2–35.2",
+      "Cooling capacity: 53 – 85 kW",
+      "Max. outdoor air: 48 °C"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/elfoenergy-storm-evo/view-1.webp",
+        "width": 900,
+        "height": 839,
+        "alt": "ELFOEnergy STORM EVO by CLIVET"
+      }
+    ],
+    "related": [
+      "spinchiller4",
+      "large-evo",
+      "elfoenergy-sheen-evo",
+      "screwline4-i-r513a"
+    ],
+    "ctaTitle": "Planning a chiller plant?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "screwline4-i-r513a",
+    "name": "SCREWLine4-i (R513A)",
+    "subtitle": "Inverter screw air-cooled liquid chiller, outdoor installation",
+    "categoryId": "air-cooled-chillers",
+    "categoryName": "Air-Cooled Chillers",
+    "group": "Chillers",
+    "model": "WDAT-iK4 120.1–580.2",
+    "bullets": [
+      "Inverter screw compressors",
+      "Operation up to 52 °C outdoor air",
+      "Microchannel coils and EC axial fans",
+      "Up to 7 units in cascade"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "281 – 1422 kW"
+      },
+      {
+        "label": "Max. outdoor air",
+        "value": "52 °C"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R513A"
+      }
+    ],
+    "capacity": {
+      "text": "281–1422 kW",
+      "min": 281,
+      "max": 1422,
+      "unit": "kW"
+    },
+    "overview": "SCREWLine4-i is CLIVET's inverter screw air-cooled chiller for large projects, from 281 to 1422 kW. One or two independent circuits give high reliability, and operation up to 52 °C outdoor air makes it well suited to Pakistan's hottest regions. It uses low-GWP R513A, with microchannel coils and EC axial fans. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports SCREWLine4-i projects nationwide.",
+    "features": [
+      {
+        "title": "Inverter screw compressors",
+        "text": "Capacity follows the load across a wide range.",
+        "image": {
+          "src": "/images/products/clivet/screwline4-i-r513a/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Inverter screw compressors",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "52 °C operation",
+        "text": "Operation up to 52 °C outdoor air, chilled water down to -8 °C.",
+        "image": {
+          "src": "/images/products/clivet/screwline4-i-r513a/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "52 °C operation",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "High reliability",
+        "text": "One or two independent refrigerant circuits.",
+        "image": {
+          "src": "/images/products/clivet/screwline4-i-r513a/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "High reliability",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Excellence or Premium",
+        "text": "Excellence for high efficiency; Premium for compact dimensions and lower initial investment.",
+        "image": {
+          "src": "/images/products/clivet/screwline4-i-r513a/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Excellence or Premium",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Low environmental impact",
+        "text": "R513A refrigerant, GWP 631.",
+        "image": {
+          "src": "/images/products/clivet/screwline4-i-r513a/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Low environmental impact",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "System options",
+        "text": "Three acoustic configurations, integrated hydronic assembly and partial recovery; up to 7 units in cascade.",
+        "image": {
+          "src": "/images/products/clivet/screwline4-i-r513a/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "System options",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "WDAT-iK4 120.1–580.2",
+      "Cooling capacity: 281 – 1422 kW",
+      "Max. outdoor air: 52 °C"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/screwline4-i-r513a/view-1.webp",
+        "width": 900,
+        "height": 576,
+        "alt": "SCREWLine4-i (R513A) by CLIVET"
+      }
+    ],
+    "related": [
+      "spinchiller4",
+      "large-evo",
+      "elfoenergy-sheen-evo",
+      "elfoenergy-storm-evo"
+    ],
+    "ctaTitle": "Planning a chiller plant?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "screwline4-i-r1234ze",
+    "name": "SCREWLine4-i (R1234ze)",
+    "subtitle": "Near-zero-GWP inverter screw air-cooled chiller",
+    "categoryId": "air-cooled-chillers",
+    "categoryName": "Air-Cooled Chillers",
+    "group": "Chillers",
+    "model": "WDAT-iZ4 120.1–580.2",
+    "bullets": [
+      "HFO refrigerant R1234ze, GWP 7",
+      "Inverter screw compressors",
+      "Operation up to 52 °C outdoor air",
+      "Up to 7 units in cascade"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "204 – 1055 kW"
+      },
+      {
+        "label": "Max. outdoor air",
+        "value": "52 °C"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R1234ze"
+      }
+    ],
+    "capacity": {
+      "text": "204–1055 kW",
+      "min": 204,
+      "max": 1055,
+      "unit": "kW"
+    },
+    "overview": "This SCREWLine4-i version uses the HFO refrigerant R1234ze (GWP 7), which CLIVET describes as a near-zero environmental impact solution. It covers 204 to 1055 kW with inverter screw compressors and operates up to 52 °C outdoor air. It is a good fit for green-building and sustainability-led projects. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports SCREWLine4-i projects nationwide.",
+    "features": [
+      {
+        "title": "Near-zero GWP",
+        "text": "R1234ze refrigerant with a GWP of 7.",
+        "image": {
+          "src": "/images/products/clivet/screwline4-i-r1234ze/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Near-zero GWP",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Inverter screw technology",
+        "text": "Microchannel coils and ECOBREEZE axial fans.",
+        "image": {
+          "src": "/images/products/clivet/screwline4-i-r1234ze/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Inverter screw technology",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "52 °C operation",
+        "text": "Operation up to 52 °C outdoor air, chilled water down to -2 °C.",
+        "image": {
+          "src": "/images/products/clivet/screwline4-i-r1234ze/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "52 °C operation",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "High reliability",
+        "text": "One or two independent circuits.",
+        "image": {
+          "src": "/images/products/clivet/screwline4-i-r1234ze/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "High reliability",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Three acoustic configurations",
+        "text": "Choose the noise level for the site.",
+        "image": {
+          "src": "/images/products/clivet/screwline4-i-r1234ze/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Three acoustic configurations",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "System options",
+        "text": "Integrated hydronic assembly and partial recovery; up to 7 units in cascade.",
+        "image": {
+          "src": "/images/products/clivet/screwline4-i-r1234ze/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "System options",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "WDAT-iZ4 120.1–580.2",
+      "Cooling capacity: 204 – 1055 kW",
+      "Max. outdoor air: 52 °C"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/screwline4-i-r1234ze/view-1.webp",
+        "width": 900,
+        "height": 576,
+        "alt": "SCREWLine4-i (R1234ze) by CLIVET"
+      }
+    ],
+    "related": [
+      "spinchiller4",
+      "large-evo",
+      "elfoenergy-sheen-evo",
+      "elfoenergy-storm-evo"
+    ],
+    "ctaTitle": "Planning a chiller plant?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "screwline4-i-water-cooled",
+    "name": "SCREWLine4-i Water Cooled",
+    "subtitle": "Inverter screw water-cooled liquid chiller, indoor installation",
+    "categoryId": "water-cooled-chillers",
+    "categoryName": "Water-Cooled Chillers",
+    "group": "Chillers",
+    "model": "WDH-iK4 120.1–540.2",
+    "bullets": [
+      "Inverter screw compressors",
+      "Spray shell & tube evaporator",
+      "Three operating modes",
+      "Up to 8 units in cascade"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "340 – 1440 kW"
+      },
+      {
+        "label": "Installation",
+        "value": "Indoor plant room"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R513A"
+      }
+    ],
+    "capacity": {
+      "text": "340–1440 kW",
+      "min": 340,
+      "max": 1440,
+      "unit": "kW"
+    },
+    "overview": "SCREWLine4-i Water Cooled is an inverter screw chiller for plant rooms with cooling towers, from 340 to 1440 kW. A spray shell & tube evaporator and one or two independent circuits give efficient, reliable operation. It can run as cooling only, heating only or with water-circuit change-over, and uses low-GWP R513A. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports water-cooled chiller projects nationwide.",
+    "features": [
+      {
+        "title": "Inverter screw compressors",
+        "text": "Spray shell & tube evaporator.",
+        "image": {
+          "src": "/images/products/clivet/screwline4-i-water-cooled/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Inverter screw compressors",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "High reliability",
+        "text": "One or two independent circuits.",
+        "image": {
+          "src": "/images/products/clivet/screwline4-i-water-cooled/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "High reliability",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Three operating modes",
+        "text": "Cooling only, heating only, or water-circuit change-over.",
+        "image": {
+          "src": "/images/products/clivet/screwline4-i-water-cooled/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Three operating modes",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Wide water limits",
+        "text": "Condenser water up to 65 °C (HWT version); evaporator water down to -8 °C.",
+        "image": {
+          "src": "/images/products/clivet/screwline4-i-water-cooled/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Wide water limits",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Quiet operation",
+        "text": "Standard and super-silenced acoustic configurations.",
+        "image": {
+          "src": "/images/products/clivet/screwline4-i-water-cooled/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Quiet operation",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Scalable plant",
+        "text": "Up to 8 units in cascade.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "WDH-iK4 120.1–540.2",
+      "Cooling capacity: 340 – 1440 kW"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/screwline4-i-water-cooled/view-1.webp",
+        "width": 900,
+        "height": 555,
+        "alt": "SCREWLine4-i Water Cooled by CLIVET"
+      }
+    ],
+    "related": [
+      "wch-iz-centrifugal",
+      "screwline3-mde-sl3",
+      "spinchiller4",
+      "large-evo"
+    ],
+    "ctaTitle": "Planning a chiller plant?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "wch-iz-centrifugal",
+    "name": "WCH-iZ Centrifugal",
+    "subtitle": "Inverter centrifugal water-cooled chiller with HFO refrigerant",
+    "categoryId": "water-cooled-chillers",
+    "categoryName": "Water-Cooled Chillers",
+    "group": "Chillers",
+    "model": "WCH-iZ 230–450",
+    "bullets": [
+      "Patented back-to-back centrifugal compressor",
+      "Inverter regulation",
+      "Near-zero GWP R1234ze",
+      "Low noise, almost no vibration"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "808 – 1599 kW"
+      },
+      {
+        "label": "Length",
+        "value": "Under 4 m"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R1234ze"
+      }
+    ],
+    "capacity": {
+      "text": "808–1599 kW",
+      "min": 808,
+      "max": 1599,
+      "unit": "kW"
+    },
+    "overview": "WCH-iZ is CLIVET's water-cooled centrifugal chiller for large commercial and industrial buildings, from 808 to 1599 kW. A patented horizontal back-to-back centrifugal compressor with inverter regulation runs quietly with almost no vibration. It uses R1234ze (GWP 7), and at under 4 metres long it fits into existing plant rooms. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports large chiller-plant projects nationwide.",
+    "features": [
+      {
+        "title": "Patented centrifugal compressor",
+        "text": "Horizontal back-to-back design with inverter regulation.",
+        "image": {
+          "src": "/images/products/clivet/wch-iz-centrifugal/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Patented centrifugal compressor",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Near-zero environmental impact",
+        "text": "R1234ze refrigerant, GWP 7.",
+        "image": {
+          "src": "/images/products/clivet/wch-iz-centrifugal/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Near-zero environmental impact",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Efficient heat exchange",
+        "text": "Falling film evaporator, economizer and oil recovery system.",
+        "image": {
+          "src": "/images/products/clivet/wch-iz-centrifugal/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Efficient heat exchange",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Quiet and smooth",
+        "text": "Low-noise operation with almost no vibration.",
+        "image": {
+          "src": "/images/products/clivet/wch-iz-centrifugal/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Quiet and smooth",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Compact size",
+        "text": "Length under 4 metres.",
+        "image": {
+          "src": "/images/products/clivet/wch-iz-centrifugal/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Compact size",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Water limits",
+        "text": "Condenser water up to 40 °C; evaporator water down to 4 °C.",
+        "image": {
+          "src": "/images/products/clivet/wch-iz-centrifugal/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Water limits",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "WCH-iZ 230–450",
+      "Cooling capacity: 808 – 1599 kW"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/wch-iz-centrifugal/view-1.webp",
+        "width": 900,
+        "height": 602,
+        "alt": "WCH-iZ Centrifugal by CLIVET"
+      }
+    ],
+    "related": [
+      "screwline4-i-water-cooled",
+      "screwline3-mde-sl3",
+      "spinchiller4",
+      "large-evo"
+    ],
+    "ctaTitle": "Planning a chiller plant?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "screwline3-mde-sl3",
+    "name": "SCREWLine3 MDE-SL3",
+    "subtitle": "Condenserless screw chiller for remote condensers, indoor installation",
+    "categoryId": "water-cooled-chillers",
+    "categoryName": "Water-Cooled Chillers",
+    "group": "Chillers",
+    "model": "MDE-SL3 120.1–580.2",
+    "bullets": [
+      "Screw compressors, shell & tube evaporator",
+      "Works with remote condensers",
+      "One or two independent circuits",
+      "Up to 8 units in cascade"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "300 – 1427 kW"
+      },
+      {
+        "label": "Condensing temp.",
+        "value": "Up to 65 °C"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R134a"
+      }
+    ],
+    "capacity": {
+      "text": "300–1427 kW",
+      "min": 300,
+      "max": 1427,
+      "unit": "kW"
+    },
+    "overview": "MDE-SL3 is a condenserless screw chiller from 300 to 1427 kW. It is installed indoors and works with remote condensers, so the compressor section stays protected in the plant room. Sensitive components are protected from the weather, and one or two independent circuits give high reliability. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports MDE-SL3 projects nationwide.",
+    "features": [
+      {
+        "title": "Screw compressors",
+        "text": "Shell & tube evaporator.",
+        "image": {
+          "src": "/images/products/clivet/screwline3-mde-sl3/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Screw compressors",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Remote condenser design",
+        "text": "Indoor unit with remote condensation.",
+        "image": {
+          "src": "/images/products/clivet/screwline3-mde-sl3/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Remote condenser design",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "High reliability",
+        "text": "One or two independent circuits.",
+        "image": {
+          "src": "/images/products/clivet/screwline3-mde-sl3/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "High reliability",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Protected components",
+        "text": "All sensitive components protected against atmospheric agents.",
+        "image": {
+          "src": "/images/products/clivet/screwline3-mde-sl3/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Protected components",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Operating limits",
+        "text": "Condensing temperature up to 65 °C; water down to -8 °C.",
+        "image": {
+          "src": "/images/products/clivet/screwline3-mde-sl3/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Operating limits",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Quiet, scalable plant",
+        "text": "Standard and super-silenced versions; up to 8 units in cascade.",
+        "image": {
+          "src": "/images/products/clivet/screwline3-mde-sl3/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Quiet, scalable plant",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "MDE-SL3 120.1–580.2",
+      "Cooling capacity: 300 – 1427 kW"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/screwline3-mde-sl3/view-1.webp",
+        "width": 900,
+        "height": 520,
+        "alt": "SCREWLine3 MDE-SL3 by CLIVET"
+      }
+    ],
+    "related": [
+      "screwline4-i-water-cooled",
+      "wch-iz-centrifugal",
+      "spinchiller4",
+      "large-evo"
+    ],
+    "ctaTitle": "Planning a chiller plant?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "sheen-evo-2-0",
+    "name": "Sheen EVO 2.0",
+    "subtitle": "Full-inverter air-cooled reversible heat pump",
+    "categoryId": "heat-pumps",
+    "categoryName": "Heat Pumps",
+    "group": "Heat Pumps",
+    "model": "WiSAN-YSE1 10.1–55.2",
+    "bullets": [
+      "Chilled water and hot water in one unit",
+      "Full inverter technology",
+      "Extremely compact dimensions",
+      "Solar and Smart Grid ready"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity range",
+        "value": "24.1 – 128 kW"
+      },
+      {
+        "label": "Hot water",
+        "value": "Up to 60 °C"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R32"
+      }
+    ],
+    "capacity": {
+      "text": "24.1–128 kW",
+      "min": 24.1,
+      "max": 128,
+      "unit": "kW"
+    },
+    "overview": "Sheen EVO 2.0 is a full-inverter air-cooled reversible heat pump from 24.1 to 128 kW. It produces chilled water in summer and hot water up to 60 °C in winter, which suits buildings in northern Pakistan that need both. It is extremely compact, comes in Excellence and Premium versions, and works with photovoltaic, solar thermal and Smart Grid systems. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports heat-pump projects nationwide.",
+    "features": [
+      {
+        "title": "Full inverter",
+        "text": "Inverter scroll or rotary compressors.",
+        "image": {
+          "src": "/images/products/clivet/sheen-evo-2-0/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Full inverter",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Heating and cooling",
+        "text": "Hot water up to 60 °C, chilled water down to 0 °C.",
+        "image": {
+          "src": "/images/products/clivet/sheen-evo-2-0/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Heating and cooling",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Harsh-climate ready",
+        "text": "Operating range down to -20 °C.",
+        "image": {
+          "src": "/images/products/clivet/sheen-evo-2-0/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Harsh-climate ready",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Excellence or Premium",
+        "text": "Very high or high seasonal efficiency, both with compact dimensions.",
+        "image": {
+          "src": "/images/products/clivet/sheen-evo-2-0/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Excellence or Premium",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Renewable-ready",
+        "text": "Compatible with CONTROL4 NRG, PV, solar thermal and Smart Grid.",
+        "image": {
+          "src": "/images/products/clivet/sheen-evo-2-0/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Renewable-ready",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Hybrid option",
+        "text": "Available with a condensing boiler for instant domestic hot water.",
+        "image": {
+          "src": "/images/products/clivet/sheen-evo-2-0/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Hybrid option",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "WiSAN-YSE1 10.1–55.2",
+      "Capacity range: 24.1 – 128 kW"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/sheen-evo-2-0/view-1.webp",
+        "width": 900,
+        "height": 676,
+        "alt": "Sheen EVO 2.0 by CLIVET"
+      }
+    ],
+    "related": [
+      "large-evo-heat-pump",
+      "spinchiller4-heat-pump",
+      "spinchiller4-pl-multi-purpose",
+      "spinchiller4"
+    ],
+    "ctaTitle": "Need heating and cooling?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "large-evo-heat-pump",
+    "name": "LARGE EVO Heat Pump",
+    "subtitle": "Full-inverter air-cooled reversible heat pump",
+    "categoryId": "heat-pumps",
+    "categoryName": "Heat Pumps",
+    "group": "Heat Pumps",
+    "model": "WiSAN-YEE1 45.4–85.4",
+    "bullets": [
+      "Full inverter compressors",
+      "High-temperature heat pump",
+      "Extremely compact dimensions",
+      "Up to 8 units in cascade"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity range",
+        "value": "115 – 233 kW"
+      },
+      {
+        "label": "Hot water",
+        "value": "Up to 60 °C"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R32"
+      }
+    ],
+    "capacity": {
+      "text": "115–233 kW",
+      "min": 115,
+      "max": 233,
+      "unit": "kW"
+    },
+    "overview": "LARGE EVO Heat Pump is the reversible version of LARGE EVO, from 115 to 233 kW. It provides chilled water and hot water up to 60 °C from one compact outdoor unit, with full-inverter compressors and an operating range down to -20 °C. It is a good fit for hotels, hospitals and offices that need year-round heating and cooling. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports heat-pump projects nationwide.",
+    "features": [
+      {
+        "title": "Full inverter",
+        "text": "Inverter scroll or rotary compressors.",
+        "image": {
+          "src": "/images/products/clivet/large-evo-heat-pump/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Full inverter",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "High-temperature heat pump",
+        "text": "Hot water up to 60 °C.",
+        "image": {
+          "src": "/images/products/clivet/large-evo-heat-pump/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "High-temperature heat pump",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Wide operating range",
+        "text": "Operation down to -20 °C outdoor.",
+        "image": {
+          "src": "/images/products/clivet/large-evo-heat-pump/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Wide operating range",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Compact footprint",
+        "text": "High seasonal efficiency with extremely compact dimensions.",
+        "image": {
+          "src": "/images/products/clivet/large-evo-heat-pump/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Compact footprint",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Three acoustic configurations",
+        "text": "Standard, silent and super-silent.",
+        "image": {
+          "src": "/images/products/clivet/large-evo-heat-pump/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Three acoustic configurations",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Hydronics on board",
+        "text": "Hydronic assembly, system tank, partial heat recovery; up to 8 units in cascade.",
+        "image": {
+          "src": "/images/products/clivet/large-evo-heat-pump/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Hydronics on board",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "WiSAN-YEE1 45.4–85.4",
+      "Capacity range: 115 – 233 kW"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/large-evo-heat-pump/view-1.webp",
+        "width": 900,
+        "height": 595,
+        "alt": "LARGE EVO Heat Pump by CLIVET"
+      }
+    ],
+    "related": [
+      "sheen-evo-2-0",
+      "spinchiller4-heat-pump",
+      "spinchiller4-pl-multi-purpose",
+      "spinchiller4"
+    ],
+    "ctaTitle": "Need heating and cooling?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "spinchiller4-heat-pump",
+    "name": "SPINchiller4 Heat Pump",
+    "subtitle": "Air-cooled scroll reversible heat pump, outdoor installation",
+    "categoryId": "heat-pumps",
+    "categoryName": "Heat Pumps",
+    "group": "Heat Pumps",
+    "model": "WSAN-YSC4 80.3–240.6",
+    "bullets": [
+      "Scroll compressors, two independent circuits",
+      "Excellence and Premium versions",
+      "Hot water up to 55 °C",
+      "Up to 8 units in cascade"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity range",
+        "value": "215 – 655 kW"
+      },
+      {
+        "label": "Hot water",
+        "value": "Up to 55 °C"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R32"
+      }
+    ],
+    "capacity": {
+      "text": "215–655 kW",
+      "min": 215,
+      "max": 655,
+      "unit": "kW"
+    },
+    "overview": "SPINchiller4 Heat Pump is the reversible version of CLIVET's large scroll platform, from 215 to 655 kW. It supplies chilled water in summer and hot water up to 55 °C in winter, with two independent circuits for reliability and an operating range down to -15 °C. It suits large buildings that need heating and cooling from one plant. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports large heat-pump projects nationwide.",
+    "features": [
+      {
+        "title": "Built for reliability",
+        "text": "Scroll compressors, EC axial fans and two independent circuits.",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4-heat-pump/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Built for reliability",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Heating and cooling",
+        "text": "Hot water up to 55 °C; operating range down to -15 °C.",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4-heat-pump/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Heating and cooling",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Two versions",
+        "text": "Excellence for efficiency; Premium for compact size and lower investment.",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4-heat-pump/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Two versions",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Flexible exchangers",
+        "text": "Plate or shell & tube heat exchanger.",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4-heat-pump/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Flexible exchangers",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Quiet operation",
+        "text": "Standard and super-silenced configurations.",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4-heat-pump/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Quiet operation",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Hydronics on board",
+        "text": "Hydronic assembly, system tank, partial heat recovery; up to 8 units in cascade.",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4-heat-pump/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Hydronics on board",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "WSAN-YSC4 80.3–240.6",
+      "Capacity range: 215 – 655 kW"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/spinchiller4-heat-pump/view-1.webp",
+        "width": 900,
+        "height": 479,
+        "alt": "SPINchiller4 Heat Pump by CLIVET"
+      }
+    ],
+    "related": [
+      "sheen-evo-2-0",
+      "large-evo-heat-pump",
+      "spinchiller4-pl-multi-purpose",
+      "spinchiller4"
+    ],
+    "ctaTitle": "Need heating and cooling?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "spinchiller4-pl-multi-purpose",
+    "name": "SPINchiller4 PL Multi-purpose",
+    "subtitle": "Air-cooled polyvalent unit for simultaneous hot and chilled water",
+    "categoryId": "heat-pumps",
+    "categoryName": "Heat Pumps",
+    "group": "Heat Pumps",
+    "model": "WSAN-YSC4 PL 90.4–265.6",
+    "bullets": [
+      "Hot and chilled water at the same time",
+      "Configurable for 4-pipe systems",
+      "Two independent circuits",
+      "Up to 7 units in cascade"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity range",
+        "value": "225 – 664 kW"
+      },
+      {
+        "label": "Water",
+        "value": "Hot to 55 °C / chilled to +5 °C"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R32"
+      }
+    ],
+    "capacity": {
+      "text": "225–664 kW",
+      "min": 225,
+      "max": 664,
+      "unit": "kW"
+    },
+    "overview": "SPINchiller4 PL is a multi-purpose (polyvalent) air-cooled unit from 225 to 664 kW, configurable for 4-pipe systems. It produces chilled water and hot water at the same time, recovering heat that a normal chiller would reject. That makes it ideal for hotels, hospitals and mixed-use buildings that need both together. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports multi-purpose projects nationwide.",
+    "features": [
+      {
+        "title": "Simultaneous production",
+        "text": "Hot water up to 55 °C and chilled water down to +5 °C, at the same time.",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4-pl-multi-purpose/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Simultaneous production",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "4-pipe ready",
+        "text": "Polyvalent technology configurable for 4-pipe systems.",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4-pl-multi-purpose/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "4-pipe ready",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Reliable design",
+        "text": "Scroll compressors, EC axial fans and two independent circuits.",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4-pl-multi-purpose/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Reliable design",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Plate heat exchanger",
+        "text": "Compact plate exchanger.",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4-pl-multi-purpose/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Plate heat exchanger",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Quiet operation",
+        "text": "Standard and super-silenced configurations.",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4-pl-multi-purpose/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Quiet operation",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Hot and cold hydronics",
+        "text": "Integrated hot-side and cold-side hydronic assemblies; up to 7 units in cascade.",
+        "image": {
+          "src": "/images/products/clivet/spinchiller4-pl-multi-purpose/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Hot and cold hydronics",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "WSAN-YSC4 PL 90.4–265.6",
+      "Capacity range: 225 – 664 kW"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/spinchiller4-pl-multi-purpose/view-1.webp",
+        "width": 900,
+        "height": 480,
+        "alt": "SPINchiller4 PL Multi-purpose by CLIVET"
+      }
+    ],
+    "related": [
+      "sheen-evo-2-0",
+      "large-evo-heat-pump",
+      "spinchiller4-heat-pump",
+      "spinchiller4"
+    ],
+    "ctaTitle": "Need heating and cooling?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "clivetpack3",
+    "name": "CLIVETPack3",
+    "subtitle": "Air-cooled rooftop reversible heat pump, large capacity",
+    "categoryId": "rooftop",
+    "categoryName": "Rooftop",
+    "group": "Rooftop",
+    "model": "CSRN-Y 60.4–120.4",
+    "bullets": [
+      "Cooling, heating, filtration and fresh air in one unit",
+      "Enthalpy wheel energy recovery",
+      "Double refrigerant circuit",
+      "Remote monitoring via INTELLIAIR"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity range",
+        "value": "191 – 344 kW"
+      },
+      {
+        "label": "Airflow (CCK-REVO)",
+        "value": "29,000 – 60,000 m³/h"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R32"
+      }
+    ],
+    "capacity": {
+      "text": "191–344 kW; airflow 29,000–60,000 m³/h (CCK-REVO version)",
+      "min": 191,
+      "max": 344,
+      "unit": "kW"
+    },
+    "overview": "CLIVETPack3 is a large-capacity rooftop packaged heat pump from 191 to 344 kW. One unit on the roof handles cooling, heating, filtration, fresh air and energy recovery, with no plant room or chilled-water network needed. That makes it a natural fit for malls, hypermarkets, cinemas, exhibition halls and factories. Units up to 200 kW cooling are Eurovent certified. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports rooftop projects nationwide.",
+    "features": [
+      {
+        "title": "All-in-one rooftop",
+        "text": "Air conditioning, filtration, fresh air and exhaust recovery in one packaged unit.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "All-in-one rooftop",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Enthalpy wheel recovery",
+        "text": "Recovers energy from exhaust air.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Enthalpy wheel recovery",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Clean air, low fan energy",
+        "text": "Enhanced air filtration with low ventilation consumption.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Clean air, low fan energy",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Reliable double circuit",
+        "text": "A double refrigerant circuit for reliability and efficiency.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Reliable double circuit",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Extended limits",
+        "text": "Heating down to -15 °C outdoor.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Extended limits",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Connected",
+        "text": "Remote and centralised monitoring via INTELLIAIR; Eurovent certified up to 200 kW.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Connected",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "CSRN-Y 60.4–120.4",
+      "Capacity range: 191 – 344 kW",
+      "Airflow (CCK-REVO): 29,000 – 60,000 m³/h"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/clivetpack3/view-1.webp",
+        "width": 1036,
+        "height": 527,
+        "alt": "CLIVETPack3 by CLIVET"
+      }
+    ],
+    "related": [
+      "clivetpack3i",
+      "clivetpack3i-for-crowded-buildings",
+      "smartpack3",
+      "spinchiller4"
+    ],
+    "ctaTitle": "Planning a rooftop solution?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "clivetpack3i",
+    "name": "CLIVETPack3i",
+    "subtitle": "Full-inverter air-cooled rooftop reversible heat pump",
+    "categoryId": "rooftop",
+    "categoryName": "Rooftop",
+    "group": "Rooftop",
+    "model": "CSRN-iY 20.2–56.4",
+    "bullets": [
+      "Full inverter rooftop",
+      "Enthalpy wheel energy recovery",
+      "Double refrigerant circuit",
+      "Remote monitoring via INTELLIAIR"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity range",
+        "value": "59 – 155 kW"
+      },
+      {
+        "label": "Airflow (CCK-REVO)",
+        "value": "8,500 – 34,000 m³/h"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R32"
+      }
+    ],
+    "capacity": {
+      "text": "59–155 kW; airflow 8,500–34,000 m³/h (CCK-REVO version)",
+      "min": 59,
+      "max": 155,
+      "unit": "kW"
+    },
+    "overview": "CLIVETPack3i brings full-inverter technology to CLIVET's rooftop range, from 59 to 155 kW. One packaged roof unit provides cooling, heating, filtered fresh air and exhaust-air energy recovery, and the inverter matches output to the actual load. It suits supermarkets, showrooms, restaurants, gyms and other single-volume spaces. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports rooftop projects nationwide.",
+    "features": [
+      {
+        "title": "Full inverter",
+        "text": "Output modulates to the real load.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3i/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Full inverter",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Energy recovery",
+        "text": "Energy recovery concept evolved, including an enthalpy wheel.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3i/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Energy recovery",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Clean air, low fan energy",
+        "text": "Enhanced air filtration with low ventilation consumption.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3i/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Clean air, low fan energy",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Reliable double circuit",
+        "text": "A double refrigerant circuit for reliability and efficiency.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3i/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Reliable double circuit",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Extended limits",
+        "text": "Heating down to -15 °C outdoor.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3i/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Extended limits",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Connected",
+        "text": "Remote and centralised monitoring via INTELLIAIR.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3i/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Connected",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "CSRN-iY 20.2–56.4",
+      "Capacity range: 59 – 155 kW",
+      "Airflow (CCK-REVO): 8,500 – 34,000 m³/h"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/clivetpack3i/view-1.webp",
+        "width": 900,
+        "height": 533,
+        "alt": "CLIVETPack3i by CLIVET"
+      }
+    ],
+    "related": [
+      "clivetpack3",
+      "clivetpack3i-for-crowded-buildings",
+      "smartpack3",
+      "spinchiller4"
+    ],
+    "ctaTitle": "Planning a rooftop solution?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "clivetpack3i-for-crowded-buildings",
+    "name": "CLIVETPack3i for Crowded Buildings",
+    "subtitle": "Full-inverter rooftop heat pump for high-occupancy spaces",
+    "categoryId": "rooftop",
+    "categoryName": "Rooftop",
+    "group": "Rooftop",
+    "model": "CSNX-iY 20.2–40.4",
+    "bullets": [
+      "Designed for crowded buildings",
+      "Full inverter",
+      "Exhaust-air energy recovery",
+      "Remote monitoring via INTELLIAIR"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity range",
+        "value": "40 – 119 kW"
+      },
+      {
+        "label": "Airflow (CCK-REVO)",
+        "value": "4,000 – 25,000 m³/h"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R32"
+      }
+    ],
+    "capacity": {
+      "text": "40–119 kW; airflow 4,000–25,000 m³/h (CCK-REVO version)",
+      "min": 40,
+      "max": 119,
+      "unit": "kW"
+    },
+    "overview": "This CLIVETPack3i version (CSNX-iY) is designed specifically for crowded, high-occupancy buildings, from 40 to 119 kW. Cinemas, auditoriums, schools, wedding halls and restaurants need large amounts of fresh air, and this full-inverter rooftop unit delivers it with exhaust-air energy recovery and efficient filtration. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports rooftop projects nationwide.",
+    "features": [
+      {
+        "title": "Made for crowds",
+        "text": "Designed for high-attendance buildings.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3i-for-crowded-buildings/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Made for crowds",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Full inverter",
+        "text": "Output modulates to the real load.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3i-for-crowded-buildings/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Full inverter",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Energy recovery",
+        "text": "Evolved energy recovery concept on exhaust air.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3i-for-crowded-buildings/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Energy recovery",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Efficient filtration",
+        "text": "Enhanced filtration with low power consumption.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3i-for-crowded-buildings/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Efficient filtration",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Reliable double circuit",
+        "text": "Double refrigerant circuit for reliability; heating down to -15 °C outdoor.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3i-for-crowded-buildings/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Reliable double circuit",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Connected",
+        "text": "Remote and centralised monitoring via INTELLIAIR.",
+        "image": {
+          "src": "/images/products/clivet/clivetpack3i-for-crowded-buildings/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Connected",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "CSNX-iY 20.2–40.4",
+      "Capacity range: 40 – 119 kW",
+      "Airflow (CCK-REVO): 4,000 – 25,000 m³/h"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/clivetpack3i-for-crowded-buildings/view-1.webp",
+        "width": 1004,
+        "height": 596,
+        "alt": "CLIVETPack3i for Crowded Buildings by CLIVET"
+      }
+    ],
+    "related": [
+      "clivetpack3",
+      "clivetpack3i",
+      "smartpack3",
+      "spinchiller4"
+    ],
+    "ctaTitle": "Planning a rooftop solution?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "smartpack3",
+    "name": "SMARTPACK3",
+    "subtitle": "Compact full-inverter rooftop reversible heat pump",
+    "categoryId": "rooftop",
+    "categoryName": "Rooftop",
+    "group": "Rooftop",
+    "model": "CKN-iM 10.1–14.1",
+    "bullets": [
+      "Extremely compact rooftop",
+      "Full inverter, high part-load efficiency",
+      "All components on board",
+      "Remote monitoring via INTELLIAIR"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity range",
+        "value": "25.3 – 42.4 kW"
+      },
+      {
+        "label": "Airflow (CCK-REVO)",
+        "value": "3,200 – 12,000 m³/h"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R454C"
+      }
+    ],
+    "capacity": {
+      "text": "25.3–42.4 kW; airflow 3,200–12,000 m³/h (CCK-REVO version)",
+      "min": 25.3,
+      "max": 42.4,
+      "unit": "kW"
+    },
+    "overview": "SMARTPACK3 is CLIVET's compact full-inverter rooftop unit, from 25.3 to 42.4 kW. It brings rooftop benefits such as fresh air, filtration and energy recovery to smaller shops, branches, restaurants and offices. With every component on board, installation is quick and simple. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports rooftop projects nationwide.",
+    "features": [
+      {
+        "title": "Extremely compact",
+        "text": "A small footprint for smaller roofs.",
+        "image": {
+          "src": "/images/products/clivet/smartpack3/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Extremely compact",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Full inverter",
+        "text": "High part-load efficiency.",
+        "image": {
+          "src": "/images/products/clivet/smartpack3/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Full inverter",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Energy recovery",
+        "text": "Evolved energy recovery concept.",
+        "image": {
+          "src": "/images/products/clivet/smartpack3/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Energy recovery",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Clean air",
+        "text": "Enhanced air filtration with low ventilation consumption.",
+        "image": {
+          "src": "/images/products/clivet/smartpack3/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Clean air",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Easy installation",
+        "text": "All components on board; heating down to -20 °C.",
+        "image": {
+          "src": "/images/products/clivet/smartpack3/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Easy installation",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Connected",
+        "text": "Remote and centralised monitoring via INTELLIAIR.",
+        "image": {
+          "src": "/images/products/clivet/smartpack3/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Connected",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "CKN-iM 10.1–14.1",
+      "Capacity range: 25.3 – 42.4 kW",
+      "Airflow (CCK-REVO): 3,200 – 12,000 m³/h"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/smartpack3/view-1.webp",
+        "width": 900,
+        "height": 722,
+        "alt": "SMARTPACK3 by CLIVET"
+      }
+    ],
+    "related": [
+      "clivetpack3",
+      "clivetpack3i",
+      "clivetpack3i-for-crowded-buildings",
+      "spinchiller4"
+    ],
+    "ctaTitle": "Planning a rooftop solution?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "zephir4",
+    "name": "ZEPHIR4",
+    "subtitle": "Full fresh-air make-up unit with thermodynamic heat recovery",
+    "categoryId": "ahu-fresh-air",
+    "categoryName": "AHU & Fresh Air",
+    "group": "AHU & Fresh Air",
+    "model": "CPAN-iY Size 1–4",
+    "bullets": [
+      "100% fresh air with heat recovery",
+      "Full inverter heat pump",
+      "Supply temperature and humidity control",
+      "Electronic iFD filters as standard"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity range",
+        "value": "36 – 108 kW"
+      },
+      {
+        "label": "Airflow",
+        "value": "2,300 – 19,000 m³/h"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R32"
+      }
+    ],
+    "capacity": {
+      "text": "36–108 kW; airflow 2,300–19,000 m³/h",
+      "min": 36,
+      "max": 108,
+      "unit": "kW"
+    },
+    "overview": "ZEPHIR4 is CLIVET's outdoor primary-air (make-up) unit, from 36 to 108 kW and 2,300 to 19,000 m³/h. It delivers 100% fresh, filtered air at controlled temperature and humidity, and recovers energy from exhaust air with an active thermodynamic heat-pump circuit. It suits hospitals, schools, offices and malls that need healthy indoor air with low running costs. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports fresh-air projects nationwide.",
+    "features": [
+      {
+        "title": "Thermodynamic recovery",
+        "text": "Active heat-pump recovery from exhaust air, with low ventilation consumption.",
+        "image": {
+          "src": "/images/products/clivet/zephir4/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Thermodynamic recovery",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Precise supply air",
+        "text": "Fixed set-point control of supply temperature and humidity in heating and cooling.",
+        "image": {
+          "src": "/images/products/clivet/zephir4/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Precise supply air",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Maximum filtration",
+        "text": "Standard iFD electronic filters with low fan power.",
+        "image": {
+          "src": "/images/products/clivet/zephir4/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Maximum filtration",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "No cross-contamination",
+        "text": "Supply and exhaust airflows never mix.",
+        "image": {
+          "src": "/images/products/clivet/zephir4/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "No cross-contamination",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Smart free cooling and IAQ",
+        "text": "Smart free-cooling and indoor air quality management; modulating re-heat.",
+        "image": {
+          "src": "/images/products/clivet/zephir4/feature-5.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Smart free cooling and IAQ",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Easy integration",
+        "text": "All primary-air devices on board; works with Clivet EYE and INTELLIAIR supervision.",
+        "image": {
+          "src": "/images/products/clivet/zephir4/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Easy integration",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "CPAN-iY Size 1–4",
+      "Capacity range: 36 – 108 kW",
+      "Airflow: 2,300 – 19,000 m³/h"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/zephir4/view-1.webp",
+        "width": 900,
+        "height": 687,
+        "alt": "ZEPHIR4 by CLIVET"
+      }
+    ],
+    "related": [
+      "aqx-air-handling-unit",
+      "hrv-heat-recovery-ventilator",
+      "spinchiller4",
+      "large-evo"
+    ],
+    "ctaTitle": "Need fresh, healthy air?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "aqx-air-handling-unit",
+    "name": "AQX Air Handling Unit",
+    "subtitle": "Modular-section air handling unit, indoor and outdoor installation",
+    "categoryId": "ahu-fresh-air",
+    "categoryName": "AHU & Fresh Air",
+    "group": "AHU & Fresh Air",
+    "model": "AQX 1–32",
+    "bullets": [
+      "32 sizes, 1,200 to 120,000 m³/h",
+      "Customisable in 50 mm steps",
+      "Full range of filtration and heat recovery",
+      "Hygienic AQX H version available"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Airflow",
+        "value": "1,200 – 120,000 m³/h"
+      },
+      {
+        "label": "Sizes",
+        "value": "32 standard sizes"
+      },
+      {
+        "label": "Installation",
+        "value": "Indoor / outdoor"
+      }
+    ],
+    "capacity": {
+      "text": "Airflow 1,200–120,000 m³/h (32 sizes)",
+      "min": 0,
+      "max": 200,
+      "unit": "m³/h"
+    },
+    "overview": "AQX is CLIVET's modular air handling unit, built from sections to suit each project, with 32 standard sizes from 1,200 to 120,000 m³/h. Height and width can be customised in 50 mm steps for tight plant rooms, and a full choice of filters, coils, heat recovery and humidification is available. The hygienic AQX H version is designed for hospitals, pharmaceutical, food and electronics applications. AQX is part of the Eurovent AHU certification programme. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports AHU projects nationwide.",
+    "features": [
+      {
+        "title": "Fits any building",
+        "text": "32 sizes; height and width customisable in 50 mm steps.",
+        "image": {
+          "src": "/images/products/clivet/aqx-air-handling-unit/feature-1.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Fits any building",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Robust casing",
+        "text": "50 or 60 mm double-skin sandwich panels with thermal-break options (T2/TB2, T2/TB3).",
+        "image": {
+          "src": "/images/products/clivet/aqx-air-handling-unit/feature-2.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Robust casing",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Complete filtration",
+        "text": "From coarse to absolute, electronic and activated-carbon filters, plus UV-C and photocatalytic options.",
+        "image": {
+          "src": "/images/products/clivet/aqx-air-handling-unit/feature-3.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Complete filtration",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Heat recovery and coils",
+        "text": "Plate, rotary and run-around recovery; water, DX, steam and electric coils; humidification options.",
+        "image": {
+          "src": "/images/products/clivet/aqx-air-handling-unit/feature-4.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Heat recovery and coils",
+          "kind": "icon"
+        }
+      },
+      {
+        "title": "Easy to clean",
+        "text": "Smooth internal surfaces, sloped insulated drain pans in aluminium or stainless steel.",
+        "image": null
+      },
+      {
+        "title": "Supervision",
+        "text": "Supplied with or without controls; remote and centralised supervision via INTELLIAIR.",
+        "image": {
+          "src": "/images/products/clivet/aqx-air-handling-unit/feature-6.webp",
+          "width": 120,
+          "height": 120,
+          "alt": "Supervision",
+          "kind": "icon"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "AQX 1–32",
+      "Airflow: 1,200 – 120,000 m³/h",
+      "Sizes: 32 standard sizes"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/aqx-air-handling-unit/view-1.webp",
+        "width": 900,
+        "height": 558,
+        "alt": "AQX Air Handling Unit by CLIVET"
+      }
+    ],
+    "related": [
+      "zephir4",
+      "hrv-heat-recovery-ventilator",
+      "spinchiller4",
+      "large-evo"
+    ],
+    "ctaTitle": "Need fresh, healthy air?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  },
+  {
+    "brand": "clivet",
+    "slug": "hrv-heat-recovery-ventilator",
+    "name": "HRV Heat Recovery Ventilator",
+    "subtitle": "Energy-saving fresh-air ventilation with heat recovery",
+    "categoryId": "ahu-fresh-air",
+    "categoryName": "AHU & Fresh Air",
+    "group": "AHU & Fresh Air",
+    "model": "HRV-3 D200–D2000",
+    "bullets": [
+      "Renews indoor air, minimises energy use",
+      "Heat recovery, bypass and auto modes",
+      "Positive or negative room pressure",
+      "Standalone or centralised control"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Model range",
+        "value": "D200 – D2000"
+      },
+      {
+        "label": "Modes",
+        "value": "Recovery / Bypass / Auto"
+      },
+      {
+        "label": "Control",
+        "value": "Standalone or centralised"
+      }
+    ],
+    "capacity": {
+      "text": "Models HRV-3 D200 to D2000",
+      "min": null,
+      "max": null,
+      "unit": null
+    },
+    "overview": "The CLIVET HRV renews the air in a room while keeping energy use to a minimum. At its heart is a specially treated heat exchanger that recovers energy from exhaust air to pre-heat or pre-cool incoming fresh air, giving high efficiency and better air quality. It suits offices, classrooms, clinics, homes and meeting rooms. Cosmix Engineering, authorised CLIVET distributor in Pakistan, supplies, installs, commissions and supports ventilation projects nationwide.",
+    "features": [
+      {
+        "title": "Heat recovery mode",
+        "text": "Uses exhaust-air energy to heat or cool the incoming air.",
+        "image": null
+      },
+      {
+        "title": "Bypass mode",
+        "text": "In mid-season, bypasses the exchanger to cut consumption.",
+        "image": null
+      },
+      {
+        "title": "Auto mode",
+        "text": "Chooses the best operation based on indoor and outdoor temperatures.",
+        "image": null
+      },
+      {
+        "title": "Pressure control",
+        "text": "Positive or negative room pressure to suit the space.",
+        "image": null
+      },
+      {
+        "title": "Treated exchanger",
+        "text": "The core exchanger is treated with special materials for efficiency and air quality.",
+        "image": null
+      },
+      {
+        "title": "Centralised control",
+        "text": "Standalone, or integrated into a central system that manages many units.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "HRV-3 D200–D2000",
+      "Model range: D200 – D2000"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/clivet/hrv-heat-recovery-ventilator/view-1.webp",
+        "width": 1186,
+        "height": 1016,
+        "alt": "HRV Heat Recovery Ventilator by CLIVET"
+      }
+    ],
+    "related": [
+      "zephir4",
+      "aqx-air-handling-unit",
+      "spinchiller4",
+      "large-evo"
+    ],
+    "ctaTitle": "Need fresh, healthy air?",
+    "ctaText": "Our engineers will select the right CLIVET solution for your building."
+  }
+]

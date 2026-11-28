@@ -1,0 +1,107 @@
+---
+import Base from "../layouts/Base.astro";
+import PageHero from "../components/PageHero.astro";
+import { site } from "../lib/catalog";
+
+const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || "";
+const afterSales = site.phones.find((phone) => phone.label === "After-Sales");
+const brands = [
+  { value: "AUX", label: "AUX" },
+  { value: "CLIVET", label: "CLIVET" },
+  { value: "LUKO", label: "LUKO" },
+  { value: "OTHER", label: "Other" },
+];
+---
+
+<Base
+  title="Register a complaint"
+  description="Register an after-sales complaint with Cosmix Engineering. You receive a reference and can also send it on WhatsApp."
+  path="/complaint"
+>
+  <PageHero
+    eyebrow="After-sales"
+    title="Register a complaint."
+    lede="Tell us what needs attention. You will get a reference number, and you can also send the same details on WhatsApp."
+  />
+  <section class="wrap max-w-3xl py-12">
+    <form class="relative grid gap-4" data-complaint data-whatsapp={site.complaint.whatsapp} novalidate>
+      <p class="hidden rounded-xl bg-paper px-4 py-3 text-sm" data-status role="status"></p>
+      <div class="grid gap-4 sm:grid-cols-2">
+        <label class="grid gap-1 text-sm font-semibold">Name
+          <input required name="customerName" autocomplete="name" class="field" />
+        </label>
+        <label class="grid gap-1 text-sm font-semibold">Phone
+          <input required name="mobile" autocomplete="tel" class="field" />
+        </label>
+        <label class="grid gap-1 text-sm font-semibold">Email <span class="font-normal text-muted">(optional)</span>
+          <input type="email" name="email" autocomplete="email" class="field" />
+        </label>
+        <label class="grid gap-1 text-sm font-semibold">City
+          <input name="city" autocomplete="address-level2" class="field" />
+        </label>
+      </div>
+      <label class="grid gap-1 text-sm font-semibold">Address
+        <input name="siteAddress" autocomplete="street-address" class="field" />
+      </label>
+      <div class="grid gap-4 sm:grid-cols-2">
+        <label class="grid gap-1 text-sm font-semibold">Brand
+          <select name="brand" class="field">
+            <option value="">Select</option>
+            {brands.map((brand) => <option value={brand.value}>{brand.label}</option>)}
+          </select>
+        </label>
+        <label class="grid gap-1 text-sm font-semibold">Unit type
+          <input name="unitType" class="field" placeholder="For example cassette, chiller, dehumidifier" />
+        </label>
+        <label class="grid gap-1 text-sm font-semibold">Model <span class="font-normal text-muted">(optional)</span>
+          <input name="model" class="field" />
+        </label>
+        <label class="grid gap-1 text-sm font-semibold">Serial number <span class="font-normal text-muted">(optional)</span>
+          <input name="serialNumber" class="field" />
+        </label>
+        <label class="grid gap-1 text-sm font-semibold">Error code <span class="font-normal text-muted">(optional)</span>
+          <input name="errorCode" class="field" />
+        </label>
+        <label class="grid gap-1 text-sm font-semibold">Purchase or installation date <span class="font-normal text-muted">(optional)</span>
+          <input type="date" name="installed" class="field" />
+        </label>
+      </div>
+      <label class="grid gap-1 text-sm font-semibold">Problem
+        <textarea required name="problemDescription" rows="5" class="field"></textarea>
+      </label>
+      <label class="grid gap-1 text-sm font-semibold">Photos <span class="font-normal text-muted">(optional, up to 3, JPEG, PNG or WEBP)</span>
+        <input name="photos" type="file" accept="image/jpeg,image/png,image/webp" multiple class="field" />
+      </label>
+      <label class="grid gap-1 text-sm font-semibold">Video <span class="font-normal text-muted">(optional MP4, up to 50 MB)</span>
+        <input name="video" type="file" accept="video/mp4,.mp4" class="field" />
+      </label>
+      <label class="grid gap-1 text-sm font-semibold">Preferred visit time
+        <input name="preferredVisitTime" class="field" placeholder="For example weekday morning" />
+      </label>
+      {
+        turnstileSiteKey && (
+          <div class="cf-turnstile" data-sitekey={turnstileSiteKey} data-theme="light"></div>
+        )
+      }
+      <div class="absolute h-0 w-0 overflow-hidden" aria-hidden="true">
+        <label>Company website
+          <input name="company_website" tabindex="-1" autocomplete="off" />
+        </label>
+      </div>
+      <div class="flex flex-wrap gap-3">
+        <button class="btn" type="submit">Submit complaint</button>
+        <a class="btn-ghost" data-wa href={`https://wa.me/${site.complaint.whatsapp}`} target="_blank" rel="noopener noreferrer">Continue on WhatsApp</a>
+      </div>
+      <p class="text-sm text-muted">After-Sales can also be reached on {afterSales?.display}.</p>
+    </form>
+  </section>
+  {
+    turnstileSiteKey && (
+      <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer />
+    )
+  }
+  <script>
+    import { bindComplaintForm } from "../scripts/complaint-form";
+    bindComplaintForm();
+  </script>
+</Base>

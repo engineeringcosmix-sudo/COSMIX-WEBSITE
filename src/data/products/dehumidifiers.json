@@ -1,0 +1,671 @@
+[
+  {
+    "brand": "dehumidifiers",
+    "slug": "luko-desiccant-fd-d210k-d320k",
+    "name": "LUKO FD-D210K / FD-D320K",
+    "subtitle": "Compact desiccant rotor dehumidifier, single-phase",
+    "categoryId": "desiccant",
+    "categoryName": "Desiccant Rotor",
+    "group": "Industrial Dehumidifiers",
+    "model": "FD-D210K, FD-D320K",
+    "bullets": [
+      "0.6 – 1.2 kg/h moisture removal",
+      "210 – 320 m³/h process air",
+      "Runs on 220 V / 50 Hz single-phase power",
+      "Touch screen control with RS485"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Moisture removal",
+        "value": "0.6 – 1.2 kg/h"
+      },
+      {
+        "label": "Process air",
+        "value": "210 – 320 m³/h"
+      },
+      {
+        "label": "Power supply",
+        "value": "220 V / 50 Hz"
+      }
+    ],
+    "capacity": {
+      "text": "0.6–1.2 kg/h at 20 °C, 60% RH; 210–320 m³/h process air",
+      "min": 0.6,
+      "max": 1.2,
+      "unit": "kg/h"
+    },
+    "overview": "The LUKO FD-D210K and FD-D320K are compact desiccant rotor dehumidifiers for small rooms that must stay dry whatever the outdoor weather. A silica gel honeycomb rotor pulls moisture out of the air continuously, so humidity can be held low even at cool room temperatures where a refrigerant dryer struggles. They run on ordinary single-phase power and fit neatly into stores, labs and small production rooms. Cosmix Engineering supplies, installs and supports LUKO dehumidifiers across Pakistan.",
+    "features": [
+      {
+        "title": "Honeycomb silica gel rotor",
+        "text": "The honeycomb rotor is made of ceramic fibre and active silica gel. Moisture is adsorbed in the process sector while hot air regenerates the rotor, continuously and at the same time, with positive sealing between the two airstreams.",
+        "image": null
+      },
+      {
+        "title": "Plug-in single-phase power",
+        "text": "Both models run on 220 V / 50 Hz, so they suit small rooms without a three-phase supply.",
+        "image": null
+      },
+      {
+        "title": "PTC heating",
+        "text": "Regeneration air is heated by PTC elements for steady, safe rotor reactivation.",
+        "image": null
+      },
+      {
+        "title": "Touch screen and RS485",
+        "text": "A touch screen controller is standard, with RS485 communication for linking to a building management system.",
+        "image": null
+      },
+      {
+        "title": "Robust steel cabinet",
+        "text": "A cold-rolled steel frame with G4 filtration on both the process and regeneration air.",
+        "image": null
+      },
+      {
+        "title": "Where it fits",
+        "text": "Small archives, pharmacy and lab stores, electronics rooms and small production rooms that need a low, stable humidity.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models",
+    "lineup": [
+      "FD-D210K",
+      "FD-D320K"
+    ],
+    "lineupNote": "Moisture removal rated at 20 °C, 60% RH. Tell us the room size and target humidity and we will match the model.",
+    "gallery": [
+      {
+        "src": "/images/products/dehumidifiers/luko-desiccant-fd-d210k-d320k/view-1.webp",
+        "width": 1200,
+        "height": 1179,
+        "alt": "LUKO FD-D210K compact desiccant dehumidifier"
+      }
+    ],
+    "related": [
+      "luko-desiccant-fd-d600k",
+      "luko-desiccant-fd-d820k-d1550k"
+    ],
+    "ctaTitle": "Plan a LUKO dehumidifier",
+    "ctaText": "Share the room size, the humidity you need to hold and the city. Cosmix Engineering will select the model and handle supply, installation and after-sales support in Pakistan."
+  },
+  {
+    "brand": "dehumidifiers",
+    "slug": "luko-desiccant-fd-d600k",
+    "name": "LUKO FD-D600K",
+    "subtitle": "Desiccant rotor dehumidifier for medium rooms",
+    "categoryId": "desiccant",
+    "categoryName": "Desiccant Rotor",
+    "group": "Industrial Dehumidifiers",
+    "model": "FD-D600K",
+    "bullets": [
+      "3.0 kg/h moisture removal",
+      "600 m³/h process air",
+      "220 V / 50 Hz single-phase",
+      "PTC heating with touch screen and RS485"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Moisture removal",
+        "value": "3.0 kg/h"
+      },
+      {
+        "label": "Process air",
+        "value": "600 m³/h"
+      },
+      {
+        "label": "Power supply",
+        "value": "220 V / 50 Hz"
+      }
+    ],
+    "capacity": {
+      "text": "3.0 kg/h at 20 °C, 60% RH; 600 m³/h process air",
+      "min": 3.0,
+      "max": 3.0,
+      "unit": "kg/h"
+    },
+    "overview": "The LUKO FD-D600K steps up to 3.0 kg/h of moisture removal while still running on single-phase power. It is a practical choice for warehouses, production rooms and storage areas where goods or equipment must be protected from damp. The desiccant rotor keeps working at low temperatures and delivers a low dew point. Cosmix Engineering supplies, installs and supports the FD-D600K in Pakistan.",
+    "features": [
+      {
+        "title": "Honeycomb silica gel rotor",
+        "text": "The honeycomb rotor is made of ceramic fibre and active silica gel. Moisture is adsorbed in the process sector while hot air regenerates the rotor, continuously and at the same time, with positive sealing between the two airstreams.",
+        "image": null
+      },
+      {
+        "title": "Single-phase convenience",
+        "text": "3.0 kg/h of drying on a 220 V / 50 Hz supply, with no three-phase connection needed.",
+        "image": null
+      },
+      {
+        "title": "Low dew point drying",
+        "text": "Desiccant adsorption keeps removing moisture in cool rooms and at low humidity levels.",
+        "image": null
+      },
+      {
+        "title": "Smart control",
+        "text": "Touch screen controller with RS485 communication for remote monitoring.",
+        "image": null
+      },
+      {
+        "title": "Built for service",
+        "text": "Cold-rolled steel cabinet, G4 filters on both airstreams and an easy-access layout for maintenance.",
+        "image": null
+      },
+      {
+        "title": "Where it fits",
+        "text": "Warehouses, production rooms, pharmaceutical stores, museums and libraries.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models",
+    "lineup": [
+      "FD-D600K"
+    ],
+    "lineupNote": "Moisture removal rated at 20 °C, 60% RH. Share your room details and we will confirm the selection.",
+    "gallery": [
+      {
+        "src": "/images/products/dehumidifiers/luko-desiccant-fd-d600k/view-1.webp",
+        "width": 1200,
+        "height": 909,
+        "alt": "LUKO FD-D600K desiccant dehumidifier"
+      }
+    ],
+    "related": [
+      "luko-desiccant-fd-d210k-d320k",
+      "luko-desiccant-fd-d820k-d1550k"
+    ],
+    "ctaTitle": "Plan a LUKO dehumidifier",
+    "ctaText": "Share the room size, the humidity you need to hold and the city. Cosmix Engineering will select the model and handle supply, installation and after-sales support in Pakistan."
+  },
+  {
+    "brand": "dehumidifiers",
+    "slug": "luko-desiccant-fd-d820k-d1550k",
+    "name": "LUKO FD-D820K – FD-D1550K",
+    "subtitle": "Commercial desiccant rotor dehumidifiers, three-phase",
+    "categoryId": "desiccant",
+    "categoryName": "Desiccant Rotor",
+    "group": "Industrial Dehumidifiers",
+    "model": "FD-D820K, FD-D1050K, FD-D1280K, FD-D1550K",
+    "bullets": [
+      "4.5 – 10 kg/h moisture removal",
+      "820 – 1,550 m³/h process air",
+      "PTC + SCR heating control",
+      "Touch screen control with RS485"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Moisture removal",
+        "value": "4.5 – 10 kg/h"
+      },
+      {
+        "label": "Process air",
+        "value": "820 – 1,550 m³/h"
+      },
+      {
+        "label": "Power supply",
+        "value": "380 – 415 V, 50/60 Hz"
+      }
+    ],
+    "capacity": {
+      "text": "4.5–10 kg/h at 20 °C, 60% RH; 820–1,550 m³/h process air",
+      "min": 4.5,
+      "max": 10,
+      "unit": "kg/h"
+    },
+    "overview": "The LUKO FD-D820K to FD-D1550K range covers 4.5 to 10 kg/h of moisture removal for commercial and light industrial spaces. Four models share one compact cabinet, with PTC and SCR heating control that regulates the regeneration heat precisely. They are well suited to food processing, pharmaceutical production, cold stores and large archive rooms. Cosmix Engineering supplies, installs and supports this range throughout Pakistan.",
+    "features": [
+      {
+        "title": "Honeycomb silica gel rotor",
+        "text": "The honeycomb rotor is made of ceramic fibre and active silica gel. Moisture is adsorbed in the process sector while hot air regenerates the rotor, continuously and at the same time, with positive sealing between the two airstreams.",
+        "image": null
+      },
+      {
+        "title": "PTC and SCR heating",
+        "text": "PTC and SCR heating technology can save 20–30% of power consumption, as stated by the manufacturer, by modulating the heater to the load.",
+        "image": null
+      },
+      {
+        "title": "EC process fan",
+        "text": "An EC backward-curved centrifugal fan with variable speed adapts to different air volumes and duct pressures.",
+        "image": null
+      },
+      {
+        "title": "Reliable components",
+        "text": "ABB, OMRON, Schneider and other international brand electrical components, with clearly labelled wiring for easy servicing.",
+        "image": null
+      },
+      {
+        "title": "Rotor protection",
+        "text": "A rotor rotation protection switch keeps the wheel turning at its set speed for stable, constant drying.",
+        "image": null
+      },
+      {
+        "title": "Where it fits",
+        "text": "Food and confectionery processing, pharmaceutical and chemical plants, cold stores, supermarkets, museums and libraries.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models",
+    "lineup": [
+      "FD-D820K",
+      "FD-D1050K",
+      "FD-D1280K",
+      "FD-D1550K"
+    ],
+    "lineupNote": "Moisture removal rated at 20 °C, 60% RH. Cosmix will size the model to your moisture load.",
+    "gallery": [
+      {
+        "src": "/images/products/dehumidifiers/luko-desiccant-fd-d820k-d1550k/view-1.webp",
+        "width": 1200,
+        "height": 1173,
+        "alt": "LUKO desiccant rotor dehumidifier, FD-D820K to FD-D1550K range"
+      },
+      {
+        "src": "/images/products/dehumidifiers/luko-desiccant-fd-d820k-d1550k/view-2.webp",
+        "width": 1200,
+        "height": 939,
+        "alt": "LUKO FD-D820K series cabinet, front view"
+      }
+    ],
+    "related": [
+      "luko-desiccant-fd-d600k",
+      "luko-desiccant-fd-d2000k-d5000k"
+    ],
+    "ctaTitle": "Plan a LUKO dehumidifier",
+    "ctaText": "Share the room size, the humidity you need to hold and the city. Cosmix Engineering will select the model and handle supply, installation and after-sales support in Pakistan."
+  },
+  {
+    "brand": "dehumidifiers",
+    "slug": "luko-desiccant-fd-d2000k-d5000k",
+    "name": "LUKO FD-D2000K – FD-D5000K",
+    "subtitle": "Industrial desiccant rotor dehumidifiers",
+    "categoryId": "desiccant",
+    "categoryName": "Desiccant Rotor",
+    "group": "Industrial Dehumidifiers",
+    "model": "FD-D2000K, FD-D3000K, FD-D4000K, FD-D5000K",
+    "bullets": [
+      "15 – 37 kg/h moisture removal",
+      "2,000 – 5,000 m³/h process air",
+      "Aluminium-frame insulated casing",
+      "PLC control with RS485"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Moisture removal",
+        "value": "15 – 37 kg/h"
+      },
+      {
+        "label": "Process air",
+        "value": "2,000 – 5,000 m³/h"
+      },
+      {
+        "label": "Power supply",
+        "value": "380 V / 50 Hz"
+      }
+    ],
+    "capacity": {
+      "text": "15–37 kg/h at 20 °C, 60% RH; 2,000–5,000 m³/h process air",
+      "min": 15,
+      "max": 37,
+      "unit": "kg/h"
+    },
+    "overview": "The LUKO FD-D2000K to FD-D5000K are industrial desiccant dehumidifiers for large process areas and plants. They remove 15 to 37 kg/h of moisture, with process air from 2,000 to 5,000 m³/h. An insulated aluminium-frame casing and PLC control make them ready for demanding duty in battery, pharmaceutical, food and chemical plants. Cosmix Engineering supplies, installs and supports these units across Pakistan, from selection to commissioning.",
+    "features": [
+      {
+        "title": "Honeycomb silica gel rotor",
+        "text": "The honeycomb rotor is made of ceramic fibre and active silica gel. Moisture is adsorbed in the process sector while hot air regenerates the rotor, continuously and at the same time, with positive sealing between the two airstreams.",
+        "image": null
+      },
+      {
+        "title": "Industrial casing",
+        "text": "Aluminium alloy frame with polyurethane foam insulated panels for durability and low heat loss.",
+        "image": null
+      },
+      {
+        "title": "PLC control",
+        "text": "PLC controller with RS485 communication for integration with plant and building management systems.",
+        "image": null
+      },
+      {
+        "title": "Long-life rotor",
+        "text": "The Proflute rotor has a long service life, rated by the manufacturer for 10 years of continuous operation.",
+        "image": null
+      },
+      {
+        "title": "Easy maintenance",
+        "text": "Hinged side panels give quick access to the internals, with plate primary filters on both airstreams.",
+        "image": null
+      },
+      {
+        "title": "Where it fits",
+        "text": "Lithium battery and electronics production, pharmaceutical and chemical plants, food processing, power plants and water works.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models",
+    "lineup": [
+      "FD-D2000K",
+      "FD-D3000K",
+      "FD-D4000K",
+      "FD-D5000K"
+    ],
+    "lineupNote": "Moisture removal rated at 20 °C, 60% RH. Share the process conditions and Cosmix will select the unit.",
+    "gallery": [
+      {
+        "src": "/images/products/dehumidifiers/luko-desiccant-fd-d2000k-d5000k/view-1.webp",
+        "width": 1200,
+        "height": 901,
+        "alt": "LUKO FD-D2000K to FD-D5000K industrial desiccant dehumidifier"
+      }
+    ],
+    "related": [
+      "luko-desiccant-fd-d820k-d1550k",
+      "luko-desiccant-fd-d6000k-d12000k"
+    ],
+    "ctaTitle": "Plan a LUKO dehumidifier",
+    "ctaText": "Share the room size, the humidity you need to hold and the city. Cosmix Engineering will select the model and handle supply, installation and after-sales support in Pakistan."
+  },
+  {
+    "brand": "dehumidifiers",
+    "slug": "luko-desiccant-fd-d6000k-d12000k",
+    "name": "LUKO FD-D6000K – FD-D12000K",
+    "subtitle": "Large industrial desiccant rotor dehumidifiers",
+    "categoryId": "desiccant",
+    "categoryName": "Desiccant Rotor",
+    "group": "Industrial Dehumidifiers",
+    "model": "FD-D6000K, FD-D8000K, FD-D10000K, FD-D12000K",
+    "bullets": [
+      "44 – 80 kg/h moisture removal",
+      "6,000 – 12,000 m³/h process air",
+      "Aluminium-frame insulated casing",
+      "PLC control with RS485"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Moisture removal",
+        "value": "44 – 80 kg/h"
+      },
+      {
+        "label": "Process air",
+        "value": "6,000 – 12,000 m³/h"
+      },
+      {
+        "label": "Power supply",
+        "value": "380 V / 50 Hz"
+      }
+    ],
+    "capacity": {
+      "text": "44–80 kg/h at 20 °C, 60% RH; 6,000–12,000 m³/h process air",
+      "min": 44,
+      "max": 80,
+      "unit": "kg/h"
+    },
+    "overview": "The LUKO FD-D6000K to FD-D12000K are the largest units in the LUKO desiccant range, removing 44 to 80 kg/h of moisture with 6,000 to 12,000 m³/h of process air. They are built for big industrial halls, production lines, ship and cargo protection and infrastructure projects that need dependable, round-the-clock humidity control. Cosmix Engineering supplies, installs and supports these systems in Pakistan.",
+    "features": [
+      {
+        "title": "Honeycomb silica gel rotor",
+        "text": "The honeycomb rotor is made of ceramic fibre and active silica gel. Moisture is adsorbed in the process sector while hot air regenerates the rotor, continuously and at the same time, with positive sealing between the two airstreams.",
+        "image": null
+      },
+      {
+        "title": "High-volume drying",
+        "text": "Up to 80 kg/h of moisture removal and 12,000 m³/h of process air in a single unit.",
+        "image": null
+      },
+      {
+        "title": "Industrial casing",
+        "text": "Aluminium alloy frame with polyurethane foam insulated panels for heavy-duty installations.",
+        "image": null
+      },
+      {
+        "title": "PLC control",
+        "text": "PLC controller with RS485 communication for plant-wide monitoring.",
+        "image": null
+      },
+      {
+        "title": "Quality build",
+        "text": "Built to CE, RoHS and GS standards and fitted with international brand electrical components, as stated by the manufacturer.",
+        "image": null
+      },
+      {
+        "title": "Where it fits",
+        "text": "Large production halls, lithium battery plants, shipbuilding sandblasting and painting, cargo protection, power plants, bridges and defence facilities.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models",
+    "lineup": [
+      "FD-D6000K",
+      "FD-D8000K",
+      "FD-D10000K",
+      "FD-D12000K"
+    ],
+    "lineupNote": "Moisture removal rated at 20 °C, 60% RH. Cosmix will engineer the selection and ductwork for your site.",
+    "gallery": [
+      {
+        "src": "/images/products/dehumidifiers/luko-desiccant-fd-d6000k-d12000k/view-1.webp",
+        "width": 1200,
+        "height": 909,
+        "alt": "LUKO FD-D6000K to FD-D12000K large industrial desiccant dehumidifier"
+      }
+    ],
+    "related": [
+      "luko-desiccant-fd-d2000k-d5000k"
+    ],
+    "ctaTitle": "Plan a LUKO dehumidifier",
+    "ctaText": "Share the room size, the humidity you need to hold and the city. Cosmix Engineering will select the model and handle supply, installation and after-sales support in Pakistan."
+  },
+  {
+    "brand": "dehumidifiers",
+    "slug": "luko-whole-house-fresh-air-fd-x-pm",
+    "name": "LUKO FD-X/PM Series",
+    "subtitle": "Whole-house fresh-air inverter dehumidifier",
+    "categoryId": "whole-house",
+    "categoryName": "Whole-House Inverter",
+    "group": "Industrial Dehumidifiers",
+    "model": "FD-X28PM, FD-X40PM, FD-X60PM, FD-X80PM, FD-X100PM, FD-X140PM",
+    "bullets": [
+      "25 – 145 L/day dehumidification",
+      "Supply air 200 – 1,120 m³/h with up to 350 m³/h fresh air",
+      "G4 + H13 HEPA filtration, UV and anion purification",
+      "Quiet: below 32 – 35 dB(A)"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Dehumidification",
+        "value": "25 – 145 L/day"
+      },
+      {
+        "label": "Supply air",
+        "value": "200 – 1,120 m³/h"
+      },
+      {
+        "label": "Fresh air",
+        "value": "up to 350 m³/h"
+      }
+    ],
+    "capacity": {
+      "text": "25–145 L/day at 27 °C, 60% RH; 200–1,120 m³/h supply air",
+      "min": 25,
+      "max": 145,
+      "unit": "L/day"
+    },
+    "overview": "The LUKO FD-X/PM series is a ducted whole-house dehumidifier that also brings in filtered fresh air. Outdoor air is mixed with indoor return air, dried by an inverter refrigerant circuit and delivered to every room through the filter module, lowering humidity while raising indoor oxygen levels. An absolute-humidity sensor targets moisture content, not just a percentage, for accurate control. It is a patented design by the manufacturer. Cosmix Engineering supplies, installs and supports the FD-X/PM series in homes and villas across Pakistan.",
+    "features": [
+      {
+        "title": "Inverter compressor and EC fan",
+        "text": "Inverter compressor and variable-speed EC fan adjust output to the real moisture load for quiet, energy-saving operation.",
+        "image": null
+      },
+      {
+        "title": "Fresh air with clean filtration",
+        "text": "Brings in up to 350 m³/h of fresh air through a G4 primary filter and H13 HEPA filter, with a UV sanitiser and anion generator.",
+        "image": null
+      },
+      {
+        "title": "5-in-1 air quality sensor",
+        "text": "Reads CO₂, PM2.5, TVOC, humidity and temperature in real time and switches modes automatically.",
+        "image": null
+      },
+      {
+        "title": "App control and OTA upgrades",
+        "text": "App control, AI frequency adjustment and remote firmware upgrades keep the system up to date.",
+        "image": null
+      },
+      {
+        "title": "Easy service",
+        "text": "Push-and-pull modules and positive-pressure drainage, with no condensate left in the tray, keep servicing quick and simple.",
+        "image": null
+      },
+      {
+        "title": "Whole-house ducted layout",
+        "text": "One ceiling-concealed unit serves every room through supply ducts, with return and fresh air brought back to the unit. Typical locations are the entrance hall, balcony, AC unit space or bathroom ceiling.",
+        "image": {
+          "src": "/images/products/dehumidifiers/luko-whole-house-fresh-air-fd-x-pm/feature-installation.webp",
+          "width": 1200,
+          "height": 616,
+          "alt": "Whole-house fresh-air dehumidifier installation example",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Models",
+    "lineup": [
+      "FD-X28PM",
+      "FD-X40PM",
+      "FD-X60PM",
+      "FD-X80PM",
+      "FD-X100PM",
+      "FD-X140PM"
+    ],
+    "lineupNote": "Dehumidification rated at 27 °C, 60% RH. Share the covered area and Cosmix will size the system and duct layout.",
+    "gallery": [
+      {
+        "src": "/images/products/dehumidifiers/luko-whole-house-fresh-air-fd-x-pm/view-1.webp",
+        "width": 1200,
+        "height": 604,
+        "alt": "LUKO FD-X/PM whole-house fresh-air inverter dehumidifier"
+      },
+      {
+        "src": "/images/products/dehumidifiers/luko-whole-house-fresh-air-fd-x-pm/view-2.webp",
+        "width": 1200,
+        "height": 765,
+        "alt": "Inside the FD-X/PM: inverter compressor and push-pull modules"
+      },
+      {
+        "src": "/images/products/dehumidifiers/luko-whole-house-fresh-air-fd-x-pm/view-3.webp",
+        "width": 1200,
+        "height": 434,
+        "alt": "FD-X/PM control and electrical module"
+      }
+    ],
+    "related": [
+      "luko-whole-house-inverter-fd-s-pm"
+    ],
+    "ctaTitle": "Plan a LUKO dehumidifier",
+    "ctaText": "Share the room size, the humidity you need to hold and the city. Cosmix Engineering will select the model and handle supply, installation and after-sales support in Pakistan."
+  },
+  {
+    "brand": "dehumidifiers",
+    "slug": "luko-whole-house-inverter-fd-s-pm",
+    "name": "LUKO FD-S/PM Series",
+    "subtitle": "Whole-house inverter dehumidifier",
+    "categoryId": "whole-house",
+    "categoryName": "Whole-House Inverter",
+    "group": "Industrial Dehumidifiers",
+    "model": "FD-S28PM, FD-S40PM, FD-S60PM, FD-S80PM, FD-S100PM, FD-S140PM",
+    "bullets": [
+      "25 – 150 L/day dehumidification",
+      "Supply air 200 – 1,120 m³/h",
+      "G4 + H13 HEPA filtration, UV and anion purification",
+      "Quiet: below 32 – 35 dB(A)"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Dehumidification",
+        "value": "25 – 150 L/day"
+      },
+      {
+        "label": "Supply air",
+        "value": "200 – 1,120 m³/h"
+      },
+      {
+        "label": "Power supply",
+        "value": "220 V / 50 Hz"
+      }
+    ],
+    "capacity": {
+      "text": "25–150 L/day at 27 °C, 60% RH; 200–1,120 m³/h supply air",
+      "min": 25,
+      "max": 150,
+      "unit": "L/day"
+    },
+    "overview": "The LUKO FD-S/PM series is a ducted whole-house inverter dehumidifier that recirculates and dries indoor air for every room from one concealed unit. It removes 25 to 150 L/day and suits humid coastal homes, villas, apartments and offices that want dry, healthy air without a dehumidifier in each room. An inverter compressor, EC fan and absolute-humidity control keep it quiet and efficient. Cosmix Engineering supplies, installs and supports the FD-S/PM series across Pakistan.",
+    "features": [
+      {
+        "title": "Inverter compressor and EC fan",
+        "text": "Output follows the actual moisture load for steady humidity and lower running cost.",
+        "image": null
+      },
+      {
+        "title": "Moisture content control",
+        "text": "The compressor is controlled on absolute humidity, the real moisture content of the air, for accurate results.",
+        "image": null
+      },
+      {
+        "title": "Clean, healthy air",
+        "text": "G4 primary filter and H13 HEPA filter, with a UV sanitiser and anion generator.",
+        "image": null
+      },
+      {
+        "title": "5-in-1 air quality sensor",
+        "text": "Reads CO₂, PM2.5, TVOC, humidity and temperature in real time.",
+        "image": null
+      },
+      {
+        "title": "Quiet and easy to service",
+        "text": "Below 32 – 35 dB(A), with push-and-pull modules and positive-pressure drainage.",
+        "image": null
+      },
+      {
+        "title": "Whole-house ducted layout",
+        "text": "One ceiling-concealed unit with a supply plenum serves bedrooms, living and dining areas, with return air brought back to the unit.",
+        "image": {
+          "src": "/images/products/dehumidifiers/luko-whole-house-inverter-fd-s-pm/feature-installation.webp",
+          "width": 1200,
+          "height": 616,
+          "alt": "Whole-house inverter dehumidifier installation example",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Models",
+    "lineup": [
+      "FD-S28PM",
+      "FD-S40PM",
+      "FD-S60PM",
+      "FD-S80PM",
+      "FD-S100PM",
+      "FD-S140PM"
+    ],
+    "lineupNote": "Dehumidification rated at 27 °C, 60% RH. Share the covered area and Cosmix will size the system and duct layout.",
+    "gallery": [
+      {
+        "src": "/images/products/dehumidifiers/luko-whole-house-inverter-fd-s-pm/view-1.webp",
+        "width": 1200,
+        "height": 604,
+        "alt": "LUKO whole-house inverter dehumidifier, FD-S/PM series"
+      },
+      {
+        "src": "/images/products/dehumidifiers/luko-whole-house-inverter-fd-s-pm/view-2.webp",
+        "width": 1200,
+        "height": 765,
+        "alt": "Inside the LUKO whole-house inverter dehumidifier"
+      }
+    ],
+    "related": [
+      "luko-whole-house-fresh-air-fd-x-pm"
+    ],
+    "ctaTitle": "Plan a LUKO dehumidifier",
+    "ctaText": "Share the room size, the humidity you need to hold and the city. Cosmix Engineering will select the model and handle supply, installation and after-sales support in Pakistan."
+  }
+]

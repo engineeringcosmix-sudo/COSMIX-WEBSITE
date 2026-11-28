@@ -1,0 +1,58 @@
+{
+  "name": "Cosmix Engineering (Pvt.) Ltd.",
+  "shortName": "Cosmix Engineering",
+  "url": "https://cosmixengineering.com",
+  "description": "Cosmix Engineering is a Karachi HVACR company supplying, installing and supporting air conditioning, ventilation and humidity control.",
+  "emails": ["info@cosmixengineering.com", "sales@cosmixengineering.com"],
+  "phones": [
+    {
+      "label": "Sales",
+      "display": "+92 333 3152331",
+      "tel": "+923333152331",
+      "whatsapp": true
+    },
+    {
+      "label": "After-Sales",
+      "display": "+92 343 8248687",
+      "tel": "+923438248687"
+    }
+  ],
+  "whatsapp": "923333152331",
+  "hours": "Monday to Saturday, 9:00am – 8:00pm",
+  "offices": [
+    {
+      "name": "Head office",
+      "city": "Karachi",
+      "lines": ["C-25, Block 4", "Gulshan-e-Iqbal", "Karachi, Pakistan"],
+      "maps": "https://www.google.com/maps/search/?api=1&query=C-25+Block+4+Gulshan-e-Iqbal+Karachi"
+    },
+    {
+      "name": "Lahore office",
+      "city": "Lahore",
+      "lines": ["516-E, Tajpura Scheme", "Ghaziabad", "Lahore, Pakistan"],
+      "maps": "https://www.google.com/maps/search/?api=1&query=516-E+Tajpura+Scheme+Ghaziabad+Lahore"
+    }
+  ],
+  "socials": [
+    { "name": "Facebook", "href": "https://www.facebook.com/engineeringcosmix" },
+    { "name": "Instagram", "href": "https://www.instagram.com/engineeringcosmix" },
+    { "name": "LinkedIn", "href": "https://www.linkedin.com/company/cosmix-engineering/" }
+  ],
+  "people": [
+    {
+      "name": "Zeeshan Ashraf",
+      "role": "Chief Executive Officer",
+      "quote": "At Cosmix Engineering, we believe in the power of collaboration and dedication. Our team’s expertise and unwavering commitment to excellence have propelled us to new heights. We strive to not only meet but exceed our clients' expectations with superior HVACR solutions. Thank you for being a part of our journey."
+    },
+    {
+      "name": "Irtaza Sarwar",
+      "role": "Director Marketing & Sales",
+      "phone": "+92 333 3152331",
+      "tel": "+923333152331",
+      "email": "info@cosmixengineering.com"
+    }
+  ],
+  "complaint": {
+    "whatsapp": "923438248687"
+  }
+}

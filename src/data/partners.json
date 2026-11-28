@@ -1,0 +1,66 @@
+{
+  "partners": [
+    {
+      "slug": "aux",
+      "name": "AUX",
+      "role": "Equipment partner",
+      "src": "/images/partners/aux.webp",
+      "width": 500,
+      "height": 193,
+      "alt": "AUX logo"
+    },
+    {
+      "slug": "clivet",
+      "name": "CLIVET",
+      "role": "Equipment partner",
+      "src": "/images/partners/clivet.webp",
+      "width": 640,
+      "height": 124,
+      "alt": "CLIVET logo"
+    },
+    {
+      "slug": "holtop",
+      "name": "HOLTOP",
+      "role": "Equipment partner",
+      "src": "/images/partners/holtop.webp",
+      "width": 483,
+      "height": 147,
+      "alt": "HOLTOP logo"
+    },
+    {
+      "slug": "rc-group",
+      "name": "RC Group",
+      "role": "Equipment partner",
+      "src": "/images/partners/rc-group.webp",
+      "width": 200,
+      "height": 220,
+      "alt": "RC Group logo"
+    }
+  ],
+  "affiliations": [
+    {
+      "slug": "ceo-club-pakistan",
+      "name": "CEO Club Pakistan",
+      "src": "/images/affiliations/ceo-club-pakistan.webp",
+      "width": 480,
+      "height": 480,
+      "alt": "CEO Club Pakistan logo"
+    },
+    {
+      "slug": "ashrae",
+      "name": "ASHRAE",
+      "src": "/images/affiliations/ashrae.webp",
+      "width": 480,
+      "height": 480,
+      "alt": "ASHRAE logo"
+    },
+    {
+      "slug": "textileasia",
+      "name": "TextileAsia",
+      "src": "/images/affiliations/textileasia.webp",
+      "width": 480,
+      "height": 480,
+      "alt": "TextileAsia logo"
+    }
+  ]
+}

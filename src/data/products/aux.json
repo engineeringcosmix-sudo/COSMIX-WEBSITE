@@ -1,0 +1,5459 @@
+[
+  {
+    "brand": "aux",
+    "slug": "arv-9-series",
+    "name": "ARV 9 Series",
+    "subtitle": "Modular VRF Outdoor Unit – Heat Pump",
+    "categoryId": "vrf-outdoor",
+    "categoryName": "VRF Outdoor",
+    "group": "VRF",
+    "model": "ARV-H□/SR1MV9",
+    "bullets": [
+      "Heating down to -30 °C, cooling up to 58 °C",
+      "Wide voltage design: 285 – 475 V",
+      "6-fold backup operation",
+      "1 W standby power"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Single module",
+        "value": "8 – 44 HP"
+      },
+      {
+        "label": "Cooling (module)",
+        "value": "25.2 – 124 kW"
+      },
+      {
+        "label": "Combination",
+        "value": "up to 176 HP"
+      }
+    ],
+    "capacity": {
+      "text": "8–44 HP per module (25.2–124 kW cooling); combinations up to 176 HP",
+      "min": 8,
+      "max": 44,
+      "unit": "HP"
+    },
+    "overview": "The AUX ARV 9 is the newest modular VRF outdoor unit in the AUX range, designed for large commercial buildings, hotels, hospitals and mixed-use towers. Single modules from 8 to 44 HP combine into systems of up to 176 HP. With EVI compressor technology, a wide 285–475 V voltage window and six-fold backup, ARV 9 delivers dependable heating and cooling in extreme weather and on unstable power supplies, which suits Pakistan’s climate and grid conditions.",
+    "features": [
+      {
+        "title": "Extreme Operating Range",
+        "text": "Heats at temperatures as low as -30 °C and cools at up to 58 °C, thanks to EVI compressor and refrigerant cooling technology.",
+        "image": {
+          "src": "/images/products/aux/arv-9-series/feature-1.webp",
+          "width": 373,
+          "height": 196,
+          "alt": "Extreme Operating Range",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Wide Voltage Design",
+        "text": "Keeps running through grid fluctuations from 285 V to 475 V (-25% / +25%).",
+        "image": null
+      },
+      {
+        "title": "16-Stage Oil Return",
+        "text": "Dynamic oil distribution prevents oil-level fluctuation and keeps the oil supply stable.",
+        "image": {
+          "src": "/images/products/aux/arv-9-series/feature-3.webp",
+          "width": 467,
+          "height": 295,
+          "alt": "16-Stage Oil Return",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Dual PCB Cooling & IP55 Control Box",
+        "text": "Two cooling fans, a refrigerant-cooled PCB and a fully enclosed IP55 electric box protect the electronics.",
+        "image": {
+          "src": "/images/products/aux/arv-9-series/feature-4.webp",
+          "width": 270,
+          "height": 209,
+          "alt": "Dual PCB Cooling & IP55 Control Box",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "6-Fold Backup",
+        "text": "Keeps operating in emergency situations, with fire alarm and water spray linkage.",
+        "image": null
+      },
+      {
+        "title": "Smart Energy Control",
+        "text": "7-level power limiting (40–100%), 1 W standby, VIP defrosting and a 12-level silent mode.",
+        "image": null
+      },
+      {
+        "title": "Built-in Modbus Gateway",
+        "text": "Connects to CC-02 or BMS without a separate mini gateway. Supports tenant billing and AHU connection.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Module sizes (HP)",
+    "lineup": [
+      "8",
+      "10",
+      "12",
+      "14",
+      "16",
+      "18",
+      "20",
+      "22",
+      "24",
+      "26",
+      "28",
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/arv-9-series/view-1.webp",
+        "width": 620,
+        "height": 649,
+        "alt": "ARV 9 Series by AUX"
+      },
+      {
+        "src": "/images/products/aux/arv-9-series/view-2.webp",
+        "width": 1400,
+        "height": 1249,
+        "alt": "ARV 9 Series, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/arv-9-series/view-3.webp",
+        "width": 373,
+        "height": 196,
+        "alt": "ARV 9 Series, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/arv-9-series/view-4.webp",
+        "width": 467,
+        "height": 295,
+        "alt": "ARV 9 Series, additional view 3"
+      }
+    ],
+    "related": [
+      "arv-7-series",
+      "arv-7c-series",
+      "arv-9-free-series",
+      "cassette-q"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "arv-7-series",
+    "name": "ARV 7 Series",
+    "subtitle": "Modular VRF Outdoor Unit – Heat Pump",
+    "categoryId": "vrf-outdoor",
+    "categoryName": "VRF Outdoor",
+    "group": "VRF",
+    "model": "ARV-H-/SR1MVB",
+    "bullets": [
+      "EVI DC inverter compressor",
+      "Operation from -30 °C to 55 °C",
+      "±15% wide voltage design",
+      "Up to 36 HP in a single unit"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Single module",
+        "value": "8 – 36 HP"
+      },
+      {
+        "label": "Combination",
+        "value": "8 – 144 HP"
+      },
+      {
+        "label": "Model series",
+        "value": "ARV-H-/SR1MVB"
+      }
+    ],
+    "capacity": {
+      "text": "8–36 HP per module; combinations from 8 to 144 HP",
+      "min": 8,
+      "max": 36,
+      "unit": "HP"
+    },
+    "overview": "The AUX ARV 7 Series is a proven modular VRF platform for offices, malls, hotels and institutional buildings. Single modules from 8 to 36 HP combine freely into systems of up to 144 HP. EVI DC inverter compressors, two-stage sub-cooling and smart backup functions give efficient, comfortable and reliable operation all year round.",
+    "features": [
+      {
+        "title": "EVI DC Inverter Compressor",
+        "text": "Enhanced vapour injection improves partial-load efficiency and heating performance.",
+        "image": null
+      },
+      {
+        "title": "High-Efficiency DC Fan Motor",
+        "text": "A brushless DC motor adjusts fan speed to system pressure and load. The Super Aero fan gives more air volume and static pressure.",
+        "image": null
+      },
+      {
+        "title": "2-Stage Sub-cooling",
+        "text": "Optimised 2-to-1 refrigerant circuit, inverse-fin design and plate heat exchanger for higher heat-exchange efficiency.",
+        "image": null
+      },
+      {
+        "title": "Wide Operation Range & Voltage",
+        "text": "Comfortable operation from -30 °C to 55 °C, and stable running under ±15% voltage variation.",
+        "image": null
+      },
+      {
+        "title": "VER Technology",
+        "text": "Turbo, Basic and High-efficiency modes adjust the target refrigerant pressure to suit each project.",
+        "image": null
+      },
+      {
+        "title": "Comfort Functions",
+        "text": "12 silent levels (6 night + 6 daytime), fast warm-up and cool-down, and VIP room priority.",
+        "image": null
+      },
+      {
+        "title": "Easy Installation & Service",
+        "text": "No oil-balance pipe, auto refrigerant charging and recycling, one-button test run, auto commissioning.",
+        "image": null
+      },
+      {
+        "title": "Reliable Backup",
+        "text": "Module, compressor and fan-motor emergency operation, dynamic oil return and 7-level power limiting.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Module sizes (HP)",
+    "lineup": [
+      "8",
+      "10",
+      "12",
+      "14",
+      "16",
+      "18",
+      "20",
+      "22",
+      "24",
+      "26",
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/arv-7-series/view-1.webp",
+        "width": 620,
+        "height": 660,
+        "alt": "ARV 7 Series by AUX"
+      },
+      {
+        "src": "/images/products/aux/arv-7-series/view-2.webp",
+        "width": 1154,
+        "height": 589,
+        "alt": "ARV 7 Series, additional view 1"
+      }
+    ],
+    "related": [
+      "arv-9-series",
+      "arv-7c-series",
+      "arv-9-free-series",
+      "cassette-q"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "arv-7c-series",
+    "name": "ARV 7C Series",
+    "subtitle": "Modular VRF Outdoor Unit – Cooling Only",
+    "categoryId": "vrf-outdoor",
+    "categoryName": "VRF Outdoor",
+    "group": "VRF",
+    "model": "ARV-C□/SR1MV",
+    "bullets": [
+      "Dedicated cooling-only VRF",
+      "Free combination up to 144 HP",
+      "EVI DC inverter compressor",
+      "High-efficiency DC fan motor"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Single module",
+        "value": "8 – 36 HP"
+      },
+      {
+        "label": "Combination",
+        "value": "8 – 144 HP"
+      },
+      {
+        "label": "Mode",
+        "value": "Cooling only"
+      }
+    ],
+    "capacity": {
+      "text": "8–36 HP per module; combinations from 8 to 144 HP (cooling only)",
+      "min": 8,
+      "max": 36,
+      "unit": "HP"
+    },
+    "overview": "The AUX ARV 7C is the cooling-only version of the ARV 7 modular VRF platform, for buildings where heating is not required. Modules from 8 to 36 HP combine into systems of up to 144 HP. It uses the same EVI DC inverter compressor technology, DC fan motors and high-efficiency heat exchanger design as ARV 7, giving efficient, reliable cooling for commercial and industrial projects.",
+    "features": [
+      {
+        "title": "EVI DC Inverter Compressor",
+        "text": "Improves partial-load efficiency across the operating range.",
+        "image": null
+      },
+      {
+        "title": "High-Efficiency DC Fan Motor",
+        "text": "Fan speed follows system pressure and load. The Super Aero fan gives more air volume and static pressure.",
+        "image": null
+      },
+      {
+        "title": "High-Efficiency Heat Exchanger",
+        "text": "Optimised 2-to-1 refrigerant circuit and fin design reduce air resistance and boost heat transfer.",
+        "image": null
+      },
+      {
+        "title": "Space-Saving Modules",
+        "text": "Single modules up to 36 HP reduce the number of units on large projects.",
+        "image": null
+      },
+      {
+        "title": "Easy Installation & Service",
+        "text": "No oil-balance pipe between outdoor units, auto commissioning and one-button test run.",
+        "image": null
+      },
+      {
+        "title": "Reliable Backup",
+        "text": "Module and compressor emergency operation keep the system running if one part fails.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Module sizes (HP)",
+    "lineup": [
+      "8",
+      "10",
+      "12",
+      "14",
+      "16",
+      "18",
+      "20",
+      "22",
+      "24",
+      "26",
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/arv-7c-series/view-1.webp",
+        "width": 620,
+        "height": 660,
+        "alt": "ARV 7C Series by AUX"
+      },
+      {
+        "src": "/images/products/aux/arv-7c-series/view-2.webp",
+        "width": 1154,
+        "height": 589,
+        "alt": "ARV 7C Series, additional view 1"
+      }
+    ],
+    "related": [
+      "arv-9-series",
+      "arv-7-series",
+      "arv-9-free-series",
+      "cassette-q"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "arv-9-free-series",
+    "name": "ARV 9 FREE Series",
+    "subtitle": "Compact Modular VRF Outdoor Unit",
+    "categoryId": "vrf-outdoor",
+    "categoryName": "VRF Outdoor",
+    "group": "VRF",
+    "model": "ARV-H□/SR1DCMA",
+    "bullets": [
+      "Up to 26 HP per module",
+      "Operates from -30 °C to 60 °C",
+      "1 W standby power",
+      "Fits in a passenger lift for easy transport"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Single module",
+        "value": "14 – 26 HP"
+      },
+      {
+        "label": "Cooling (module)",
+        "value": "40 – 73.5 kW"
+      },
+      {
+        "label": "Combination",
+        "value": "up to 4 modules / 104 HP"
+      }
+    ],
+    "capacity": {
+      "text": "14–26 HP per module (40–73.5 kW cooling); up to 4 modules, 104 HP",
+      "min": 14,
+      "max": 26,
+      "unit": "HP"
+    },
+    "overview": "The AUX ARV 9 FREE is a compact, high-capacity VRF outdoor unit that gives designers and installers more freedom. Each module delivers up to 26 HP, and up to four modules combine into systems of 104 HP. It runs reliably from -30 °C to 60 °C, uses only 1 W in standby, and is compact enough to be carried in a lift. That makes it ideal for high-rise retrofits, roofs and plant rooms with limited access.",
+    "features": [
+      {
+        "title": "High Capacity",
+        "text": "Up to 26 HP per module, up to 4 modules, up to 104 HP per system.",
+        "image": {
+          "src": "/images/products/aux/arv-9-free-series/feature-1.webp",
+          "width": 369,
+          "height": 209,
+          "alt": "High Capacity",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "1 W Standby Power",
+        "text": "A low-power main control circuit cuts the driver power supply in standby.",
+        "image": {
+          "src": "/images/products/aux/arv-9-free-series/feature-2.webp",
+          "width": 271,
+          "height": 197,
+          "alt": "1 W Standby Power",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Ultra-Wide Operating Range",
+        "text": "Stable operation at -30 °C and no shutdown when cooling at 60 °C.",
+        "image": {
+          "src": "/images/products/aux/arv-9-free-series/feature-3.webp",
+          "width": 934,
+          "height": 172,
+          "alt": "Ultra-Wide Operating Range",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "EVI Scroll Compressor",
+        "text": "Enhanced vapour injection keeps the system running steadily at -30 °C.",
+        "image": {
+          "src": "/images/products/aux/arv-9-free-series/feature-4.webp",
+          "width": 492,
+          "height": 172,
+          "alt": "EVI Scroll Compressor",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "3-Stage Sub-cooling",
+        "text": "A total sub-cooling degree of 36 °C improves cooling and heating, even with long piping.",
+        "image": null
+      },
+      {
+        "title": "16-Stage Oil Return",
+        "text": "Dynamic oil distribution prevents oil-level fluctuation and keeps the oil supply stable.",
+        "image": {
+          "src": "/images/products/aux/arv-9-free-series/feature-6.webp",
+          "width": 319,
+          "height": 209,
+          "alt": "16-Stage Oil Return",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Triple Backup & Alternate Operation",
+        "text": "Module, fan-motor and sensor backup. Modules rotate their run time to extend service life.",
+        "image": null
+      },
+      {
+        "title": "Free Installation",
+        "text": "Lift-transportable. 80 Pa ESP and pipe connections on the front, rear, right or bottom.",
+        "image": null
+      },
+      {
+        "title": "Easy Maintenance",
+        "text": "2-in-1 drive board, rotatable electric control box and water-spray cooling in high heat.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Module sizes (HP)",
+    "lineup": [
+      "14",
+      "16",
+      "18",
+      "20",
+      "22",
+      "24",
+      "26"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/arv-9-free-series/view-1.webp",
+        "width": 620,
+        "height": 871,
+        "alt": "ARV 9 FREE Series by AUX"
+      },
+      {
+        "src": "/images/products/aux/arv-9-free-series/view-2.webp",
+        "width": 1258,
+        "height": 1450,
+        "alt": "ARV 9 FREE Series, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/arv-9-free-series/view-3.webp",
+        "width": 369,
+        "height": 209,
+        "alt": "ARV 9 FREE Series, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/arv-9-free-series/view-4.webp",
+        "width": 271,
+        "height": 197,
+        "alt": "ARV 9 FREE Series, additional view 3"
+      }
+    ],
+    "related": [
+      "arv-9-series",
+      "arv-7-series",
+      "arv-7c-series",
+      "cassette-q"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "arv-mini-series",
+    "name": "ARV Mini Series",
+    "subtitle": "Mini VRF Outdoor Unit – Single & Three Phase",
+    "categoryId": "vrf-outdoor",
+    "categoryName": "VRF Outdoor",
+    "group": "VRF",
+    "model": "ARV-H□/NR1A · ARV-H□/NR1B (single-phase) · ARV-H□/SR1DCS1A / SR1DCS7A (three-phase)",
+    "bullets": [
+      "DC inverter compressor",
+      "±15% wide voltage design",
+      "Connects multiple indoor unit types",
+      "Cooling -15~49 °C, heating -20~24 °C"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity",
+        "value": "8 – 18 kW"
+      },
+      {
+        "label": "Single-phase",
+        "value": "8 – 15.5 kW"
+      },
+      {
+        "label": "Three-phase",
+        "value": "12.1 – 18 kW"
+      }
+    ],
+    "capacity": {
+      "text": "8–18 kW (single-phase 8–15.5 kW; three-phase 12.1–18 kW)",
+      "min": 8,
+      "max": 18,
+      "unit": "kW"
+    },
+    "overview": "The AUX ARV Mini brings VRF technology to villas, apartments, small offices, clinics and shops. A single compact outdoor unit from 8 to 18 kW, in single-phase or three-phase versions, can run several indoor units of different types in one system. It saves space compared with multiple split units. DC inverter technology, wide-voltage design and smart defrosting give quiet, efficient and stable comfort.",
+    "features": [
+      {
+        "title": "DC Inverter Compressor",
+        "text": "Rare-earth permanent-magnet rotor for high efficiency and low noise.",
+        "image": null
+      },
+      {
+        "title": "Wide Voltage Design",
+        "text": "Runs stably in areas with unstable voltage (±15%).",
+        "image": {
+          "src": "/images/products/aux/arv-mini-series/feature-2.webp",
+          "width": 393,
+          "height": 197,
+          "alt": "Wide Voltage Design",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Flexible Installation",
+        "text": "Multiple indoor units of different types combine freely in one system, which is ideal for multi-room spaces.",
+        "image": {
+          "src": "/images/products/aux/arv-mini-series/feature-3.webp",
+          "width": 467,
+          "height": 172,
+          "alt": "Flexible Installation",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "26 °C Economic Locking",
+        "text": "Locks all indoor units in energy-saving mode.",
+        "image": {
+          "src": "/images/products/aux/arv-mini-series/feature-4.webp",
+          "width": 344,
+          "height": 258,
+          "alt": "26 °C Economic Locking",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Auto Restart",
+        "text": "Remembers settings and resumes automatically after a power cut.",
+        "image": {
+          "src": "/images/products/aux/arv-mini-series/feature-5.webp",
+          "width": 442,
+          "height": 148,
+          "alt": "Auto Restart",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Intelligent Defrosting",
+        "text": "Longer heating operation with fewer defrost cycles, for stable room temperature.",
+        "image": null
+      },
+      {
+        "title": "Integrated 2-in-1 PCB & PCB Cooling",
+        "text": "Main control, drive and filter boards on one board, cooled by refrigerant, for easy maintenance and stability.",
+        "image": null
+      },
+      {
+        "title": "Automatic Addressing",
+        "text": "Indoor-unit addresses are set automatically during commissioning.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models (kW cooling)",
+    "lineup": [
+      "8.0",
+      "10.0",
+      "12.1",
+      "14.0",
+      "15.5",
+      "18.0"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/arv-mini-series/view-1.webp",
+        "width": 620,
+        "height": 877,
+        "alt": "ARV Mini Series by AUX"
+      },
+      {
+        "src": "/images/products/aux/arv-mini-series/view-2.webp",
+        "width": 300,
+        "height": 234,
+        "alt": "ARV Mini Series, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/arv-mini-series/view-3.webp",
+        "width": 1400,
+        "height": 342,
+        "alt": "ARV Mini Series, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/arv-mini-series/view-4.webp",
+        "width": 393,
+        "height": 197,
+        "alt": "ARV Mini Series, additional view 3"
+      }
+    ],
+    "related": [
+      "arv-9-series",
+      "arv-7-series",
+      "arv-7c-series",
+      "cassette-q"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "modular-arv-mini",
+    "name": "Modular ARV Mini",
+    "subtitle": "Modular Mini VRF Outdoor Unit – Three Phase",
+    "categoryId": "vrf-outdoor",
+    "categoryName": "VRF Outdoor",
+    "group": "VRF",
+    "model": "ARV-H□/SR1DCMA (224 / 252 / 280 / 335)",
+    "bullets": [
+      "3 basic modules from 8 to 12 HP",
+      "Combinations up to 36 HP",
+      "All-DC inverter compressors",
+      "Long piping: up to 560 m total"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Basic modules",
+        "value": "8 – 12 HP"
+      },
+      {
+        "label": "Cooling (module)",
+        "value": "22.4 – 33.5 kW"
+      },
+      {
+        "label": "Combination",
+        "value": "up to 36 HP (100.5 kW)"
+      }
+    ],
+    "capacity": {
+      "text": "8–12 HP modules (22.4–33.5 kW); combinations up to 36 HP (100.5 kW)",
+      "min": 8,
+      "max": 12,
+      "unit": "HP"
+    },
+    "overview": "The AUX Modular ARV Mini extends the Mini VRF range to medium-sized buildings. Three basic modules from 8 to 12 HP combine into systems of up to 36 HP (100.5 kW), so fewer systems are needed, with less space and simpler installation. All-DC inverter technology, 180° sine-wave control and long piping capability make it a flexible choice for offices, schools, showrooms and large residences.",
+    "features": [
+      {
+        "title": "Large Capacity & Free Combination",
+        "text": "3 basic models from 8 to 12 HP, combining up to 36 HP (100.5 kW).",
+        "image": null
+      },
+      {
+        "title": "All-DC Inverter",
+        "text": "DC inverter compressors and a high-efficiency brushless DC fan motor with Super Aero fan.",
+        "image": null
+      },
+      {
+        "title": "180° Sine-Wave Control",
+        "text": "Smoother compressor operation with higher efficiency and lower noise than conventional control.",
+        "image": null
+      },
+      {
+        "title": "Module Alternate Operation",
+        "text": "Any module can act as master according to run time, balancing the life of every unit.",
+        "image": null
+      },
+      {
+        "title": "Long Piping Length",
+        "text": "Up to 560 m total piping, 150/175 m to the farthest indoor unit and 40/50 m height difference.",
+        "image": null
+      },
+      {
+        "title": "Smart Control",
+        "text": "7-level power limiting (40–100%), 12 silent levels, 2-stage sub-cooling and non-polar communication.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Module sizes (HP)",
+    "lineup": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/modular-arv-mini/view-1.webp",
+        "width": 467,
+        "height": 295,
+        "alt": "Modular ARV Mini by AUX"
+      },
+      {
+        "src": "/images/products/aux/modular-arv-mini/view-2.webp",
+        "width": 1400,
+        "height": 483,
+        "alt": "Modular ARV Mini, additional view 1"
+      }
+    ],
+    "related": [
+      "arv-9-series",
+      "arv-7-series",
+      "arv-7c-series",
+      "cassette-q"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "one-way-cassette",
+    "name": "One Way Cassette",
+    "subtitle": "Ultra-Thin 1-Way Ceiling Cassette",
+    "categoryId": "vrf-indoor",
+    "categoryName": "VRF Indoor",
+    "group": "VRF",
+    "model": "ARVC1-H□/NR1DS",
+    "bullets": [
+      "Only 130 mm thick",
+      "4D swing airflow",
+      "Built-in drain pump (700 mm head)",
+      "Optional Wi-Fi control"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "2.2 – 7.1 kW"
+      },
+      {
+        "label": "Heating capacity",
+        "value": "2.8 – 7.1 kW"
+      },
+      {
+        "label": "Models",
+        "value": "6"
+      }
+    ],
+    "capacity": {
+      "text": "2.2–7.1 kW cooling; 2.8–7.1 kW heating (6 models)",
+      "min": 2.2,
+      "max": 7.1,
+      "unit": "kW"
+    },
+    "overview": "The AUX One Way Cassette is an ultra-thin ceiling cassette for bedrooms, offices, hotel rooms where ceiling space is tight. At only 130 mm thick, it fits narrow ceiling voids, while 4D swing gives even, comfortable airflow. It has a built-in drain pump, easy-to-remove panel and optional Wi-Fi control, and comes in six capacities from 2.2 to 7.1 kW.",
+    "features": [
+      {
+        "title": "Ultra-Thin Body",
+        "text": "Only 130 mm thick, for flexible installation in narrow ceiling spaces.",
+        "image": {
+          "src": "/images/products/aux/one-way-cassette/feature-1.webp",
+          "width": 368,
+          "height": 135,
+          "alt": "Ultra-Thin Body",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "4D Swing",
+        "text": "Horizontal and vertical swing for a more uniform, comfortable air supply.",
+        "image": {
+          "src": "/images/products/aux/one-way-cassette/feature-2.webp",
+          "width": 368,
+          "height": 209,
+          "alt": "4D Swing",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Built-in Water Pump",
+        "text": "Standard drain pump with 700 mm maximum head, for fast, reliable drainage.",
+        "image": {
+          "src": "/images/products/aux/one-way-cassette/feature-3.webp",
+          "width": 368,
+          "height": 207,
+          "alt": "Built-in Water Pump",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Easy Disassembly",
+        "text": "The panel comes off by removing screws and buckles.",
+        "image": {
+          "src": "/images/products/aux/one-way-cassette/feature-4.webp",
+          "width": 368,
+          "height": 207,
+          "alt": "Easy Disassembly",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Wi-Fi Control (Optional)",
+        "text": "Control the unit remotely from the mobile app.",
+        "image": {
+          "src": "/images/products/aux/one-way-cassette/feature-5.webp",
+          "width": 368,
+          "height": 197,
+          "alt": "Wi-Fi Control (Optional)",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Multiple Applications",
+        "text": "Suits bedrooms, offices, hotels and more.",
+        "image": {
+          "src": "/images/products/aux/one-way-cassette/feature-6.webp",
+          "width": 368,
+          "height": 197,
+          "alt": "Multiple Applications",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Models (kW cooling)",
+    "lineup": [
+      "2.2",
+      "2.8",
+      "3.6",
+      "4.5",
+      "5.6",
+      "7.1"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/one-way-cassette/view-1.webp",
+        "width": 620,
+        "height": 465,
+        "alt": "One Way Cassette by AUX"
+      },
+      {
+        "src": "/images/products/aux/one-way-cassette/view-2.webp",
+        "width": 1400,
+        "height": 1313,
+        "alt": "One Way Cassette, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/one-way-cassette/view-3.webp",
+        "width": 368,
+        "height": 135,
+        "alt": "One Way Cassette, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/one-way-cassette/view-4.webp",
+        "width": 368,
+        "height": 209,
+        "alt": "One Way Cassette, additional view 3"
+      }
+    ],
+    "related": [
+      "compact-cassette",
+      "cassette-q",
+      "arv-9-series",
+      "remote-and-wired-controllers"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "compact-cassette",
+    "name": "Compact Cassette",
+    "subtitle": "Compact 4-Way Ceiling Cassette",
+    "categoryId": "vrf-indoor",
+    "categoryName": "VRF Indoor",
+    "group": "VRF",
+    "model": "ARVCA-H□/NR1DYBA",
+    "bullets": [
+      "External control box for easy service",
+      "Fresh air intake",
+      "Large airflow design",
+      "DC fan motor"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "1.5 – 5.6 kW"
+      },
+      {
+        "label": "Heating capacity",
+        "value": "1.8 – 6.3 kW"
+      },
+      {
+        "label": "Models",
+        "value": "6"
+      }
+    ],
+    "capacity": {
+      "text": "1.5–5.6 kW cooling; 1.8–6.3 kW heating (6 models)",
+      "min": 1.5,
+      "max": 5.6,
+      "unit": "kW"
+    },
+    "overview": "The AUX Compact Cassette is a 4-way ceiling cassette for smaller rooms such as offices, clinics, shops and apartments. An external control box and easy-to-remove fan blades make maintenance fast, without taking the unit down. A fresh-air intake keeps indoor air healthy, and the optimised air-guide ring delivers large airflow. Six capacities from 1.5 to 5.6 kW are available.",
+    "features": [
+      {
+        "title": "External Control Box",
+        "text": "Maintenance without disassembling the unit.",
+        "image": {
+          "src": "/images/products/aux/compact-cassette/feature-1.webp",
+          "width": 258,
+          "height": 204,
+          "alt": "External Control Box",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Easy-to-Remove Fan Blades",
+        "text": "Remove the air-guide ring and the blades come out easily for after-sales service.",
+        "image": {
+          "src": "/images/products/aux/compact-cassette/feature-2.webp",
+          "width": 253,
+          "height": 196,
+          "alt": "Easy-to-Remove Fan Blades",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Fresh Air Intake",
+        "text": "Brings in fresh air for a healthier, more comfortable room.",
+        "image": {
+          "src": "/images/products/aux/compact-cassette/feature-3.webp",
+          "width": 332,
+          "height": 184,
+          "alt": "Fresh Air Intake",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Large Airflow",
+        "text": "Air-guide ring optimised by simulation for more air and better comfort.",
+        "image": {
+          "src": "/images/products/aux/compact-cassette/feature-4.webp",
+          "width": 280,
+          "height": 209,
+          "alt": "Large Airflow",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "DC Fan Motor",
+        "text": "DC fan motor across the range.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models (kW cooling)",
+    "lineup": [
+      "1.5",
+      "2.2",
+      "2.8",
+      "3.6",
+      "4.5",
+      "5.6"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/compact-cassette/view-1.webp",
+        "width": 620,
+        "height": 533,
+        "alt": "Compact Cassette by AUX"
+      },
+      {
+        "src": "/images/products/aux/compact-cassette/view-2.webp",
+        "width": 1400,
+        "height": 1303,
+        "alt": "Compact Cassette, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/compact-cassette/view-3.webp",
+        "width": 258,
+        "height": 204,
+        "alt": "Compact Cassette, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/compact-cassette/view-4.webp",
+        "width": 253,
+        "height": 196,
+        "alt": "Compact Cassette, additional view 3"
+      }
+    ],
+    "related": [
+      "one-way-cassette",
+      "cassette-q",
+      "arv-9-series",
+      "remote-and-wired-controllers"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "cassette-q",
+    "name": "Cassette Q",
+    "subtitle": "4-Way Ceiling Cassette with DC Fan Motor",
+    "categoryId": "vrf-indoor",
+    "categoryName": "VRF Indoor",
+    "group": "VRF",
+    "model": "ARVCA-H□/NR1DQB",
+    "bullets": [
+      "Slim 205 mm body for shallow ceilings",
+      "Four individually controlled louvers",
+      "Digital display board, 0.5 °C setting",
+      "Optional Wi-Fi app control"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "2.8 – 16.1 kW"
+      },
+      {
+        "label": "Heating capacity",
+        "value": "3.2 – 18.0 kW"
+      },
+      {
+        "label": "Models",
+        "value": "13"
+      }
+    ],
+    "capacity": {
+      "text": "2.8–16.1 kW cooling; 3.2–18.0 kW heating (13 models)",
+      "min": 2.8,
+      "max": 16.1,
+      "unit": "kW"
+    },
+    "overview": "The AUX Cassette Q is a four-way ceiling cassette indoor unit for AUX ARV VRF systems. Its slim 205 mm body fits into shallow false ceilings, while four independently adjustable louvers and a built-in digital display give precise, personalised comfort across open-plan spaces. With 13 capacities from 2.8 kW to 16.1 kW, one design covers everything from small cabins to large open floors. Cosmix Engineering, authorised AUX distributor in Pakistan, supplies, installs, commissions and supports every Cassette Q system.",
+    "features": [
+      {
+        "title": "Slim 205 mm Body",
+        "text": "Takes up less ceiling depth, ideal for shallow false ceilings.",
+        "image": {
+          "src": "/images/products/aux/cassette-q/feature-1.webp",
+          "width": 366,
+          "height": 206,
+          "alt": "Slim 205 mm Body",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Individual Louver Control",
+        "text": "Set each of the four blades separately: 5 angles each, 625 combinations. (With XK-10 wired controller)",
+        "image": {
+          "src": "/images/products/aux/cassette-q/feature-2.webp",
+          "width": 364,
+          "height": 209,
+          "alt": "Individual Louver Control",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Digital Display Board",
+        "text": "Shows temperature, error codes and status; set temperature in 0.5 °C steps. (With XK-10 wired controller)",
+        "image": {
+          "src": "/images/products/aux/cassette-q/feature-3.webp",
+          "width": 366,
+          "height": 209,
+          "alt": "Digital Display Board",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Easy Maintenance",
+        "text": "The fan motor comes out without removing the drain pan.",
+        "image": {
+          "src": "/images/products/aux/cassette-q/feature-4.webp",
+          "width": 364,
+          "height": 206,
+          "alt": "Easy Maintenance",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Wi-Fi Control (Optional)",
+        "text": "Adjust temperature and mode remotely from the mobile app.",
+        "image": {
+          "src": "/images/products/aux/cassette-q/feature-5.webp",
+          "width": 362,
+          "height": 239,
+          "alt": "Wi-Fi Control (Optional)",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "DC Fan Motor, 13 Sizes",
+        "text": "DC fan motor across the whole range, with one uniform ceiling look for every room size.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models (kW cooling)",
+    "lineup": [
+      "2.8",
+      "3.6",
+      "4.5",
+      "5.6",
+      "6.3",
+      "7.1",
+      "8.0",
+      "9.0",
+      "10.0",
+      "11.2",
+      "12.5",
+      "14.0",
+      "16.1"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/cassette-q/view-1.webp",
+        "width": 620,
+        "height": 438,
+        "alt": "Cassette Q by AUX"
+      },
+      {
+        "src": "/images/products/aux/cassette-q/view-2.webp",
+        "width": 1400,
+        "height": 1184,
+        "alt": "Cassette Q, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/cassette-q/view-3.webp",
+        "width": 366,
+        "height": 206,
+        "alt": "Cassette Q, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/cassette-q/view-4.webp",
+        "width": 364,
+        "height": 209,
+        "alt": "Cassette Q, additional view 3"
+      }
+    ],
+    "related": [
+      "one-way-cassette",
+      "compact-cassette",
+      "arv-9-series",
+      "remote-and-wired-controllers"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "wall-mounted-j-and-c-designs",
+    "name": "Wall-mounted (J & C Designs)",
+    "subtitle": "High-Wall VRF Indoor Unit with DC Fan Motor",
+    "categoryId": "vrf-indoor",
+    "categoryName": "VRF Indoor",
+    "group": "VRF",
+    "model": "ARVWM-H□/NR1DCA",
+    "bullets": [
+      "7-speed DC fan",
+      "Auto up-and-down swing",
+      "Remote standard, wired controller optional",
+      "Built-in EXV, compact size"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "2.2 – 11.0 kW"
+      },
+      {
+        "label": "Heating capacity",
+        "value": "2.5 – 12.0 kW"
+      },
+      {
+        "label": "Models",
+        "value": "10"
+      }
+    ],
+    "capacity": {
+      "text": "2.2–11.0 kW cooling; 2.5–12.0 kW heating (10 models)",
+      "min": 2.2,
+      "max": 11,
+      "unit": "kW"
+    },
+    "overview": "AUX Wall-mounted VRF indoor units bring elegant, easy comfort to bedrooms, offices, hotel rooms and shops. They are offered in J and C designs. The units come with a built-in electronic expansion valve and a choice of panels. A 7-speed DC fan and automatic up-and-down swing spread air evenly, with a remote controller as standard and wired, central or Wi-Fi control as options. Ten capacities run from 2.2 to 11 kW.",
+    "features": [
+      {
+        "title": "7-Speed DC Fan",
+        "text": "DC motor with 7 fan speeds for personalised comfort (C design).",
+        "image": {
+          "src": "/images/products/aux/wall-mounted-j-and-c-designs/feature-1.webp",
+          "width": 506,
+          "height": 99,
+          "alt": "7-Speed DC Fan",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Auto Swing Up and Down",
+        "text": "Even air distribution for more comfort.",
+        "image": {
+          "src": "/images/products/aux/wall-mounted-j-and-c-designs/feature-2.webp",
+          "width": 344,
+          "height": 115,
+          "alt": "Auto Swing Up and Down",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Wi-Fi Function (Optional)",
+        "text": "Intelligent remote control from your phone.",
+        "image": {
+          "src": "/images/products/aux/wall-mounted-j-and-c-designs/feature-3.webp",
+          "width": 368,
+          "height": 209,
+          "alt": "Wi-Fi Function (Optional)",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Easy Installation & Maintenance",
+        "text": "Installation guide diagram, built-in level and detachable underjaw. New fixing plate (J design).",
+        "image": {
+          "src": "/images/products/aux/wall-mounted-j-and-c-designs/feature-4.webp",
+          "width": 368,
+          "height": 199,
+          "alt": "Easy Installation & Maintenance",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "2-Way Drainage Connection",
+        "text": "Drain pipe can connect on the left or right side.",
+        "image": {
+          "src": "/images/products/aux/wall-mounted-j-and-c-designs/feature-5.webp",
+          "width": 369,
+          "height": 152,
+          "alt": "2-Way Drainage Connection",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Wired Control Option",
+        "text": "Remote standard; the wired controller mounts on the wall for commercial areas.",
+        "image": {
+          "src": "/images/products/aux/wall-mounted-j-and-c-designs/feature-6.webp",
+          "width": 417,
+          "height": 197,
+          "alt": "Wired Control Option",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Superb Craftsmanship",
+        "text": "0.3 mm seam for a seamless, integrated look, with a variety of panels.",
+        "image": {
+          "src": "/images/products/aux/wall-mounted-j-and-c-designs/feature-7.webp",
+          "width": 480,
+          "height": 295,
+          "alt": "Superb Craftsmanship",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Comfort Functions",
+        "text": "Intelligent defrosting, sleep mode, fast cooling/heating and anti-cold-air.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models (kW cooling)",
+    "lineup": [
+      "2.2",
+      "2.8",
+      "3.6",
+      "4.5",
+      "5.6",
+      "7.1",
+      "8.0",
+      "9.0",
+      "10.0",
+      "11.0"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/wall-mounted-j-and-c-designs/view-1.webp",
+        "width": 620,
+        "height": 232,
+        "alt": "Wall-mounted (J & C Designs) by AUX"
+      },
+      {
+        "src": "/images/products/aux/wall-mounted-j-and-c-designs/view-2.webp",
+        "width": 300,
+        "height": 121,
+        "alt": "Wall-mounted (J & C Designs), additional view 1"
+      },
+      {
+        "src": "/images/products/aux/wall-mounted-j-and-c-designs/view-3.webp",
+        "width": 1400,
+        "height": 1303,
+        "alt": "Wall-mounted (J & C Designs), additional view 2"
+      },
+      {
+        "src": "/images/products/aux/wall-mounted-j-and-c-designs/view-4.webp",
+        "width": 506,
+        "height": 99,
+        "alt": "Wall-mounted (J & C Designs), additional view 3"
+      }
+    ],
+    "related": [
+      "one-way-cassette",
+      "compact-cassette",
+      "arv-9-series",
+      "remote-and-wired-controllers"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "slim-duct-q-series",
+    "name": "Slim Duct (Q Series)",
+    "subtitle": "Concealed Slim Duct Indoor Unit",
+    "categoryId": "vrf-indoor",
+    "categoryName": "VRF Indoor",
+    "group": "VRF",
+    "model": "ARVLD-H□/NR1DQ",
+    "bullets": [
+      "Fully concealed above the ceiling",
+      "Fresh air inlet",
+      "Rear or bottom return air",
+      "Built-in electric control box"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "1.5 – 7.1 kW"
+      },
+      {
+        "label": "Heating capacity",
+        "value": "1.8 – 8.0 kW"
+      },
+      {
+        "label": "Models",
+        "value": "7"
+      }
+    ],
+    "capacity": {
+      "text": "1.5–7.1 kW cooling; 1.8–8.0 kW heating (7 models)",
+      "min": 1.5,
+      "max": 7.1,
+      "unit": "kW"
+    },
+    "overview": "The AUX Slim Duct (Q Series) is a concealed ducted indoor unit for hotel rooms, apartments, offices and meeting rooms where a clean ceiling is essential. It has a fresh-air inlet, a choice of rear or bottom return air, a strengthened structure and a built-in control box, which makes it simple to install and to adapt to any interior design. Seven capacities from 1.5 to 7.1 kW.",
+    "features": [
+      {
+        "title": "Fresh Air Inlet",
+        "text": "Brings fresh air into the room.",
+        "image": {
+          "src": "/images/products/aux/slim-duct-q-series/feature-1.webp",
+          "width": 466,
+          "height": 140,
+          "alt": "Fresh Air Inlet",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Two Return-Air Modes",
+        "text": "Rear or bottom return air; remove the base plate to switch.",
+        "image": {
+          "src": "/images/products/aux/slim-duct-q-series/feature-2.webp",
+          "width": 712,
+          "height": 201,
+          "alt": "Two Return-Air Modes",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Hanger Design",
+        "text": "Space between hanger and top cover for easy lifting by hand.",
+        "image": {
+          "src": "/images/products/aux/slim-duct-q-series/feature-3.webp",
+          "width": 467,
+          "height": 201,
+          "alt": "Hanger Design",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Strengthened Structure",
+        "text": "Simulation-optimised structure resists deformation in transport.",
+        "image": {
+          "src": "/images/products/aux/slim-duct-q-series/feature-4.webp",
+          "width": 492,
+          "height": 202,
+          "alt": "Strengthened Structure",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Built-in Control Box",
+        "text": "Electric control box built in. More units fit per container.",
+        "image": {
+          "src": "/images/products/aux/slim-duct-q-series/feature-5.webp",
+          "width": 467,
+          "height": 202,
+          "alt": "Built-in Control Box",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Models (kW cooling)",
+    "lineup": [
+      "1.5",
+      "2.2",
+      "2.8",
+      "3.6",
+      "4.5",
+      "5.6",
+      "7.1"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/slim-duct-q-series/view-1.webp",
+        "width": 620,
+        "height": 243,
+        "alt": "Slim Duct (Q Series) by AUX"
+      },
+      {
+        "src": "/images/products/aux/slim-duct-q-series/view-2.webp",
+        "width": 1400,
+        "height": 342,
+        "alt": "Slim Duct (Q Series), additional view 1"
+      },
+      {
+        "src": "/images/products/aux/slim-duct-q-series/view-3.webp",
+        "width": 466,
+        "height": 140,
+        "alt": "Slim Duct (Q Series), additional view 2"
+      },
+      {
+        "src": "/images/products/aux/slim-duct-q-series/view-4.webp",
+        "width": 712,
+        "height": 201,
+        "alt": "Slim Duct (Q Series), additional view 3"
+      }
+    ],
+    "related": [
+      "one-way-cassette",
+      "compact-cassette",
+      "arv-9-series",
+      "remote-and-wired-controllers"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "medium-esp-duct",
+    "name": "Medium ESP Duct",
+    "subtitle": "Ducted Indoor Unit – DC & AC Fan Versions",
+    "categoryId": "vrf-indoor",
+    "categoryName": "VRF Indoor",
+    "group": "VRF",
+    "model": "ARVMD-H□/NR1DM (DC fan) · ARVMD-H□/4R1M (AC fan)",
+    "bullets": [
+      "Fresh air inlet",
+      "Rear or bottom air intake",
+      "Two-way drainage",
+      "Removable control box"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "4.5 – 16.0 kW"
+      },
+      {
+        "label": "Fan versions",
+        "value": "DC & AC"
+      },
+      {
+        "label": "ESP (DC)",
+        "value": "adjustable up to 150 Pa"
+      }
+    ],
+    "capacity": {
+      "text": "4.5–16.0 kW cooling (DC models 4.5–16.0 kW; AC models 4.5–15.0 kW)",
+      "min": 4.5,
+      "max": 16,
+      "unit": "kW"
+    },
+    "overview": "The AUX Medium ESP Duct is a versatile concealed indoor unit for living rooms, offices, restaurants and retail spaces that need ducted air to several outlets. Flexible rear or bottom intake, left or right drainage and a fresh-air inlet adapt it to almost any ceiling layout. The removable control box makes servicing quick. It is available with DC or AC fan motors from 4.5 to 16 kW.",
+    "features": [
+      {
+        "title": "Fresh Air Inlet",
+        "text": "Brings fresh air into the room.",
+        "image": {
+          "src": "/images/products/aux/medium-esp-duct/feature-1.webp",
+          "width": 221,
+          "height": 111,
+          "alt": "Fresh Air Inlet",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Flexible Air Intake",
+        "text": "Air intake from the rear or bottom, to suit different decoration needs.",
+        "image": {
+          "src": "/images/products/aux/medium-esp-duct/feature-2.webp",
+          "width": 373,
+          "height": 204,
+          "alt": "Flexible Air Intake",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Two-Way Drainage",
+        "text": "Drain from the left or right side.",
+        "image": {
+          "src": "/images/products/aux/medium-esp-duct/feature-3.webp",
+          "width": 373,
+          "height": 204,
+          "alt": "Two-Way Drainage",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Removable Control Box",
+        "text": "Independent structure. Remove 3 screws to service.",
+        "image": {
+          "src": "/images/products/aux/medium-esp-duct/feature-4.webp",
+          "width": 368,
+          "height": 216,
+          "alt": "Removable Control Box",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Adjustable ESP",
+        "text": "DC models offer external static pressure adjustable up to 150 Pa for different duct runs.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models (kW cooling)",
+    "lineup": [
+      "4.5",
+      "5.6",
+      "7.1",
+      "8.0",
+      "9.0",
+      "10.0",
+      "11.2",
+      "12.5",
+      "14.0",
+      "15.0",
+      "16.0"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/medium-esp-duct/view-1.webp",
+        "width": 620,
+        "height": 295,
+        "alt": "Medium ESP Duct by AUX"
+      },
+      {
+        "src": "/images/products/aux/medium-esp-duct/view-2.webp",
+        "width": 306,
+        "height": 146,
+        "alt": "Medium ESP Duct, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/medium-esp-duct/view-3.webp",
+        "width": 1400,
+        "height": 1313,
+        "alt": "Medium ESP Duct, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/medium-esp-duct/view-4.webp",
+        "width": 221,
+        "height": 111,
+        "alt": "Medium ESP Duct, additional view 3"
+      }
+    ],
+    "related": [
+      "one-way-cassette",
+      "compact-cassette",
+      "arv-9-series",
+      "remote-and-wired-controllers"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "high-esp-duct",
+    "name": "High ESP Duct",
+    "subtitle": "High Static Pressure Ducted Indoor Unit",
+    "categoryId": "vrf-indoor",
+    "categoryName": "VRF Indoor",
+    "group": "VRF",
+    "model": "ARVHD-H□/NR1DC (DC) · ARVHD-H□/4R1A · ARVHD-H□/5R1Y (AC)",
+    "bullets": [
+      "ESP up to 250 Pa",
+      "Wide adjustable range: 30 – 250 Pa",
+      "7 fan speeds (DC models)",
+      "Double drain pan"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "11.2 – 56.0 kW"
+      },
+      {
+        "label": "Max ESP",
+        "value": "up to 250 Pa"
+      },
+      {
+        "label": "Fan versions",
+        "value": "DC & AC"
+      }
+    ],
+    "capacity": {
+      "text": "11.2–56.0 kW cooling (DC 22.4–28 kW; AC 11.2–15 kW and 45–56 kW)",
+      "min": 11.2,
+      "max": 56,
+      "unit": "kW"
+    },
+    "overview": "The AUX High ESP Duct is built for large spaces such as halls, lobbies, showrooms, banquet areas and factories, where air must travel through long duct runs. External static pressure up to 250 Pa, with a wide adjustable range, suits many site conditions. DC models offer 7 fan speeds, and a double drain pan ensures reliable condensate drainage. Capacities run from 11.2 to 56 kW.",
+    "features": [
+      {
+        "title": "Changeable ESP",
+        "text": "Maximum ESP up to 250 Pa, with a wide adjustable range of 30–250 Pa.",
+        "image": null
+      },
+      {
+        "title": "Multiple Fan Speeds",
+        "text": "DC fan motor with 7 speeds (DC models).",
+        "image": {
+          "src": "/images/products/aux/high-esp-duct/feature-2.webp",
+          "width": 405,
+          "height": 172,
+          "alt": "Multiple Fan Speeds",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Double Drain Pan",
+        "text": "Double drain-tray design for easier condensate drainage.",
+        "image": {
+          "src": "/images/products/aux/high-esp-duct/feature-3.webp",
+          "width": 405,
+          "height": 221,
+          "alt": "Double Drain Pan",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Wide Capacity Range",
+        "text": "From 11.2 kW up to 56 kW in single- and three-phase versions.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models (kW cooling)",
+    "lineup": [
+      "11.2",
+      "12.5",
+      "14.0",
+      "15.0",
+      "22.4",
+      "28.0",
+      "45.0",
+      "56.0"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/high-esp-duct/view-1.webp",
+        "width": 620,
+        "height": 394,
+        "alt": "High ESP Duct by AUX"
+      },
+      {
+        "src": "/images/products/aux/high-esp-duct/view-2.webp",
+        "width": 300,
+        "height": 190,
+        "alt": "High ESP Duct, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/high-esp-duct/view-3.webp",
+        "width": 1400,
+        "height": 1313,
+        "alt": "High ESP Duct, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/high-esp-duct/view-4.webp",
+        "width": 405,
+        "height": 172,
+        "alt": "High ESP Duct, additional view 3"
+      }
+    ],
+    "related": [
+      "one-way-cassette",
+      "compact-cassette",
+      "arv-9-series",
+      "remote-and-wired-controllers"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "fresh-air-processor",
+    "name": "Fresh Air Processor",
+    "subtitle": "Fresh Air Processing Unit for VRF",
+    "categoryId": "vrf-indoor",
+    "categoryName": "VRF Indoor",
+    "group": "VRF",
+    "model": "ARVFA-H□/NR1DC (DC) · ARVFA-H□/5R1A (AC)",
+    "bullets": [
+      "Treats 100% fresh outdoor air",
+      "High ESP for long-distance supply",
+      "Suits L-, U- and narrow rooms",
+      "Outlets can be placed separately"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "22.4 – 56.0 kW"
+      },
+      {
+        "label": "Models",
+        "value": "4"
+      },
+      {
+        "label": "Fan versions",
+        "value": "DC & AC"
+      }
+    ],
+    "capacity": {
+      "text": "22.4–56.0 kW cooling (22.4, 28, 45, 56 kW)",
+      "min": 22.4,
+      "max": 56,
+      "unit": "kW"
+    },
+    "overview": "The AUX Fresh Air Processor brings conditioned fresh outdoor air into offices, hotels, hospitals, schools and other buildings that need healthy indoor air. High external static pressure allows long-distance supply, and the air outlet can be located away from the unit, so air is distributed evenly even in L-shaped, U-shaped or narrow rooms. Four capacities from 22.4 to 56 kW.",
+    "features": [
+      {
+        "title": "Fresh Air Intake",
+        "text": "Introduces fresh air to keep indoor air quality high.",
+        "image": null
+      },
+      {
+        "title": "Long-Distance Air Supply",
+        "text": "High ESP for long supply distances.",
+        "image": null
+      },
+      {
+        "title": "Flexible Room Layouts",
+        "text": "Specific ESP design suits L-type, U-type and narrow rooms.",
+        "image": null
+      },
+      {
+        "title": "Separate Air Outlets",
+        "text": "Outlets can be placed apart from the unit for even airflow in irregular rooms.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models (kW cooling)",
+    "lineup": [
+      "22.4",
+      "28.0",
+      "45.0",
+      "56.0"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/fresh-air-processor/view-1.webp",
+        "width": 620,
+        "height": 310,
+        "alt": "Fresh Air Processor by AUX"
+      },
+      {
+        "src": "/images/products/aux/fresh-air-processor/view-2.webp",
+        "width": 315,
+        "height": 158,
+        "alt": "Fresh Air Processor, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/fresh-air-processor/view-3.webp",
+        "width": 1400,
+        "height": 560,
+        "alt": "Fresh Air Processor, additional view 2"
+      }
+    ],
+    "related": [
+      "one-way-cassette",
+      "compact-cassette",
+      "arv-9-series",
+      "remote-and-wired-controllers"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "ceiling-and-floor",
+    "name": "Ceiling & Floor",
+    "subtitle": "Convertible Ceiling / Floor Indoor Unit",
+    "categoryId": "vrf-indoor",
+    "categoryName": "VRF Indoor",
+    "group": "VRF",
+    "model": "ARVCF-H□/NR1DF",
+    "bullets": [
+      "Air throw up to 10 m",
+      "Built-in display board",
+      "Anti-condensation outlet",
+      "Fresh air intake"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Cooling capacity",
+        "value": "2.8 – 14.0 kW"
+      },
+      {
+        "label": "Heating capacity",
+        "value": "3.2 – 15.0 kW"
+      },
+      {
+        "label": "Models",
+        "value": "10"
+      }
+    ],
+    "capacity": {
+      "text": "2.8–14.0 kW cooling; 3.2–15.0 kW heating (10 models)",
+      "min": 2.8,
+      "max": 14,
+      "unit": "kW"
+    },
+    "overview": "The AUX Ceiling & Floor unit is a flexible exposed indoor unit for spaces without a false ceiling, such as large living rooms, shops, restaurants, offices and classrooms. An air supply distance of up to 10 m covers large rooms. It has an elegant built-in display board, anti-condensation outlet design, fresh-air intake and left or right drainage for easy installation. Ten capacities from 2.8 to 14 kW.",
+    "features": [
+      {
+        "title": "Long Air Supply Distance",
+        "text": "Up to 10 m, for large rooms.",
+        "image": {
+          "src": "/images/products/aux/ceiling-and-floor/feature-1.webp",
+          "width": 363,
+          "height": 201,
+          "alt": "Long Air Supply Distance",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Built-in Display Board",
+        "text": "Elegant, well-sealed, moisture-proof display for long, reliable life.",
+        "image": {
+          "src": "/images/products/aux/ceiling-and-floor/feature-2.webp",
+          "width": 363,
+          "height": 201,
+          "alt": "Built-in Display Board",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Anti-condensation",
+        "text": "Industry-leading anti-condensation insulation at the air outlet.",
+        "image": {
+          "src": "/images/products/aux/ceiling-and-floor/feature-3.webp",
+          "width": 363,
+          "height": 212,
+          "alt": "Anti-condensation",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Fresh Air Intake",
+        "text": "Fresh-air intake hole brings in fresh air for better air quality.",
+        "image": {
+          "src": "/images/products/aux/ceiling-and-floor/feature-4.webp",
+          "width": 363,
+          "height": 212,
+          "alt": "Fresh Air Intake",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Easy Drainage",
+        "text": "Left or right water outlet for flexible installation.",
+        "image": {
+          "src": "/images/products/aux/ceiling-and-floor/feature-5.webp",
+          "width": 368,
+          "height": 219,
+          "alt": "Easy Drainage",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Models (kW cooling)",
+    "lineup": [
+      "2.8",
+      "3.6",
+      "4.5",
+      "5.6",
+      "7.1",
+      "8.0",
+      "9.0",
+      "11.2",
+      "12.5",
+      "14.0"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/ceiling-and-floor/view-1.webp",
+        "width": 620,
+        "height": 335,
+        "alt": "Ceiling & Floor by AUX"
+      },
+      {
+        "src": "/images/products/aux/ceiling-and-floor/view-2.webp",
+        "width": 1400,
+        "height": 1292,
+        "alt": "Ceiling & Floor, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/ceiling-and-floor/view-3.webp",
+        "width": 363,
+        "height": 201,
+        "alt": "Ceiling & Floor, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/ceiling-and-floor/view-4.webp",
+        "width": 363,
+        "height": 201,
+        "alt": "Ceiling & Floor, additional view 3"
+      }
+    ],
+    "related": [
+      "one-way-cassette",
+      "compact-cassette",
+      "arv-9-series",
+      "remote-and-wired-controllers"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "hrv-heat-recovery-ventilator",
+    "name": "HRV Heat Recovery Ventilator",
+    "subtitle": "Energy-Recovery Fresh Air Ventilation",
+    "categoryId": "vrf-ventilation",
+    "categoryName": "VRF Ventilation",
+    "group": "VRF",
+    "model": "AHRV-□/4 · AHRV-□/5",
+    "bullets": [
+      "Recovers energy from exhaust air",
+      "Bypass mode for free fresh air",
+      "Centrifugal fans, quiet airflow",
+      "Multiple operating modes"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Air volume",
+        "value": "200 – 5000 m³/h"
+      },
+      {
+        "label": "Models",
+        "value": "12"
+      },
+      {
+        "label": "Power",
+        "value": "single & three phase"
+      }
+    ],
+    "capacity": {
+      "text": "200–5000 m³/h air volume (12 models)",
+      "min": 200,
+      "max": 5000,
+      "unit": "m³/h"
+    },
+    "overview": "The AUX HRV Heat Recovery Ventilator supplies fresh outdoor air while recovering energy from the stale air it exhausts, so buildings stay healthy without wasting cooling or heating. It suits offices, classrooms, clinics, hotels and homes. Innovative centrifugal fans give large air volume with low noise, and multiple modes, including bypass and auto, adapt to the weather. Twelve models from 200 to 5000 m³/h.",
+    "features": [
+      {
+        "title": "Heat Exchange Mode",
+        "text": "Supply airflow equals exhaust airflow while energy is recovered.",
+        "image": null
+      },
+      {
+        "title": "Bypass Mode",
+        "text": "No heat exchange when outdoor air is already comfortable, which saves more energy.",
+        "image": null
+      },
+      {
+        "title": "Auto Mode",
+        "text": "Chooses heat exchange or bypass automatically from indoor and outdoor temperature (HRV-200 to 1000).",
+        "image": null
+      },
+      {
+        "title": "Centrifugal Fan",
+        "text": "Lower power use, longer air supply distance, larger volume and quieter airflow.",
+        "image": null
+      },
+      {
+        "title": "3-Speed Fan",
+        "text": "220–240 V units have 3 fan speeds to match ceiling height.",
+        "image": null
+      },
+      {
+        "title": "Easy Control",
+        "text": "Exhaust, supply, bypass and heat-exchange modes, each with Hi/Mid/Low speed.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models (air volume, m³/h)",
+    "lineup": [
+      "200",
+      "300",
+      "400",
+      "500",
+      "800",
+      "1000",
+      "1500",
+      "2000",
+      "2500",
+      "3000",
+      "4000",
+      "5000"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/hrv-heat-recovery-ventilator/view-1.webp",
+        "width": 620,
+        "height": 437,
+        "alt": "HRV Heat Recovery Ventilator by AUX"
+      },
+      {
+        "src": "/images/products/aux/hrv-heat-recovery-ventilator/view-2.webp",
+        "width": 1190,
+        "height": 550,
+        "alt": "HRV Heat Recovery Ventilator, additional view 1"
+      }
+    ],
+    "related": [
+      "ahu-kit",
+      "cassette-q"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "ahu-kit",
+    "name": "AHU Kit",
+    "subtitle": "Connect Air Handling Units to AUX VRF",
+    "categoryId": "vrf-ventilation",
+    "categoryName": "VRF Ventilation",
+    "group": "VRF",
+    "model": "ARVK-0B · ARVK-00B · ARVK-01B · ARVK-02B · ARVK-03B",
+    "bullets": [
+      "Uses AUX VRF as the DX source for AHUs",
+      "Single or multiple AHU connection",
+      "0–10 V temperature or pressure control",
+      "Covers 2.2 – 112 kW"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "AHU capacity",
+        "value": "2.2 – 112 kW"
+      },
+      {
+        "label": "Kit models",
+        "value": "5"
+      },
+      {
+        "label": "Connection",
+        "value": "single or multiple AHU"
+      }
+    ],
+    "capacity": {
+      "text": "Matches AHU capacities from 2.2 to 112 kW (5 kit models)",
+      "min": 2.2,
+      "max": 112,
+      "unit": "kW"
+    },
+    "overview": "The AUX AHU Kit lets air handling units run on an AUX VRF outdoor unit as their DX cooling and heating source. It brings VRF efficiency and control to fresh-air and large-volume applications such as malls, halls, factories and hospitals. Five kit models cover AHU capacities from 2.2 to 112 kW, in single or multiple AHU configurations, with 0–10 V temperature or pressure control.",
+    "features": [
+      {
+        "title": "Wide Capacity Coverage",
+        "text": "Five kit models cover AHU capacities from 2.2 kW to 112 kW.",
+        "image": null
+      },
+      {
+        "title": "Single & Multi-AHU Connection",
+        "text": "Connect one AHU or several AHUs to the VRF system.",
+        "image": null
+      },
+      {
+        "title": "Flexible Control",
+        "text": "Factory-default control, 0–10 V temperature control or 0–10 V pressure control.",
+        "image": null
+      },
+      {
+        "title": "ARV 9 AHU Solution",
+        "text": "ARV 9 outdoor units support AHU connection as standard.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "AHU capacity bands (kW)",
+    "lineup": [
+      "2.2–9",
+      "9–20",
+      "20–36",
+      "36–56",
+      "56–112"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/ahu-kit/view-1.webp",
+        "width": 620,
+        "height": 449,
+        "alt": "AHU Kit by AUX"
+      },
+      {
+        "src": "/images/products/aux/ahu-kit/view-2.webp",
+        "width": 1175,
+        "height": 575,
+        "alt": "AHU Kit, additional view 1"
+      }
+    ],
+    "related": [
+      "hrv-heat-recovery-ventilator",
+      "cassette-q"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "remote-and-wired-controllers",
+    "name": "Remote & Wired Controllers",
+    "subtitle": "Individual Room Control: YK-L / YK-K, XK-05A, XK-06A, XK-10",
+    "categoryId": "controls",
+    "categoryName": "Controls",
+    "group": "Controls",
+    "model": "YK-L · YK-K (remote) · XK-05A · XK-06A · XK-10 (wired)",
+    "bullets": [
+      "Backlit displays",
+      "Weekly timer (XK-06A)",
+      "Follow Me room sensing (XK-05A)",
+      "Individual louver control for Cassette Q (XK-10)"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Remote controllers",
+        "value": "YK-L, YK-K"
+      },
+      {
+        "label": "Wired controllers",
+        "value": "XK-05A, XK-06A, XK-10"
+      },
+      {
+        "label": "Compatibility",
+        "value": "AUX VRF indoor units"
+      }
+    ],
+    "capacity": {
+      "text": "Controllers for AUX VRF indoor units (no capacity rating)",
+      "min": null,
+      "max": null,
+      "unit": null
+    },
+    "overview": "AUX individual controllers give every room simple, precise control. YK-series remote controllers have a backlight and can set indoor-unit addresses. The XK-05A is a hidden-mode wired controller designed for hotels, hospitals, schools and offices. The XK-06A adds a weekly timer, and the new XK-10 offers a larger screen in a compact 86 mm size, with individual louver control for Cassette Q.",
+    "features": [
+      {
+        "title": "Backlit Remote Controllers",
+        "text": "YK remotes light up for use in dark rooms and can set indoor-unit addresses.",
+        "image": null
+      },
+      {
+        "title": "XK-05A for Commercial Buildings",
+        "text": "Hidden-mode design for hotels, hospitals, schools and offices. Backlight as standard.",
+        "image": null
+      },
+      {
+        "title": "Built-in Remote Receiver",
+        "text": "XK-05A also receives signals from the remote controller.",
+        "image": null
+      },
+      {
+        "title": "Error Reporting & Keyboard Lock",
+        "text": "Shows error codes on screen; locking prevents unauthorised changes in public places.",
+        "image": null
+      },
+      {
+        "title": "Follow Me & Timer",
+        "text": "Senses temperature at the controller, closer to the user, with a built-in daily timer (XK-05A).",
+        "image": null
+      },
+      {
+        "title": "XK-06A Weekly Timer",
+        "text": "Easy weekly scheduling, with optional room temperature display.",
+        "image": null
+      },
+      {
+        "title": "XK-10 New Wired Controller",
+        "text": "Larger screen in an 86 mm size, parameter setting, error history and individual louver control.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "YK-L · YK-K (remote) · XK-05A · XK-06A · XK-10 (wired)",
+      "Remote controllers: YK-L, YK-K"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/remote-and-wired-controllers/view-1.webp",
+        "width": 620,
+        "height": 617,
+        "alt": "Remote & Wired Controllers by AUX"
+      },
+      {
+        "src": "/images/products/aux/remote-and-wired-controllers/view-2.webp",
+        "width": 300,
+        "height": 300,
+        "alt": "Remote & Wired Controllers, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/remote-and-wired-controllers/view-3.webp",
+        "width": 300,
+        "height": 300,
+        "alt": "Remote & Wired Controllers, additional view 2"
+      }
+    ],
+    "related": [
+      "centralized-control-bms-and-wi-fi",
+      "design-commissioning-and-piping-tools",
+      "cassette-q"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "centralized-control-bms-and-wi-fi",
+    "name": "Centralized Control, BMS & Wi-Fi",
+    "subtitle": "CC-02 Touch Screen, Central Software, Tenant Billing, Modbus / BACnet",
+    "categoryId": "controls",
+    "categoryName": "Controls",
+    "group": "Controls",
+    "model": "CC-02 · Centralized control software · CM-PTD/A02 gateway · CM-MTD/AM01 BACnet gateway · Wi-Fi control",
+    "bullets": [
+      "Touch screen control of up to 256 indoor units",
+      "PC software for up to 1024 indoor units",
+      "Tenant billing by energy meter",
+      "Modbus & BACnet BMS integration"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "CC-02 touch screen",
+        "value": "up to 256 indoor units"
+      },
+      {
+        "label": "Central software",
+        "value": "up to 1024 indoor units"
+      },
+      {
+        "label": "BMS",
+        "value": "Modbus & BACnet"
+      }
+    ],
+    "capacity": {
+      "text": "CC-02: up to 256 indoor units / 64 systems; software: up to 1024 indoor units",
+      "min": null,
+      "max": null,
+      "unit": null
+    },
+    "overview": "AUX centralized control lets facility managers run a whole building from one place. The CC-02 touch-screen controller manages up to 256 indoor units across up to 64 systems, with weekly schedules and multiple lock functions. The centralized control software scales to 1024 indoor units, with remote monitoring, fault alerts and tenant billing. Modbus and BACnet gateways integrate AUX VRF with the building management system (BMS), and Wi-Fi control puts every unit on the user’s phone.",
+    "features": [
+      {
+        "title": "CC-02 Touch Screen Controller",
+        "text": "Controls up to 256 indoor units within 1000 m connection length.",
+        "image": null
+      },
+      {
+        "title": "Multi-System Control",
+        "text": "Up to 64 systems controlled together without repeated addresses.",
+        "image": null
+      },
+      {
+        "title": "Weekly Schedule & Locks",
+        "text": "Up to four timed periods per day; lock keyboard, operating mode or remote controller.",
+        "image": null
+      },
+      {
+        "title": "Centralized Control Software",
+        "text": "Monitor and control up to 1024 indoor units from a PC, find faults early and automate weekly schedules.",
+        "image": null
+      },
+      {
+        "title": "Tenant Billing",
+        "text": "Shares total air-conditioning power, measured by an electricity meter, among tenants, which is ideal for rental buildings.",
+        "image": null
+      },
+      {
+        "title": "BMS Integration",
+        "text": "Modbus and BACnet gateways connect AUX VRF to building management systems.",
+        "image": null
+      },
+      {
+        "title": "Wi-Fi App Control",
+        "text": "Mode, temperature, swing, timer and scene control from iOS and Android devices.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "CC-02 · Centralized control software · CM-PTD/A02 gateway · CM-MTD/AM01 BACnet gateway · Wi-Fi control",
+      "CC-02 touch screen: up to 256 indoor units"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/centralized-control-bms-and-wi-fi/view-1.webp",
+        "width": 620,
+        "height": 396,
+        "alt": "Centralized Control, BMS & Wi-Fi by AUX"
+      },
+      {
+        "src": "/images/products/aux/centralized-control-bms-and-wi-fi/view-2.webp",
+        "width": 300,
+        "height": 169,
+        "alt": "Centralized Control, BMS & Wi-Fi, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/centralized-control-bms-and-wi-fi/view-3.webp",
+        "width": 300,
+        "height": 224,
+        "alt": "Centralized Control, BMS & Wi-Fi, additional view 2"
+      }
+    ],
+    "related": [
+      "remote-and-wired-controllers",
+      "design-commissioning-and-piping-tools",
+      "cassette-q"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "design-commissioning-and-piping-tools",
+    "name": "Design, Commissioning & Piping Tools",
+    "subtitle": "Selection Software, Revit Models, Monitoring Software, Branch Pipes",
+    "categoryId": "controls",
+    "categoryName": "Controls",
+    "group": "Controls",
+    "model": "ARV Selection Software · AUX Revit models · Monitoring software · Branch pipes",
+    "bullets": [
+      "Fast, accurate system selection",
+      "3D Revit models for BIM design",
+      "Real-time monitoring for commissioning",
+      "Matched AUX branch pipes"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Selection software",
+        "value": "multi-language"
+      },
+      {
+        "label": "Revit",
+        "value": "3D BIM models"
+      },
+      {
+        "label": "Monitoring",
+        "value": "real-time ODU & IDU data"
+      }
+    ],
+    "capacity": {
+      "text": "Engineering support tools (no capacity rating)",
+      "min": null,
+      "max": null,
+      "unit": null
+    },
+    "overview": "AUX supports consultants, contractors and service teams with a full set of engineering tools. The ARV Selection Software makes system selection fast and accurate in multiple languages. AUX Revit models bring electrical and pipe connectors and product parameters into 3D BIM design, so issues are caught before installation. The self-diagnosis monitoring software shows real-time outdoor and indoor unit data for quick commissioning and troubleshooting. Matched AUX branch pipes complete the installation.",
+    "features": [
+      {
+        "title": "ARV Selection Software",
+        "text": "Quick, convenient selection with multi-language support, which simplifies design and installation.",
+        "image": null
+      },
+      {
+        "title": "AUX Revit Models",
+        "text": "3D models with electrical connectors, pipe connectors and product parameters, for checking designs before installation.",
+        "image": null
+      },
+      {
+        "title": "Monitoring Software",
+        "text": "Monitors outdoor and indoor units in real time and shows malfunctions. Recommended for commissioning.",
+        "image": null
+      },
+      {
+        "title": "Branch Pipes",
+        "text": "AUX branch pipes for a correct, balanced refrigerant distribution.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "ARV Selection Software · AUX Revit models · Monitoring software · Branch pipes",
+      "Selection software: multi-language"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/design-commissioning-and-piping-tools/view-1.webp",
+        "width": 620,
+        "height": 412,
+        "alt": "Design, Commissioning & Piping Tools by AUX"
+      }
+    ],
+    "related": [
+      "remote-and-wired-controllers",
+      "centralized-control-bms-and-wi-fi",
+      "cassette-q"
+    ],
+    "ctaTitle": "Planning a VRF project?",
+    "ctaText": "Our engineers will select the right AUX system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "h-type-modular-chiller",
+    "name": "H Type Modular Chiller",
+    "subtitle": "Air-Cooled Modular Chiller (Outdoor Unit)",
+    "categoryId": "chillers",
+    "categoryName": "Chillers",
+    "group": "Chillers",
+    "model": "AUX H Type modular chiller",
+    "bullets": [
+      "Modular design with flexible combination",
+      "Up to 16 modules in one system",
+      "Module and system back-up",
+      "Anti-corrosion hydrophilic aluminium fins"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Module sizes",
+        "value": "30 / 65 / 130 kW"
+      },
+      {
+        "label": "System range",
+        "value": "30 – 2080 kW"
+      },
+      {
+        "label": "Combination",
+        "value": "up to 16 modules"
+      }
+    ],
+    "capacity": {
+      "text": "Modules of 30, 65 and 130 kW; systems from 30 to 2080 kW (up to 16 modules)",
+      "min": 30,
+      "max": 130,
+      "unit": "kW"
+    },
+    "overview": "The AUX H Type Modular Chiller is an air-cooled chilled-water system for offices, hotels, hospitals, malls and industrial buildings. Modules of 30, 65 and 130 kW combine freely, up to 16 units per system, for capacities from 30 kW to 2080 kW. Module back-up, alternating module operation and system back-up keep the plant running during faults or maintenance, and an anti-corrosion hydrophilic fin coil protects the unit in harsh outdoor conditions.",
+    "features": [
+      {
+        "title": "Module Combination",
+        "text": "Modular design with flexible combination: capacity range 30–2080 kW, with up to 16 units in one system.",
+        "image": {
+          "src": "/images/products/aux/h-type-modular-chiller/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Module Combination",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Module Back-up",
+        "text": "If one module is faulty or under maintenance, the other modules keep running normally.",
+        "image": {
+          "src": "/images/products/aux/h-type-modular-chiller/feature-2.webp",
+          "width": 960,
+          "height": 412,
+          "alt": "Module Back-up",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Module Alternate Technique",
+        "text": "Compressor and module start priority rotates automatically, which balances running time and extends unit service life.",
+        "image": {
+          "src": "/images/products/aux/h-type-modular-chiller/feature-3.webp",
+          "width": 960,
+          "height": 412,
+          "alt": "Module Alternate Technique",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "System Back-up",
+        "text": "If one system has a problem, the other part keeps operating. At low load, only one system runs, which is more energy efficient.",
+        "image": {
+          "src": "/images/products/aux/h-type-modular-chiller/feature-4.webp",
+          "width": 960,
+          "height": 412,
+          "alt": "System Back-up",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Internal-Thread Copper Pipe & Hydrophilic Fin",
+        "text": "Grooved copper tubes improve heat exchange. Anti-corrosion hydrophilic aluminium fins resist frost and oxidation and raise heat-exchange efficiency by about 10% (AUX lab data).",
+        "image": {
+          "src": "/images/products/aux/h-type-modular-chiller/feature-5.webp",
+          "width": 960,
+          "height": 412,
+          "alt": "Internal-Thread Copper Pipe & Hydrophilic Fin",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Module sizes (kW)",
+    "lineup": [
+      "30",
+      "65",
+      "130"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/h-type-modular-chiller/view-1.webp",
+        "width": 700,
+        "height": 589,
+        "alt": "H Type Modular Chiller by AUX"
+      },
+      {
+        "src": "/images/products/aux/h-type-modular-chiller/view-2.webp",
+        "width": 672,
+        "height": 605,
+        "alt": "H Type Modular Chiller, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/h-type-modular-chiller/view-3.webp",
+        "width": 620,
+        "height": 405,
+        "alt": "H Type Modular Chiller, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/h-type-modular-chiller/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "H Type Modular Chiller, additional view 3"
+      }
+    ],
+    "related": [
+      "h-type-low-temp-cooling-modular-chiller",
+      "fan-coil-unit-cassette",
+      "fan-coil-unit-horizontal-concealed",
+      "fan-coil-unit-ultra-thin-floor-standing"
+    ],
+    "ctaTitle": "Planning a chilled-water project?",
+    "ctaText": "Our engineers will size the right AUX chiller and fan coil system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "h-type-low-temp-cooling-modular-chiller",
+    "name": "H Type Low Temp Cooling Modular Chiller",
+    "subtitle": "Air-Cooled Modular Chiller – Low-Ambient Cooling",
+    "categoryId": "chillers",
+    "categoryName": "Chillers",
+    "group": "Chillers",
+    "model": "AUX H Type low temperature cooling modular chiller",
+    "bullets": [
+      "Cooling operation from -15 °C to 49 °C ambient",
+      "Inlet or outlet water temperature control",
+      "Up to 16 modules in one system",
+      "Module back-up and alternate operation"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Module sizes",
+        "value": "30 / 65 / 130 kW"
+      },
+      {
+        "label": "System range",
+        "value": "30 – 2080 kW"
+      },
+      {
+        "label": "Cooling operation",
+        "value": "-15 °C to 49 °C"
+      }
+    ],
+    "capacity": {
+      "text": "Modules of 30, 65 and 130 kW; systems from 30 to 2080 kW (up to 16 modules)",
+      "min": 30,
+      "max": 130,
+      "unit": "kW"
+    },
+    "overview": "The AUX H Type Low Temp Cooling Modular Chiller is designed for projects that need cooling all year round, such as data rooms, process cooling and buildings with internal heat loads. With its low-temperature cooling function enabled, it cools at ambient temperatures from -15 °C to 49 °C. Modules of 30, 65 and 130 kW combine into systems of up to 2080 kW, with module back-up and alternating operation for reliability.",
+    "features": [
+      {
+        "title": "Low-Temperature Cooling",
+        "text": "With the low-temperature cooling function enabled, cooling mode operates from -15 °C to 49 °C.",
+        "image": {
+          "src": "/images/products/aux/h-type-low-temp-cooling-modular-chiller/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Low-Temperature Cooling",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Water Temperature Control",
+        "text": "Control is based on either inlet or outlet water temperature.",
+        "image": {
+          "src": "/images/products/aux/h-type-low-temp-cooling-modular-chiller/feature-2.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Water Temperature Control",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Module Combination",
+        "text": "Capacity range 30–2080 kW, with up to 16 units combined in one system.",
+        "image": {
+          "src": "/images/products/aux/h-type-low-temp-cooling-modular-chiller/feature-3.webp",
+          "width": 960,
+          "height": 412,
+          "alt": "Module Combination",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Module Back-up",
+        "text": "If one module is faulty or under maintenance, the other modules keep running normally.",
+        "image": {
+          "src": "/images/products/aux/h-type-low-temp-cooling-modular-chiller/feature-4.webp",
+          "width": 960,
+          "height": 412,
+          "alt": "Module Back-up",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Module Alternate Technique",
+        "text": "Compressor and module start priority rotates automatically, which balances running time and extends service life.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Module sizes (kW)",
+    "lineup": [
+      "30",
+      "65",
+      "130"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/h-type-low-temp-cooling-modular-chiller/view-1.webp",
+        "width": 620,
+        "height": 586,
+        "alt": "H Type Low Temp Cooling Modular Chiller by AUX"
+      },
+      {
+        "src": "/images/products/aux/h-type-low-temp-cooling-modular-chiller/view-2.webp",
+        "width": 620,
+        "height": 856,
+        "alt": "H Type Low Temp Cooling Modular Chiller, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/h-type-low-temp-cooling-modular-chiller/view-3.webp",
+        "width": 1156,
+        "height": 552,
+        "alt": "H Type Low Temp Cooling Modular Chiller, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/h-type-low-temp-cooling-modular-chiller/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "H Type Low Temp Cooling Modular Chiller, additional view 3"
+      }
+    ],
+    "related": [
+      "h-type-modular-chiller",
+      "fan-coil-unit-cassette",
+      "fan-coil-unit-horizontal-concealed",
+      "fan-coil-unit-ultra-thin-floor-standing"
+    ],
+    "ctaTitle": "Planning a chilled-water project?",
+    "ctaText": "Our engineers will size the right AUX chiller and fan coil system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "fan-coil-unit-cassette",
+    "name": "Fan Coil Unit – Cassette",
+    "subtitle": "Chilled-Water 4-Way Cassette FCU",
+    "categoryId": "fan-coil-units",
+    "categoryName": "Fan Coil Units",
+    "group": "Fan Coil Units",
+    "model": "AUX cassette fan coil unit",
+    "bullets": [
+      "5-fold heat exchanger",
+      "360° round-way air supply",
+      "4 m air supply distance",
+      "Sleep mode"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Air volume",
+        "value": "300 – 1400 CFM"
+      },
+      {
+        "label": "Air supply",
+        "value": "360° round-way"
+      },
+      {
+        "label": "Air throw",
+        "value": "up to 4 m"
+      }
+    ],
+    "capacity": {
+      "text": "300–1400 CFM (300, 400, 500, 600, 800, 1000, 1200, 1400)",
+      "min": 300,
+      "max": 1400,
+      "unit": "CFM"
+    },
+    "overview": "The AUX Cassette Fan Coil Unit is a ceiling-mounted chilled-water terminal for offices, shops, restaurants and hotel lobbies served by a chiller. Its round-flow panel spreads air in all directions for even temperatures, and a 5-fold coil gives a larger heat-exchange area. Eight sizes from 300 to 1400 CFM cover small rooms to tall open spaces.",
+    "features": [
+      {
+        "title": "5-Fold Exchanger",
+        "text": "A 5-fold evaporator gives a larger heat-exchange area, with 12% higher heat-exchange efficiency than a traditional 4-fold coil (AUX data).",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-cassette/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "5-Fold Exchanger",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Round-Way Air Supply",
+        "text": "The round-flow panel spreads air through 360° for a more uniform temperature.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-cassette/feature-2.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Round-Way Air Supply",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Long-Distance Air Supply",
+        "text": "Air supply distance reaches 4 m, which suits tall spaces.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-cassette/feature-3.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Long-Distance Air Supply",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Big Air Volume",
+        "text": "A large-diameter spiral fan wheel gives more air volume with lower noise.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-cassette/feature-4.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Big Air Volume",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Sleep Mode",
+        "text": "Sleep mode keeps the room comfortable all night without over-cooling.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-cassette/feature-5.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Sleep Mode",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Air volume (CFM)",
+    "lineup": [
+      "300",
+      "400",
+      "500",
+      "600",
+      "800",
+      "1000",
+      "1200",
+      "1400"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/fan-coil-unit-cassette/view-1.webp",
+        "width": 696,
+        "height": 460,
+        "alt": "Fan Coil Unit – Cassette by AUX"
+      },
+      {
+        "src": "/images/products/aux/fan-coil-unit-cassette/view-2.webp",
+        "width": 668,
+        "height": 668,
+        "alt": "Fan Coil Unit – Cassette, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/fan-coil-unit-cassette/view-3.webp",
+        "width": 675,
+        "height": 675,
+        "alt": "Fan Coil Unit – Cassette, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/fan-coil-unit-cassette/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Fan Coil Unit – Cassette, additional view 3"
+      }
+    ],
+    "related": [
+      "fan-coil-unit-horizontal-concealed",
+      "fan-coil-unit-ultra-thin-floor-standing",
+      "fan-coil-unit-q-series-wall-mounted",
+      "h-type-modular-chiller"
+    ],
+    "ctaTitle": "Planning a chilled-water project?",
+    "ctaText": "Our engineers will size the right AUX chiller and fan coil system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "fan-coil-unit-horizontal-concealed",
+    "name": "Fan Coil Unit – Horizontal Concealed",
+    "subtitle": "Chilled-Water Ducted FCU",
+    "categoryId": "fan-coil-units",
+    "categoryName": "Fan Coil Units",
+    "group": "Fan Coil Units",
+    "model": "AUX horizontal concealed fan coil unit (A6M series)",
+    "bullets": [
+      "Back or bottom return air",
+      "Long-life air filter",
+      "Left or right pipe and drain connection",
+      "3 rows and metal fan wheel standard (A6M)"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Air volume",
+        "value": "200 – 1400 CFM"
+      },
+      {
+        "label": "ESP",
+        "value": "30 Pa std / 12 Pa opt."
+      },
+      {
+        "label": "Return air",
+        "value": "Back or bottom"
+      }
+    ],
+    "capacity": {
+      "text": "200–1400 CFM (200, 300, 400, 500, 600, 800, 1000, 1200, 1400)",
+      "min": 200,
+      "max": 1400,
+      "unit": "CFM"
+    },
+    "overview": "The AUX Horizontal Concealed Fan Coil Unit is hidden above the ceiling and ducted to grilles, which makes it ideal for hotel rooms, apartments, offices and hospitals on chilled-water systems. Return air can come from the back or the bottom, pipe and drain connections can be chosen to suit the site, and two static-pressure options are available for each model. Nine sizes run from 200 to 1400 CFM.",
+    "features": [
+      {
+        "title": "Return Air Plenum & Filter",
+        "text": "Back or bottom return air is a free choice. A long-term air filter keeps air quality high.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-horizontal-concealed/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Return Air Plenum & Filter",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Flexible Pipe Connection",
+        "text": "Right-hand pipe connection is standard and left-hand is optional. The drain can be on the left or the right.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-horizontal-concealed/feature-2.webp",
+          "width": 960,
+          "height": 412,
+          "alt": "Flexible Pipe Connection",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Adjustable ESP",
+        "text": "Two external static pressure options for each model: standard 30 Pa or optional 12 Pa.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-horizontal-concealed/feature-3.webp",
+          "width": 960,
+          "height": 412,
+          "alt": "Adjustable ESP",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "3-Row Coil & Metal Fan Wheel",
+        "text": "A 3-row coil and metal fan wheel are standard on the A6M series.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-horizontal-concealed/feature-4.webp",
+          "width": 960,
+          "height": 412,
+          "alt": "3-Row Coil & Metal Fan Wheel",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Air volume (CFM)",
+    "lineup": [
+      "200",
+      "300",
+      "400",
+      "500",
+      "600",
+      "800",
+      "1000",
+      "1200",
+      "1400"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/fan-coil-unit-horizontal-concealed/view-1.webp",
+        "width": 673,
+        "height": 407,
+        "alt": "Fan Coil Unit – Horizontal Concealed by AUX"
+      },
+      {
+        "src": "/images/products/aux/fan-coil-unit-horizontal-concealed/view-2.webp",
+        "width": 649,
+        "height": 415,
+        "alt": "Fan Coil Unit – Horizontal Concealed, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/fan-coil-unit-horizontal-concealed/view-3.webp",
+        "width": 700,
+        "height": 276,
+        "alt": "Fan Coil Unit – Horizontal Concealed, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/fan-coil-unit-horizontal-concealed/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Fan Coil Unit – Horizontal Concealed, additional view 3"
+      }
+    ],
+    "related": [
+      "fan-coil-unit-cassette",
+      "fan-coil-unit-ultra-thin-floor-standing",
+      "fan-coil-unit-q-series-wall-mounted",
+      "h-type-modular-chiller"
+    ],
+    "ctaTitle": "Planning a chilled-water project?",
+    "ctaText": "Our engineers will size the right AUX chiller and fan coil system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "fan-coil-unit-ultra-thin-floor-standing",
+    "name": "Fan Coil Unit – Ultra-thin Floor Standing",
+    "subtitle": "Chilled-Water Exposed FCU (Floor / Wall / Ceiling)",
+    "categoryId": "fan-coil-units",
+    "categoryName": "Fan Coil Units",
+    "group": "Fan Coil Units",
+    "model": "AUX floor standing fan coil unit",
+    "bullets": [
+      "Ultra-thin 130 mm all-white metal body",
+      "Floor, wall or ceiling installation",
+      "LCD thermostat with water temperature display",
+      "Wi-Fi app control as standard"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Thickness",
+        "value": "130 mm"
+      },
+      {
+        "label": "Installation",
+        "value": "Floor / wall / ceiling"
+      },
+      {
+        "label": "Capacity",
+        "value": "On request"
+      }
+    ],
+    "capacity": {
+      "text": "Capacity line-up on request",
+      "min": null,
+      "max": null,
+      "unit": null
+    },
+    "overview": "The AUX Ultra-thin Floor Standing Fan Coil Unit is an exposed chilled-water terminal for homes, offices, clinics and hotel rooms where there is no false ceiling. Its all-white metal body is just 130 mm thick and can be mounted on the floor, on a wall or under a ceiling, horizontally or vertically. A low-noise DC motor, an LCD thermostat and standard Wi-Fi app control make it quiet and easy to use.",
+    "features": [
+      {
+        "title": "Ultra-Thin Design",
+        "text": "An all-white metal body only 130 mm thick, with no loss of cooling or heating effect.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-ultra-thin-floor-standing/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Ultra-Thin Design",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Three Installation Options",
+        "text": "Install horizontally or vertically: ceiling-mounted, floor-standing or wall-mounted.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-ultra-thin-floor-standing/feature-2.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Three Installation Options",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Thermostat Control",
+        "text": "Standard LCD thermostat displays water temperature, switches between °F and °C, and has a timer.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-ultra-thin-floor-standing/feature-3.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Thermostat Control",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Low Noise",
+        "text": "A low-noise DC motor and sound-absorbing lining in the air duct reduce airflow noise.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-ultra-thin-floor-standing/feature-4.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Low Noise",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Wi-Fi Control",
+        "text": "Wi-Fi is standard, for control from the mobile app.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-ultra-thin-floor-standing/feature-5.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Wi-Fi Control",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Capacity line-up",
+    "lineup": [],
+    "lineupNote": "Capacity line-up is available on request.",
+    "gallery": [
+      {
+        "src": "/images/products/aux/fan-coil-unit-ultra-thin-floor-standing/view-1.webp",
+        "width": 620,
+        "height": 452,
+        "alt": "Fan Coil Unit – Ultra-thin Floor Standing by AUX"
+      },
+      {
+        "src": "/images/products/aux/fan-coil-unit-ultra-thin-floor-standing/view-2.webp",
+        "width": 1400,
+        "height": 600,
+        "alt": "Fan Coil Unit – Ultra-thin Floor Standing, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/fan-coil-unit-ultra-thin-floor-standing/view-3.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Fan Coil Unit – Ultra-thin Floor Standing, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/fan-coil-unit-ultra-thin-floor-standing/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Fan Coil Unit – Ultra-thin Floor Standing, additional view 3"
+      }
+    ],
+    "related": [
+      "fan-coil-unit-cassette",
+      "fan-coil-unit-horizontal-concealed",
+      "fan-coil-unit-q-series-wall-mounted",
+      "h-type-modular-chiller"
+    ],
+    "ctaTitle": "Planning a chilled-water project?",
+    "ctaText": "Our engineers will size the right AUX chiller and fan coil system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "fan-coil-unit-q-series-wall-mounted",
+    "name": "Fan Coil Unit – Q Series Wall-mounted",
+    "subtitle": "Chilled-Water Wall-mounted FCU",
+    "categoryId": "fan-coil-units",
+    "categoryName": "Fan Coil Units",
+    "group": "Fan Coil Units",
+    "model": "AUX Q Series wall-mounted fan coil unit",
+    "bullets": [
+      "Mirror-polished, UV-resistant panel",
+      "DC motor with 7 fan speeds",
+      "One-key drying / dehumidification",
+      "Fault code display, optional Wi-Fi"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Fan speeds",
+        "value": "7 levels (DC motor)"
+      },
+      {
+        "label": "Panel",
+        "value": "Mirror-polished"
+      },
+      {
+        "label": "Capacity",
+        "value": "On request"
+      }
+    ],
+    "capacity": {
+      "text": "Capacity line-up on request",
+      "min": null,
+      "max": null,
+      "unit": null
+    },
+    "overview": "The AUX Q Series Wall-mounted Fan Coil Unit brings the look of a premium split AC to chilled-water projects such as hotels, apartments and offices. Its mirror-polished panel uses UV-stabilised material that keeps its gloss, and a DC motor offers seven fan speeds. Dehumidification mode, fault-code display and optional Wi-Fi app control add comfort and make service easier.",
+    "features": [
+      {
+        "title": "Exquisite Design",
+        "text": "A mirror-polished panel with a smooth, glossy finish. HIPS material with UV absorbers and light stabilisers resists ageing.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-q-series-wall-mounted/feature-1.webp",
+          "width": 960,
+          "height": 412,
+          "alt": "Exquisite Design",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "7 Fan Speeds",
+        "text": "A DC motor with seven fan speeds, freely selectable for comfort.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-q-series-wall-mounted/feature-2.webp",
+          "width": 960,
+          "height": 412,
+          "alt": "7 Fan Speeds",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Dehumidification Mode",
+        "text": "One-key drying and low-air cooling operation lower indoor humidity in the rainy season.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-q-series-wall-mounted/feature-3.webp",
+          "width": 960,
+          "height": 412,
+          "alt": "Dehumidification Mode",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Fault Code Indication",
+        "text": "Error codes appear on the indoor display panel, which makes service quicker.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-q-series-wall-mounted/feature-4.webp",
+          "width": 960,
+          "height": 412,
+          "alt": "Fault Code Indication",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Wi-Fi Function",
+        "text": "Optional Wi-Fi for control from the mobile app.",
+        "image": {
+          "src": "/images/products/aux/fan-coil-unit-q-series-wall-mounted/feature-5.webp",
+          "width": 960,
+          "height": 412,
+          "alt": "Wi-Fi Function",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Capacity line-up",
+    "lineup": [],
+    "lineupNote": "Capacity line-up is available on request.",
+    "gallery": [
+      {
+        "src": "/images/products/aux/fan-coil-unit-q-series-wall-mounted/view-1.webp",
+        "width": 700,
+        "height": 442,
+        "alt": "Fan Coil Unit – Q Series Wall-mounted by AUX"
+      },
+      {
+        "src": "/images/products/aux/fan-coil-unit-q-series-wall-mounted/view-2.webp",
+        "width": 700,
+        "height": 270,
+        "alt": "Fan Coil Unit – Q Series Wall-mounted, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/fan-coil-unit-q-series-wall-mounted/view-3.webp",
+        "width": 1000,
+        "height": 429,
+        "alt": "Fan Coil Unit – Q Series Wall-mounted, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/fan-coil-unit-q-series-wall-mounted/view-4.webp",
+        "width": 1000,
+        "height": 429,
+        "alt": "Fan Coil Unit – Q Series Wall-mounted, additional view 3"
+      }
+    ],
+    "related": [
+      "fan-coil-unit-cassette",
+      "fan-coil-unit-horizontal-concealed",
+      "fan-coil-unit-ultra-thin-floor-standing",
+      "h-type-modular-chiller"
+    ],
+    "ctaTitle": "Planning a chilled-water project?",
+    "ctaText": "Our engineers will size the right AUX chiller and fan coil system for your building."
+  },
+  {
+    "brand": "aux",
+    "slug": "lcac-r32-inverter-outdoor-series",
+    "name": "LCAC R32 Inverter Outdoor Series",
+    "subtitle": "Light Commercial Split – DC Inverter Outdoor Unit",
+    "categoryId": "light-commercial",
+    "categoryName": "Light Commercial",
+    "group": "Light Commercial",
+    "model": "AUX LCAC R32 series (12–18K, 24–30K, 36–42K, 48–60K)",
+    "bullets": [
+      "DC inverter compressor and DC fan motor",
+      "Cooling down to -15 °C and up to 52 °C",
+      "Stable operation with ±15% voltage fluctuation",
+      "Shock-resistant upright control box"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity",
+        "value": "12 – 60 kBtu/h"
+      },
+      {
+        "label": "Cooling operation",
+        "value": "-15 °C to 52 °C"
+      },
+      {
+        "label": "Voltage tolerance",
+        "value": "±15%"
+      }
+    ],
+    "capacity": {
+      "text": "12–60 kBtu/h (12, 18, 24, 30, 36, 42, 48, 60)",
+      "min": 12,
+      "max": 60,
+      "unit": "kBtu/h"
+    },
+    "overview": "The AUX LCAC R32 Series is a DC inverter outdoor unit for light commercial split systems in shops, offices, restaurants, clinics and villas. Eight sizes from 12 to 60 kBtu/h pair with the AUX cassette, duct, ceiling & floor, console and floor-standing indoor units. It cools at outdoor temperatures up to 52 °C and runs stably with ±15% voltage fluctuation, which suits Pakistan's summer heat and grid conditions.",
+    "features": [
+      {
+        "title": "DC Inverter",
+        "text": "DC inverter compressor and DC fan motor work efficiently at partial load and save energy.",
+        "image": {
+          "src": "/images/products/aux/lcac-r32-inverter-outdoor-series/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "DC Inverter",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Wide Operating & Voltage Range",
+        "text": "Cooling from -15 °C to 52 °C and heating from -15 °C to 24 °C. Stable operation with ±15% voltage fluctuation (AUX lab data).",
+        "image": {
+          "src": "/images/products/aux/lcac-r32-inverter-outdoor-series/feature-2.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Wide Operating & Voltage Range",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Shock-Resistant Design",
+        "text": "The control box stands upright, which reduces stress on the electronics when the unit vibrates.",
+        "image": {
+          "src": "/images/products/aux/lcac-r32-inverter-outdoor-series/feature-3.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Shock-Resistant Design",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Capacity (kBtu/h)",
+    "lineup": [
+      "12",
+      "18",
+      "24",
+      "30",
+      "36",
+      "42",
+      "48",
+      "60"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/lcac-r32-inverter-outdoor-series/view-1.webp",
+        "width": 690,
+        "height": 651,
+        "alt": "LCAC R32 Inverter Outdoor Series by AUX"
+      },
+      {
+        "src": "/images/products/aux/lcac-r32-inverter-outdoor-series/view-2.webp",
+        "width": 693,
+        "height": 645,
+        "alt": "LCAC R32 Inverter Outdoor Series, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/lcac-r32-inverter-outdoor-series/view-3.webp",
+        "width": 620,
+        "height": 861,
+        "alt": "LCAC R32 Inverter Outdoor Series, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/lcac-r32-inverter-outdoor-series/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "LCAC R32 Inverter Outdoor Series, additional view 3"
+      }
+    ],
+    "related": [
+      "top-discharge-outdoor-unit",
+      "cassette-y",
+      "duct-e",
+      "duct-m"
+    ],
+    "ctaTitle": "Cooling a shop, office or restaurant?",
+    "ctaText": "Our engineers will select the right AUX light commercial system for your space."
+  },
+  {
+    "brand": "aux",
+    "slug": "top-discharge-outdoor-unit",
+    "name": "Top Discharge Outdoor Unit",
+    "subtitle": "Light Commercial Split – Vertical-Discharge Outdoor Unit",
+    "categoryId": "light-commercial",
+    "categoryName": "Light Commercial",
+    "group": "Light Commercial",
+    "model": "AUX top discharge outdoor unit",
+    "bullets": [
+      "Cooling at ambient temperatures up to 55 °C",
+      "Pipe runs up to 30 m",
+      "Auto-restart after power cuts",
+      "Top discharge for roof and ground installation"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity",
+        "value": "24 – 60 kBtu/h"
+      },
+      {
+        "label": "Cooling operation",
+        "value": "5 °C to 55 °C"
+      },
+      {
+        "label": "Max. piping",
+        "value": "30 m"
+      }
+    ],
+    "capacity": {
+      "text": "24–60 kBtu/h (24, 36, 48, 60)",
+      "min": 24,
+      "max": 60,
+      "unit": "kBtu/h"
+    },
+    "overview": "The AUX Top Discharge Outdoor Unit blows air upwards, so it can sit on roofs, in courtyards or alongside buildings without hot air hitting walls or neighbours. Four sizes from 24 to 60 kBtu/h serve light commercial and large residential projects. It cools at outdoor temperatures up to 55 °C, supports pipe runs of up to 30 m, and restarts on its own after a power cut.",
+    "features": [
+      {
+        "title": "Wide Operation Range",
+        "text": "Cooling operates from 5 °C to 55 °C ambient (AUX lab data).",
+        "image": {
+          "src": "/images/products/aux/top-discharge-outdoor-unit/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Wide Operation Range",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Long Piping Design",
+        "text": "Maximum pipe length up to 30 m.",
+        "image": {
+          "src": "/images/products/aux/top-discharge-outdoor-unit/feature-2.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Long Piping Design",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Auto-Restart",
+        "text": "Returns to its previous operating state when power is restored, with no manual restart.",
+        "image": {
+          "src": "/images/products/aux/top-discharge-outdoor-unit/feature-3.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Auto-Restart",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Capacity (kBtu/h)",
+    "lineup": [
+      "24",
+      "36",
+      "48",
+      "60"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/top-discharge-outdoor-unit/view-1.webp",
+        "width": 646,
+        "height": 686,
+        "alt": "Top Discharge Outdoor Unit by AUX"
+      },
+      {
+        "src": "/images/products/aux/top-discharge-outdoor-unit/view-2.webp",
+        "width": 620,
+        "height": 629,
+        "alt": "Top Discharge Outdoor Unit, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/top-discharge-outdoor-unit/view-3.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Top Discharge Outdoor Unit, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/top-discharge-outdoor-unit/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Top Discharge Outdoor Unit, additional view 3"
+      }
+    ],
+    "related": [
+      "lcac-r32-inverter-outdoor-series",
+      "cassette-y",
+      "duct-e",
+      "duct-m"
+    ],
+    "ctaTitle": "Cooling a shop, office or restaurant?",
+    "ctaText": "Our engineers will select the right AUX light commercial system for your space."
+  },
+  {
+    "brand": "aux",
+    "slug": "cassette-y",
+    "name": "Cassette Y",
+    "subtitle": "Light Commercial 4-Way Cassette Indoor Unit",
+    "categoryId": "light-commercial",
+    "categoryName": "Light Commercial",
+    "group": "Light Commercial",
+    "model": "AUX Cassette Y",
+    "bullets": [
+      "5-fold heat exchanger",
+      "360° round-way air supply",
+      "Long air throw for tall spaces",
+      "Big air volume, low noise"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity",
+        "value": "24 – 60 kBtu/h"
+      },
+      {
+        "label": "Air supply",
+        "value": "360° round-way"
+      },
+      {
+        "label": "Coil",
+        "value": "5-fold exchanger"
+      }
+    ],
+    "capacity": {
+      "text": "24–60 kBtu/h (24, 36, 42, 48, 60)",
+      "min": 24,
+      "max": 60,
+      "unit": "kBtu/h"
+    },
+    "overview": "The AUX Cassette Y is a round-flow ceiling cassette for light commercial split systems in shops, offices, banks and restaurants. A 5-fold coil gives a large heat-exchange area, and its 360° round-flow panel spreads air evenly through the room. Five sizes from 24 to 60 kBtu/h pair with the AUX LCAC R32 outdoor units.",
+    "features": [
+      {
+        "title": "5-Fold Exchanger",
+        "text": "A 5-fold evaporator gives a larger heat-exchange area.",
+        "image": {
+          "src": "/images/products/aux/cassette-y/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "5-Fold Exchanger",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Round-Way Air Supply",
+        "text": "The round-flow panel spreads air through 360° for a more uniform temperature.",
+        "image": {
+          "src": "/images/products/aux/cassette-y/feature-2.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Round-Way Air Supply",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Long-Distance Air Supply",
+        "text": "A long air supply distance suits tall spaces.",
+        "image": {
+          "src": "/images/products/aux/cassette-y/feature-3.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Long-Distance Air Supply",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Big Air Volume",
+        "text": "A large-diameter spiral fan wheel gives more air volume with lower noise.",
+        "image": {
+          "src": "/images/products/aux/cassette-y/feature-4.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Big Air Volume",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Sleep Mode",
+        "text": "Sleep mode keeps the room comfortable all night.",
+        "image": {
+          "src": "/images/products/aux/cassette-y/feature-5.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Sleep Mode",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Capacity (kBtu/h)",
+    "lineup": [
+      "24",
+      "36",
+      "42",
+      "48",
+      "60"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/cassette-y/view-1.webp",
+        "width": 696,
+        "height": 460,
+        "alt": "Cassette Y by AUX"
+      },
+      {
+        "src": "/images/products/aux/cassette-y/view-2.webp",
+        "width": 668,
+        "height": 668,
+        "alt": "Cassette Y, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/cassette-y/view-3.webp",
+        "width": 682,
+        "height": 682,
+        "alt": "Cassette Y, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/cassette-y/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Cassette Y, additional view 3"
+      }
+    ],
+    "related": [
+      "lcac-r32-inverter-outdoor-series",
+      "top-discharge-outdoor-unit",
+      "duct-e",
+      "duct-m"
+    ],
+    "ctaTitle": "Cooling a shop, office or restaurant?",
+    "ctaText": "Our engineers will select the right AUX light commercial system for your space."
+  },
+  {
+    "brand": "aux",
+    "slug": "duct-e",
+    "name": "Duct E",
+    "subtitle": "Light Commercial Ducted Indoor Unit",
+    "categoryId": "light-commercial",
+    "categoryName": "Light Commercial",
+    "group": "Light Commercial",
+    "model": "AUX Duct E",
+    "bullets": [
+      "Rear or bottom air intake (36K)",
+      "Two return-air modes",
+      "Easy maintenance access",
+      "Left or right drain"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity",
+        "value": "12 – 60 kBtu/h"
+      },
+      {
+        "label": "Return air",
+        "value": "Rear or bottom"
+      },
+      {
+        "label": "Drain",
+        "value": "Left or right"
+      }
+    ],
+    "capacity": {
+      "text": "12–60 kBtu/h (12, 18, 24, 36, 48, 60)",
+      "min": 12,
+      "max": 60,
+      "unit": "kBtu/h"
+    },
+    "overview": "The AUX Duct E is a concealed ducted indoor unit for light commercial split systems in offices, shops, villas and restaurants. Six sizes from 12 to 60 kBtu/h hide above the ceiling and serve rooms through grilles. Flexible air intake, two return-air modes and left or right drainage make it easy to fit around different ceiling designs.",
+    "features": [
+      {
+        "title": "Flexible Air Intake",
+        "text": "On the 36K model, air intake can be from the rear or the bottom (optional), to suit different interior designs.",
+        "image": {
+          "src": "/images/products/aux/duct-e/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Flexible Air Intake",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Two Return-Air Modes",
+        "text": "An independent structure that is easy to maintain: remove two screws to take it off.",
+        "image": {
+          "src": "/images/products/aux/duct-e/feature-2.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Two Return-Air Modes",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Two Drain Directions",
+        "text": "Drain from the left or the right, to suit the installation site.",
+        "image": {
+          "src": "/images/products/aux/duct-e/feature-3.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Two Drain Directions",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Capacity (kBtu/h)",
+    "lineup": [
+      "12",
+      "18",
+      "24",
+      "36",
+      "48",
+      "60"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/duct-e/view-1.webp",
+        "width": 700,
+        "height": 421,
+        "alt": "Duct E by AUX"
+      },
+      {
+        "src": "/images/products/aux/duct-e/view-2.webp",
+        "width": 684,
+        "height": 336,
+        "alt": "Duct E, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/duct-e/view-3.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Duct E, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/duct-e/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Duct E, additional view 3"
+      }
+    ],
+    "related": [
+      "lcac-r32-inverter-outdoor-series",
+      "top-discharge-outdoor-unit",
+      "cassette-y",
+      "duct-m"
+    ],
+    "ctaTitle": "Cooling a shop, office or restaurant?",
+    "ctaText": "Our engineers will select the right AUX light commercial system for your space."
+  },
+  {
+    "brand": "aux",
+    "slug": "duct-m",
+    "name": "Duct M",
+    "subtitle": "Light Commercial Medium Static Ducted Indoor Unit",
+    "categoryId": "light-commercial",
+    "categoryName": "Light Commercial",
+    "group": "Light Commercial",
+    "model": "AUX Duct M",
+    "bullets": [
+      "Fresh-air inlet",
+      "Back or bottom return air",
+      "Constant airflow (selected models)",
+      "ESP 0–150 Pa set from the controller (DC models)"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity",
+        "value": "12 – 60 kBtu/h"
+      },
+      {
+        "label": "ESP (DC models)",
+        "value": "0 – 150 Pa"
+      },
+      {
+        "label": "Return air",
+        "value": "Back or bottom"
+      }
+    ],
+    "capacity": {
+      "text": "12–60 kBtu/h (12, 18, 24, 30, 36, 42, 48, 60)",
+      "min": 12,
+      "max": 60,
+      "unit": "kBtu/h"
+    },
+    "overview": "The AUX Duct M is a medium-static concealed duct unit for apartments, villas, offices and shops. Eight sizes from 12 to 60 kBtu/h cover single rooms to multi-room ductwork. A fresh-air inlet, back or bottom return air and, on DC models, an external static pressure range of 0–150 Pa that can be set from the controller make it adaptable to many duct layouts.",
+    "features": [
+      {
+        "title": "Fresh-Air Inlet",
+        "text": "A fresh-air inlet brings outside air into the room.",
+        "image": {
+          "src": "/images/products/aux/duct-m/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Fresh-Air Inlet",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Two Return-Air Modes",
+        "text": "Back or bottom return air, easy to change on site.",
+        "image": {
+          "src": "/images/products/aux/duct-m/feature-2.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Two Return-Air Modes",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Constant Airflow",
+        "text": "On selected models, airflow stays constant under different static pressures for steady comfort.",
+        "image": {
+          "src": "/images/products/aux/duct-m/feature-3.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Constant Airflow",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Wide ESP Range",
+        "text": "DC models offer 0–150 Pa ESP, adjustable from the controller, for apartments, villas and more.",
+        "image": {
+          "src": "/images/products/aux/duct-m/feature-4.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Wide ESP Range",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Capacity (kBtu/h)",
+    "lineup": [
+      "12",
+      "18",
+      "24",
+      "30",
+      "36",
+      "42",
+      "48",
+      "60"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/duct-m/view-1.webp",
+        "width": 700,
+        "height": 374,
+        "alt": "Duct M by AUX"
+      },
+      {
+        "src": "/images/products/aux/duct-m/view-2.webp",
+        "width": 700,
+        "height": 379,
+        "alt": "Duct M, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/duct-m/view-3.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Duct M, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/duct-m/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Duct M, additional view 3"
+      }
+    ],
+    "related": [
+      "lcac-r32-inverter-outdoor-series",
+      "top-discharge-outdoor-unit",
+      "cassette-y",
+      "duct-e"
+    ],
+    "ctaTitle": "Cooling a shop, office or restaurant?",
+    "ctaText": "Our engineers will select the right AUX light commercial system for your space."
+  },
+  {
+    "brand": "aux",
+    "slug": "duct-y",
+    "name": "Duct Y",
+    "subtitle": "Light Commercial Slim Ducted Indoor Unit",
+    "categoryId": "light-commercial",
+    "categoryName": "Light Commercial",
+    "group": "Light Commercial",
+    "model": "AUX Duct Y",
+    "bullets": [
+      "Fresh-air inlet",
+      "Back or bottom return air",
+      "One-screw control box access",
+      "Double drain holes"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity",
+        "value": "12 – 24 kBtu/h"
+      },
+      {
+        "label": "Return air",
+        "value": "Back or bottom"
+      },
+      {
+        "label": "Drain",
+        "value": "Left and right holes"
+      }
+    ],
+    "capacity": {
+      "text": "12–24 kBtu/h (12, 18, 24)",
+      "min": 12,
+      "max": 24,
+      "unit": "kBtu/h"
+    },
+    "overview": "The AUX Duct Y is a compact concealed duct unit for bedrooms, apartments, small offices and shops. Three sizes from 12 to 24 kBtu/h fit in shallow ceilings. A fresh-air inlet, two return-air modes, double drain holes and a control box opened by removing one screw make installation and service simple.",
+    "features": [
+      {
+        "title": "Fresh-Air Inlet",
+        "text": "A fresh-air inlet brings outside air into the room.",
+        "image": {
+          "src": "/images/products/aux/duct-y/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Fresh-Air Inlet",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Two Return-Air Modes",
+        "text": "Back or bottom return air, easy to change on site.",
+        "image": {
+          "src": "/images/products/aux/duct-y/feature-2.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Two Return-Air Modes",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Easy Maintenance",
+        "text": "Remove one screw from the end cover to reach the control box, with more space for service.",
+        "image": {
+          "src": "/images/products/aux/duct-y/feature-3.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Easy Maintenance",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Double Drain Holes",
+        "text": "Drain holes on both sides of the drain pan adapt to the installation site.",
+        "image": {
+          "src": "/images/products/aux/duct-y/feature-4.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Double Drain Holes",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Capacity (kBtu/h)",
+    "lineup": [
+      "12",
+      "18",
+      "24"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/duct-y/view-1.webp",
+        "width": 700,
+        "height": 375,
+        "alt": "Duct Y by AUX"
+      },
+      {
+        "src": "/images/products/aux/duct-y/view-2.webp",
+        "width": 692,
+        "height": 400,
+        "alt": "Duct Y, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/duct-y/view-3.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Duct Y, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/duct-y/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Duct Y, additional view 3"
+      }
+    ],
+    "related": [
+      "lcac-r32-inverter-outdoor-series",
+      "top-discharge-outdoor-unit",
+      "cassette-y",
+      "duct-e"
+    ],
+    "ctaTitle": "Cooling a shop, office or restaurant?",
+    "ctaText": "Our engineers will select the right AUX light commercial system for your space."
+  },
+  {
+    "brand": "aux",
+    "slug": "air-handler",
+    "name": "Air Handler",
+    "subtitle": "Light Commercial Vertical Air Handling Unit",
+    "categoryId": "light-commercial",
+    "categoryName": "Light Commercial",
+    "group": "Light Commercial",
+    "model": "AUX Air Handler",
+    "bullets": [
+      "Vertical, horizontal or inverted installation",
+      "24 V and 485 communication control",
+      "Rated ESP 0.5 in.W.C, up to 1.0 in.W.C",
+      "Ducted whole-house air distribution"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity",
+        "value": "18 – 60 kBtu/h"
+      },
+      {
+        "label": "Rated ESP",
+        "value": "0.5 in.W.C (max 1.0)"
+      },
+      {
+        "label": "Control",
+        "value": "24 V / 485"
+      }
+    ],
+    "capacity": {
+      "text": "18–60 kBtu/h (18, 24, 30, 36, 48, 60)",
+      "min": 18,
+      "max": 60,
+      "unit": "kBtu/h"
+    },
+    "overview": "The AUX Air Handler is a ducted indoor unit for whole-house and light commercial ducted systems. Six sizes from 18 to 60 kBtu/h install vertically, horizontally or inverted, in a closet, plant space or loft. Rated static pressure of 0.5 in.W.C (up to 1.0 in.W.C) handles long duct runs, and it works with both 24 V and 485 communication controls.",
+    "features": [
+      {
+        "title": "Easy to Install",
+        "text": "Vertical, horizontal or inverted installation meets most site requirements.",
+        "image": {
+          "src": "/images/products/aux/air-handler/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Easy to Install",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Dual Communication",
+        "text": "Works with both 24 V and 485 communication control, and is interchangeable with other products.",
+        "image": {
+          "src": "/images/products/aux/air-handler/feature-2.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Dual Communication",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "ESP Range",
+        "text": "Rated ESP up to 0.5 in.W.C, maximum ESP up to 1.0 in.W.C.",
+        "image": {
+          "src": "/images/products/aux/air-handler/feature-3.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "ESP Range",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Capacity (kBtu/h)",
+    "lineup": [
+      "18",
+      "24",
+      "30",
+      "36",
+      "48",
+      "60"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/air-handler/view-1.webp",
+        "width": 620,
+        "height": 1112,
+        "alt": "Air Handler by AUX"
+      },
+      {
+        "src": "/images/products/aux/air-handler/view-2.webp",
+        "width": 620,
+        "height": 1055,
+        "alt": "Air Handler, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/air-handler/view-3.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Air Handler, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/air-handler/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Air Handler, additional view 3"
+      }
+    ],
+    "related": [
+      "lcac-r32-inverter-outdoor-series",
+      "top-discharge-outdoor-unit",
+      "cassette-y",
+      "duct-e"
+    ],
+    "ctaTitle": "Cooling a shop, office or restaurant?",
+    "ctaText": "Our engineers will select the right AUX light commercial system for your space."
+  },
+  {
+    "brand": "aux",
+    "slug": "ceiling-and-floor-light-commercial",
+    "name": "Ceiling & Floor (Light Commercial)",
+    "subtitle": "Light Commercial Convertible Indoor Unit",
+    "categoryId": "light-commercial",
+    "categoryName": "Light Commercial",
+    "group": "Light Commercial",
+    "model": "AUX Ceiling & Floor",
+    "bullets": [
+      "Air throw up to 10 m",
+      "Built-in sealed display board",
+      "Anti-condensation outlet insulation",
+      "Fresh-air intake"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity",
+        "value": "12 – 60 kBtu/h"
+      },
+      {
+        "label": "Air throw",
+        "value": "up to 10 m"
+      },
+      {
+        "label": "Mounting",
+        "value": "Ceiling or floor"
+      }
+    ],
+    "capacity": {
+      "text": "12–60 kBtu/h (12, 24, 36, 48, 60)",
+      "min": 12,
+      "max": 60,
+      "unit": "kBtu/h"
+    },
+    "overview": "The AUX Ceiling & Floor unit mounts under the ceiling or low on a wall, so it can cool large rooms without a false ceiling. That suits showrooms, restaurants, classrooms and halls. Five sizes from 12 to 60 kBtu/h throw air up to 10 m, with anti-condensation insulation at the outlet and a fresh-air intake for better indoor air.",
+    "features": [
+      {
+        "title": "Long Air Supply Distance",
+        "text": "Air throw up to 10 m for large rooms (AUX lab data).",
+        "image": {
+          "src": "/images/products/aux/ceiling-and-floor-light-commercial/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Long Air Supply Distance",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Built-in Display Board",
+        "text": "A built-in, well-sealed display board that resists moisture and lasts.",
+        "image": {
+          "src": "/images/products/aux/ceiling-and-floor-light-commercial/feature-2.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Built-in Display Board",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Anti-Condensation",
+        "text": "Anti-condensation insulation design at the air outlet.",
+        "image": {
+          "src": "/images/products/aux/ceiling-and-floor-light-commercial/feature-3.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Anti-Condensation",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Safe & Reliable",
+        "text": "Separate power and communication terminals for safety.",
+        "image": {
+          "src": "/images/products/aux/ceiling-and-floor-light-commercial/feature-4.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Safe & Reliable",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Fresh-Air Intake",
+        "text": "A fresh-air intake hole brings in outside air for better indoor air quality.",
+        "image": {
+          "src": "/images/products/aux/ceiling-and-floor-light-commercial/feature-5.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Fresh-Air Intake",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Capacity (kBtu/h)",
+    "lineup": [
+      "12",
+      "24",
+      "36",
+      "48",
+      "60"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/ceiling-and-floor-light-commercial/view-1.webp",
+        "width": 696,
+        "height": 409,
+        "alt": "Ceiling & Floor (Light Commercial) by AUX"
+      },
+      {
+        "src": "/images/products/aux/ceiling-and-floor-light-commercial/view-2.webp",
+        "width": 700,
+        "height": 324,
+        "alt": "Ceiling & Floor (Light Commercial), additional view 1"
+      },
+      {
+        "src": "/images/products/aux/ceiling-and-floor-light-commercial/view-3.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Ceiling & Floor (Light Commercial), additional view 2"
+      },
+      {
+        "src": "/images/products/aux/ceiling-and-floor-light-commercial/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Ceiling & Floor (Light Commercial), additional view 3"
+      }
+    ],
+    "related": [
+      "lcac-r32-inverter-outdoor-series",
+      "top-discharge-outdoor-unit",
+      "cassette-y",
+      "duct-e"
+    ],
+    "ctaTitle": "Cooling a shop, office or restaurant?",
+    "ctaText": "Our engineers will select the right AUX light commercial system for your space."
+  },
+  {
+    "brand": "aux",
+    "slug": "console",
+    "name": "Console",
+    "subtitle": "Floor Console Indoor Unit",
+    "categoryId": "light-commercial",
+    "categoryName": "Light Commercial",
+    "group": "Light Commercial",
+    "model": "AUX Console",
+    "bullets": [
+      "Choice of top or bottom air outlet",
+      "Long-lasting purification filter",
+      "Low floor-level installation",
+      "Fits under windows and in compact rooms"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity",
+        "value": "12 – 18 kBtu/h"
+      },
+      {
+        "label": "Air outlet",
+        "value": "Top or bottom"
+      },
+      {
+        "label": "Filter",
+        "value": "Long-life purification"
+      }
+    ],
+    "capacity": {
+      "text": "12–18 kBtu/h (12, 18)",
+      "min": 12,
+      "max": 18,
+      "unit": "kBtu/h"
+    },
+    "overview": "The AUX Console is a low floor-mounted indoor unit for bedrooms, studies, small offices and rooms with sloped or low ceilings. Two sizes, 12 and 18 kBtu/h, fit neatly under a window. Users can choose a bottom air outlet, which feels like floor heating, or a top outlet for faster warm-up. A long-lasting purification filter keeps air fresh.",
+    "features": [
+      {
+        "title": "Top or Bottom Air Outlet",
+        "text": "Choose the outlet to suit the room: bottom outlet feels like floor heating, and top outlet heats faster.",
+        "image": {
+          "src": "/images/products/aux/console/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Top or Bottom Air Outlet",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Long-Lasting Purification Filter",
+        "text": "A built-in purification filter with a longer purification time keeps indoor air fresh and healthy.",
+        "image": {
+          "src": "/images/products/aux/console/feature-2.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Long-Lasting Purification Filter",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Capacity (kBtu/h)",
+    "lineup": [
+      "12",
+      "18"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/console/view-1.webp",
+        "width": 620,
+        "height": 643,
+        "alt": "Console by AUX"
+      },
+      {
+        "src": "/images/products/aux/console/view-2.webp",
+        "width": 620,
+        "height": 652,
+        "alt": "Console, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/console/view-3.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Console, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/console/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Console, additional view 3"
+      }
+    ],
+    "related": [
+      "lcac-r32-inverter-outdoor-series",
+      "top-discharge-outdoor-unit",
+      "cassette-y",
+      "duct-e"
+    ],
+    "ctaTitle": "Cooling a shop, office or restaurant?",
+    "ctaText": "Our engineers will select the right AUX light commercial system for your space."
+  },
+  {
+    "brand": "aux",
+    "slug": "floor-standing-cabinet-80-100k",
+    "name": "Floor Standing Cabinet (80–100K)",
+    "subtitle": "Light Commercial Floor Standing Indoor Unit",
+    "categoryId": "light-commercial",
+    "categoryName": "Light Commercial",
+    "group": "Light Commercial",
+    "model": "AUX Floor Standing",
+    "bullets": [
+      "Elegant touch-screen control",
+      "Diversion design for even airflow",
+      "Only 36 cm wide",
+      "Large air volume, long air throw"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity",
+        "value": "80 – 100 kBtu/h"
+      },
+      {
+        "label": "Width",
+        "value": "36 cm"
+      },
+      {
+        "label": "Control",
+        "value": "Touch screen"
+      }
+    ],
+    "capacity": {
+      "text": "80–100 kBtu/h (80, 100)",
+      "min": 80,
+      "max": 100,
+      "unit": "kBtu/h"
+    },
+    "overview": "The AUX Floor Standing Cabinet is a high-capacity indoor unit for large open spaces such as waiting rooms, exhibition halls, restaurants, marquees and factories. Models of 80 and 100 kBtu/h deliver a large air volume and long air throw from a body only 36 cm wide. A touch-screen panel and an inlet diversion design for even airflow complete the package.",
+    "features": [
+      {
+        "title": "Touch Screen Design",
+        "text": "An elegant touch screen that outlasts traditional buttons.",
+        "image": {
+          "src": "/images/products/aux/floor-standing-cabinet-80-100k/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Touch Screen Design",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Innovative Diversion Design",
+        "text": "A special air-inlet design makes strong airflow more even and efficient.",
+        "image": {
+          "src": "/images/products/aux/floor-standing-cabinet-80-100k/feature-2.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Innovative Diversion Design",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Ultra-Slim Design",
+        "text": "The indoor unit is only 36 cm wide, which saves floor space.",
+        "image": {
+          "src": "/images/products/aux/floor-standing-cabinet-80-100k/feature-3.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Ultra-Slim Design",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Multi-Application",
+        "text": "Strong cooling, large air volume and long air throw suit waiting rooms, exhibition halls, restaurants and factories.",
+        "image": {
+          "src": "/images/products/aux/floor-standing-cabinet-80-100k/feature-4.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Multi-Application",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Capacity (kBtu/h)",
+    "lineup": [
+      "80",
+      "100"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/floor-standing-cabinet-80-100k/view-1.webp",
+        "width": 620,
+        "height": 974,
+        "alt": "Floor Standing Cabinet (80–100K) by AUX"
+      },
+      {
+        "src": "/images/products/aux/floor-standing-cabinet-80-100k/view-2.webp",
+        "width": 620,
+        "height": 985,
+        "alt": "Floor Standing Cabinet (80–100K), additional view 1"
+      },
+      {
+        "src": "/images/products/aux/floor-standing-cabinet-80-100k/view-3.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Floor Standing Cabinet (80–100K), additional view 2"
+      },
+      {
+        "src": "/images/products/aux/floor-standing-cabinet-80-100k/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Floor Standing Cabinet (80–100K), additional view 3"
+      }
+    ],
+    "related": [
+      "lcac-r32-inverter-outdoor-series",
+      "top-discharge-outdoor-unit",
+      "cassette-y",
+      "duct-e"
+    ],
+    "ctaTitle": "Cooling a shop, office or restaurant?",
+    "ctaText": "Our engineers will select the right AUX light commercial system for your space."
+  },
+  {
+    "brand": "aux",
+    "slug": "free-match-r32-multi-split-outdoor-unit",
+    "name": "Free Match R32 Multi-Split Outdoor Unit",
+    "subtitle": "Residential Multi-Split – 2 to 5 Rooms",
+    "categoryId": "multi-split",
+    "categoryName": "Multi-Split",
+    "group": "Multi-Split",
+    "model": "AUX Free Match R32 Series T2 / T3 / T4T5",
+    "bullets": [
+      "One outdoor unit for 2 to 5 indoor units",
+      "Operates from -25 °C to 52 °C ambient",
+      "DC inverter, EXV and 180° sine-wave drive",
+      "Multiple protection functions"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity",
+        "value": "14 – 42 kBtu/h"
+      },
+      {
+        "label": "Connections",
+        "value": "2 / 3 / 4–5 rooms"
+      },
+      {
+        "label": "Operation",
+        "value": "-25 °C to 52 °C"
+      }
+    ],
+    "capacity": {
+      "text": "14–42 kBtu/h (14, 18, 21, 27, 28, 36, 42); T2, T3 and T4T5 versions",
+      "min": 14,
+      "max": 42,
+      "unit": "kBtu/h"
+    },
+    "overview": "AUX Free Match is an R32 multi-split system that connects one outdoor unit to several indoor units. T2, T3 and T4T5 versions serve two to five rooms, making it ideal for apartments, villas and small offices where wall space for outdoor units is limited. Outdoor units from 14 to 42 kBtu/h work with the Free Match wall-mounted F, Q, H and J types, as well as compact cassette, Cassette Y, Duct Y, Duct M, ceiling & floor and console indoor units.",
+    "features": [
+      {
+        "title": "High-Efficiency Inverter Platform",
+        "text": "DC inverter compressor, speed-adjustable fan, electronic expansion valve and 180° sine-wave vector drive.",
+        "image": null
+      },
+      {
+        "title": "Wide Operating Range",
+        "text": "Runs smoothly from 52 °C in summer down to -25 °C in winter (AUX lab data).",
+        "image": {
+          "src": "/images/products/aux/free-match-r32-multi-split-outdoor-unit/feature-2.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Wide Operating Range",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "180° Sine-Wave Control",
+        "text": "Sine-wave variable-speed control gives smoother motor operation, longer service life and lower noise.",
+        "image": {
+          "src": "/images/products/aux/free-match-r32-multi-split-outdoor-unit/feature-3.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "180° Sine-Wave Control",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Multi Protection",
+        "text": "Multiple protection functions keep the unit running normally and greatly reduce failures.",
+        "image": {
+          "src": "/images/products/aux/free-match-r32-multi-split-outdoor-unit/feature-4.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Multi Protection",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Outdoor capacity (kBtu/h)",
+    "lineup": [
+      "14",
+      "18",
+      "21",
+      "27",
+      "28",
+      "36",
+      "42"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/free-match-r32-multi-split-outdoor-unit/view-1.webp",
+        "width": 697,
+        "height": 662,
+        "alt": "Free Match R32 Multi-Split Outdoor Unit by AUX"
+      },
+      {
+        "src": "/images/products/aux/free-match-r32-multi-split-outdoor-unit/view-2.webp",
+        "width": 700,
+        "height": 506,
+        "alt": "Free Match R32 Multi-Split Outdoor Unit, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/free-match-r32-multi-split-outdoor-unit/view-3.webp",
+        "width": 651,
+        "height": 700,
+        "alt": "Free Match R32 Multi-Split Outdoor Unit, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/free-match-r32-multi-split-outdoor-unit/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "Free Match R32 Multi-Split Outdoor Unit, additional view 3"
+      }
+    ],
+    "related": [
+      "free-match-wall-mounted-indoor-units-f-q-h-j-type",
+      "a-series-r32-inverter-wall-mounted",
+      "c-series-r32-inverter-wall-mounted",
+      "m-series-r32-inverter-wall-mounted"
+    ],
+    "ctaTitle": "Cooling several rooms with one outdoor unit?",
+    "ctaText": "Our engineers will match the right AUX Free Match combination for your home."
+  },
+  {
+    "brand": "aux",
+    "slug": "free-match-wall-mounted-indoor-units-f-q-h-j-type",
+    "name": "Free Match Wall-mounted Indoor Units (F / Q / H / J Type)",
+    "subtitle": "Multi-Split Wall-mounted Indoor Units",
+    "categoryId": "multi-split",
+    "categoryName": "Multi-Split",
+    "group": "Multi-Split",
+    "model": "AUX Free Match F Type · Q Type · H Type · J Type",
+    "bullets": [
+      "F Type: 4D airflow and self-cleaning",
+      "Q Type: mirror panel and silver-ion filter",
+      "H Type: high-density filter",
+      "J Type: one-engineer installation"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity",
+        "value": "7 – 24 kBtu/h"
+      },
+      {
+        "label": "Designs",
+        "value": "F / Q / H / J Type"
+      },
+      {
+        "label": "System",
+        "value": "Free Match R32"
+      }
+    ],
+    "capacity": {
+      "text": "7–24 kBtu/h (7, 9, 12, 18, 24) in each of F, Q, H and J Type",
+      "min": 7,
+      "max": 24,
+      "unit": "kBtu/h"
+    },
+    "overview": "AUX Free Match wall-mounted indoor units connect to a Free Match R32 multi-split outdoor unit, so each room gets its own unit and control. Four designs, each in 7, 9, 12, 18 and 24 kBtu/h sizes, cover every room and budget. F Type has 4D airflow and self-cleaning, Q Type a mirror-polished panel with a silver-ion filter, H Type a high-density filter, and J Type an install-friendly removable lower cover.",
+    "features": [
+      {
+        "title": "F Type – 4D Airflow & Self-Cleaning",
+        "text": "4D airflow improves air distribution. Self-cleaning prevents bacteria from breeding, with a high-gloss ABS panel and LED display.",
+        "image": {
+          "src": "/images/products/aux/free-match-wall-mounted-indoor-units-f-q-h-j-type/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "F Type – 4D Airflow & Self-Cleaning",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Q Type – Mirror-Polished Panel",
+        "text": "A glossy panel that resists ageing and dust, with a long air throw that reaches every corner.",
+        "image": {
+          "src": "/images/products/aux/free-match-wall-mounted-indoor-units-f-q-h-j-type/feature-2.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Q Type – Mirror-Polished Panel",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Silver-Ion Antibacterial Filter (Q)",
+        "text": "A removable filter, quick to take out and refit, with a high sterilisation and antifungal rate.",
+        "image": {
+          "src": "/images/products/aux/free-match-wall-mounted-indoor-units-f-q-h-j-type/feature-3.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Silver-Ion Antibacterial Filter (Q)",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Anti-Cold-Air Design (F, Q)",
+        "text": "Optimised fan logic prevents sudden cold air when heating starts.",
+        "image": {
+          "src": "/images/products/aux/free-match-wall-mounted-indoor-units-f-q-h-j-type/feature-4.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Anti-Cold-Air Design (F, Q)",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "H Type – High-Density Filter",
+        "text": "A high-efficiency filter, nanoscale chassis foam for moisture resistance and heat retention, and a wave-shaped air vane.",
+        "image": null
+      },
+      {
+        "title": "J Type – Easy Installation",
+        "text": "A removable lower cover lets one engineer install it, with switch-type sealing knobs and an arc-shaped fin guide for longer air throw.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Indoor capacity (kBtu/h)",
+    "lineup": [
+      "7",
+      "9",
+      "12",
+      "18",
+      "24"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/free-match-wall-mounted-indoor-units-f-q-h-j-type/view-1.webp",
+        "width": 671,
+        "height": 336,
+        "alt": "Free Match Wall-mounted Indoor Units (F / Q / H / J Type) by AUX"
+      },
+      {
+        "src": "/images/products/aux/free-match-wall-mounted-indoor-units-f-q-h-j-type/view-2.webp",
+        "width": 686,
+        "height": 380,
+        "alt": "Free Match Wall-mounted Indoor Units (F / Q / H / J Type), additional view 1"
+      },
+      {
+        "src": "/images/products/aux/free-match-wall-mounted-indoor-units-f-q-h-j-type/view-3.webp",
+        "width": 694,
+        "height": 438,
+        "alt": "Free Match Wall-mounted Indoor Units (F / Q / H / J Type), additional view 2"
+      },
+      {
+        "src": "/images/products/aux/free-match-wall-mounted-indoor-units-f-q-h-j-type/view-4.webp",
+        "width": 671,
+        "height": 341,
+        "alt": "Free Match Wall-mounted Indoor Units (F / Q / H / J Type), additional view 3"
+      }
+    ],
+    "related": [
+      "free-match-r32-multi-split-outdoor-unit",
+      "a-series-r32-inverter-wall-mounted",
+      "c-series-r32-inverter-wall-mounted",
+      "m-series-r32-inverter-wall-mounted"
+    ],
+    "ctaTitle": "Cooling several rooms with one outdoor unit?",
+    "ctaText": "Our engineers will match the right AUX Free Match combination for your home."
+  },
+  {
+    "brand": "aux",
+    "slug": "a-series-r32-inverter-wall-mounted",
+    "name": "A-Series R32 Inverter Wall Mounted",
+    "subtitle": "Residential Split AC – “Sleek. Silent. Save.”",
+    "categoryId": "residential",
+    "categoryName": "Residential",
+    "group": "Residential",
+    "model": "ASW-09/12/18/24MAR3DI (indoor) · AS-09/12/18/24MAR3DI (outdoor)",
+    "bullets": [
+      "HEPA filter and 4-step self cleaning",
+      "Golden fin and anti-corrosion outdoor unit",
+      "4D airflow, ultra-quiet sleep",
+      "Optional Wi-Fi control (AUX Home app)"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity",
+        "value": "1.0 – 2.5 HP"
+      },
+      {
+        "label": "Models",
+        "value": "09 / 12 / 18 / 24"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R32 inverter"
+      }
+    ],
+    "capacity": {
+      "text": "1.0–2.5 HP (models 09, 12, 18, 24)",
+      "min": 1,
+      "max": 2.5,
+      "unit": "HP"
+    },
+    "overview": "The AUX A-Series is a sleek R32 inverter wall-mounted split AC for bedrooms, living rooms and small offices, in four sizes from 1.0 to 2.5 HP. A 65 Hz high-frequency start gives fast cooling, 4D airflow and a long air throw spread it evenly, and double-layer soundproofing keeps it quiet at night. A HEPA filter, iCLEAN self-cleaning and golden-fin anti-corrosion protection add healthy air and durability, with optional Wi-Fi control from the AUX Home app.",
+    "features": [
+      {
+        "title": "Fast Cooling",
+        "text": "The compressor starts at a high frequency of 65 Hz for fast cooling (AUX lab data).",
+        "image": null
+      },
+      {
+        "title": "High Airflow & Long-Distance Air Supply",
+        "text": "An enlarged air outlet supplies more air, and the outlet design sends cool air to every corner of the room.",
+        "image": null
+      },
+      {
+        "title": "4D Airflow",
+        "text": "Four adjustable airflow directions, including left and right.",
+        "image": null
+      },
+      {
+        "title": "Ultra Silence for Better Sleep",
+        "text": "DC inverter technology and double-layer soundproof material lower noise.",
+        "image": null
+      },
+      {
+        "title": "HEPA Filter",
+        "text": "Captures dust, pollen and allergens for cleaner indoor air.",
+        "image": null
+      },
+      {
+        "title": "4-Step Self Cleaning (iCLEAN)",
+        "text": "The iCLEAN function keeps the coil and airflow fresh and clean.",
+        "image": null
+      },
+      {
+        "title": "Golden Fin & Anti-Corrosion",
+        "text": "A golden anti-corrosion coating on the heat exchanger and an acrylic-resin-coated outdoor unit resist salt air, rain and coastal corrosion.",
+        "image": null
+      },
+      {
+        "title": "Wi-Fi Control (Optional)",
+        "text": "Control from anywhere with the AUX Home app, for example to pre-cool the room or limit energy use.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models (HP)",
+    "lineup": [
+      "1.0 HP (09)",
+      "1.5 HP (12)",
+      "2.0 HP (18)",
+      "2.5 HP (24)"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/a-series-r32-inverter-wall-mounted/view-1.webp",
+        "width": 1000,
+        "height": 303,
+        "alt": "A-Series R32 Inverter Wall Mounted by AUX"
+      },
+      {
+        "src": "/images/products/aux/a-series-r32-inverter-wall-mounted/view-2.webp",
+        "width": 1200,
+        "height": 484,
+        "alt": "A-Series R32 Inverter Wall Mounted, additional view 1"
+      }
+    ],
+    "related": [
+      "c-series-r32-inverter-wall-mounted",
+      "m-series-r32-inverter-wall-mounted",
+      "free-match-r32-multi-split-outdoor-unit",
+      "free-match-wall-mounted-indoor-units-f-q-h-j-type"
+    ],
+    "ctaTitle": "Choosing an AC for your home?",
+    "ctaText": "Our team will recommend the right AUX model and size for every room."
+  },
+  {
+    "brand": "aux",
+    "slug": "c-series-r32-inverter-wall-mounted",
+    "name": "C-Series R32 Inverter Wall Mounted",
+    "subtitle": "Residential Split AC – “Fast Cooling, All-Day Comfort”",
+    "categoryId": "residential",
+    "categoryName": "Residential",
+    "group": "Residential",
+    "model": "ASW-09/12/18/24CAR3DI (indoor) · AS-09/12/18/24CAR3DI (outdoor)",
+    "bullets": [
+      "Fast cooling with 65 Hz high-frequency start",
+      "HEPA filter and 4-step self cleaning",
+      "Golden fin anti-corrosion protection",
+      "4D airflow and ultra-quiet sleep"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity",
+        "value": "1.0 – 2.5 HP"
+      },
+      {
+        "label": "Models",
+        "value": "09 / 12 / 18 / 24"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R32 inverter"
+      }
+    ],
+    "capacity": {
+      "text": "1.0–2.5 HP (models 09, 12, 18, 24)",
+      "min": 1,
+      "max": 2.5,
+      "unit": "HP"
+    },
+    "overview": "The AUX C-Series is an R32 inverter wall-mounted split AC built for fast cooling and all-day comfort in homes and small offices, in four sizes from 1.0 to 2.5 HP. It starts at a high 65 Hz frequency for quick cool-down and sends air to every corner with an enlarged outlet and 4D airflow. A HEPA filter, iCLEAN 4-step self cleaning, golden-fin coil and anti-corrosion outdoor coating keep it healthy and durable, even in coastal cities.",
+    "features": [
+      {
+        "title": "Fast Cooling",
+        "text": "The compressor starts at a high frequency of 65 Hz for fast cooling (AUX lab data).",
+        "image": null
+      },
+      {
+        "title": "High Airflow & Long-Distance Air Supply",
+        "text": "An enlarged air outlet supplies more air, and the outlet design sends cool air to every corner of the room.",
+        "image": null
+      },
+      {
+        "title": "4D Airflow",
+        "text": "Four adjustable airflow directions, including left and right.",
+        "image": null
+      },
+      {
+        "title": "Ultra Silence for Better Sleep",
+        "text": "DC inverter technology and double-layer soundproof material lower noise.",
+        "image": null
+      },
+      {
+        "title": "HEPA Filter",
+        "text": "Captures dust, pollen and allergens for cleaner indoor air.",
+        "image": null
+      },
+      {
+        "title": "4-Step Self Cleaning (iCLEAN)",
+        "text": "The iCLEAN function keeps the coil and airflow fresh and clean.",
+        "image": null
+      },
+      {
+        "title": "Golden Fin & Anti-Corrosion",
+        "text": "A golden anti-corrosion coating on the heat exchanger and an acrylic-resin-coated outdoor unit resist salt air, rain and coastal corrosion.",
+        "image": null
+      },
+      {
+        "title": "Inverter & R32",
+        "text": "Inverter technology uses less power than non-inverter models, and R32 refrigerant has a lower GWP.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models (HP)",
+    "lineup": [
+      "1.0 HP (09)",
+      "1.5 HP (12)",
+      "2.0 HP (18)",
+      "2.5 HP (24)"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/c-series-r32-inverter-wall-mounted/view-1.webp",
+        "width": 1000,
+        "height": 301,
+        "alt": "C-Series R32 Inverter Wall Mounted by AUX"
+      },
+      {
+        "src": "/images/products/aux/c-series-r32-inverter-wall-mounted/view-2.webp",
+        "width": 1200,
+        "height": 484,
+        "alt": "C-Series R32 Inverter Wall Mounted, additional view 1"
+      }
+    ],
+    "related": [
+      "a-series-r32-inverter-wall-mounted",
+      "m-series-r32-inverter-wall-mounted",
+      "free-match-r32-multi-split-outdoor-unit",
+      "free-match-wall-mounted-indoor-units-f-q-h-j-type"
+    ],
+    "ctaTitle": "Choosing an AC for your home?",
+    "ctaText": "Our team will recommend the right AUX model and size for every room."
+  },
+  {
+    "brand": "aux",
+    "slug": "m-series-r32-inverter-wall-mounted",
+    "name": "M-Series R32 Inverter Wall Mounted",
+    "subtitle": "Residential Split AC – “Greener, Healthier, Smarter”",
+    "categoryId": "residential",
+    "categoryName": "Residential",
+    "group": "Residential",
+    "model": "ASW-09/12/18/24MER3DI (indoor) · AS-09/12/18/24MER3DI (outdoor)",
+    "bullets": [
+      "UV-C sterilisation",
+      "Wi-Fi control as standard (AUX Home app)",
+      "4-step iCLEAN self cleaning",
+      "Golden fin and anti-corrosion outdoor unit"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Capacity",
+        "value": "1.0 – 2.5 HP"
+      },
+      {
+        "label": "Models",
+        "value": "09 / 12 / 18 / 24"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Standard"
+      }
+    ],
+    "capacity": {
+      "text": "1.0–2.5 HP (models 09, 12, 18, 24)",
+      "min": 1,
+      "max": 2.5,
+      "unit": "HP"
+    },
+    "overview": "The AUX M-Series is a premium R32 inverter wall-mounted split AC for families who want healthier air and smart control, in four sizes from 1.0 to 2.5 HP. UV-C light removes bacteria, viruses and moulds from the airflow, iCLEAN 4-step self cleaning limits dust and microbial build-up, and Wi-Fi is standard for control from the AUX Home app. Fast 65 Hz cooling, 4D airflow, quiet sleep operation and golden-fin anti-corrosion protection complete the package.",
+    "features": [
+      {
+        "title": "UV-C Sterilisation",
+        "text": "UV-C light removes bacteria, viruses and moulds from the airflow, improving indoor air quality and reducing the risk of infections and allergies.",
+        "image": null
+      },
+      {
+        "title": "4-Step Self Cleaning (iCLEAN)",
+        "text": "Reduces dust build-up and microbial growth inside the AC and keeps the air clean.",
+        "image": null
+      },
+      {
+        "title": "Wi-Fi Control (Standard)",
+        "text": "Control the AC from anywhere with the AUX Home app, for example to pre-cool the room or limit energy use.",
+        "image": null
+      },
+      {
+        "title": "Fast Cooling",
+        "text": "The compressor starts at a high frequency of 65 Hz for fast cooling (AUX lab data).",
+        "image": null
+      },
+      {
+        "title": "High Airflow & Long-Distance Air Supply",
+        "text": "An enlarged air outlet supplies more air, and the outlet design sends cool air to every corner of the room.",
+        "image": null
+      },
+      {
+        "title": "4D Airflow",
+        "text": "Four adjustable airflow directions, including left and right.",
+        "image": null
+      },
+      {
+        "title": "Ultra Silence for Better Sleep",
+        "text": "DC inverter technology and double-layer soundproof material lower noise.",
+        "image": null
+      },
+      {
+        "title": "Golden Fin & Anti-Corrosion",
+        "text": "A golden anti-corrosion coating on the heat exchanger and an acrylic-resin-coated outdoor unit resist salt air, rain and coastal corrosion.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Models (HP)",
+    "lineup": [
+      "1.0 HP (09)",
+      "1.5 HP (12)",
+      "2.0 HP (18)",
+      "2.5 HP (24)"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/m-series-r32-inverter-wall-mounted/view-1.webp",
+        "width": 1000,
+        "height": 295,
+        "alt": "M-Series R32 Inverter Wall Mounted by AUX"
+      },
+      {
+        "src": "/images/products/aux/m-series-r32-inverter-wall-mounted/view-2.webp",
+        "width": 1200,
+        "height": 959,
+        "alt": "M-Series R32 Inverter Wall Mounted, additional view 1"
+      }
+    ],
+    "related": [
+      "a-series-r32-inverter-wall-mounted",
+      "c-series-r32-inverter-wall-mounted",
+      "free-match-r32-multi-split-outdoor-unit",
+      "free-match-wall-mounted-indoor-units-f-q-h-j-type"
+    ],
+    "ctaTitle": "Choosing an AC for your home?",
+    "ctaText": "Our team will recommend the right AUX model and size for every room."
+  },
+  {
+    "brand": "aux",
+    "slug": "r290-all-in-one-split-heat-pump",
+    "name": "R290 All In One Split Heat Pump",
+    "subtitle": "Air-to-Water Heat Pump with Integrated Hot-Water Tank",
+    "categoryId": "heat-pumps",
+    "categoryName": "Heat Pumps",
+    "group": "Heat Pumps",
+    "model": "AUX R290 All In One Split",
+    "bullets": [
+      "Natural R290 refrigerant",
+      "Remote upgrade and monitoring via app/platform",
+      "More than 45 mm tank insulation",
+      "Front-only installation and maintenance"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "1-phase",
+        "value": "4 – 16 kW"
+      },
+      {
+        "label": "3-phase",
+        "value": "12 – 16 kW"
+      },
+      {
+        "label": "Refrigerant",
+        "value": "R290 (natural)"
+      }
+    ],
+    "capacity": {
+      "text": "1-phase 4–16 kW; 3-phase 12–16 kW",
+      "min": 4,
+      "max": 16,
+      "unit": "kW"
+    },
+    "overview": "The AUX R290 All In One Split is an air-to-water heat pump with an integrated indoor module for space heating, cooling and domestic hot water in homes and villas. It uses natural R290 refrigerant and comes in 1-phase 4–16 kW and 3-phase 12–16 kW versions. Thick tank insulation, a built-in 3-way valve and front-only service access make installation simple, and the app and remote platform allow monitoring and software upgrades.",
+    "features": [
+      {
+        "title": "Remote Upgrade & Monitoring",
+        "text": "The app and remote management platform upgrade the software, monitor status and set parameters, which makes after-sales service easier.",
+        "image": {
+          "src": "/images/products/aux/r290-all-in-one-split-heat-pump/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Remote Upgrade & Monitoring",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Good Heat Preservation",
+        "text": "More than 45 mm of insulation: at 55 °C, water temperature drops only 7 °C in 24 hours.",
+        "image": {
+          "src": "/images/products/aux/r290-all-in-one-split-heat-pump/feature-2.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Good Heat Preservation",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "No Side Service Space",
+        "text": "All installation and maintenance is done from the front, so no side clearance is needed.",
+        "image": {
+          "src": "/images/products/aux/r290-all-in-one-split-heat-pump/feature-3.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "No Side Service Space",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Built-in 3-Way Valve",
+        "text": "Separate connections for domestic hot water and heating/cooling pipes make installation easier.",
+        "image": {
+          "src": "/images/products/aux/r290-all-in-one-split-heat-pump/feature-4.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Built-in 3-Way Valve",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "AUX R290 All In One Split",
+      "1-phase: 4 – 16 kW"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/r290-all-in-one-split-heat-pump/view-1.webp",
+        "width": 620,
+        "height": 1544,
+        "alt": "R290 All In One Split Heat Pump by AUX"
+      },
+      {
+        "src": "/images/products/aux/r290-all-in-one-split-heat-pump/view-2.webp",
+        "width": 620,
+        "height": 1317,
+        "alt": "R290 All In One Split Heat Pump, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/r290-all-in-one-split-heat-pump/view-3.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "R290 All In One Split Heat Pump, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/r290-all-in-one-split-heat-pump/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "R290 All In One Split Heat Pump, additional view 3"
+      }
+    ],
+    "related": [
+      "r290-monoblock-heat-pump",
+      "r32-monoblock-heat-pump",
+      "h-type-modular-chiller",
+      "h-type-low-temp-cooling-modular-chiller"
+    ],
+    "ctaTitle": "Planning heating and hot water?",
+    "ctaText": "Our engineers will select the right AUX heat pump for your project."
+  },
+  {
+    "brand": "aux",
+    "slug": "r290-monoblock-heat-pump",
+    "name": "R290 Monoblock Heat Pump",
+    "subtitle": "Air-to-Water Monoblock Heat Pump",
+    "categoryId": "heat-pumps",
+    "categoryName": "Heat Pumps",
+    "group": "Heat Pumps",
+    "model": "AUX R290 Monoblock",
+    "bullets": [
+      "Natural R290 refrigerant",
+      "Outdoor noise as low as 35 dB at 3 m",
+      "Explosion-proof, airtight control box",
+      "Up to 8 units in parallel (128 kW)"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "1-phase",
+        "value": "4 – 16 kW"
+      },
+      {
+        "label": "3-phase",
+        "value": "8 – 16 kW"
+      },
+      {
+        "label": "Parallel",
+        "value": "up to 8 units / 128 kW"
+      }
+    ],
+    "capacity": {
+      "text": "1-phase 4–16 kW; 3-phase 8–16 kW; up to 8 units in parallel (128 kW)",
+      "min": 4,
+      "max": 16,
+      "unit": "kW"
+    },
+    "overview": "The AUX R290 Monoblock is an all-outdoor air-to-water heat pump for heating, cooling and domestic hot water, using natural R290 refrigerant. Units range from 4 to 16 kW (1-phase) and 8 to 16 kW (3-phase), and up to eight can run in parallel for up to 128 kW. That suits hotels, hostels and other buildings with high hot-water demand. Multiple noise-reduction measures keep it as quiet as 35 dB at 3 m.",
+    "features": [
+      {
+        "title": "Multiple Noise Reduction",
+        "text": "Sound-absorbing compressor wrap, damping material, a folded-edge fan, a low-resistance mesh cover and insulation cotton bring noise as low as 35 dB at 3 m (AUX lab data).",
+        "image": {
+          "src": "/images/products/aux/r290-monoblock-heat-pump/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Multiple Noise Reduction",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Explosion-Proof Design",
+        "text": "An airtight electric control box separated from any leaked refrigerant, with explosion-proof joints and parts.",
+        "image": {
+          "src": "/images/products/aux/r290-monoblock-heat-pump/feature-2.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Explosion-Proof Design",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Parallel Connection",
+        "text": "Up to 8 units in parallel for up to 128 kW, with a free choice of how many units serve domestic hot water.",
+        "image": {
+          "src": "/images/products/aux/r290-monoblock-heat-pump/feature-3.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Parallel Connection",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Module Rotation & Remote Monitoring",
+        "text": "Rotates modules and lets staff monitor status and change settings remotely from the office.",
+        "image": {
+          "src": "/images/products/aux/r290-monoblock-heat-pump/feature-4.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Module Rotation & Remote Monitoring",
+          "kind": "photo"
+        }
+      }
+    ],
+    "lineupLabel": "Series and capacity",
+    "lineup": [
+      "AUX R290 Monoblock",
+      "1-phase: 4 – 16 kW"
+    ],
+    "lineupNote": "",
+    "gallery": [
+      {
+        "src": "/images/products/aux/r290-monoblock-heat-pump/view-1.webp",
+        "width": 629,
+        "height": 519,
+        "alt": "R290 Monoblock Heat Pump by AUX"
+      },
+      {
+        "src": "/images/products/aux/r290-monoblock-heat-pump/view-2.webp",
+        "width": 653,
+        "height": 422,
+        "alt": "R290 Monoblock Heat Pump, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/r290-monoblock-heat-pump/view-3.webp",
+        "width": 638,
+        "height": 480,
+        "alt": "R290 Monoblock Heat Pump, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/r290-monoblock-heat-pump/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "R290 Monoblock Heat Pump, additional view 3"
+      }
+    ],
+    "related": [
+      "r290-all-in-one-split-heat-pump",
+      "r32-monoblock-heat-pump",
+      "h-type-modular-chiller",
+      "h-type-low-temp-cooling-modular-chiller"
+    ],
+    "ctaTitle": "Planning heating and hot water?",
+    "ctaText": "Our engineers will select the right AUX heat pump for your project."
+  },
+  {
+    "brand": "aux",
+    "slug": "r32-monoblock-heat-pump",
+    "name": "R32 Monoblock Heat Pump",
+    "subtitle": "Air-to-Water Monoblock Heat Pump – Heating, Cooling & Hot Water",
+    "categoryId": "heat-pumps",
+    "categoryName": "Heat Pumps",
+    "group": "Heat Pumps",
+    "model": "AUX R32 Monoblock",
+    "bullets": [
+      "All-DC inverter components with EXV",
+      "Hot water at ambient temperatures from -25 °C to 43 °C",
+      "Outlet water up to 65 °C",
+      "Dual-temperature control and ECO mode"
+    ],
+    "capacityBoxes": [
+      {
+        "label": "Heating operation",
+        "value": "-25 °C to 35 °C"
+      },
+      {
+        "label": "Cooling operation",
+        "value": "-5 °C to 52 °C"
+      },
+      {
+        "label": "Max. outlet water",
+        "value": "65 °C"
+      }
+    ],
+    "capacity": {
+      "text": "Capacity line-up on request",
+      "min": null,
+      "max": null,
+      "unit": null
+    },
+    "overview": "The AUX R32 Monoblock is an all-DC inverter air-to-water heat pump for space heating, cooling and domestic hot water. It heats from -25 °C to 35 °C ambient, makes hot water from -25 °C to 43 °C and cools from -5 °C to 52 °C, with outlet water up to 65 °C using the compressor alone. Four control methods, dual-temperature control for radiators and underfloor heating, and ECO mode make it flexible for homes and small buildings.",
+    "features": [
+      {
+        "title": "Wide Operating Range",
+        "text": "All-DC components with an electronic expansion valve: heating -25 to 35 °C, hot water -25 to 43 °C, cooling -5 to 52 °C. Outlet water up to 65 °C and tank water up to 57 °C (AUX lab data).",
+        "image": {
+          "src": "/images/products/aux/r32-monoblock-heat-pump/feature-1.webp",
+          "width": 960,
+          "height": 411,
+          "alt": "Wide Operating Range",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Flexible Control",
+        "text": "Four control methods: outlet temperature, indoor temperature sensor, room thermostat or buffer tank.",
+        "image": {
+          "src": "/images/products/aux/r32-monoblock-heat-pump/feature-2.webp",
+          "width": 960,
+          "height": 412,
+          "alt": "Flexible Control",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "Dual-Temperature Control",
+        "text": "Mixing pumps and three-way valves supply high-temperature water for radiators and medium/low-temperature water for underfloor heating at the same time.",
+        "image": {
+          "src": "/images/products/aux/r32-monoblock-heat-pump/feature-3.webp",
+          "width": 960,
+          "height": 412,
+          "alt": "Dual-Temperature Control",
+          "kind": "photo"
+        }
+      },
+      {
+        "title": "ECO Mode",
+        "text": "The two temperature zones can each control inlet water temperature automatically.",
+        "image": null
+      }
+    ],
+    "lineupLabel": "Capacity line-up",
+    "lineup": [],
+    "lineupNote": "Capacity line-up is available on request.",
+    "gallery": [
+      {
+        "src": "/images/products/aux/r32-monoblock-heat-pump/view-1.webp",
+        "width": 655,
+        "height": 423,
+        "alt": "R32 Monoblock Heat Pump by AUX"
+      },
+      {
+        "src": "/images/products/aux/r32-monoblock-heat-pump/view-2.webp",
+        "width": 700,
+        "height": 447,
+        "alt": "R32 Monoblock Heat Pump, additional view 1"
+      },
+      {
+        "src": "/images/products/aux/r32-monoblock-heat-pump/view-3.webp",
+        "width": 643,
+        "height": 547,
+        "alt": "R32 Monoblock Heat Pump, additional view 2"
+      },
+      {
+        "src": "/images/products/aux/r32-monoblock-heat-pump/view-4.webp",
+        "width": 1000,
+        "height": 428,
+        "alt": "R32 Monoblock Heat Pump, additional view 3"
+      }
+    ],
+    "related": [
+      "r290-all-in-one-split-heat-pump",
+      "r290-monoblock-heat-pump",
+      "h-type-modular-chiller",
+      "h-type-low-temp-cooling-modular-chiller"
+    ],
+    "ctaTitle": "Planning heating and hot water?",
+    "ctaText": "Our engineers will select the right AUX heat pump for your project."
+  }
+]

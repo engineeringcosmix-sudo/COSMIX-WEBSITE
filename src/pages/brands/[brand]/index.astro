@@ -1,0 +1,16 @@
+---
+import Base from "../../../layouts/Base.astro";
+import BrandListing from "../../../components/BrandListing.astro";
+import { brands, isBrand } from "../../../lib/catalog";
+
+export function getStaticPaths() {
+  return brands.map((brand) => ({ params: { brand: brand.id }, props: { brand } }));
+}
+
+const { brand } = Astro.props;
+if (!isBrand(brand.id)) throw new Error("Unknown brand");
+---
+
+<Base title={brand.name} description={brand.summary} path={brand.href}>
+  <BrandListing brand={brand} />
+</Base>

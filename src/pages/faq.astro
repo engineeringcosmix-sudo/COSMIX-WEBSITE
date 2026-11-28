@@ -1,0 +1,50 @@
+---
+import Base from "../layouts/Base.astro";
+import PageHero from "../components/PageHero.astro";
+import { site } from "../lib/catalog";
+
+const faqs = [
+  {
+    q: "Which brands does Cosmix supply?",
+    a: "Cosmix supplies AUX air conditioning, CLIVET chillers, heat pumps, rooftops and air handlers, and industrial dehumidifiers.",
+  },
+  {
+    q: "Do you supply VRF systems?",
+    a: "Yes. The AUX ARV range covers mini VRF through to large modular outdoor units, with cassettes, ducts, wall-mounted units and controls.",
+  },
+  {
+    q: "How do I ask for a price?",
+    a: "Use Request a quote on the product page, or the contact form. The product name is filled in when you start from a product. You can also WhatsApp +92 333 3152331.",
+  },
+  {
+    q: "Where are the offices?",
+    a: `Head office: ${site.offices[0].lines.join(", ")}. Lahore: ${site.offices[1].lines.join(", ")}. ${site.hours}.`,
+  },
+  {
+    q: "How do I get details on a series?",
+    a: "Open the product page for the overview, features and capacity, then use Request a quote. We will send the details for that series.",
+  },
+  {
+    q: "Which cities does the company work in?",
+    a: "Cosmix works with clients across the major cities of Pakistan. The portfolio includes Islamabad, Karachi, Lahore, Multan, Quetta and a pavilion in Shanghai.",
+  },
+];
+---
+
+<Base
+  title="FAQ"
+  description="Answers about Cosmix Engineering products, quotations and offices in Karachi and Lahore."
+  path="/faq"
+>
+  <PageHero eyebrow="FAQ" title="Questions we can answer from the published record." lede="Anything about a price, a capacity or a site visit still needs a conversation with the team." />
+  <section class="wrap grid gap-4 py-12">
+    {
+      faqs.map((item) => (
+        <article class="rounded-2xl border border-line bg-white p-5">
+          <h2 class="text-xl font-semibold">{item.q}</h2>
+          <p class="mt-2 leading-relaxed text-muted">{item.a}</p>
+        </article>
+      ))
+    }
+  </section>
+</Base>
